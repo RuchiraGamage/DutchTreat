@@ -32,10 +32,17 @@ namespace DutchTreat
                 cfg.UseSqlServer(_configuration.GetConnectionString("DutchConnectionString"));
             });
 
+            //add service to create a "DutchSeeder" object
+            services.AddTransient<DutchSeeder>();
+
+            services.AddScoped<IDutchRepository, DutchRepository>();
+
             services.AddTransient<IMailService, NullMailService>();
             //support for real mail service
 
-            services.AddMvc();
+            services.AddMvc()
+                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1)
+                .AddJsonOptions(opt => opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
