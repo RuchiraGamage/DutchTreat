@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using DutchTreat.Data;
 using DutchTreat.Services;
 using Microsoft.AspNetCore.Builder;
@@ -31,6 +32,10 @@ namespace DutchTreat
             {
                 cfg.UseSqlServer(_configuration.GetConnectionString("DutchConnectionString"));
             });
+
+#pragma warning disable CS0618 // Type or member is obsolete
+            services.AddAutoMapper();
+#pragma warning restore CS0618 // Type or member is obsolete
 
             //add service to create a "DutchSeeder" object
             services.AddTransient<DutchSeeder>();

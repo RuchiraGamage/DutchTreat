@@ -13,18 +13,31 @@ namespace DutchTreat.Data
         private readonly DutchContext _ctx;
         private readonly ILogger<DutchRepository> _logger;
 
-        public DutchRepository(DutchContext ctx,ILogger<DutchRepository> logger)
+        public DutchRepository(DutchContext ctx, ILogger<DutchRepository> logger)
         {
             _ctx = ctx;
             _logger = logger;
         }
 
-        public IEnumerable<Order> GetAllOrders()
+        public void AddEntity(object model)
         {
-            return _ctx.Orders
-                .Include(o=>o.Items)
-                .ThenInclude(i=>i.Product)
+            _ctx.Add(model);
+        }
+
+        public IEnumerable<Order> GetAllOrders(bool includeItems)
+        {
+            if (includeItems)
+            {
+                return _ctx.Orders
+                .Include(o => o.Items)
+                .ThenInclude(i => i.Product)
                 .ToList();
+            }
+            else
+            {
+                return _ctx.Orders.ToList();
+            }
+
         }
 
         public IEnumerable<Product> GetAllProducts()
