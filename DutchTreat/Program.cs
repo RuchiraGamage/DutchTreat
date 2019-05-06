@@ -34,7 +34,7 @@ namespace DutchTreat
                 var seeder = scope.ServiceProvider.GetService<DutchSeeder>();//here we create a instance of "DutchSeeder" object through dependancy injection
                                                                      //because we can use the servises from startup class,because "var host" already generated it for us,
                                                                      //only thing to be happen is there should be a service in startup as a dependancy injection to create a "DutchSeeder" object
-                seeder.Seed();
+                seeder.SeedAsync().Wait();
             }
         }
 

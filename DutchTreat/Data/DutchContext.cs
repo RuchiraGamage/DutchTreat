@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace DutchTreat.Data
 {
-    public class DutchContext : DbContext
+    public class DutchContext : IdentityDbContext<StoreUser>
     {
 
         public DutchContext(DbContextOptions<DutchContext> options) : base(options)
@@ -29,8 +30,7 @@ namespace DutchTreat.Data
                          {
                              Id = 1,
                              OrderDate = DateTime.UtcNow,
-                             OrderNumber = "12345",
-                             Items=null
+                             OrderNumber = "12345"
                          });
 
             /*
