@@ -2,6 +2,8 @@
 using DutchTreat.Data;
 using DutchTreat.Data.Entities;
 using DutchTreat.ViewModels;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,6 +15,7 @@ namespace DutchTreat.Controllers
 {
     [Route("api/[Controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes =JwtBearerDefaults.AuthenticationScheme)]//we are not going to use cookies here,jwtBearerTokens only for authentication
     public class OrdersController : ControllerBase
     {
         private readonly IDutchRepository _repository;

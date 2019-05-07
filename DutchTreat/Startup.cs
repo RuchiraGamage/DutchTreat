@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using DutchTreat.Data;
@@ -13,6 +14,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 
 namespace DutchTreat
 {
@@ -36,7 +38,19 @@ namespace DutchTreat
             })
             .AddEntityFrameworkStores<DutchContext>();
 
-            services.AddDbContext<DutchContext>(cfg=> 
+            services.AddAuthentication()
+                .AddCookie()
+                .AddJwtBearer(cfg =>
+                cfg.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                {
+                    ValidIssuer = _configuration["Tokens:Issuer"],
+                    ValidAudience = _configuration["Tokens:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Tokens:Key"]))
+                }
+
+                );//we are going to support for these authentication processes
+
+            services.AddDbContext<DutchContext>(cfg =>
             {
                 cfg.UseSqlServer(_configuration.GetConnectionString("DutchConnectionString"));
             });
@@ -72,14 +86,14 @@ namespace DutchTreat
             }
 
             app.UseStaticFiles();
-             app.UseNodeModules(env);
+            app.UseNodeModules(env);
             app.UseAuthentication();
 
-            app.UseMvc(routes => 
+            app.UseMvc(routes =>
             {
                 routes.MapRoute("default",
                     "{controller}/{action}/{id?}",
-                    new {controller="App",Action="Index"});
+                    new { controller = "App", Action = "Index" });
             });
         }
     }
