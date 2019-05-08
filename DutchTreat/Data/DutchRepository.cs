@@ -40,6 +40,24 @@ namespace DutchTreat.Data
 
         }
 
+        public IEnumerable<Order> GetAllOrdersByUser(string userName, bool includeItems)
+        {
+            if (includeItems)
+            {
+                return _ctx.Orders
+                    .Where(o => o.User.UserName == userName)
+                .Include(o => o.Items)
+                .ThenInclude(i => i.Product)
+                .ToList();
+            }
+            else
+            {
+                return _ctx.Orders
+                     .Where(o => o.User.UserName == userName)
+                    .ToList();
+            }
+        }
+
         public IEnumerable<Product> GetAllProducts()
         {
             //   _logger.LogInformation("Get all products");   //log the information we need to,on console via Ilogger cn configure with config.json
@@ -58,12 +76,12 @@ namespace DutchTreat.Data
             }
         }
 
-        public Order GetOrderById(int id)
+        public Order GetOrderById(string name,int id)
         {
             return _ctx.Orders
                 .Include(o => o.Items)
                 .ThenInclude(i => i.Product)
-                .Where(p => p.Id == id)
+                .Where(p => p.Id == id && p.User.UserName==name)
                 .FirstOrDefault();
         }
 
