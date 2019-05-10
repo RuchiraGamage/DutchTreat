@@ -4,7 +4,7 @@
 /*!*******************************************************!*\
   !*** ../node_modules/@angular/common/fesm5/common.js ***!
   \*******************************************************/
-/*! exports provided: ɵangular_packages_common_common_e, ɵangular_packages_common_common_d, ɵangular_packages_common_common_a, ɵangular_packages_common_common_b, ɵangular_packages_common_common_g, ɵangular_packages_common_common_f, ɵregisterLocaleData, registerLocaleData, formatDate, formatCurrency, formatNumber, formatPercent, NgLocaleLocalization, NgLocalization, Plural, NumberFormatStyle, FormStyle, TranslationWidth, FormatWidth, NumberSymbol, WeekDay, getNumberOfCurrencyDigits, getCurrencySymbol, getLocaleDayPeriods, getLocaleDayNames, getLocaleMonthNames, getLocaleId, getLocaleEraNames, getLocaleWeekEndRange, getLocaleFirstDayOfWeek, getLocaleDateFormat, getLocaleDateTimeFormat, getLocaleExtraDayPeriodRules, getLocaleExtraDayPeriods, getLocalePluralCase, getLocaleTimeFormat, getLocaleNumberSymbol, getLocaleNumberFormat, getLocaleCurrencyName, getLocaleCurrencySymbol, ɵparseCookieValue, CommonModule, DeprecatedI18NPipesModule, NgClass, NgForOf, NgForOfContext, NgIf, NgIfContext, NgPlural, NgPluralCase, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault, NgTemplateOutlet, NgComponentOutlet, DOCUMENT, AsyncPipe, DatePipe, I18nPluralPipe, I18nSelectPipe, JsonPipe, LowerCasePipe, CurrencyPipe, DecimalPipe, PercentPipe, SlicePipe, UpperCasePipe, TitleCasePipe, KeyValuePipe, DeprecatedDatePipe, DeprecatedCurrencyPipe, DeprecatedDecimalPipe, DeprecatedPercentPipe, ɵPLATFORM_BROWSER_ID, ɵPLATFORM_SERVER_ID, ɵPLATFORM_WORKER_APP_ID, ɵPLATFORM_WORKER_UI_ID, isPlatformBrowser, isPlatformServer, isPlatformWorkerApp, isPlatformWorkerUi, VERSION, ViewportScroller, ɵNullViewportScroller, PlatformLocation, LOCATION_INITIALIZED, LocationStrategy, APP_BASE_HREF, HashLocationStrategy, PathLocationStrategy, Location */
+/*! exports provided: ɵangular_packages_common_common_e, ɵangular_packages_common_common_d, ɵangular_packages_common_common_a, ɵangular_packages_common_common_b, ɵangular_packages_common_common_g, ɵangular_packages_common_common_f, ɵregisterLocaleData, formatDate, formatCurrency, formatNumber, formatPercent, NgLocaleLocalization, NgLocalization, registerLocaleData, Plural, NumberFormatStyle, FormStyle, TranslationWidth, FormatWidth, NumberSymbol, WeekDay, getNumberOfCurrencyDigits, getCurrencySymbol, getLocaleDayPeriods, getLocaleDayNames, getLocaleMonthNames, getLocaleId, getLocaleEraNames, getLocaleWeekEndRange, getLocaleFirstDayOfWeek, getLocaleDateFormat, getLocaleDateTimeFormat, getLocaleExtraDayPeriodRules, getLocaleExtraDayPeriods, getLocalePluralCase, getLocaleTimeFormat, getLocaleNumberSymbol, getLocaleNumberFormat, getLocaleCurrencyName, getLocaleCurrencySymbol, ɵparseCookieValue, CommonModule, DeprecatedI18NPipesModule, NgClass, NgForOf, NgForOfContext, NgIf, NgIfContext, NgPlural, NgPluralCase, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault, NgTemplateOutlet, NgComponentOutlet, DOCUMENT, AsyncPipe, DatePipe, I18nPluralPipe, I18nSelectPipe, JsonPipe, LowerCasePipe, CurrencyPipe, DecimalPipe, PercentPipe, SlicePipe, UpperCasePipe, TitleCasePipe, KeyValuePipe, DeprecatedDatePipe, DeprecatedCurrencyPipe, DeprecatedDecimalPipe, DeprecatedPercentPipe, ɵPLATFORM_BROWSER_ID, ɵPLATFORM_SERVER_ID, ɵPLATFORM_WORKER_APP_ID, ɵPLATFORM_WORKER_UI_ID, isPlatformBrowser, isPlatformServer, isPlatformWorkerApp, isPlatformWorkerUi, VERSION, ViewportScroller, ɵNullViewportScroller, PlatformLocation, LOCATION_INITIALIZED, LocationStrategy, APP_BASE_HREF, HashLocationStrategy, PathLocationStrategy, Location */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16,13 +16,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_common_g", function() { return COMMON_DEPRECATED_I18N_PIPES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_common_f", function() { return COMMON_PIPES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵregisterLocaleData", function() { return registerLocaleData; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "registerLocaleData", function() { return registerLocaleData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formatDate", function() { return formatDate; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formatCurrency", function() { return formatCurrency; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formatNumber", function() { return formatNumber; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formatPercent", function() { return formatPercent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgLocaleLocalization", function() { return NgLocaleLocalization; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgLocalization", function() { return NgLocalization; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "registerLocaleData", function() { return registerLocaleData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Plural", function() { return Plural; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NumberFormatStyle", function() { return NumberFormatStyle; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormStyle", function() { return FormStyle; });
@@ -104,8 +104,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 /**
- * @license Angular v7.2.15
- * (c) 2010-2019 Google LLC. https://angular.io/
+ * @license Angular v7.2.0
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 
@@ -185,15 +185,16 @@ var LocationStrategy = /** @class */ (function () {
     return LocationStrategy;
 }());
 /**
- * A predefined [DI token](guide/glossary#di-token) for the base href
- * to be used with the `PathLocationStrategy`.
- * The base href is the URL prefix that should be preserved when generating
- * and recognizing URLs.
+ * The `APP_BASE_HREF` token represents the base href to be used with the
+ * {@link PathLocationStrategy}.
+ *
+ * If you're using {@link PathLocationStrategy}, you must provide a provider to a string
+ * representing the URL prefix that should be preserved when generating and recognizing
+ * URLs.
  *
  * @usageNotes
  *
- * The following example shows how to use this token to configure the root app injector
- * with a base href value, so that the DI framework can supply the dependency anywhere in the app.
+ * ### Example
  *
  * ```typescript
  * import {Component, NgModule} from '@angular/core';
@@ -221,12 +222,12 @@ var APP_BASE_HREF = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionTok
  *
  * A service that applications can use to interact with a browser's URL.
  *
- * Depending on the {@link LocationStrategy} used, `Location` will either persist
+ * Depending on which {@link LocationStrategy} is used, `Location` will either persist
  * to the URL's path or the URL's hash segment.
  *
  * @usageNotes
  *
- * It's better to use the {@link Router#navigate} service to trigger route changes. Use
+ * It's better to use {@link Router#navigate} service to trigger route changes. Use
  * `Location` only if you need to interact with or create normalized URLs outside of
  * routing.
  *
@@ -263,10 +264,6 @@ var Location = /** @class */ (function () {
     Location_1 = Location;
     /**
      * Returns the normalized URL path.
-     *
-     * @param includeHash Whether path has an anchor fragment.
-     *
-     * @returns The normalized URL path.
      */
     // TODO: vsavkin. Remove the boolean flag and always include hash once the deprecated router is
     // removed.
@@ -276,24 +273,14 @@ var Location = /** @class */ (function () {
     };
     /**
      * Normalizes the given path and compares to the current normalized path.
-     *
-     * @param path The given URL path
-     * @param query Query parameters
-     *
-     * @returns `true` if the given URL path is equal to the current normalized path, `false`
-     * otherwise.
      */
     Location.prototype.isCurrentPathEqualTo = function (path, query) {
         if (query === void 0) { query = ''; }
         return this.path() == this.normalize(path + Location_1.normalizeQueryParams(query));
     };
     /**
-     * Given a string representing a URL, returns the URL path after stripping the
+     * Given a string representing a URL, returns the normalized URL path without leading or
      * trailing slashes.
-     *
-     * @param url String representing a URL.
-     *
-     * @returns Normalized URL string.
      */
     Location.prototype.normalize = function (url) {
         return Location_1.stripTrailingSlash(_stripBaseHref(this._baseHref, _stripIndexHtml(url)));
@@ -301,13 +288,8 @@ var Location = /** @class */ (function () {
     /**
      * Given a string representing a URL, returns the platform-specific external URL path.
      * If the given URL doesn't begin with a leading slash (`'/'`), this method adds one
-     * before normalizing. This method also adds a hash if `HashLocationStrategy` is
+     * before normalizing. This method will also add a hash if `HashLocationStrategy` is
      * used, or the `APP_BASE_HREF` if the `PathLocationStrategy` is in use.
-     *
-     *
-     * @param url String representing a URL.
-     *
-     * @returns  A normalized platform-specific URL.
      */
     Location.prototype.prepareExternalUrl = function (url) {
         if (url && url[0] !== '/') {
@@ -317,13 +299,8 @@ var Location = /** @class */ (function () {
     };
     // TODO: rename this method to pushState
     /**
-     * Changes the browsers URL to a normalized version of the given URL, and pushes a
+     * Changes the browsers URL to the normalized version of the given URL, and pushes a
      * new item onto the platform's history.
-     *
-     * @param path  URL path to normalizze
-     * @param query Query parameters
-     * @param state Location history state
-     *
      */
     Location.prototype.go = function (path, query, state) {
         if (query === void 0) { query = ''; }
@@ -331,12 +308,8 @@ var Location = /** @class */ (function () {
         this._platformStrategy.pushState(state, '', path, query);
     };
     /**
-     * Changes the browser's URL to a normalized version of the given URL, and replaces
+     * Changes the browsers URL to the normalized version of the given URL, and replaces
      * the top item on the platform's history stack.
-     *
-     * @param path  URL path to normalizze
-     * @param query Query parameters
-     * @param state Location history state
      */
     Location.prototype.replaceState = function (path, query, state) {
         if (query === void 0) { query = ''; }
@@ -353,34 +326,19 @@ var Location = /** @class */ (function () {
     Location.prototype.back = function () { this._platformStrategy.back(); };
     /**
      * Subscribe to the platform's `popState` events.
-     *
-     * @param value Event that is triggered when the state history changes.
-     * @param exception The exception to throw.
-     *
-     * @returns Subscribed events.
      */
     Location.prototype.subscribe = function (onNext, onThrow, onReturn) {
         return this._subject.subscribe({ next: onNext, error: onThrow, complete: onReturn });
     };
     /**
-     * Given a string of url parameters, prepend with `?` if needed, otherwise return the
-     * parameters as is.
-     *
-     *  @param  params String of URL parameters
-     *
-     *  @returns URL parameters prepended with `?` or the parameters as is.
+     * Given a string of url parameters, prepend with '?' if needed, otherwise return parameters as
+     * is.
      */
     Location.normalizeQueryParams = function (params) {
         return params && params[0] !== '?' ? '?' + params : params;
     };
     /**
-     * Given 2 parts of a URL, join them with a slash if needed.
-     *
-     * @param start  URL string
-     * @param end    URL string
-     *
-     *
-     * @returns Given URL strings joined with a slash, if needed.
+     * Given 2 parts of a url, join them with a slash if needed.
      */
     Location.joinWithSlash = function (start, end) {
         if (start.length == 0) {
@@ -405,14 +363,9 @@ var Location = /** @class */ (function () {
         return start + '/' + end;
     };
     /**
-     * If URL has a trailing slash, remove it, otherwise return the URL as is. The
-     * method looks for the first occurrence of either `#`, `?`, or the end of the
-     * line as `/` characters and removes the trailing slash if one exists.
-     *
-     * @param url URL string
-     *
-     * @returns Returns a URL string after removing the trailing slash if one exists, otherwise
-     * returns the string as is.
+     * If url has a trailing slash, remove it, otherwise return url as is. This
+     * method looks for the first occurrence of either #, ?, or the end of the
+     * line as `/` characters after any of these should not be replaced.
      */
     Location.stripTrailingSlash = function (url) {
         var match = url.match(/#|\?|$/);
@@ -825,9 +778,8 @@ var CURRENCIES_EN = {
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * Format styles that can be used to represent numbers.
- * @see `getLocaleNumberFormat()`.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * The different format styles that can be used to represent numbers.
+ * Used by the function {@link getLocaleNumberFormat}.
  *
  * @publicApi
  */
@@ -838,14 +790,7 @@ var NumberFormatStyle;
     NumberFormatStyle[NumberFormatStyle["Currency"] = 2] = "Currency";
     NumberFormatStyle[NumberFormatStyle["Scientific"] = 3] = "Scientific";
 })(NumberFormatStyle || (NumberFormatStyle = {}));
-/**
- * Plurality cases used for translating plurals to different languages.
- *
- * @see `NgPlural`
- * @see `NgPluralCase`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
- *
- * @publicApi */
+/** @publicApi */
 var Plural;
 (function (Plural) {
     Plural[Plural["Zero"] = 0] = "Zero";
@@ -856,11 +801,11 @@ var Plural;
     Plural[Plural["Other"] = 5] = "Other";
 })(Plural || (Plural = {}));
 /**
- * Context-dependant translation forms for strings.
- * Typically the standalone version is for the nominative form of the word,
- * and the format version is used for the genitive case.
- * @see [CLDR website](http://cldr.unicode.org/translation/date-time#TOC-Stand-Alone-vs.-Format-Styles)
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Some languages use two different forms of strings (standalone and format) depending on the
+ * context.
+ * Typically the standalone version is the nominative form of the word, and the format version is in
+ * the genitive.
+ * See [the CLDR website](http://cldr.unicode.org/translation/date-time) for more information.
  *
  * @publicApi
  */
@@ -870,143 +815,85 @@ var FormStyle;
     FormStyle[FormStyle["Standalone"] = 1] = "Standalone";
 })(FormStyle || (FormStyle = {}));
 /**
- * String widths available for translations.
- * The specific character widths are locale-specific.
- * Examples are given for the word "Sunday" in English.
+ * Multiple widths are available for translations: narrow (1 character), abbreviated (3 characters),
+ * wide (full length), and short (2 characters, only for days).
+ *
+ * For example the day `Sunday` will be:
+ * - Narrow: `S`
+ * - Short: `Su`
+ * - Abbreviated: `Sun`
+ * - Wide: `Sunday`
  *
  * @publicApi
  */
 var TranslationWidth;
 (function (TranslationWidth) {
-    /** 1 character for `en-US`. For example: 'S' */
     TranslationWidth[TranslationWidth["Narrow"] = 0] = "Narrow";
-    /** 3 characters for `en-US`. For example: 'Sun' */
     TranslationWidth[TranslationWidth["Abbreviated"] = 1] = "Abbreviated";
-    /** Full length for `en-US`. For example: "Sunday" */
     TranslationWidth[TranslationWidth["Wide"] = 2] = "Wide";
-    /** 2 characters for `en-US`, For example: "Su" */
     TranslationWidth[TranslationWidth["Short"] = 3] = "Short";
 })(TranslationWidth || (TranslationWidth = {}));
 /**
- * String widths available for date-time formats.
- * The specific character widths are locale-specific.
- * Examples are given for `en-US`.
+ * Multiple widths are available for formats: short (minimal amount of data), medium (small amount
+ * of data), long (complete amount of data), full (complete amount of data and extra information).
  *
- * @see `getLocaleDateFormat()`
- * @see `getLocaleTimeFormat()``
- * @see `getLocaleDateTimeFormat()`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * For example the date-time formats for the english locale will be:
+ *  - `'short'`: `'M/d/yy, h:mm a'` (e.g. `6/15/15, 9:03 AM`)
+ *  - `'medium'`: `'MMM d, y, h:mm:ss a'` (e.g. `Jun 15, 2015, 9:03:01 AM`)
+ *  - `'long'`: `'MMMM d, y, h:mm:ss a z'` (e.g. `June 15, 2015 at 9:03:01 AM GMT+1`)
+ *  - `'full'`: `'EEEE, MMMM d, y, h:mm:ss a zzzz'` (e.g. `Monday, June 15, 2015 at
+ * 9:03:01 AM GMT+01:00`)
+ *
  * @publicApi
  */
 var FormatWidth;
 (function (FormatWidth) {
-    /**
-     * For `en-US`, 'M/d/yy, h:mm a'`
-     * (Example: `6/15/15, 9:03 AM`)
-     */
     FormatWidth[FormatWidth["Short"] = 0] = "Short";
-    /**
-     * For `en-US`, `'MMM d, y, h:mm:ss a'`
-     * (Example: `Jun 15, 2015, 9:03:01 AM`)
-     */
     FormatWidth[FormatWidth["Medium"] = 1] = "Medium";
-    /**
-     * For `en-US`, `'MMMM d, y, h:mm:ss a z'`
-     * (Example: `June 15, 2015 at 9:03:01 AM GMT+1`)
-     */
     FormatWidth[FormatWidth["Long"] = 2] = "Long";
-    /**
-     * For `en-US`, `'EEEE, MMMM d, y, h:mm:ss a zzzz'`
-     * (Example: `Monday, June 15, 2015 at 9:03:01 AM GMT+01:00`)
-     */
     FormatWidth[FormatWidth["Full"] = 3] = "Full";
 })(FormatWidth || (FormatWidth = {}));
 /**
- * Symbols that can be used to replace placeholders in number patterns.
- * Examples are based on `en-US` values.
+ * Number symbol that can be used to replace placeholders in number patterns.
+ * The placeholders are based on english values:
  *
- * @see `getLocaleNumberSymbol()`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * | Name                   | Example for en-US | Meaning                                     |
+ * |------------------------|-------------------|---------------------------------------------|
+ * | decimal                | 2,345`.`67        | decimal separator                           |
+ * | group                  | 2`,`345.67        | grouping separator, typically for thousands |
+ * | plusSign               | `+`23             | the plus sign used with numbers             |
+ * | minusSign              | `-`23             | the minus sign used with numbers            |
+ * | percentSign            | 23.4`%`           | the percent sign (out of 100)               |
+ * | perMille               | 234`‰`            | the permille sign (out of 1000)             |
+ * | exponential            | 1.2`E`3           | used in computers for 1.2×10³.              |
+ * | superscriptingExponent | 1.2`×`103         | human-readable format of exponential        |
+ * | infinity               | `∞`               | used in +∞ and -∞.                          |
+ * | nan                    | `NaN`             | "not a number".                             |
+ * | timeSeparator          | 10`:`52           | symbol used between time units              |
+ * | currencyDecimal        | $2,345`.`67       | decimal separator, fallback to "decimal"    |
+ * | currencyGroup          | $2`,`345.67       | grouping separator, fallback to "group"     |
  *
  * @publicApi
  */
 var NumberSymbol;
 (function (NumberSymbol) {
-    /**
-     * Decimal separator.
-     * For `en-US`, the dot character.
-     * Example : 2,345`.`67
-     */
     NumberSymbol[NumberSymbol["Decimal"] = 0] = "Decimal";
-    /**
-     * Grouping separator, typically for thousands.
-     * For `en-US`, the comma character.
-     * Example: 2`,`345.67
-     */
     NumberSymbol[NumberSymbol["Group"] = 1] = "Group";
-    /**
-     * List-item separator.
-     * Example: "one, two, and three"
-     */
     NumberSymbol[NumberSymbol["List"] = 2] = "List";
-    /**
-     * Sign for percentage (out of 100).
-     * Example: 23.4%
-     */
     NumberSymbol[NumberSymbol["PercentSign"] = 3] = "PercentSign";
-    /**
-     * Sign for positive numbers.
-     * Example: +23
-     */
     NumberSymbol[NumberSymbol["PlusSign"] = 4] = "PlusSign";
-    /**
-     * Sign for negative numbers.
-     * Example: -23
-     */
     NumberSymbol[NumberSymbol["MinusSign"] = 5] = "MinusSign";
-    /**
-     * Computer notation for exponential value (n times a power of 10).
-     * Example: 1.2E3
-     */
     NumberSymbol[NumberSymbol["Exponential"] = 6] = "Exponential";
-    /**
-     * Human-readable format of exponential.
-     * Example: 1.2x103
-     */
     NumberSymbol[NumberSymbol["SuperscriptingExponent"] = 7] = "SuperscriptingExponent";
-    /**
-     * Sign for permille (out of 1000).
-     * Example: 23.4‰
-     */
     NumberSymbol[NumberSymbol["PerMille"] = 8] = "PerMille";
-    /**
-     * Infinity, can be used with plus and minus.
-     * Example: ∞, +∞, -∞
-     */
     NumberSymbol[NumberSymbol["Infinity"] = 9] = "Infinity";
-    /**
-     * Not a number.
-     * Example: NaN
-     */
     NumberSymbol[NumberSymbol["NaN"] = 10] = "NaN";
-    /**
-     * Symbol used between time units.
-     * Example: 10:52
-     */
     NumberSymbol[NumberSymbol["TimeSeparator"] = 11] = "TimeSeparator";
-    /**
-     * Decimal separator for currency values (fallback to `Decimal`).
-     * Example: $2,345.67
-     */
     NumberSymbol[NumberSymbol["CurrencyDecimal"] = 12] = "CurrencyDecimal";
-    /**
-     * Group separator for currency values (fallback to `Group`).
-     * Example: $2,345.67
-     */
     NumberSymbol[NumberSymbol["CurrencyGroup"] = 13] = "CurrencyGroup";
 })(NumberSymbol || (NumberSymbol = {}));
 /**
- * The value for each day of the week, based on the `en-US` locale
+ * The value for each day of the week, based on the en-US locale
  *
  * @publicApi
  */
@@ -1021,11 +908,7 @@ var WeekDay;
     WeekDay[WeekDay["Saturday"] = 6] = "Saturday";
 })(WeekDay || (WeekDay = {}));
 /**
- * Retrieves the locale ID from the currently loaded locale.
- * The loaded locale could be, for example, a global one rather than a regional one.
- * @param locale A locale code, such as `fr-FR`.
- * @returns The locale code. For example, `fr`.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * The locale id for the chosen locale (e.g `en-GB`).
  *
  * @publicApi
  */
@@ -1033,13 +916,7 @@ function getLocaleId(locale) {
     return findLocaleData(locale)[0 /* LocaleId */];
 }
 /**
- * Retrieves day period strings for the given locale.
- *
- * @param locale A locale code for the locale format rules to use.
- * @param formStyle The required grammatical form.
- * @param width The required character width.
- * @returns An array of localized period strings. For example, `[AM, PM]` for `en-US`.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Periods of the day (e.g. `[AM, PM]` for en-US).
  *
  * @publicApi
  */
@@ -1050,14 +927,7 @@ function getLocaleDayPeriods(locale, formStyle, width) {
     return getLastDefinedValue(amPm, width);
 }
 /**
- * Retrieves days of the week for the given locale, using the Gregorian calendar.
- *
- * @param locale A locale code for the locale format rules to use.
- * @param formStyle The required grammatical form.
- * @param width The required character width.
- * @returns An array of localized name strings.
- * For example,`[Sunday, Monday, ... Saturday]` for `en-US`.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Days of the week for the Gregorian calendar (e.g. `[Sunday, Monday, ... Saturday]` for en-US).
  *
  * @publicApi
  */
@@ -1068,14 +938,7 @@ function getLocaleDayNames(locale, formStyle, width) {
     return getLastDefinedValue(days, width);
 }
 /**
- * Retrieves months of the year for the given locale, using the Gregorian calendar.
- *
- * @param locale A locale code for the locale format rules to use.
- * @param formStyle The required grammatical form.
- * @param width The required character width.
- * @returns An array of localized name strings.
- * For example,  `[January, February, ...]` for `en-US`.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Months of the year for the Gregorian calendar (e.g. `[January, February, ...]` for en-US).
  *
  * @publicApi
  */
@@ -1086,14 +949,7 @@ function getLocaleMonthNames(locale, formStyle, width) {
     return getLastDefinedValue(months, width);
 }
 /**
- * Retrieves Gregorian-calendar eras for the given locale.
- * @param locale A locale code for the locale format rules to use.
- * @param formStyle The required grammatical form.
- * @param width The required character width.
-
- * @returns An array of localized era strings.
- * For example, `[AD, BC]` for `en-US`.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Eras for the Gregorian calendar (e.g. AD/BC).
  *
  * @publicApi
  */
@@ -1103,13 +959,8 @@ function getLocaleEraNames(locale, width) {
     return getLastDefinedValue(erasData, width);
 }
 /**
- * Retrieves the first day of the week for the given locale.
- *
- * @param locale A locale code for the locale format rules to use.
- * @returns A day index number, using the 0-based week-day index for `en-US`
- * (Sunday = 0, Monday = 1, ...).
- * For example, for `fr-FR`, returns 1 to indicate that the first day is Monday.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * First day of the week for this locale, based on english days (Sunday = 0, Monday = 1, ...).
+ * For example in french the value would be 1 because the first day of the week is Monday.
  *
  * @publicApi
  */
@@ -1118,11 +969,9 @@ function getLocaleFirstDayOfWeek(locale) {
     return data[8 /* FirstDayOfWeek */];
 }
 /**
- * Range of week days that are considered the week-end for the given locale.
- *
- * @param locale A locale code for the locale format rules to use.
- * @returns The range of day values, `[startDay, endDay]`.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Range of days in the week that represent the week-end for this locale, based on english days
+ * (Sunday = 0, Monday = 1, ...).
+ * For example in english the value would be [6,0] for Saturday to Sunday.
  *
  * @publicApi
  */
@@ -1131,13 +980,27 @@ function getLocaleWeekEndRange(locale) {
     return data[9 /* WeekendRange */];
 }
 /**
- * Retrieves a localized date-value formating string.
+ * Date format that depends on the locale.
  *
- * @param locale A locale code for the locale format rules to use.
- * @param width The format type.
- * @returns The localized formating string.
- * @see `FormatWidth`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * There are four basic date formats:
+ * - `full` should contain long-weekday (EEEE), year (y), long-month (MMMM), day (d).
+ *
+ *  For example, English uses `EEEE, MMMM d, y`, corresponding to a date like
+ *  "Tuesday, September 14, 1999".
+ *
+ * - `long` should contain year, long-month, day.
+ *
+ *  For example, `MMMM d, y`, corresponding to a date like "September 14, 1999".
+ *
+ * - `medium` should contain year, abbreviated-month (MMM), day.
+ *
+ *  For example, `MMM d, y`, corresponding to a date like "Sep 14, 1999".
+ *  For languages that do not use abbreviated months, use the numeric month (MM/M). For example,
+ *  `y/MM/dd`, corresponding to a date like "1999/09/14".
+ *
+ * - `short` should contain year, numeric-month (MM/M), and day.
+ *
+ *  For example, `M/d/yy`, corresponding to a date like "9/14/99".
  *
  * @publicApi
  */
@@ -1146,14 +1009,23 @@ function getLocaleDateFormat(locale, width) {
     return getLastDefinedValue(data[10 /* DateFormat */], width);
 }
 /**
- * Retrieves a localized time-value formatting string.
+ * Time format that depends on the locale.
  *
- * @param locale A locale code for the locale format rules to use.
- * @param width The format type.
- * @returns The localized formatting string.
- * @see `FormatWidth`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
-
+ * The standard formats include four basic time formats:
+ * - `full` should contain hour (h/H), minute (mm), second (ss), and zone (zzzz).
+ * - `long` should contain hour, minute, second, and zone (z)
+ * - `medium` should contain hour, minute, second.
+ * - `short` should contain hour, minute.
+ *
+ * Note: The patterns depend on whether the main country using your language uses 12-hour time or
+ * not:
+ * - For 12-hour time, use a pattern like `hh:mm a` using h to mean a 12-hour clock cycle running
+ * 1 through 12 (midnight plus 1 minute is 12:01), or using K to mean a 12-hour clock cycle
+ * running 0 through 11 (midnight plus 1 minute is 0:01).
+ * - For 24-hour time, use a pattern like `HH:mm` using H to mean a 24-hour clock cycle running 0
+ * through 23 (midnight plus 1 minute is 0:01), or using k to mean a 24-hour clock cycle running
+ * 1 through 24 (midnight plus 1 minute is 24:01).
+ *
  * @publicApi
  */
 function getLocaleTimeFormat(locale, width) {
@@ -1161,13 +1033,27 @@ function getLocaleTimeFormat(locale, width) {
     return getLastDefinedValue(data[11 /* TimeFormat */], width);
 }
 /**
- * Retrieves a localized date-time formatting string.
+ * Date-time format that depends on the locale.
  *
- * @param locale A locale code for the locale format rules to use.
- * @param width The format type.
- * @returns The localized formatting string.
- * @see `FormatWidth`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * The date-time pattern shows how to combine separate patterns for date (represented by {1})
+ * and time (represented by {0}) into a single pattern. It usually doesn't need to be changed.
+ * What you want to pay attention to are:
+ * - possibly removing a space for languages that don't use it, such as many East Asian languages
+ * - possibly adding a comma, other punctuation, or a combining word
+ *
+ * For example:
+ * - English uses `{1} 'at' {0}` or `{1}, {0}` (depending on date style), while Japanese uses
+ *  `{1}{0}`.
+ * - An English formatted date-time using the combining pattern `{1}, {0}` could be
+ *  `Dec 10, 2010, 3:59:49 PM`. Notice the comma and space between the date portion and the time
+ *  portion.
+ *
+ * There are four formats (`full`, `long`, `medium`, `short`); the determination of which to use
+ * is normally based on the date style. For example, if the date has a full month and weekday
+ * name, the full combining pattern will be used to combine that with a time. If the date has
+ * numeric month, the short version of the combining pattern will be used to combine that with a
+ * time. English uses `{1} 'at' {0}` for full and long styles, and `{1}, {0}` for medium and short
+ * styles.
  *
  * @publicApi
  */
@@ -1177,12 +1063,8 @@ function getLocaleDateTimeFormat(locale, width) {
     return getLastDefinedValue(dateTimeFormatData, width);
 }
 /**
- * Retrieves a localized number symbol that can be used to replace placeholders in number formats.
- * @param locale The locale code.
- * @param symbol The symbol to localize.
- * @returns The character for the localized symbol.
- * @see `NumberSymbol`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Number symbol that can be used to replace placeholders in number formats.
+ * See {@link NumberSymbol} for more information.
  *
  * @publicApi
  */
@@ -1200,17 +1082,17 @@ function getLocaleNumberSymbol(locale, symbol) {
     return res;
 }
 /**
- * Retrieves a number format for a given locale.
+ * Number format that depends on the locale.
  *
  * Numbers are formatted using patterns, like `#,###.00`. For example, the pattern `#,###.00`
- * when used to format the number 12345.678 could result in "12'345,678". That would happen if the
+ * when used to format the number 12345.678 could result in "12'345,67". That would happen if the
  * grouping separator for your language is an apostrophe, and the decimal separator is a comma.
  *
- * <b>Important:</b> The characters `.` `,` `0` `#` (and others below) are special placeholders
- * that stand for the decimal separator, and so on, and are NOT real characters.
- * You must NOT "translate" the placeholders. For example, don't change `.` to `,` even though in
+ * <b>Important:</b> The characters `.` `,` `0` `#` (and others below) are special placeholders;
+ * they stand for the decimal separator, and so on, and are NOT real characters.
+ * You must NOT "translate" the placeholders; for example, don't change `.` to `,` even though in
  * your language the decimal point is written with a comma. The symbols should be replaced by the
- * local equivalents, using the appropriate `NumberSymbol` for your language.
+ * local equivalents, using the Number Symbols for your language.
  *
  * Here are the special characters used in number patterns:
  *
@@ -1220,17 +1102,13 @@ function getLocaleNumberSymbol(locale, symbol) {
  * | , | Replaced by the "grouping" (thousands) separator. |
  * | 0 | Replaced by a digit (or zero if there aren't enough digits). |
  * | # | Replaced by a digit (or nothing if there aren't enough). |
- * | ¤ | Replaced by a currency symbol, such as $ or USD. |
- * | % | Marks a percent format. The % symbol may change position, but must be retained. |
- * | E | Marks a scientific format. The E symbol may change position, but must be retained. |
+ * | ¤ | This will be replaced by a currency symbol, such as $ or USD. |
+ * | % | This marks a percent format. The % symbol may change position, but must be retained. |
+ * | E | This marks a scientific format. The E symbol may change position, but must be retained. |
  * | ' | Special characters used as literal characters are quoted with ASCII single quotes. |
  *
- * @param locale A locale code for the locale format rules to use.
- * @param type The type of numeric value to be formatted (such as `Decimal` or `Currency`.)
- * @returns The localized format string.
- * @see `NumberFormatStyle`
- * @see [CLDR website](http://cldr.unicode.org/translation/number-patterns)
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * You can find more information
+ * [on the CLDR website](http://cldr.unicode.org/translation/number-patterns)
  *
  * @publicApi
  */
@@ -1239,13 +1117,9 @@ function getLocaleNumberFormat(locale, type) {
     return data[14 /* NumberFormats */][type];
 }
 /**
- * Retrieves the symbol used to represent the currency for the main country
- * corresponding to a given locale. For example, '$' for `en-US`.
- *
- * @param locale A locale code for the locale format rules to use.
- * @returns The localized symbol character,
- * or `null` if the main country cannot be determined.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * The symbol used to represent the currency for the main country using this locale (e.g. $ for
+ * the locale en-US).
+ * The symbol will be `null` if the main country cannot be determined.
  *
  * @publicApi
  */
@@ -1254,12 +1128,9 @@ function getLocaleCurrencySymbol(locale) {
     return data[15 /* CurrencySymbol */] || null;
 }
 /**
- * Retrieves the name of the currency for the main country corresponding
- * to a given locale. For example, 'US Dollar' for `en-US`.
- * @param locale A locale code for the locale format rules to use.
- * @returns The currency name,
- * or `null` if the main country cannot be determined.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * The name of the currency for the main country using this locale (e.g. 'US Dollar' for the locale
+ * en-US).
+ * The name will be `null` if the main country cannot be determined.
  *
  * @publicApi
  */
@@ -1268,22 +1139,15 @@ function getLocaleCurrencyName(locale) {
     return data[16 /* CurrencyName */] || null;
 }
 /**
- * Retrieves the currency values for a given locale.
- * @param locale A locale code for the locale format rules to use.
- * @returns The currency values.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Returns the currency values for the locale
  */
 function getLocaleCurrencies(locale) {
     var data = findLocaleData(locale);
     return data[17 /* Currencies */];
 }
 /**
- * Retrieves the plural function used by ICU expressions to determine the plural case to use
- * for a given locale.
- * @param locale A locale code for the locale format rules to use.
- * @returns The plural function for the locale.
- * @see `NgPlural`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * The locale plural function used by ICU expressions to determine the plural case to use.
+ * See {@link NgPlural} for more information.
  *
  * @publicApi
  */
@@ -1297,24 +1161,17 @@ function checkFullData(data) {
     }
 }
 /**
- * Retrieves locale-specific rules used to determine which day period to use
- * when more than one period is defined for a locale.
- *
- * There is a rule for each defined day period. The
+ * Rules used to determine which day period to use (See `dayPeriods` below).
+ * The rules can either be an array or a single value. If it's an array, consider it as "from"
+ * and "to". If it's a single value then it means that the period is only valid at this exact
+ * value.
+ * There is always the same number of rules as the number of day periods, which means that the
  * first rule is applied to the first day period and so on.
- * Fall back to AM/PM when no rules are available.
+ * You should fallback to AM/PM when there are no rules available.
  *
- * A rule can specify a period as time range, or as a single time value.
- *
- * This functionality is only available when you have loaded the full locale data.
- * See the ["I18n guide"](guide/i18n#i18n-pipes).
- *
- * @param locale A locale code for the locale format rules to use.
- * @returns The rules for the locale, a single time value or array of *from-time, to-time*,
- * or null if no periods are available.
- *
- * @see `getLocaleExtraDayPeriods()`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Note: this is only available if you load the full locale data.
+ * See the ["I18n guide"](guide/i18n#i18n-pipes) to know how to import additional locale
+ * data.
  *
  * @publicApi
  */
@@ -1330,19 +1187,15 @@ function getLocaleExtraDayPeriodRules(locale) {
     });
 }
 /**
- * Retrieves locale-specific day periods, which indicate roughly how a day is broken up
- * in different languages.
- * For example, for `en-US`, periods are morning, noon, afternoon, evening, and midnight.
+ * Day Periods indicate roughly how the day is broken up in different languages (e.g. morning,
+ * noon, afternoon, midnight, ...).
+ * You should use the function {@link getLocaleExtraDayPeriodRules} to determine which period to
+ * use.
+ * You should fallback to AM/PM when there are no day periods available.
  *
- * This functionality is only available when you have loaded the full locale data.
- * See the ["I18n guide"](guide/i18n#i18n-pipes).
- *
- * @param locale A locale code for the locale format rules to use.
- * @param formStyle The required grammatical form.
- * @param width The required character width.
- * @returns The translated day-period strings.
- * @see `getLocaleExtraDayPeriodRules()`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Note: this is only available if you load the full locale data.
+ * See the ["I18n guide"](guide/i18n#i18n-pipes) to know how to import additional locale
+ * data.
  *
  * @publicApi
  */
@@ -1357,15 +1210,11 @@ function getLocaleExtraDayPeriods(locale, formStyle, width) {
     return getLastDefinedValue(dayPeriods, width) || [];
 }
 /**
- * Retrieves the first value that is defined in an array, going backwards from an index position.
+ * Returns the first value that is defined in an array, going backwards.
  *
- * To avoid repeating the same data (as when the "format" and "standalone" forms are the same)
- * add the first value to the locale data arrays, and add other values only if they are different.
- *
- * @param data The data array to retrieve from.
- * @param index A 0-based index into the array to start from.
- * @returns The value immediately before the given index position.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * To avoid repeating the same data (e.g. when "format" and "standalone" are the same) we only
+ * add the first one to the locale data arrays, the other ones are only defined when different.
+ * We use this function to retrieve the first defined value.
  *
  * @publicApi
  */
@@ -1378,18 +1227,14 @@ function getLastDefinedValue(data, index) {
     throw new Error('Locale data API: locale data undefined');
 }
 /**
- * Extracts the hours and minutes from a string like "15:45"
+ * Extract the hours and minutes from a string like "15:45"
  */
 function extractTime(time) {
     var _a = Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__read"])(time.split(':'), 2), h = _a[0], m = _a[1];
     return { hours: +h, minutes: +m };
 }
 /**
- * Finds the locale data for a given locale.
- *
- * @param locale The locale code.
- * @returns The locale data.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Finds the locale data for a locale id
  *
  * @publicApi
  */
@@ -1411,17 +1256,9 @@ function findLocaleData(locale) {
     throw new Error("Missing locale data for the locale \"" + locale + "\".");
 }
 /**
- * Retrieves the currency symbol for a given currency code.
- *
- * For example, for the default `en-US` locale, the code `USD` can
- * be represented by the narrow symbol `$` or the wide symbol `US$`.
- *
- * @param code The currency code.
- * @param format The format, `wide` or `narrow`.
- * @param locale A locale code for the locale format rules to use.
- *
- * @returns The symbol, or the currency code if no symbol is available.0
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Returns the currency symbol for a given currency code, or the code if no symbol available
+ * (e.g.: format narrow = $, format wide = US$, code = USD)
+ * If no locale is provided, it uses the locale "en" by default
  *
  * @publicApi
  */
@@ -1437,12 +1274,8 @@ function getCurrencySymbol(code, format, locale) {
 // Most currencies have cents, that's why the default is 2
 var DEFAULT_NB_OF_CURRENCY_DIGITS = 2;
 /**
- * Reports the number of decimal digits for a given currency.
- * The value depends upon the presence of cents in that particular currency.
- *
- * @param code The currency code.
- * @returns The number of decimal digits, typically 0 or 2.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Returns the number of decimal digits for the given currency.
+ * Its value depends upon the presence of cents in that particular currency.
  *
  * @publicApi
  */
@@ -1497,18 +1330,17 @@ var TranslationType;
  *
  * Formats a date according to locale rules.
  *
- * @param value The date to format, as a Date, or a number (milliseconds since UTC epoch)
- * or an [ISO date-time string](https://www.w3.org/TR/NOTE-datetime).
- * @param format The date-time components to include. See `DatePipe` for details.
- * @param locale A locale code for the locale format rules to use.
- * @param timezone The time zone. A time zone offset from GMT (such as `'+0430'`),
- * or a standard UTC/GMT or continental US time zone abbreviation.
- * If not specified, uses host system settings.
+ * Where:
+ * - `value` is a Date, a number (milliseconds since UTC epoch) or an ISO string
+ *   (https://www.w3.org/TR/NOTE-datetime).
+ * - `format` indicates which date/time components to include. See {@link DatePipe} for more
+ *   details.
+ * - `locale` is a `string` defining the locale to use.
+ * - `timezone` to be used for formatting. It understands UTC/GMT and the continental US time zone
+ *   abbreviations, but for general use, use a time zone offset (e.g. `'+0430'`).
+ *   If not specified, host system settings are used.
  *
- * @returns The formatted date string.
- *
- * @see `DatePipe`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * See {@link DatePipe} for more details.
  *
  * @publicApi
  */
@@ -2130,7 +1962,7 @@ var DIGIT_CHAR = '#';
 var CURRENCY_CHAR = '¤';
 var PERCENT_CHAR = '%';
 /**
- * Transforms a number to a locale string based on a style and a format.
+ * Transforms a number to a locale string based on a style and a format
  */
 function formatNumberToLocaleString(value, pattern, locale, groupSymbol, decimalSymbol, digitsInfo, isPercent) {
     if (isPercent === void 0) { isPercent = false; }
@@ -2224,21 +2056,15 @@ function formatNumberToLocaleString(value, pattern, locale, groupSymbol, decimal
  *
  * Formats a number as currency using locale rules.
  *
- * @param value The number to format.
- * @param locale A locale code for the locale format rules to use.
- * @param currency A string containing the currency symbol or its name,
- * such as "$" or "Canadian Dollar". Used in output string, but does not affect the operation
- * of the function.
- * @param currencyCode The [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)
- * currency code to use in the result string, such as `USD` for the US dollar and `EUR` for the euro.
- * @param digitInfo Decimal representation options, specified by a string in the following format:
- * `{minIntegerDigits}.{minFractionDigits}-{maxFractionDigits}`. See `DecimalPipe` for more details.
+ * Use `currency` to format a number as currency.
  *
- * @returns The formatted currency value.
- *
- * @see `formatNumber()`
- * @see `DecimalPipe`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Where:
+ * - `value` is a number.
+ * - `locale` is a `string` defining the locale to use.
+ * - `currency` is the string that represents the currency, it can be its symbol or its name.
+ * - `currencyCode` is the [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) currency code, such
+ *    as `USD` for the US dollar and `EUR` for the euro.
+ * - `digitInfo` See {@link DecimalPipe} for more details.
  *
  * @publicApi
  */
@@ -2259,18 +2085,12 @@ function formatCurrency(value, locale, currency, currencyCode, digitsInfo) {
  *
  * Formats a number as a percentage according to locale rules.
  *
- * @param value The number to format.
- * @param locale A locale code for the locale format rules to use.
- * @param digitInfo Decimal representation options, specified by a string in the following format:
- * `{minIntegerDigits}.{minFractionDigits}-{maxFractionDigits}`. See `DecimalPipe` for more details.
+ * Where:
+ * - `value` is a number.
+ * - `locale` is a `string` defining the locale to use.
+ * - `digitInfo` See {@link DecimalPipe} for more details.
  *
- * @returns The formatted percentage value.
- *
- * @see `formatNumber()`
- * @see `DecimalPipe`
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
  * @publicApi
- *
  */
 function formatPercent(value, locale, digitsInfo) {
     var format = getLocaleNumberFormat(locale, NumberFormatStyle.Percent);
@@ -2282,16 +2102,13 @@ function formatPercent(value, locale, digitsInfo) {
  * @ngModule CommonModule
  * @description
  *
- * Formats a number as text, with group sizing, separator, and other
- * parameters based on the locale.
+ * Formats a number as text. Group sizing and separator and other locale-specific
+ * configurations are based on the locale.
  *
- * @param value The number to format.
- * @param locale A locale code for the locale format rules to use.
- * @param digitInfo Decimal representation options, specified by a string in the following format:
- * `{minIntegerDigits}.{minFractionDigits}-{maxFractionDigits}`. See `DecimalPipe` for more details.
- *
- * @returns The formatted text string.
- * @see [Internationalization (i18n) Guide](https://angular.io/guide/i18n)
+ * Where:
+ * - `value` is a number.
+ * - `locale` is a `string` defining the locale to use.
+ * - `digitInfo` See {@link DecimalPipe} for more details.
  *
  * @publicApi
  */
@@ -3321,61 +3138,15 @@ var NgForOfContext = /** @class */ (function () {
     return NgForOfContext;
 }());
 /**
- * A [structural directive](guide/structural-directives) that renders
- * a template for each item in a collection.
- * The directive is placed on an element, which becomes the parent
- * of the cloned templates.
- *
- * The `ngForOf` is generally used in the
- * [shorthand form](guide/structural-directives#the-asterisk--prefix) `*ngFor`.
- * In this form, the template to be rendered for each iteration is the content
- * of an anchor element containing the directive.
- *
- * The following example shows the shorthand syntax with some options,
- * contained in an `<li>` element.
- *
- * ```
- * <li *ngFor="let item of items; index as i; trackBy: trackByFn">...</li>
- * ```
- *
- * The shorthand form expands into a long form that uses the `ngForOf` selector
- * on an `<ng-template>` element.
- * The content of the `<ng-template>` element is the `<li>` element that held the
- * short-form directive.
- *
- * Here is the expanded version of the short-form example.
- *
- * ```
- * <ng-template ngFor let-item [ngForOf]="items" let-i="index" [ngForTrackBy]="trackByFn">
- *   <li>...</li>
- * </ng-template>
- * ```
- *
- * Angular automatically expands the shorthand syntax as it compiles the template.
- * The context for each embedded view is logically merged to the current component
- * context according to its lexical position.
- *
- * When using the shorthand syntax, Angular allows only [one structural directive
- * on an element](guide/structural-directives#one-structural-directive-per-host-element).
- * If you want to iterate conditionally, for example,
- * put the `*ngIf` on a container element that wraps the `*ngFor` element.
- * For futher discussion, see
- * [Structural Directives](guide/structural-directives#one-per-element).
+ * The `NgForOf` directive instantiates a template once per item from an iterable. The context
+ * for each instantiated template inherits from the outer context with the given loop variable
+ * set to the current item from the iterable.
  *
  * @usageNotes
  *
- * ### Local variables
+ * ### Local Variables
  *
- * `NgForOf` provides exported values that can be aliased to local variables.
- * For example:
- *
- *  ```
- * <li *ngFor="let user of userObservable | async as users; index as i; first as isFirst">
- *    {{i}}/{{users.length}}. {{user}} <span *ngIf="isFirst">default</span>
- * </li>
- * ```
- *
- * The following exported values can be aliased to local variables:
+ * `NgForOf` provides several exported values that can be aliased to local variables:
  *
  * - `$implicit: T`: The value of the individual items in the iterable (`ngForOf`).
  * - `ngForOf: NgIterable<T>`: The value of the iterable expression. Useful when the expression is
@@ -3387,33 +3158,55 @@ var NgForOfContext = /** @class */ (function () {
  * - `even: boolean`: True when the item has an even index in the iterable.
  * - `odd: boolean`: True when the item has an odd index in the iterable.
  *
- * ### Change propagation
+ * ```
+ * <li *ngFor="let user of userObservable | async as users; index as i; first as isFirst">
+ *    {{i}}/{{users.length}}. {{user}} <span *ngIf="isFirst">default</span>
+ * </li>
+ * ```
+ *
+ * ### Change Propagation
  *
  * When the contents of the iterator changes, `NgForOf` makes the corresponding changes to the DOM:
  *
  * * When an item is added, a new instance of the template is added to the DOM.
  * * When an item is removed, its template instance is removed from the DOM.
  * * When items are reordered, their respective templates are reordered in the DOM.
+ * * Otherwise, the DOM element for that item will remain the same.
  *
  * Angular uses object identity to track insertions and deletions within the iterator and reproduce
  * those changes in the DOM. This has important implications for animations and any stateful
- * controls that are present, such as `<input>` elements that accept user input. Inserted rows can
+ * controls (such as `<input>` elements which accept user input) that are present. Inserted rows can
  * be animated in, deleted rows can be animated out, and unchanged rows retain any unsaved state
  * such as user input.
- * For more on animations, see [Transitions and Triggers](guide/transition-and-triggers).
  *
- * The identities of elements in the iterator can change while the data does not.
- * This can happen, for example, if the iterator is produced from an RPC to the server, and that
- * RPC is re-run. Even if the data hasn't changed, the second response produces objects with
- * different identities, and Angular must tear down the entire DOM and rebuild it (as if all old
- * elements were deleted and all new elements inserted).
+ * It is possible for the identities of elements in the iterator to change while the data does not.
+ * This can happen, for example, if the iterator produced from an RPC to the server, and that
+ * RPC is re-run. Even if the data hasn't changed, the second response will produce objects with
+ * different identities, and Angular will tear down the entire DOM and rebuild it (as if all old
+ * elements were deleted and all new elements inserted). This is an expensive operation and should
+ * be avoided if possible.
  *
- * To avoid this expensive operation, you can customize the default tracking algorithm.
- * by supplying the `trackBy` option to `NgForOf`.
- * `trackBy` takes a function that has two arguments: `index` and `item`.
+ * To customize the default tracking algorithm, `NgForOf` supports `trackBy` option.
+ * `trackBy` takes a function which has two arguments: `index` and `item`.
  * If `trackBy` is given, Angular tracks changes by the return value of the function.
  *
- * @see [Structural Directives](guide/structural-directives)
+ * ### Syntax
+ *
+ * - `<li *ngFor="let item of items; index as i; trackBy: trackByFn">...</li>`
+ *
+ * With `<ng-template>` element:
+ *
+ * ```
+ * <ng-template ngFor let-item [ngForOf]="items" let-i="index" [ngForTrackBy]="trackByFn">
+ *   <li>...</li>
+ * </ng-template>
+ * ```
+ *
+ * ### Example
+ *
+ * See a [live demo](http://plnkr.co/edit/KVuXxDp0qinGDyo307QW?p=preview) for a more detailed
+ * example.
+ *
  * @ngModule CommonModule
  * @publicApi
  */
@@ -3517,9 +3310,9 @@ var NgForOf = /** @class */ (function () {
         view.context.$implicit = record.item;
     };
     /**
-     * Asserts the correct type of the context for the template that `NgForOf` will render.
+     * Assert the correct type of the context for the template that `NgForOf` will render.
      *
-     * The presence of this method is a signal to the Ivy template type-check compiler that the
+     * The presence of this method is a signal to the Ivy template type check compiler that the
      * `NgForOf` structural directive renders its template with a specific context type.
      */
     NgForOf.ngTemplateContextGuard = function (dir, ctx) {
@@ -3566,140 +3359,94 @@ function getTypeNameForDebugging(type) {
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * A structural directive that conditionally includes a template based on the value of
- * an expression coerced to Boolean.
- * When the expression evaluates to true, Angular renders the template
- * provided in a `then` clause, and when  false or null,
- * Angular renders the template provided in an optional `else` clause. The default
- * template for the `else` clause is blank.
+ * Conditionally includes a template based on the value of an `expression`.
  *
- * A [shorthand form](guide/structural-directives#the-asterisk--prefix) of the directive,
- * `*ngIf="condition"`, is generally used, provided
- * as an attribute of the anchor element for the inserted template.
- * Angular expands this into a more explicit version, in which the anchor element
- * is contained in an `<ng-template>` element.
+ * `ngIf` evaluates the `expression` and then renders the `then` or `else` template in its place
+ * when expression is truthy or falsy respectively. Typically the:
+ *  - `then` template is the inline template of `ngIf` unless bound to a different value.
+ *  - `else` template is blank unless it is bound.
  *
- * Simple form with shorthand syntax:
- *
- * ```
- * <div *ngIf="condition">Content to render when condition is true.</div>
- * ```
- *
- * Simple form with expanded syntax:
- *
- * ```
- * <ng-template [ngIf]="condition"><div>Content to render when condition is
- * true.</div></ng-template>
- * ```
- *
- * Form with an "else" block:
- *
- * ```
- * <div *ngIf="condition; else elseBlock">Content to render when condition is true.</div>
- * <ng-template #elseBlock>Content to render when condition is false.</ng-template>
- * ```
- *
- * Shorthand form with "then" and "else" blocks:
- *
- * ```
- * <div *ngIf="condition; then thenBlock else elseBlock"></div>
- * <ng-template #thenBlock>Content to render when condition is true.</ng-template>
- * <ng-template #elseBlock>Content to render when condition is false.</ng-template>
- * ```
- *
- * Form with storing the value locally:
- *
- * ```
- * <div *ngIf="condition as value; else elseBlock">{{value}}</div>
- * <ng-template #elseBlock>Content to render when value is null.</ng-template>
- * ```
  *
  * @usageNotes
  *
- * The `*ngIf` directive is most commonly used to conditionally show an inline template,
- * as seen in the following  example.
- * The default `else` template is blank.
+ * ### Most common usage
  *
+ * The most common usage of the `ngIf` directive is to conditionally show the inline template as
+ * seen in this example:
  * {@example common/ngIf/ts/module.ts region='NgIfSimple'}
  *
  * ### Showing an alternative template using `else`
  *
- * To display a template when `expression` evaluates to false, use an `else` template
- * binding as shown in the following example.
- * The `else` binding points to an `<ng-template>`  element labeled `#elseBlock`.
- * The template can be defined anywhere in the component view, but is typically placed right after
+ * If it is necessary to display a template when the `expression` is falsy use the `else` template
+ * binding as shown. Note that the `else` binding points to a `<ng-template>` labeled `#elseBlock`.
+ * The template can be defined anywhere in the component view but is typically placed right after
  * `ngIf` for readability.
  *
  * {@example common/ngIf/ts/module.ts region='NgIfElse'}
  *
- * ### Using an external `then` template
+ * ### Using non-inlined `then` template
  *
- * In the previous example, the then-clause template is specified inline, as the content of the
- * tag that contains the `ngIf` directive. You can also specify a template that is defined
- * externally, by referencing a labeled `<ng-template>` element. When you do this, you can
- * change which template to use at runtime, as shown in the following example.
+ * Usually the `then` template is the inlined template of the `ngIf`, but it can be changed using
+ * a binding (just like `else`). Because `then` and `else` are bindings, the template references can
+ * change at runtime as shown in this example.
  *
  * {@example common/ngIf/ts/module.ts region='NgIfThenElse'}
  *
- * ### Storing a conditional result in a variable
+ * ### Storing conditional result in a variable
  *
- * You might want to show a set of properties from the same object. If you are waiting
- * for asynchronous data, the object can be undefined.
- * In this case, you can use `ngIf` and store the result of the condition in a local
- * variable as shown in the the following example.
+ * A common pattern is that we need to show a set of properties from the same object. If the
+ * object is undefined, then we have to use the safe-traversal-operator `?.` to guard against
+ * dereferencing a `null` value. This is especially the case when waiting on async data such as
+ * when using the `async` pipe as shown in following example:
+ *
+ * ```
+ * Hello {{ (userStream|async)?.last }}, {{ (userStream|async)?.first }}!
+ * ```
+ *
+ * There are several inefficiencies in the above example:
+ *  - We create multiple subscriptions on `userStream`. One for each `async` pipe, or two in the
+ *    example above.
+ *  - We cannot display an alternative screen while waiting for the data to arrive asynchronously.
+ *  - We have to use the safe-traversal-operator `?.` to access properties, which is cumbersome.
+ *  - We have to place the `async` pipe in parenthesis.
+ *
+ * A better way to do this is to use `ngIf` and store the result of the condition in a local
+ * variable as shown in the the example below:
  *
  * {@example common/ngIf/ts/module.ts region='NgIfAs'}
  *
- * This code uses only one `AsyncPipe`, so only one subscription is created.
- * The conditional statement stores the result of `userStream|async` in the local variable `user`.
- * You can then bind the local `user` repeatedly.
+ * Notice that:
+ *  - We use only one `async` pipe and hence only one subscription gets created.
+ *  - `ngIf` stores the result of the `userStream|async` in the local variable `user`.
+ *  - The local `user` can then be bound repeatedly in a more efficient way.
+ *  - No need to use the safe-traversal-operator `?.` to access properties as `ngIf` will only
+ *    display the data if `userStream` returns a value.
+ *  - We can display an alternative template while waiting for the data.
  *
- * The conditional displays the data only if `userStream` returns a value,
- * so you don't need to use the
- * [safe-navigation-operator](guide/template-syntax#safe-navigation-operator) (`?.`)
- * to guard against null values when accessing properties.
- * You can display an alternative template while waiting for the data.
+ * ### Syntax
  *
- * ### Shorthand syntax
+ * Simple form:
+ * - `<div *ngIf="condition">...</div>`
+ * - `<ng-template [ngIf]="condition"><div>...</div></ng-template>`
  *
- * The shorthand syntax `*ngIf` expands into two separate template specifications
- * for the "then" and "else" clauses. For example, consider the following shorthand statement,
- * that is meant to show a loading page while waiting for data to be loaded.
- *
+ * Form with an else block:
  * ```
- * <div class="hero-list" *ngIf="heroes else loading">
- *  ...
- * </div>
- *
- * <ng-template #loading>
- *  <div>Loading...</div>
- * </ng-template>
+ * <div *ngIf="condition; else elseBlock">...</div>
+ * <ng-template #elseBlock>...</ng-template>
  * ```
  *
- * You can see that the "else" clause references the `<ng-template>`
- * with the `#loading` label, and the template for the "then" clause
- * is provided as the content of the anchor element.
- *
- * However, when Angular expands the shorthand syntax, it creates
- * another `<ng-template>` tag, with `ngIf` and `ngIfElse` directives.
- * The anchor element containing the template for the "then" clause becomes
- * the content of this unlabeled `<ng-template>` tag.
- *
+ * Form with a `then` and `else` block:
  * ```
- * <ng-template [ngIf]="hero-list" [ngIfElse]="loading">
- *  <div class="hero-list">
- *   ...
- *  </div>
- * </ng-template>
- *
- * <ng-template #loading>
- *  <div>Loading...</div>
- * </ng-template>
+ * <div *ngIf="condition; then thenBlock else elseBlock"></div>
+ * <ng-template #thenBlock>...</ng-template>
+ * <ng-template #elseBlock>...</ng-template>
  * ```
  *
- * The presence of the implicit template object has implications for the nesting of
- * structural directives. For more on this subject, see
- * [Structural Directives](https://angular.io/guide/structural-directives#one-per-element).
+ * Form with storing the value locally:
+ * ```
+ * <div *ngIf="condition as value; else elseBlock">{{value}}</div>
+ * <ng-template #elseBlock>...</ng-template>
+ * ```
  *
  * @ngModule CommonModule
  * @publicApi
@@ -3845,53 +3592,9 @@ var SwitchView = /** @class */ (function () {
 /**
  * @ngModule CommonModule
  *
- * @description A structural directive that adds or removes templates (displaying or hiding views)
- * when the next match expression matches the switch expression.
- *
- * The `[ngSwitch]` directive on a container specifies an expression to match against.
- * The expressions to match are provided by `ngSwitchCase` directives on views within the container.
- * - Every view that matches is rendered.
- * - If there are no matches, a view with the `ngSwitchDefault` directive is rendered.
- * - Elements within the `[NgSwitch]` statement but outside of any `NgSwitchCase`
- * or `ngSwitchDefault` directive are preserved at the location.
- *
  * @usageNotes
- * Define a container element for the directive, and specify the switch expression
- * to match against as an attribute:
- *
  * ```
- * <container-element [ngSwitch]="switch_expression">
- * ```
- *
- * Within the container, `*ngSwitchCase` statements specify the match expressions
- * as attributes. Include `*ngSwitchDefault` as the final case.
- *
- * ```
- * <container-element [ngSwitch]="switch_expression">
- *    <some-element *ngSwitchCase="match_expression_1">...</some-element>
- * ...
- *    <some-element *ngSwitchDefault>...</some-element>
- * </container-element>
- * ```
- *
- * ### Usage Examples
- *
- * The following example shows how to use more than one case to display the same view:
- *
- * ```
- * <container-element [ngSwitch]="switch_expression">
- *   <!-- the same view can be shown in more than one case -->
- *   <some-element *ngSwitchCase="match_expression_1">...</some-element>
- *   <some-element *ngSwitchCase="match_expression_2">...</some-element>
- *   <some-other-element *ngSwitchCase="match_expression_3">...</some-other-element>
- *   <!--default case when there are no matches -->
- *   <some-element *ngSwitchDefault>...</some-element>
- * </container-element>
- * ```
- *
- * The following example shows how cases can be nested:
- * ```
- * <container-element [ngSwitch]="switch_expression">
+ *     <container-element [ngSwitch]="switch_expression">
  *       <some-element *ngSwitchCase="match_expression_1">...</some-element>
  *       <some-element *ngSwitchCase="match_expression_2">...</some-element>
  *       <some-other-element *ngSwitchCase="match_expression_3">...</some-other-element>
@@ -3903,12 +3606,28 @@ var SwitchView = /** @class */ (function () {
  *       <some-element *ngSwitchDefault>...</some-element>
  *     </container-element>
  * ```
+ * @description
+ *
+ * Adds / removes DOM sub-trees when the nest match expressions matches the switch expression.
+ *
+ * `NgSwitch` stamps out nested views when their match expression value matches the value of the
+ * switch expression.
+ *
+ * In other words:
+ * - you define a container element (where you place the directive with a switch expression on the
+ * `[ngSwitch]="..."` attribute)
+ * - you define inner views inside the `NgSwitch` and place a `*ngSwitchCase` attribute on the view
+ * root elements.
+ *
+ * Elements within `NgSwitch` but outside of a `NgSwitchCase` or `NgSwitchDefault` directives will
+ * be preserved at the location.
+ *
+ * The `ngSwitchCase` directive informs the parent `NgSwitch` of which view to display when the
+ * expression is evaluated.
+ * When no matching expression is found on a `ngSwitchCase` view, the `ngSwitchDefault` view is
+ * stamped out.
  *
  * @publicApi
- * @see `NgSwitchCase`
- * @see `NgSwitchDefault`
- * @see [Stuctural Directives](guide/structural-directives)
- *
  */
 var NgSwitch = /** @class */ (function () {
     function NgSwitch() {
@@ -3970,35 +3689,26 @@ var NgSwitch = /** @class */ (function () {
 /**
  * @ngModule CommonModule
  *
- * @description
- * Provides a switch case expression to match against an enclosing `ngSwitch` expression.
- * When the expressions match, the given `NgSwitchCase` template is rendered.
- * If multiple match expressions match the switch expression value, all of them are displayed.
- *
  * @usageNotes
- *
- * Within a switch container, `*ngSwitchCase` statements specify the match expressions
- * as attributes. Include `*ngSwitchDefault` as the final case.
- *
  * ```
  * <container-element [ngSwitch]="switch_expression">
  *   <some-element *ngSwitchCase="match_expression_1">...</some-element>
- *   ...
- *   <some-element *ngSwitchDefault>...</some-element>
  * </container-element>
- * ```
+ *```
+ * @description
  *
- * Each switch-case statement contains an in-line HTML template or template reference
- * that defines the subtree to be selected if the value of the match expression
- * matches the value of the switch expression.
+ * Creates a view that will be added/removed from the parent {@link NgSwitch} when the
+ * given expression evaluate to respectively the same/different value as the switch
+ * expression.
  *
- * Unlike JavaScript, which uses strict equality, Angular uses loose equality.
- * This means that the empty string, `""` matches 0.
+ * Insert the sub-tree when the expression evaluates to the same value as the enclosing switch
+ * expression.
+ *
+ * If multiple match expressions match the switch expression value, all of them are displayed.
+ *
+ * See {@link NgSwitch} for more details and example.
  *
  * @publicApi
- * @see `NgSwitch`
- * @see `NgSwitchDefault`
- *
  */
 var NgSwitchCase = /** @class */ (function () {
     function NgSwitchCase(viewContainer, templateRef, ngSwitch) {
@@ -4006,9 +3716,6 @@ var NgSwitchCase = /** @class */ (function () {
         ngSwitch._addCase();
         this._view = new SwitchView(viewContainer, templateRef);
     }
-    /**
-     * Performs case matching. For internal use only.
-     */
     NgSwitchCase.prototype.ngDoCheck = function () { this._view.enforceState(this.ngSwitch._matchCase(this.ngSwitchCase)); };
     Object(tslib__WEBPACK_IMPORTED_MODULE_1__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
@@ -4024,17 +3731,25 @@ var NgSwitchCase = /** @class */ (function () {
 }());
 /**
  * @ngModule CommonModule
+ * @usageNotes
+ * ```
+ * <container-element [ngSwitch]="switch_expression">
+ *   <some-element *ngSwitchCase="match_expression_1">...</some-element>
+ *   <some-other-element *ngSwitchDefault>...</some-other-element>
+ * </container-element>
+ * ```
  *
  * @description
  *
- * Creates a view that is rendered when no `NgSwitchCase` expressions
- * match the `NgSwitch` expression.
- * This statement should be the final case in an `NgSwitch`.
+ * Creates a view that is added to the parent {@link NgSwitch} when no case expressions
+ * match the switch expression.
+ *
+ * Insert the sub-tree when no case expressions evaluate to the same value as the enclosing switch
+ * expression.
+ *
+ * See {@link NgSwitch} for more details and example.
  *
  * @publicApi
- * @see `NgSwitch`
- * @see `NgSwitchCase`
- *
  */
 var NgSwitchDefault = /** @class */ (function () {
     function NgSwitchDefault(viewContainer, templateRef, ngSwitch) {
@@ -4175,35 +3890,21 @@ var NgPluralCase = /** @class */ (function () {
  * @ngModule CommonModule
  *
  * @usageNotes
- *
- * Set the font of the containing element to the result of an expression.
- *
  * ```
  * <some-element [ngStyle]="{'font-style': styleExp}">...</some-element>
- * ```
  *
- * Set the width of the containing element to a pixel value returned by an expression.
- *
- * ```
  * <some-element [ngStyle]="{'max-width.px': widthExp}">...</some-element>
- * ```
  *
- * Set a collection of style values using an expression that returns key-value pairs.
- *
- * ```
  * <some-element [ngStyle]="objExp">...</some-element>
  * ```
  *
  * @description
  *
- * An attribute directive that updates styles for the containing HTML element.
- * Sets one or more style properties, specified as colon-separated key-value pairs.
- * The key is a style name, with an optional `.<unit>` suffix
- * (such as 'top.px', 'font-style.em').
- * The value is an expression to be evaluated.
- * The resulting non-null value, expressed in the given unit,
- * is assigned to the given style property.
- * If the result of evaluation is null, the corresponding style is removed.
+ * Update an HTML element styles.
+ *
+ * The styles are updated according to the value of the expression evaluation:
+ * - keys are style names with an optional `.<unit>` suffix (ie 'top.px', 'font-style.em'),
+ * - values are the values assigned to those properties (expressed in the given unit).
  *
  * @publicApi
  */
@@ -4214,15 +3915,7 @@ var NgStyle = /** @class */ (function () {
         this._renderer = _renderer;
     }
     Object.defineProperty(NgStyle.prototype, "ngStyle", {
-        set: function (
-        /**
-         * A map of style properties, specified as colon-separated
-         * key-value pairs.
-         * * The key is a style name, with an optional `.<unit>` suffix
-         *    (such as 'top.px', 'font-style.em').
-         * * The value is an expression to be evaluated.
-         */
-        values) {
+        set: function (values) {
             this._ngStyle = values;
             if (!this._differ && values) {
                 this._differ = this._differs.find(values).create();
@@ -4231,9 +3924,6 @@ var NgStyle = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
-    /**
-     * Applies the new styles if needed.
-     */
     NgStyle.prototype.ngDoCheck = function () {
         if (this._differ) {
             var changes = this._differ.diff(this._ngStyle);
@@ -6075,7 +5765,7 @@ function isPlatformWorkerUi(platformId) {
 /**
  * @publicApi
  */
-var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('7.2.15');
+var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('7.2.0');
 
 /**
  * @license
@@ -6095,20 +5785,16 @@ var ViewportScroller = /** @class */ (function () {
     // De-sugared tree-shakable injection
     // See #23917
     /** @nocollapse */
-    ViewportScroller.ngInjectableDef = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["defineInjectable"])({
-        providedIn: 'root',
-        factory: function () { return new BrowserViewportScroller(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["inject"])(DOCUMENT), window, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ErrorHandler"])); }
-    });
+    ViewportScroller.ngInjectableDef = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["defineInjectable"])({ providedIn: 'root', factory: function () { return new BrowserViewportScroller(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["inject"])(DOCUMENT), window); } });
     return ViewportScroller;
 }());
 /**
  * Manages the scroll position for a browser window.
  */
 var BrowserViewportScroller = /** @class */ (function () {
-    function BrowserViewportScroller(document, window, errorHandler) {
+    function BrowserViewportScroller(document, window) {
         this.document = document;
         this.window = window;
-        this.errorHandler = errorHandler;
         this.offset = function () { return [0, 0]; };
     }
     /**
@@ -6152,28 +5838,15 @@ var BrowserViewportScroller = /** @class */ (function () {
      */
     BrowserViewportScroller.prototype.scrollToAnchor = function (anchor) {
         if (this.supportScrollRestoration()) {
-            // Escape anything passed to `querySelector` as it can throw errors and stop the application
-            // from working if invalid values are passed.
-            if (this.window.CSS && this.window.CSS.escape) {
-                anchor = this.window.CSS.escape(anchor);
+            var elSelectedById = this.document.querySelector("#" + anchor);
+            if (elSelectedById) {
+                this.scrollToElement(elSelectedById);
+                return;
             }
-            else {
-                anchor = anchor.replace(/(\"|\'\ |:|\.|\[|\]|,|=)/g, '\\$1');
-            }
-            try {
-                var elSelectedById = this.document.querySelector("#" + anchor);
-                if (elSelectedById) {
-                    this.scrollToElement(elSelectedById);
-                    return;
-                }
-                var elSelectedByName = this.document.querySelector("[name='" + anchor + "']");
-                if (elSelectedByName) {
-                    this.scrollToElement(elSelectedByName);
-                    return;
-                }
-            }
-            catch (e) {
-                this.errorHandler.handleError(e);
+            var elSelectedByName = this.document.querySelector("[name='" + anchor + "']");
+            if (elSelectedByName) {
+                this.scrollToElement(elSelectedByName);
+                return;
             }
         }
     };
@@ -6274,6 +5947,1993 @@ var NullViewportScroller = /** @class */ (function () {
 
 
 //# sourceMappingURL=common.js.map
+
+
+/***/ }),
+
+/***/ "../node_modules/@angular/common/fesm5/http.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/@angular/common/fesm5/http.js ***!
+  \*****************************************************/
+/*! exports provided: ɵangular_packages_common_http_http_a, ɵangular_packages_common_http_http_b, ɵangular_packages_common_http_http_c, ɵangular_packages_common_http_http_d, ɵangular_packages_common_http_http_g, ɵangular_packages_common_http_http_h, ɵangular_packages_common_http_http_e, ɵangular_packages_common_http_http_f, HttpBackend, HttpHandler, HttpClient, HttpHeaders, HTTP_INTERCEPTORS, JsonpClientBackend, JsonpInterceptor, HttpClientJsonpModule, HttpClientModule, HttpClientXsrfModule, ɵHttpInterceptingHandler, HttpParams, HttpUrlEncodingCodec, HttpRequest, HttpErrorResponse, HttpEventType, HttpHeaderResponse, HttpResponse, HttpResponseBase, HttpXhrBackend, XhrFactory, HttpXsrfTokenExtractor */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_a", function() { return NoopInterceptor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_b", function() { return JsonpCallbackContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_c", function() { return jsonpCallbackContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_d", function() { return BrowserXhr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_g", function() { return HttpXsrfCookieExtractor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_h", function() { return HttpXsrfInterceptor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_e", function() { return XSRF_COOKIE_NAME; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_f", function() { return XSRF_HEADER_NAME; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpBackend", function() { return HttpBackend; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpHandler", function() { return HttpHandler; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpClient", function() { return HttpClient; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpHeaders", function() { return HttpHeaders; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HTTP_INTERCEPTORS", function() { return HTTP_INTERCEPTORS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JsonpClientBackend", function() { return JsonpClientBackend; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JsonpInterceptor", function() { return JsonpInterceptor; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpClientJsonpModule", function() { return HttpClientJsonpModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpClientModule", function() { return HttpClientModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpClientXsrfModule", function() { return HttpClientXsrfModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵHttpInterceptingHandler", function() { return HttpInterceptingHandler; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpParams", function() { return HttpParams; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpUrlEncodingCodec", function() { return HttpUrlEncodingCodec; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpRequest", function() { return HttpRequest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpErrorResponse", function() { return HttpErrorResponse; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpEventType", function() { return HttpEventType; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpHeaderResponse", function() { return HttpHeaderResponse; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpResponse", function() { return HttpResponse; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpResponseBase", function() { return HttpResponseBase; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpXhrBackend", function() { return HttpXhrBackend; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "XhrFactory", function() { return XhrFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpXsrfTokenExtractor", function() { return HttpXsrfTokenExtractor; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "../node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm5/operators/index.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "../node_modules/@angular/common/fesm5/common.js");
+/**
+ * @license Angular v7.2.0
+ * (c) 2010-2018 Google, Inc. https://angular.io/
+ * License: MIT
+ */
+
+
+
+
+
+
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Transforms an `HttpRequest` into a stream of `HttpEvent`s, one of which will likely be a
+ * `HttpResponse`.
+ *
+ * `HttpHandler` is injectable. When injected, the handler instance dispatches requests to the
+ * first interceptor in the chain, which dispatches to the second, etc, eventually reaching the
+ * `HttpBackend`.
+ *
+ * In an `HttpInterceptor`, the `HttpHandler` parameter is the next interceptor in the chain.
+ *
+ * @publicApi
+ */
+var HttpHandler = /** @class */ (function () {
+    function HttpHandler() {
+    }
+    return HttpHandler;
+}());
+/**
+ * A final `HttpHandler` which will dispatch the request via browser HTTP APIs to a backend.
+ *
+ * Interceptors sit between the `HttpClient` interface and the `HttpBackend`.
+ *
+ * When injected, `HttpBackend` dispatches requests directly to the backend, without going
+ * through the interceptor chain.
+ *
+ * @publicApi
+ */
+var HttpBackend = /** @class */ (function () {
+    function HttpBackend() {
+    }
+    return HttpBackend;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Immutable set of Http headers, with lazy parsing.
+ *
+ * @publicApi
+ */
+var HttpHeaders = /** @class */ (function () {
+    function HttpHeaders(headers) {
+        var _this = this;
+        /**
+         * Internal map of lowercased header names to the normalized
+         * form of the name (the form seen first).
+         */
+        this.normalizedNames = new Map();
+        /**
+         * Queued updates to be materialized the next initialization.
+         */
+        this.lazyUpdate = null;
+        if (!headers) {
+            this.headers = new Map();
+        }
+        else if (typeof headers === 'string') {
+            this.lazyInit = function () {
+                _this.headers = new Map();
+                headers.split('\n').forEach(function (line) {
+                    var index = line.indexOf(':');
+                    if (index > 0) {
+                        var name_1 = line.slice(0, index);
+                        var key = name_1.toLowerCase();
+                        var value = line.slice(index + 1).trim();
+                        _this.maybeSetNormalizedName(name_1, key);
+                        if (_this.headers.has(key)) {
+                            _this.headers.get(key).push(value);
+                        }
+                        else {
+                            _this.headers.set(key, [value]);
+                        }
+                    }
+                });
+            };
+        }
+        else {
+            this.lazyInit = function () {
+                _this.headers = new Map();
+                Object.keys(headers).forEach(function (name) {
+                    var values = headers[name];
+                    var key = name.toLowerCase();
+                    if (typeof values === 'string') {
+                        values = [values];
+                    }
+                    if (values.length > 0) {
+                        _this.headers.set(key, values);
+                        _this.maybeSetNormalizedName(name, key);
+                    }
+                });
+            };
+        }
+    }
+    /**
+     * Checks for existence of header by given name.
+     */
+    HttpHeaders.prototype.has = function (name) {
+        this.init();
+        return this.headers.has(name.toLowerCase());
+    };
+    /**
+     * Returns first header that matches given name.
+     */
+    HttpHeaders.prototype.get = function (name) {
+        this.init();
+        var values = this.headers.get(name.toLowerCase());
+        return values && values.length > 0 ? values[0] : null;
+    };
+    /**
+     * Returns the names of the headers
+     */
+    HttpHeaders.prototype.keys = function () {
+        this.init();
+        return Array.from(this.normalizedNames.values());
+    };
+    /**
+     * Returns list of header values for a given name.
+     */
+    HttpHeaders.prototype.getAll = function (name) {
+        this.init();
+        return this.headers.get(name.toLowerCase()) || null;
+    };
+    HttpHeaders.prototype.append = function (name, value) {
+        return this.clone({ name: name, value: value, op: 'a' });
+    };
+    HttpHeaders.prototype.set = function (name, value) {
+        return this.clone({ name: name, value: value, op: 's' });
+    };
+    HttpHeaders.prototype.delete = function (name, value) {
+        return this.clone({ name: name, value: value, op: 'd' });
+    };
+    HttpHeaders.prototype.maybeSetNormalizedName = function (name, lcName) {
+        if (!this.normalizedNames.has(lcName)) {
+            this.normalizedNames.set(lcName, name);
+        }
+    };
+    HttpHeaders.prototype.init = function () {
+        var _this = this;
+        if (!!this.lazyInit) {
+            if (this.lazyInit instanceof HttpHeaders) {
+                this.copyFrom(this.lazyInit);
+            }
+            else {
+                this.lazyInit();
+            }
+            this.lazyInit = null;
+            if (!!this.lazyUpdate) {
+                this.lazyUpdate.forEach(function (update) { return _this.applyUpdate(update); });
+                this.lazyUpdate = null;
+            }
+        }
+    };
+    HttpHeaders.prototype.copyFrom = function (other) {
+        var _this = this;
+        other.init();
+        Array.from(other.headers.keys()).forEach(function (key) {
+            _this.headers.set(key, other.headers.get(key));
+            _this.normalizedNames.set(key, other.normalizedNames.get(key));
+        });
+    };
+    HttpHeaders.prototype.clone = function (update) {
+        var clone = new HttpHeaders();
+        clone.lazyInit =
+            (!!this.lazyInit && this.lazyInit instanceof HttpHeaders) ? this.lazyInit : this;
+        clone.lazyUpdate = (this.lazyUpdate || []).concat([update]);
+        return clone;
+    };
+    HttpHeaders.prototype.applyUpdate = function (update) {
+        var key = update.name.toLowerCase();
+        switch (update.op) {
+            case 'a':
+            case 's':
+                var value = update.value;
+                if (typeof value === 'string') {
+                    value = [value];
+                }
+                if (value.length === 0) {
+                    return;
+                }
+                this.maybeSetNormalizedName(update.name, key);
+                var base = (update.op === 'a' ? this.headers.get(key) : undefined) || [];
+                base.push.apply(base, Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(value));
+                this.headers.set(key, base);
+                break;
+            case 'd':
+                var toDelete_1 = update.value;
+                if (!toDelete_1) {
+                    this.headers.delete(key);
+                    this.normalizedNames.delete(key);
+                }
+                else {
+                    var existing = this.headers.get(key);
+                    if (!existing) {
+                        return;
+                    }
+                    existing = existing.filter(function (value) { return toDelete_1.indexOf(value) === -1; });
+                    if (existing.length === 0) {
+                        this.headers.delete(key);
+                        this.normalizedNames.delete(key);
+                    }
+                    else {
+                        this.headers.set(key, existing);
+                    }
+                }
+                break;
+        }
+    };
+    /**
+     * @internal
+     */
+    HttpHeaders.prototype.forEach = function (fn) {
+        var _this = this;
+        this.init();
+        Array.from(this.normalizedNames.keys())
+            .forEach(function (key) { return fn(_this.normalizedNames.get(key), _this.headers.get(key)); });
+    };
+    return HttpHeaders;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * A `HttpParameterCodec` that uses `encodeURIComponent` and `decodeURIComponent` to
+ * serialize and parse URL parameter keys and values.
+ *
+ * @publicApi
+ */
+var HttpUrlEncodingCodec = /** @class */ (function () {
+    function HttpUrlEncodingCodec() {
+    }
+    HttpUrlEncodingCodec.prototype.encodeKey = function (key) { return standardEncoding(key); };
+    HttpUrlEncodingCodec.prototype.encodeValue = function (value) { return standardEncoding(value); };
+    HttpUrlEncodingCodec.prototype.decodeKey = function (key) { return decodeURIComponent(key); };
+    HttpUrlEncodingCodec.prototype.decodeValue = function (value) { return decodeURIComponent(value); };
+    return HttpUrlEncodingCodec;
+}());
+function paramParser(rawParams, codec) {
+    var map$$1 = new Map();
+    if (rawParams.length > 0) {
+        var params = rawParams.split('&');
+        params.forEach(function (param) {
+            var eqIdx = param.indexOf('=');
+            var _a = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__read"])(eqIdx == -1 ?
+                [codec.decodeKey(param), ''] :
+                [codec.decodeKey(param.slice(0, eqIdx)), codec.decodeValue(param.slice(eqIdx + 1))], 2), key = _a[0], val = _a[1];
+            var list = map$$1.get(key) || [];
+            list.push(val);
+            map$$1.set(key, list);
+        });
+    }
+    return map$$1;
+}
+function standardEncoding(v) {
+    return encodeURIComponent(v)
+        .replace(/%40/gi, '@')
+        .replace(/%3A/gi, ':')
+        .replace(/%24/gi, '$')
+        .replace(/%2C/gi, ',')
+        .replace(/%3B/gi, ';')
+        .replace(/%2B/gi, '+')
+        .replace(/%3D/gi, '=')
+        .replace(/%3F/gi, '?')
+        .replace(/%2F/gi, '/');
+}
+/**
+ * An HTTP request/response body that represents serialized parameters,
+ * per the MIME type `application/x-www-form-urlencoded`.
+ *
+ * This class is immutable - all mutation operations return a new instance.
+ *
+ * @publicApi
+ */
+var HttpParams = /** @class */ (function () {
+    function HttpParams(options) {
+        if (options === void 0) { options = {}; }
+        var _this = this;
+        this.updates = null;
+        this.cloneFrom = null;
+        this.encoder = options.encoder || new HttpUrlEncodingCodec();
+        if (!!options.fromString) {
+            if (!!options.fromObject) {
+                throw new Error("Cannot specify both fromString and fromObject.");
+            }
+            this.map = paramParser(options.fromString, this.encoder);
+        }
+        else if (!!options.fromObject) {
+            this.map = new Map();
+            Object.keys(options.fromObject).forEach(function (key) {
+                var value = options.fromObject[key];
+                _this.map.set(key, Array.isArray(value) ? value : [value]);
+            });
+        }
+        else {
+            this.map = null;
+        }
+    }
+    /**
+     * Check whether the body has one or more values for the given parameter name.
+     */
+    HttpParams.prototype.has = function (param) {
+        this.init();
+        return this.map.has(param);
+    };
+    /**
+     * Get the first value for the given parameter name, or `null` if it's not present.
+     */
+    HttpParams.prototype.get = function (param) {
+        this.init();
+        var res = this.map.get(param);
+        return !!res ? res[0] : null;
+    };
+    /**
+     * Get all values for the given parameter name, or `null` if it's not present.
+     */
+    HttpParams.prototype.getAll = function (param) {
+        this.init();
+        return this.map.get(param) || null;
+    };
+    /**
+     * Get all the parameter names for this body.
+     */
+    HttpParams.prototype.keys = function () {
+        this.init();
+        return Array.from(this.map.keys());
+    };
+    /**
+     * Construct a new body with an appended value for the given parameter name.
+     */
+    HttpParams.prototype.append = function (param, value) { return this.clone({ param: param, value: value, op: 'a' }); };
+    /**
+     * Construct a new body with a new value for the given parameter name.
+     */
+    HttpParams.prototype.set = function (param, value) { return this.clone({ param: param, value: value, op: 's' }); };
+    /**
+     * Construct a new body with either the given value for the given parameter
+     * removed, if a value is given, or all values for the given parameter removed
+     * if not.
+     */
+    HttpParams.prototype.delete = function (param, value) { return this.clone({ param: param, value: value, op: 'd' }); };
+    /**
+     * Serialize the body to an encoded string, where key-value pairs (separated by `=`) are
+     * separated by `&`s.
+     */
+    HttpParams.prototype.toString = function () {
+        var _this = this;
+        this.init();
+        return this.keys()
+            .map(function (key) {
+            var eKey = _this.encoder.encodeKey(key);
+            return _this.map.get(key).map(function (value) { return eKey + '=' + _this.encoder.encodeValue(value); })
+                .join('&');
+        })
+            .join('&');
+    };
+    HttpParams.prototype.clone = function (update) {
+        var clone = new HttpParams({ encoder: this.encoder });
+        clone.cloneFrom = this.cloneFrom || this;
+        clone.updates = (this.updates || []).concat([update]);
+        return clone;
+    };
+    HttpParams.prototype.init = function () {
+        var _this = this;
+        if (this.map === null) {
+            this.map = new Map();
+        }
+        if (this.cloneFrom !== null) {
+            this.cloneFrom.init();
+            this.cloneFrom.keys().forEach(function (key) { return _this.map.set(key, _this.cloneFrom.map.get(key)); });
+            this.updates.forEach(function (update) {
+                switch (update.op) {
+                    case 'a':
+                    case 's':
+                        var base = (update.op === 'a' ? _this.map.get(update.param) : undefined) || [];
+                        base.push(update.value);
+                        _this.map.set(update.param, base);
+                        break;
+                    case 'd':
+                        if (update.value !== undefined) {
+                            var base_1 = _this.map.get(update.param) || [];
+                            var idx = base_1.indexOf(update.value);
+                            if (idx !== -1) {
+                                base_1.splice(idx, 1);
+                            }
+                            if (base_1.length > 0) {
+                                _this.map.set(update.param, base_1);
+                            }
+                            else {
+                                _this.map.delete(update.param);
+                            }
+                        }
+                        else {
+                            _this.map.delete(update.param);
+                            break;
+                        }
+                }
+            });
+            this.cloneFrom = null;
+        }
+    };
+    return HttpParams;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Determine whether the given HTTP method may include a body.
+ */
+function mightHaveBody(method) {
+    switch (method) {
+        case 'DELETE':
+        case 'GET':
+        case 'HEAD':
+        case 'OPTIONS':
+        case 'JSONP':
+            return false;
+        default:
+            return true;
+    }
+}
+/**
+ * Safely assert whether the given value is an ArrayBuffer.
+ *
+ * In some execution environments ArrayBuffer is not defined.
+ */
+function isArrayBuffer(value) {
+    return typeof ArrayBuffer !== 'undefined' && value instanceof ArrayBuffer;
+}
+/**
+ * Safely assert whether the given value is a Blob.
+ *
+ * In some execution environments Blob is not defined.
+ */
+function isBlob(value) {
+    return typeof Blob !== 'undefined' && value instanceof Blob;
+}
+/**
+ * Safely assert whether the given value is a FormData instance.
+ *
+ * In some execution environments FormData is not defined.
+ */
+function isFormData(value) {
+    return typeof FormData !== 'undefined' && value instanceof FormData;
+}
+/**
+ * An outgoing HTTP request with an optional typed body.
+ *
+ * `HttpRequest` represents an outgoing request, including URL, method,
+ * headers, body, and other request configuration options. Instances should be
+ * assumed to be immutable. To modify a `HttpRequest`, the `clone`
+ * method should be used.
+ *
+ * @publicApi
+ */
+var HttpRequest = /** @class */ (function () {
+    function HttpRequest(method, url, third, fourth) {
+        this.url = url;
+        /**
+         * The request body, or `null` if one isn't set.
+         *
+         * Bodies are not enforced to be immutable, as they can include a reference to any
+         * user-defined data type. However, interceptors should take care to preserve
+         * idempotence by treating them as such.
+         */
+        this.body = null;
+        /**
+         * Whether this request should be made in a way that exposes progress events.
+         *
+         * Progress events are expensive (change detection runs on each event) and so
+         * they should only be requested if the consumer intends to monitor them.
+         */
+        this.reportProgress = false;
+        /**
+         * Whether this request should be sent with outgoing credentials (cookies).
+         */
+        this.withCredentials = false;
+        /**
+         * The expected response type of the server.
+         *
+         * This is used to parse the response appropriately before returning it to
+         * the requestee.
+         */
+        this.responseType = 'json';
+        this.method = method.toUpperCase();
+        // Next, need to figure out which argument holds the HttpRequestInit
+        // options, if any.
+        var options;
+        // Check whether a body argument is expected. The only valid way to omit
+        // the body argument is to use a known no-body method like GET.
+        if (mightHaveBody(this.method) || !!fourth) {
+            // Body is the third argument, options are the fourth.
+            this.body = (third !== undefined) ? third : null;
+            options = fourth;
+        }
+        else {
+            // No body required, options are the third argument. The body stays null.
+            options = third;
+        }
+        // If options have been passed, interpret them.
+        if (options) {
+            // Normalize reportProgress and withCredentials.
+            this.reportProgress = !!options.reportProgress;
+            this.withCredentials = !!options.withCredentials;
+            // Override default response type of 'json' if one is provided.
+            if (!!options.responseType) {
+                this.responseType = options.responseType;
+            }
+            // Override headers if they're provided.
+            if (!!options.headers) {
+                this.headers = options.headers;
+            }
+            if (!!options.params) {
+                this.params = options.params;
+            }
+        }
+        // If no headers have been passed in, construct a new HttpHeaders instance.
+        if (!this.headers) {
+            this.headers = new HttpHeaders();
+        }
+        // If no parameters have been passed in, construct a new HttpUrlEncodedParams instance.
+        if (!this.params) {
+            this.params = new HttpParams();
+            this.urlWithParams = url;
+        }
+        else {
+            // Encode the parameters to a string in preparation for inclusion in the URL.
+            var params = this.params.toString();
+            if (params.length === 0) {
+                // No parameters, the visible URL is just the URL given at creation time.
+                this.urlWithParams = url;
+            }
+            else {
+                // Does the URL already have query parameters? Look for '?'.
+                var qIdx = url.indexOf('?');
+                // There are 3 cases to handle:
+                // 1) No existing parameters -> append '?' followed by params.
+                // 2) '?' exists and is followed by existing query string ->
+                //    append '&' followed by params.
+                // 3) '?' exists at the end of the url -> append params directly.
+                // This basically amounts to determining the character, if any, with
+                // which to join the URL and parameters.
+                var sep = qIdx === -1 ? '?' : (qIdx < url.length - 1 ? '&' : '');
+                this.urlWithParams = url + sep + params;
+            }
+        }
+    }
+    /**
+     * Transform the free-form body into a serialized format suitable for
+     * transmission to the server.
+     */
+    HttpRequest.prototype.serializeBody = function () {
+        // If no body is present, no need to serialize it.
+        if (this.body === null) {
+            return null;
+        }
+        // Check whether the body is already in a serialized form. If so,
+        // it can just be returned directly.
+        if (isArrayBuffer(this.body) || isBlob(this.body) || isFormData(this.body) ||
+            typeof this.body === 'string') {
+            return this.body;
+        }
+        // Check whether the body is an instance of HttpUrlEncodedParams.
+        if (this.body instanceof HttpParams) {
+            return this.body.toString();
+        }
+        // Check whether the body is an object or array, and serialize with JSON if so.
+        if (typeof this.body === 'object' || typeof this.body === 'boolean' ||
+            Array.isArray(this.body)) {
+            return JSON.stringify(this.body);
+        }
+        // Fall back on toString() for everything else.
+        return this.body.toString();
+    };
+    /**
+     * Examine the body and attempt to infer an appropriate MIME type
+     * for it.
+     *
+     * If no such type can be inferred, this method will return `null`.
+     */
+    HttpRequest.prototype.detectContentTypeHeader = function () {
+        // An empty body has no content type.
+        if (this.body === null) {
+            return null;
+        }
+        // FormData bodies rely on the browser's content type assignment.
+        if (isFormData(this.body)) {
+            return null;
+        }
+        // Blobs usually have their own content type. If it doesn't, then
+        // no type can be inferred.
+        if (isBlob(this.body)) {
+            return this.body.type || null;
+        }
+        // Array buffers have unknown contents and thus no type can be inferred.
+        if (isArrayBuffer(this.body)) {
+            return null;
+        }
+        // Technically, strings could be a form of JSON data, but it's safe enough
+        // to assume they're plain strings.
+        if (typeof this.body === 'string') {
+            return 'text/plain';
+        }
+        // `HttpUrlEncodedParams` has its own content-type.
+        if (this.body instanceof HttpParams) {
+            return 'application/x-www-form-urlencoded;charset=UTF-8';
+        }
+        // Arrays, objects, and numbers will be encoded as JSON.
+        if (typeof this.body === 'object' || typeof this.body === 'number' ||
+            Array.isArray(this.body)) {
+            return 'application/json';
+        }
+        // No type could be inferred.
+        return null;
+    };
+    HttpRequest.prototype.clone = function (update) {
+        if (update === void 0) { update = {}; }
+        // For method, url, and responseType, take the current value unless
+        // it is overridden in the update hash.
+        var method = update.method || this.method;
+        var url = update.url || this.url;
+        var responseType = update.responseType || this.responseType;
+        // The body is somewhat special - a `null` value in update.body means
+        // whatever current body is present is being overridden with an empty
+        // body, whereas an `undefined` value in update.body implies no
+        // override.
+        var body = (update.body !== undefined) ? update.body : this.body;
+        // Carefully handle the boolean options to differentiate between
+        // `false` and `undefined` in the update args.
+        var withCredentials = (update.withCredentials !== undefined) ? update.withCredentials : this.withCredentials;
+        var reportProgress = (update.reportProgress !== undefined) ? update.reportProgress : this.reportProgress;
+        // Headers and params may be appended to if `setHeaders` or
+        // `setParams` are used.
+        var headers = update.headers || this.headers;
+        var params = update.params || this.params;
+        // Check whether the caller has asked to add headers.
+        if (update.setHeaders !== undefined) {
+            // Set every requested header.
+            headers =
+                Object.keys(update.setHeaders)
+                    .reduce(function (headers, name) { return headers.set(name, update.setHeaders[name]); }, headers);
+        }
+        // Check whether the caller has asked to set params.
+        if (update.setParams) {
+            // Set every requested param.
+            params = Object.keys(update.setParams)
+                .reduce(function (params, param) { return params.set(param, update.setParams[param]); }, params);
+        }
+        // Finally, construct the new HttpRequest using the pieces from above.
+        return new HttpRequest(method, url, body, {
+            params: params, headers: headers, reportProgress: reportProgress, responseType: responseType, withCredentials: withCredentials,
+        });
+    };
+    return HttpRequest;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Type enumeration for the different kinds of `HttpEvent`.
+ *
+ * @publicApi
+ */
+var HttpEventType;
+(function (HttpEventType) {
+    /**
+     * The request was sent out over the wire.
+     */
+    HttpEventType[HttpEventType["Sent"] = 0] = "Sent";
+    /**
+     * An upload progress event was received.
+     */
+    HttpEventType[HttpEventType["UploadProgress"] = 1] = "UploadProgress";
+    /**
+     * The response status code and headers were received.
+     */
+    HttpEventType[HttpEventType["ResponseHeader"] = 2] = "ResponseHeader";
+    /**
+     * A download progress event was received.
+     */
+    HttpEventType[HttpEventType["DownloadProgress"] = 3] = "DownloadProgress";
+    /**
+     * The full response including the body was received.
+     */
+    HttpEventType[HttpEventType["Response"] = 4] = "Response";
+    /**
+     * A custom event from an interceptor or a backend.
+     */
+    HttpEventType[HttpEventType["User"] = 5] = "User";
+})(HttpEventType || (HttpEventType = {}));
+/**
+ * Base class for both `HttpResponse` and `HttpHeaderResponse`.
+ *
+ * @publicApi
+ */
+var HttpResponseBase = /** @class */ (function () {
+    /**
+     * Super-constructor for all responses.
+     *
+     * The single parameter accepted is an initialization hash. Any properties
+     * of the response passed there will override the default values.
+     */
+    function HttpResponseBase(init, defaultStatus, defaultStatusText) {
+        if (defaultStatus === void 0) { defaultStatus = 200; }
+        if (defaultStatusText === void 0) { defaultStatusText = 'OK'; }
+        // If the hash has values passed, use them to initialize the response.
+        // Otherwise use the default values.
+        this.headers = init.headers || new HttpHeaders();
+        this.status = init.status !== undefined ? init.status : defaultStatus;
+        this.statusText = init.statusText || defaultStatusText;
+        this.url = init.url || null;
+        // Cache the ok value to avoid defining a getter.
+        this.ok = this.status >= 200 && this.status < 300;
+    }
+    return HttpResponseBase;
+}());
+/**
+ * A partial HTTP response which only includes the status and header data,
+ * but no response body.
+ *
+ * `HttpHeaderResponse` is a `HttpEvent` available on the response
+ * event stream, only when progress events are requested.
+ *
+ * @publicApi
+ */
+var HttpHeaderResponse = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(HttpHeaderResponse, _super);
+    /**
+     * Create a new `HttpHeaderResponse` with the given parameters.
+     */
+    function HttpHeaderResponse(init) {
+        if (init === void 0) { init = {}; }
+        var _this = _super.call(this, init) || this;
+        _this.type = HttpEventType.ResponseHeader;
+        return _this;
+    }
+    /**
+     * Copy this `HttpHeaderResponse`, overriding its contents with the
+     * given parameter hash.
+     */
+    HttpHeaderResponse.prototype.clone = function (update) {
+        if (update === void 0) { update = {}; }
+        // Perform a straightforward initialization of the new HttpHeaderResponse,
+        // overriding the current parameters with new ones if given.
+        return new HttpHeaderResponse({
+            headers: update.headers || this.headers,
+            status: update.status !== undefined ? update.status : this.status,
+            statusText: update.statusText || this.statusText,
+            url: update.url || this.url || undefined,
+        });
+    };
+    return HttpHeaderResponse;
+}(HttpResponseBase));
+/**
+ * A full HTTP response, including a typed response body (which may be `null`
+ * if one was not returned).
+ *
+ * `HttpResponse` is a `HttpEvent` available on the response event
+ * stream.
+ *
+ * @publicApi
+ */
+var HttpResponse = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(HttpResponse, _super);
+    /**
+     * Construct a new `HttpResponse`.
+     */
+    function HttpResponse(init) {
+        if (init === void 0) { init = {}; }
+        var _this = _super.call(this, init) || this;
+        _this.type = HttpEventType.Response;
+        _this.body = init.body !== undefined ? init.body : null;
+        return _this;
+    }
+    HttpResponse.prototype.clone = function (update) {
+        if (update === void 0) { update = {}; }
+        return new HttpResponse({
+            body: (update.body !== undefined) ? update.body : this.body,
+            headers: update.headers || this.headers,
+            status: (update.status !== undefined) ? update.status : this.status,
+            statusText: update.statusText || this.statusText,
+            url: update.url || this.url || undefined,
+        });
+    };
+    return HttpResponse;
+}(HttpResponseBase));
+/**
+ * A response that represents an error or failure, either from a
+ * non-successful HTTP status, an error while executing the request,
+ * or some other failure which occurred during the parsing of the response.
+ *
+ * Any error returned on the `Observable` response stream will be
+ * wrapped in an `HttpErrorResponse` to provide additional context about
+ * the state of the HTTP layer when the error occurred. The error property
+ * will contain either a wrapped Error object or the error response returned
+ * from the server.
+ *
+ * @publicApi
+ */
+var HttpErrorResponse = /** @class */ (function (_super) {
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(HttpErrorResponse, _super);
+    function HttpErrorResponse(init) {
+        var _this = 
+        // Initialize with a default status of 0 / Unknown Error.
+        _super.call(this, init, 0, 'Unknown Error') || this;
+        _this.name = 'HttpErrorResponse';
+        /**
+         * Errors are never okay, even when the status code is in the 2xx success range.
+         */
+        _this.ok = false;
+        // If the response was successful, then this was a parse error. Otherwise, it was
+        // a protocol-level failure of some sort. Either the request failed in transit
+        // or the server returned an unsuccessful status code.
+        if (_this.status >= 200 && _this.status < 300) {
+            _this.message = "Http failure during parsing for " + (init.url || '(unknown url)');
+        }
+        else {
+            _this.message =
+                "Http failure response for " + (init.url || '(unknown url)') + ": " + init.status + " " + init.statusText;
+        }
+        _this.error = init.error || null;
+        return _this;
+    }
+    return HttpErrorResponse;
+}(HttpResponseBase));
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Construct an instance of `HttpRequestOptions<T>` from a source `HttpMethodOptions` and
+ * the given `body`. Basically, this clones the object and adds the body.
+ */
+function addBody(options, body) {
+    return {
+        body: body,
+        headers: options.headers,
+        observe: options.observe,
+        params: options.params,
+        reportProgress: options.reportProgress,
+        responseType: options.responseType,
+        withCredentials: options.withCredentials,
+    };
+}
+/**
+ * Perform HTTP requests.
+ *
+ * `HttpClient` is available as an injectable class, with methods to perform HTTP requests.
+ * Each request method has multiple signatures, and the return type varies according to which
+ * signature is called (mainly the values of `observe` and `responseType`).
+ *
+ * @publicApi
+ */
+var HttpClient = /** @class */ (function () {
+    function HttpClient(handler) {
+        this.handler = handler;
+    }
+    /**
+     * Constructs an `Observable` for a particular HTTP request that, when subscribed,
+     * fires the request through the chain of registered interceptors and on to the
+     * server.
+     *
+     * This method can be called in one of two ways. Either an `HttpRequest`
+     * instance can be passed directly as the only parameter, or a method can be
+     * passed as the first parameter, a string URL as the second, and an
+     * options hash as the third.
+     *
+     * If a `HttpRequest` object is passed directly, an `Observable` of the
+     * raw `HttpEvent` stream will be returned.
+     *
+     * If a request is instead built by providing a URL, the options object
+     * determines the return type of `request()`. In addition to configuring
+     * request parameters such as the outgoing headers and/or the body, the options
+     * hash specifies two key pieces of information about the request: the
+     * `responseType` and what to `observe`.
+     *
+     * The `responseType` value determines how a successful response body will be
+     * parsed. If `responseType` is the default `json`, a type interface for the
+     * resulting object may be passed as a type parameter to `request()`.
+     *
+     * The `observe` value determines the return type of `request()`, based on what
+     * the consumer is interested in observing. A value of `events` will return an
+     * `Observable<HttpEvent>` representing the raw `HttpEvent` stream,
+     * including progress events by default. A value of `response` will return an
+     * `Observable<HttpResponse<T>>` where the `T` parameter of `HttpResponse`
+     * depends on the `responseType` and any optionally provided type parameter.
+     * A value of `body` will return an `Observable<T>` with the same `T` body type.
+     */
+    HttpClient.prototype.request = function (first, url, options) {
+        var _this = this;
+        if (options === void 0) { options = {}; }
+        var req;
+        // Firstly, check whether the primary argument is an instance of `HttpRequest`.
+        if (first instanceof HttpRequest) {
+            // It is. The other arguments must be undefined (per the signatures) and can be
+            // ignored.
+            req = first;
+        }
+        else {
+            // It's a string, so it represents a URL. Construct a request based on it,
+            // and incorporate the remaining arguments (assuming GET unless a method is
+            // provided.
+            // Figure out the headers.
+            var headers = undefined;
+            if (options.headers instanceof HttpHeaders) {
+                headers = options.headers;
+            }
+            else {
+                headers = new HttpHeaders(options.headers);
+            }
+            // Sort out parameters.
+            var params = undefined;
+            if (!!options.params) {
+                if (options.params instanceof HttpParams) {
+                    params = options.params;
+                }
+                else {
+                    params = new HttpParams({ fromObject: options.params });
+                }
+            }
+            // Construct the request.
+            req = new HttpRequest(first, url, (options.body !== undefined ? options.body : null), {
+                headers: headers,
+                params: params,
+                reportProgress: options.reportProgress,
+                // By default, JSON is assumed to be returned for all calls.
+                responseType: options.responseType || 'json',
+                withCredentials: options.withCredentials,
+            });
+        }
+        // Start with an Observable.of() the initial request, and run the handler (which
+        // includes all interceptors) inside a concatMap(). This way, the handler runs
+        // inside an Observable chain, which causes interceptors to be re-run on every
+        // subscription (this also makes retries re-run the handler, including interceptors).
+        var events$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(req).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatMap"])(function (req) { return _this.handler.handle(req); }));
+        // If coming via the API signature which accepts a previously constructed HttpRequest,
+        // the only option is to get the event stream. Otherwise, return the event stream if
+        // that is what was requested.
+        if (first instanceof HttpRequest || options.observe === 'events') {
+            return events$;
+        }
+        // The requested stream contains either the full response or the body. In either
+        // case, the first step is to filter the event stream to extract a stream of
+        // responses(s).
+        var res$ = events$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["filter"])(function (event) { return event instanceof HttpResponse; }));
+        // Decide which stream to return.
+        switch (options.observe || 'body') {
+            case 'body':
+                // The requested stream is the body. Map the response stream to the response
+                // body. This could be done more simply, but a misbehaving interceptor might
+                // transform the response body into a different format and ignore the requested
+                // responseType. Guard against this by validating that the response is of the
+                // requested type.
+                switch (req.responseType) {
+                    case 'arraybuffer':
+                        return res$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
+                            // Validate that the body is an ArrayBuffer.
+                            if (res.body !== null && !(res.body instanceof ArrayBuffer)) {
+                                throw new Error('Response is not an ArrayBuffer.');
+                            }
+                            return res.body;
+                        }));
+                    case 'blob':
+                        return res$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
+                            // Validate that the body is a Blob.
+                            if (res.body !== null && !(res.body instanceof Blob)) {
+                                throw new Error('Response is not a Blob.');
+                            }
+                            return res.body;
+                        }));
+                    case 'text':
+                        return res$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) {
+                            // Validate that the body is a string.
+                            if (res.body !== null && typeof res.body !== 'string') {
+                                throw new Error('Response is not a string.');
+                            }
+                            return res.body;
+                        }));
+                    case 'json':
+                    default:
+                        // No validation needed for JSON responses, as they can be of any type.
+                        return res$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (res) { return res.body; }));
+                }
+            case 'response':
+                // The response stream was requested directly, so return it.
+                return res$;
+            default:
+                // Guard against new future observe types being added.
+                throw new Error("Unreachable: unhandled observe type " + options.observe + "}");
+        }
+    };
+    /**
+     * Constructs an `Observable` which, when subscribed, will cause the configured
+     * DELETE request to be executed on the server. See the individual overloads for
+     * details of `delete()`'s return type based on the provided options.
+     */
+    HttpClient.prototype.delete = function (url, options) {
+        if (options === void 0) { options = {}; }
+        return this.request('DELETE', url, options);
+    };
+    /**
+     * Constructs an `Observable` which, when subscribed, will cause the configured
+     * GET request to be executed on the server. See the individual overloads for
+     * details of `get()`'s return type based on the provided options.
+     */
+    HttpClient.prototype.get = function (url, options) {
+        if (options === void 0) { options = {}; }
+        return this.request('GET', url, options);
+    };
+    /**
+     * Constructs an `Observable` which, when subscribed, will cause the configured
+     * HEAD request to be executed on the server. See the individual overloads for
+     * details of `head()`'s return type based on the provided options.
+     */
+    HttpClient.prototype.head = function (url, options) {
+        if (options === void 0) { options = {}; }
+        return this.request('HEAD', url, options);
+    };
+    /**
+     * Constructs an `Observable` which, when subscribed, will cause a request
+     * with the special method `JSONP` to be dispatched via the interceptor pipeline.
+     *
+     * A suitable interceptor must be installed (e.g. via the `HttpClientJsonpModule`).
+     * If no such interceptor is reached, then the `JSONP` request will likely be
+     * rejected by the configured backend.
+     */
+    HttpClient.prototype.jsonp = function (url, callbackParam) {
+        return this.request('JSONP', url, {
+            params: new HttpParams().append(callbackParam, 'JSONP_CALLBACK'),
+            observe: 'body',
+            responseType: 'json',
+        });
+    };
+    /**
+     * Constructs an `Observable` which, when subscribed, will cause the configured
+     * OPTIONS request to be executed on the server. See the individual overloads for
+     * details of `options()`'s return type based on the provided options.
+     */
+    HttpClient.prototype.options = function (url, options) {
+        if (options === void 0) { options = {}; }
+        return this.request('OPTIONS', url, options);
+    };
+    /**
+     * Constructs an `Observable` which, when subscribed, will cause the configured
+     * PATCH request to be executed on the server. See the individual overloads for
+     * details of `patch()`'s return type based on the provided options.
+     */
+    HttpClient.prototype.patch = function (url, body, options) {
+        if (options === void 0) { options = {}; }
+        return this.request('PATCH', url, addBody(options, body));
+    };
+    /**
+     * Constructs an `Observable` which, when subscribed, will cause the configured
+     * POST request to be executed on the server. See the individual overloads for
+     * details of `post()`'s return type based on the provided options.
+     */
+    HttpClient.prototype.post = function (url, body, options) {
+        if (options === void 0) { options = {}; }
+        return this.request('POST', url, addBody(options, body));
+    };
+    /**
+     * Constructs an `Observable` which, when subscribed, will cause the configured
+     * PUT request to be executed on the server. See the individual overloads for
+     * details of `put()`'s return type based on the provided options.
+     */
+    HttpClient.prototype.put = function (url, body, options) {
+        if (options === void 0) { options = {}; }
+        return this.request('PUT', url, addBody(options, body));
+    };
+    HttpClient = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [HttpHandler])
+    ], HttpClient);
+    return HttpClient;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * `HttpHandler` which applies an `HttpInterceptor` to an `HttpRequest`.
+ *
+ *
+ */
+var HttpInterceptorHandler = /** @class */ (function () {
+    function HttpInterceptorHandler(next, interceptor) {
+        this.next = next;
+        this.interceptor = interceptor;
+    }
+    HttpInterceptorHandler.prototype.handle = function (req) {
+        return this.interceptor.intercept(req, this.next);
+    };
+    return HttpInterceptorHandler;
+}());
+/**
+ * A multi-provider token which represents the array of `HttpInterceptor`s that
+ * are registered.
+ *
+ * @publicApi
+ */
+var HTTP_INTERCEPTORS = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["InjectionToken"]('HTTP_INTERCEPTORS');
+var NoopInterceptor = /** @class */ (function () {
+    function NoopInterceptor() {
+    }
+    NoopInterceptor.prototype.intercept = function (req, next) {
+        return next.handle(req);
+    };
+    NoopInterceptor = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
+    ], NoopInterceptor);
+    return NoopInterceptor;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+// Every request made through JSONP needs a callback name that's unique across the
+// whole page. Each request is assigned an id and the callback name is constructed
+// from that. The next id to be assigned is tracked in a global variable here that
+// is shared among all applications on the page.
+var nextRequestId = 0;
+// Error text given when a JSONP script is injected, but doesn't invoke the callback
+// passed in its URL.
+var JSONP_ERR_NO_CALLBACK = 'JSONP injected script did not invoke callback.';
+// Error text given when a request is passed to the JsonpClientBackend that doesn't
+// have a request method JSONP.
+var JSONP_ERR_WRONG_METHOD = 'JSONP requests must use JSONP request method.';
+var JSONP_ERR_WRONG_RESPONSE_TYPE = 'JSONP requests must use Json response type.';
+/**
+ * DI token/abstract type representing a map of JSONP callbacks.
+ *
+ * In the browser, this should always be the `window` object.
+ *
+ *
+ */
+var JsonpCallbackContext = /** @class */ (function () {
+    function JsonpCallbackContext() {
+    }
+    return JsonpCallbackContext;
+}());
+/**
+ * `HttpBackend` that only processes `HttpRequest` with the JSONP method,
+ * by performing JSONP style requests.
+ *
+ * @publicApi
+ */
+var JsonpClientBackend = /** @class */ (function () {
+    function JsonpClientBackend(callbackMap, document) {
+        this.callbackMap = callbackMap;
+        this.document = document;
+    }
+    /**
+     * Get the name of the next callback method, by incrementing the global `nextRequestId`.
+     */
+    JsonpClientBackend.prototype.nextCallback = function () { return "ng_jsonp_callback_" + nextRequestId++; };
+    /**
+     * Process a JSONP request and return an event stream of the results.
+     */
+    JsonpClientBackend.prototype.handle = function (req) {
+        var _this = this;
+        // Firstly, check both the method and response type. If either doesn't match
+        // then the request was improperly routed here and cannot be handled.
+        if (req.method !== 'JSONP') {
+            throw new Error(JSONP_ERR_WRONG_METHOD);
+        }
+        else if (req.responseType !== 'json') {
+            throw new Error(JSONP_ERR_WRONG_RESPONSE_TYPE);
+        }
+        // Everything else happens inside the Observable boundary.
+        return new rxjs__WEBPACK_IMPORTED_MODULE_2__["Observable"](function (observer) {
+            // The first step to make a request is to generate the callback name, and replace the
+            // callback placeholder in the URL with the name. Care has to be taken here to ensure
+            // a trailing &, if matched, gets inserted back into the URL in the correct place.
+            var callback = _this.nextCallback();
+            var url = req.urlWithParams.replace(/=JSONP_CALLBACK(&|$)/, "=" + callback + "$1");
+            // Construct the <script> tag and point it at the URL.
+            var node = _this.document.createElement('script');
+            node.src = url;
+            // A JSONP request requires waiting for multiple callbacks. These variables
+            // are closed over and track state across those callbacks.
+            // The response object, if one has been received, or null otherwise.
+            var body = null;
+            // Whether the response callback has been called.
+            var finished = false;
+            // Whether the request has been cancelled (and thus any other callbacks)
+            // should be ignored.
+            var cancelled = false;
+            // Set the response callback in this.callbackMap (which will be the window
+            // object in the browser. The script being loaded via the <script> tag will
+            // eventually call this callback.
+            _this.callbackMap[callback] = function (data) {
+                // Data has been received from the JSONP script. Firstly, delete this callback.
+                delete _this.callbackMap[callback];
+                // Next, make sure the request wasn't cancelled in the meantime.
+                if (cancelled) {
+                    return;
+                }
+                // Set state to indicate data was received.
+                body = data;
+                finished = true;
+            };
+            // cleanup() is a utility closure that removes the <script> from the page and
+            // the response callback from the window. This logic is used in both the
+            // success, error, and cancellation paths, so it's extracted out for convenience.
+            var cleanup = function () {
+                // Remove the <script> tag if it's still on the page.
+                if (node.parentNode) {
+                    node.parentNode.removeChild(node);
+                }
+                // Remove the response callback from the callbackMap (window object in the
+                // browser).
+                delete _this.callbackMap[callback];
+            };
+            // onLoad() is the success callback which runs after the response callback
+            // if the JSONP script loads successfully. The event itself is unimportant.
+            // If something went wrong, onLoad() may run without the response callback
+            // having been invoked.
+            var onLoad = function (event) {
+                // Do nothing if the request has been cancelled.
+                if (cancelled) {
+                    return;
+                }
+                // Cleanup the page.
+                cleanup();
+                // Check whether the response callback has run.
+                if (!finished) {
+                    // It hasn't, something went wrong with the request. Return an error via
+                    // the Observable error path. All JSONP errors have status 0.
+                    observer.error(new HttpErrorResponse({
+                        url: url,
+                        status: 0,
+                        statusText: 'JSONP Error',
+                        error: new Error(JSONP_ERR_NO_CALLBACK),
+                    }));
+                    return;
+                }
+                // Success. body either contains the response body or null if none was
+                // returned.
+                observer.next(new HttpResponse({
+                    body: body,
+                    status: 200,
+                    statusText: 'OK', url: url,
+                }));
+                // Complete the stream, the response is over.
+                observer.complete();
+            };
+            // onError() is the error callback, which runs if the script returned generates
+            // a Javascript error. It emits the error via the Observable error channel as
+            // a HttpErrorResponse.
+            var onError = function (error) {
+                // If the request was already cancelled, no need to emit anything.
+                if (cancelled) {
+                    return;
+                }
+                cleanup();
+                // Wrap the error in a HttpErrorResponse.
+                observer.error(new HttpErrorResponse({
+                    error: error,
+                    status: 0,
+                    statusText: 'JSONP Error', url: url,
+                }));
+            };
+            // Subscribe to both the success (load) and error events on the <script> tag,
+            // and add it to the page.
+            node.addEventListener('load', onLoad);
+            node.addEventListener('error', onError);
+            _this.document.body.appendChild(node);
+            // The request has now been successfully sent.
+            observer.next({ type: HttpEventType.Sent });
+            // Cancellation handler.
+            return function () {
+                // Track the cancellation so event listeners won't do anything even if already scheduled.
+                cancelled = true;
+                // Remove the event listeners so they won't run if the events later fire.
+                node.removeEventListener('load', onLoad);
+                node.removeEventListener('error', onError);
+                // And finally, clean up the page.
+                cleanup();
+            };
+        });
+    };
+    JsonpClientBackend = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"])),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [JsonpCallbackContext, Object])
+    ], JsonpClientBackend);
+    return JsonpClientBackend;
+}());
+/**
+ * An `HttpInterceptor` which identifies requests with the method JSONP and
+ * shifts them to the `JsonpClientBackend`.
+ *
+ * @publicApi
+ */
+var JsonpInterceptor = /** @class */ (function () {
+    function JsonpInterceptor(jsonp) {
+        this.jsonp = jsonp;
+    }
+    JsonpInterceptor.prototype.intercept = function (req, next) {
+        if (req.method === 'JSONP') {
+            return this.jsonp.handle(req);
+        }
+        // Fall through for normal HTTP requests.
+        return next.handle(req);
+    };
+    JsonpInterceptor = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [JsonpClientBackend])
+    ], JsonpInterceptor);
+    return JsonpInterceptor;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var XSSI_PREFIX = /^\)\]\}',?\n/;
+/**
+ * Determine an appropriate URL for the response, by checking either
+ * XMLHttpRequest.responseURL or the X-Request-URL header.
+ */
+function getResponseUrl(xhr) {
+    if ('responseURL' in xhr && xhr.responseURL) {
+        return xhr.responseURL;
+    }
+    if (/^X-Request-URL:/m.test(xhr.getAllResponseHeaders())) {
+        return xhr.getResponseHeader('X-Request-URL');
+    }
+    return null;
+}
+/**
+ * A wrapper around the `XMLHttpRequest` constructor.
+ *
+ * @publicApi
+ */
+var XhrFactory = /** @class */ (function () {
+    function XhrFactory() {
+    }
+    return XhrFactory;
+}());
+/**
+ * A factory for @{link HttpXhrBackend} that uses the `XMLHttpRequest` browser API.
+ *
+ *
+ */
+var BrowserXhr = /** @class */ (function () {
+    function BrowserXhr() {
+    }
+    BrowserXhr.prototype.build = function () { return (new XMLHttpRequest()); };
+    BrowserXhr = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], BrowserXhr);
+    return BrowserXhr;
+}());
+/**
+ * An `HttpBackend` which uses the XMLHttpRequest API to send
+ * requests to a backend server.
+ *
+ * @publicApi
+ */
+var HttpXhrBackend = /** @class */ (function () {
+    function HttpXhrBackend(xhrFactory) {
+        this.xhrFactory = xhrFactory;
+    }
+    /**
+     * Process a request and return a stream of response events.
+     */
+    HttpXhrBackend.prototype.handle = function (req) {
+        var _this = this;
+        // Quick check to give a better error message when a user attempts to use
+        // HttpClient.jsonp() without installing the JsonpClientModule
+        if (req.method === 'JSONP') {
+            throw new Error("Attempted to construct Jsonp request without JsonpClientModule installed.");
+        }
+        // Everything happens on Observable subscription.
+        return new rxjs__WEBPACK_IMPORTED_MODULE_2__["Observable"](function (observer) {
+            // Start by setting up the XHR object with request method, URL, and withCredentials flag.
+            var xhr = _this.xhrFactory.build();
+            xhr.open(req.method, req.urlWithParams);
+            if (!!req.withCredentials) {
+                xhr.withCredentials = true;
+            }
+            // Add all the requested headers.
+            req.headers.forEach(function (name, values) { return xhr.setRequestHeader(name, values.join(',')); });
+            // Add an Accept header if one isn't present already.
+            if (!req.headers.has('Accept')) {
+                xhr.setRequestHeader('Accept', 'application/json, text/plain, */*');
+            }
+            // Auto-detect the Content-Type header if one isn't present already.
+            if (!req.headers.has('Content-Type')) {
+                var detectedType = req.detectContentTypeHeader();
+                // Sometimes Content-Type detection fails.
+                if (detectedType !== null) {
+                    xhr.setRequestHeader('Content-Type', detectedType);
+                }
+            }
+            // Set the responseType if one was requested.
+            if (req.responseType) {
+                var responseType = req.responseType.toLowerCase();
+                // JSON responses need to be processed as text. This is because if the server
+                // returns an XSSI-prefixed JSON response, the browser will fail to parse it,
+                // xhr.response will be null, and xhr.responseText cannot be accessed to
+                // retrieve the prefixed JSON data in order to strip the prefix. Thus, all JSON
+                // is parsed by first requesting text and then applying JSON.parse.
+                xhr.responseType = ((responseType !== 'json') ? responseType : 'text');
+            }
+            // Serialize the request body if one is present. If not, this will be set to null.
+            var reqBody = req.serializeBody();
+            // If progress events are enabled, response headers will be delivered
+            // in two events - the HttpHeaderResponse event and the full HttpResponse
+            // event. However, since response headers don't change in between these
+            // two events, it doesn't make sense to parse them twice. So headerResponse
+            // caches the data extracted from the response whenever it's first parsed,
+            // to ensure parsing isn't duplicated.
+            var headerResponse = null;
+            // partialFromXhr extracts the HttpHeaderResponse from the current XMLHttpRequest
+            // state, and memoizes it into headerResponse.
+            var partialFromXhr = function () {
+                if (headerResponse !== null) {
+                    return headerResponse;
+                }
+                // Read status and normalize an IE9 bug (http://bugs.jquery.com/ticket/1450).
+                var status = xhr.status === 1223 ? 204 : xhr.status;
+                var statusText = xhr.statusText || 'OK';
+                // Parse headers from XMLHttpRequest - this step is lazy.
+                var headers = new HttpHeaders(xhr.getAllResponseHeaders());
+                // Read the response URL from the XMLHttpResponse instance and fall back on the
+                // request URL.
+                var url = getResponseUrl(xhr) || req.url;
+                // Construct the HttpHeaderResponse and memoize it.
+                headerResponse = new HttpHeaderResponse({ headers: headers, status: status, statusText: statusText, url: url });
+                return headerResponse;
+            };
+            // Next, a few closures are defined for the various events which XMLHttpRequest can
+            // emit. This allows them to be unregistered as event listeners later.
+            // First up is the load event, which represents a response being fully available.
+            var onLoad = function () {
+                // Read response state from the memoized partial data.
+                var _a = partialFromXhr(), headers = _a.headers, status = _a.status, statusText = _a.statusText, url = _a.url;
+                // The body will be read out if present.
+                var body = null;
+                if (status !== 204) {
+                    // Use XMLHttpRequest.response if set, responseText otherwise.
+                    body = (typeof xhr.response === 'undefined') ? xhr.responseText : xhr.response;
+                }
+                // Normalize another potential bug (this one comes from CORS).
+                if (status === 0) {
+                    status = !!body ? 200 : 0;
+                }
+                // ok determines whether the response will be transmitted on the event or
+                // error channel. Unsuccessful status codes (not 2xx) will always be errors,
+                // but a successful status code can still result in an error if the user
+                // asked for JSON data and the body cannot be parsed as such.
+                var ok = status >= 200 && status < 300;
+                // Check whether the body needs to be parsed as JSON (in many cases the browser
+                // will have done that already).
+                if (req.responseType === 'json' && typeof body === 'string') {
+                    // Save the original body, before attempting XSSI prefix stripping.
+                    var originalBody = body;
+                    body = body.replace(XSSI_PREFIX, '');
+                    try {
+                        // Attempt the parse. If it fails, a parse error should be delivered to the user.
+                        body = body !== '' ? JSON.parse(body) : null;
+                    }
+                    catch (error) {
+                        // Since the JSON.parse failed, it's reasonable to assume this might not have been a
+                        // JSON response. Restore the original body (including any XSSI prefix) to deliver
+                        // a better error response.
+                        body = originalBody;
+                        // If this was an error request to begin with, leave it as a string, it probably
+                        // just isn't JSON. Otherwise, deliver the parsing error to the user.
+                        if (ok) {
+                            // Even though the response status was 2xx, this is still an error.
+                            ok = false;
+                            // The parse error contains the text of the body that failed to parse.
+                            body = { error: error, text: body };
+                        }
+                    }
+                }
+                if (ok) {
+                    // A successful response is delivered on the event stream.
+                    observer.next(new HttpResponse({
+                        body: body,
+                        headers: headers,
+                        status: status,
+                        statusText: statusText,
+                        url: url || undefined,
+                    }));
+                    // The full body has been received and delivered, no further events
+                    // are possible. This request is complete.
+                    observer.complete();
+                }
+                else {
+                    // An unsuccessful request is delivered on the error channel.
+                    observer.error(new HttpErrorResponse({
+                        // The error in this case is the response body (error from the server).
+                        error: body,
+                        headers: headers,
+                        status: status,
+                        statusText: statusText,
+                        url: url || undefined,
+                    }));
+                }
+            };
+            // The onError callback is called when something goes wrong at the network level.
+            // Connection timeout, DNS error, offline, etc. These are actual errors, and are
+            // transmitted on the error channel.
+            var onError = function (error) {
+                var url = partialFromXhr().url;
+                var res = new HttpErrorResponse({
+                    error: error,
+                    status: xhr.status || 0,
+                    statusText: xhr.statusText || 'Unknown Error',
+                    url: url || undefined,
+                });
+                observer.error(res);
+            };
+            // The sentHeaders flag tracks whether the HttpResponseHeaders event
+            // has been sent on the stream. This is necessary to track if progress
+            // is enabled since the event will be sent on only the first download
+            // progerss event.
+            var sentHeaders = false;
+            // The download progress event handler, which is only registered if
+            // progress events are enabled.
+            var onDownProgress = function (event) {
+                // Send the HttpResponseHeaders event if it hasn't been sent already.
+                if (!sentHeaders) {
+                    observer.next(partialFromXhr());
+                    sentHeaders = true;
+                }
+                // Start building the download progress event to deliver on the response
+                // event stream.
+                var progressEvent = {
+                    type: HttpEventType.DownloadProgress,
+                    loaded: event.loaded,
+                };
+                // Set the total number of bytes in the event if it's available.
+                if (event.lengthComputable) {
+                    progressEvent.total = event.total;
+                }
+                // If the request was for text content and a partial response is
+                // available on XMLHttpRequest, include it in the progress event
+                // to allow for streaming reads.
+                if (req.responseType === 'text' && !!xhr.responseText) {
+                    progressEvent.partialText = xhr.responseText;
+                }
+                // Finally, fire the event.
+                observer.next(progressEvent);
+            };
+            // The upload progress event handler, which is only registered if
+            // progress events are enabled.
+            var onUpProgress = function (event) {
+                // Upload progress events are simpler. Begin building the progress
+                // event.
+                var progress = {
+                    type: HttpEventType.UploadProgress,
+                    loaded: event.loaded,
+                };
+                // If the total number of bytes being uploaded is available, include
+                // it.
+                if (event.lengthComputable) {
+                    progress.total = event.total;
+                }
+                // Send the event.
+                observer.next(progress);
+            };
+            // By default, register for load and error events.
+            xhr.addEventListener('load', onLoad);
+            xhr.addEventListener('error', onError);
+            // Progress events are only enabled if requested.
+            if (req.reportProgress) {
+                // Download progress is always enabled if requested.
+                xhr.addEventListener('progress', onDownProgress);
+                // Upload progress depends on whether there is a body to upload.
+                if (reqBody !== null && xhr.upload) {
+                    xhr.upload.addEventListener('progress', onUpProgress);
+                }
+            }
+            // Fire the request, and notify the event stream that it was fired.
+            xhr.send(reqBody);
+            observer.next({ type: HttpEventType.Sent });
+            // This is the return from the Observable function, which is the
+            // request cancellation handler.
+            return function () {
+                // On a cancellation, remove all registered event listeners.
+                xhr.removeEventListener('error', onError);
+                xhr.removeEventListener('load', onLoad);
+                if (req.reportProgress) {
+                    xhr.removeEventListener('progress', onDownProgress);
+                    if (reqBody !== null && xhr.upload) {
+                        xhr.upload.removeEventListener('progress', onUpProgress);
+                    }
+                }
+                // Finally, abort the in-flight request.
+                xhr.abort();
+            };
+        });
+    };
+    HttpXhrBackend = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [XhrFactory])
+    ], HttpXhrBackend);
+    return HttpXhrBackend;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var XSRF_COOKIE_NAME = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["InjectionToken"]('XSRF_COOKIE_NAME');
+var XSRF_HEADER_NAME = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["InjectionToken"]('XSRF_HEADER_NAME');
+/**
+ * Retrieves the current XSRF token to use with the next outgoing request.
+ *
+ * @publicApi
+ */
+var HttpXsrfTokenExtractor = /** @class */ (function () {
+    function HttpXsrfTokenExtractor() {
+    }
+    return HttpXsrfTokenExtractor;
+}());
+/**
+ * `HttpXsrfTokenExtractor` which retrieves the token from a cookie.
+ */
+var HttpXsrfCookieExtractor = /** @class */ (function () {
+    function HttpXsrfCookieExtractor(doc, platform, cookieName) {
+        this.doc = doc;
+        this.platform = platform;
+        this.cookieName = cookieName;
+        this.lastCookieString = '';
+        this.lastToken = null;
+        /**
+         * @internal for testing
+         */
+        this.parseCount = 0;
+    }
+    HttpXsrfCookieExtractor.prototype.getToken = function () {
+        if (this.platform === 'server') {
+            return null;
+        }
+        var cookieString = this.doc.cookie || '';
+        if (cookieString !== this.lastCookieString) {
+            this.parseCount++;
+            this.lastToken = Object(_angular_common__WEBPACK_IMPORTED_MODULE_4__["ɵparseCookieValue"])(cookieString, this.cookieName);
+            this.lastCookieString = cookieString;
+        }
+        return this.lastToken;
+    };
+    HttpXsrfCookieExtractor = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"])), Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_1__["PLATFORM_ID"])),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(2, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(XSRF_COOKIE_NAME)),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Object, String, String])
+    ], HttpXsrfCookieExtractor);
+    return HttpXsrfCookieExtractor;
+}());
+/**
+ * `HttpInterceptor` which adds an XSRF token to eligible outgoing requests.
+ */
+var HttpXsrfInterceptor = /** @class */ (function () {
+    function HttpXsrfInterceptor(tokenService, headerName) {
+        this.tokenService = tokenService;
+        this.headerName = headerName;
+    }
+    HttpXsrfInterceptor.prototype.intercept = function (req, next) {
+        var lcUrl = req.url.toLowerCase();
+        // Skip both non-mutating requests and absolute URLs.
+        // Non-mutating requests don't require a token, and absolute URLs require special handling
+        // anyway as the cookie set
+        // on our origin is not the same as the token expected by another origin.
+        if (req.method === 'GET' || req.method === 'HEAD' || lcUrl.startsWith('http://') ||
+            lcUrl.startsWith('https://')) {
+            return next.handle(req);
+        }
+        var token = this.tokenService.getToken();
+        // Be careful not to overwrite an existing header of the same name.
+        if (token !== null && !req.headers.has(this.headerName)) {
+            req = req.clone({ headers: req.headers.set(this.headerName, token) });
+        }
+        return next.handle(req);
+    };
+    HttpXsrfInterceptor = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"])(XSRF_HEADER_NAME)),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [HttpXsrfTokenExtractor, String])
+    ], HttpXsrfInterceptor);
+    return HttpXsrfInterceptor;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * An injectable `HttpHandler` that applies multiple interceptors
+ * to a request before passing it to the given `HttpBackend`.
+ *
+ * The interceptors are loaded lazily from the injector, to allow
+ * interceptors to themselves inject classes depending indirectly
+ * on `HttpInterceptingHandler` itself.
+ * @see `HttpInterceptor`
+ */
+var HttpInterceptingHandler = /** @class */ (function () {
+    function HttpInterceptingHandler(backend, injector) {
+        this.backend = backend;
+        this.injector = injector;
+        this.chain = null;
+    }
+    HttpInterceptingHandler.prototype.handle = function (req) {
+        if (this.chain === null) {
+            var interceptors = this.injector.get(HTTP_INTERCEPTORS, []);
+            this.chain = interceptors.reduceRight(function (next, interceptor) { return new HttpInterceptorHandler(next, interceptor); }, this.backend);
+        }
+        return this.chain.handle(req);
+    };
+    HttpInterceptingHandler = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [HttpBackend, _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]])
+    ], HttpInterceptingHandler);
+    return HttpInterceptingHandler;
+}());
+/**
+ * Factory function that determines where to store JSONP callbacks.
+ *
+ * Ordinarily JSONP callbacks are stored on the `window` object, but this may not exist
+ * in test environments. In that case, callbacks are stored on an anonymous object instead.
+ *
+ *
+ */
+function jsonpCallbackContext() {
+    if (typeof window === 'object') {
+        return window;
+    }
+    return {};
+}
+/**
+ * Configures XSRF protection support for outgoing requests.
+ *
+ * For a server that supports a cookie-based XSRF protection system,
+ * use directly to configure XSRF protection with the correct
+ * cookie and header names.
+ *
+ * If no names are supplied, the default cookie name is `XSRF-TOKEN`
+ * and the default header name is `X-XSRF-TOKEN`.
+ *
+ * @publicApi
+ */
+var HttpClientXsrfModule = /** @class */ (function () {
+    function HttpClientXsrfModule() {
+    }
+    HttpClientXsrfModule_1 = HttpClientXsrfModule;
+    /**
+     * Disable the default XSRF protection.
+     */
+    HttpClientXsrfModule.disable = function () {
+        return {
+            ngModule: HttpClientXsrfModule_1,
+            providers: [
+                { provide: HttpXsrfInterceptor, useClass: NoopInterceptor },
+            ],
+        };
+    };
+    /**
+     * Configure XSRF protection.
+     * @param options An object that can specify either or both
+     * cookie name or header name.
+     * - Cookie name default is `XSRF-TOKEN`.
+     * - Header name default is `X-XSRF-TOKEN`.
+     *
+     */
+    HttpClientXsrfModule.withOptions = function (options) {
+        if (options === void 0) { options = {}; }
+        return {
+            ngModule: HttpClientXsrfModule_1,
+            providers: [
+                options.cookieName ? { provide: XSRF_COOKIE_NAME, useValue: options.cookieName } : [],
+                options.headerName ? { provide: XSRF_HEADER_NAME, useValue: options.headerName } : [],
+            ],
+        };
+    };
+    var HttpClientXsrfModule_1;
+    HttpClientXsrfModule = HttpClientXsrfModule_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            providers: [
+                HttpXsrfInterceptor,
+                { provide: HTTP_INTERCEPTORS, useExisting: HttpXsrfInterceptor, multi: true },
+                { provide: HttpXsrfTokenExtractor, useClass: HttpXsrfCookieExtractor },
+                { provide: XSRF_COOKIE_NAME, useValue: 'XSRF-TOKEN' },
+                { provide: XSRF_HEADER_NAME, useValue: 'X-XSRF-TOKEN' },
+            ],
+        })
+    ], HttpClientXsrfModule);
+    return HttpClientXsrfModule;
+}());
+/**
+ * Configures the [dependency injector](guide/glossary#injector) for `HttpClient`
+ * with supporting services for XSRF. Automatically imported by `HttpClientModule`.
+ *
+ * You can add interceptors to the chain behind `HttpClient` by binding them to the
+ * multiprovider for built-in [DI token](guide/glossary#di-token) `HTTP_INTERCEPTORS`.
+ *
+ * @publicApi
+ */
+var HttpClientModule = /** @class */ (function () {
+    function HttpClientModule() {
+    }
+    HttpClientModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            /**
+             * Optional configuration for XSRF protection.
+             */
+            imports: [
+                HttpClientXsrfModule.withOptions({
+                    cookieName: 'XSRF-TOKEN',
+                    headerName: 'X-XSRF-TOKEN',
+                }),
+            ],
+            /**
+             * Configures the [dependency injector](guide/glossary#injector) where it is imported
+             * with supporting services for HTTP communications.
+             */
+            providers: [
+                HttpClient,
+                { provide: HttpHandler, useClass: HttpInterceptingHandler },
+                HttpXhrBackend,
+                { provide: HttpBackend, useExisting: HttpXhrBackend },
+                BrowserXhr,
+                { provide: XhrFactory, useExisting: BrowserXhr },
+            ],
+        })
+    ], HttpClientModule);
+    return HttpClientModule;
+}());
+/**
+ * Configures the [dependency injector](guide/glossary#injector) for `HttpClient`
+ * with supporting services for JSONP.
+ * Without this module, Jsonp requests reach the backend
+ * with method JSONP, where they are rejected.
+ *
+ * You can add interceptors to the chain behind `HttpClient` by binding them to the
+ * multiprovider for built-in [DI token](guide/glossary#di-token) `HTTP_INTERCEPTORS`.
+ *
+ * @publicApi
+ */
+var HttpClientJsonpModule = /** @class */ (function () {
+    function HttpClientJsonpModule() {
+    }
+    HttpClientJsonpModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            providers: [
+                JsonpClientBackend,
+                { provide: JsonpCallbackContext, useFactory: jsonpCallbackContext },
+                { provide: HTTP_INTERCEPTORS, useClass: JsonpInterceptor, multi: true },
+            ],
+        })
+    ], HttpClientJsonpModule);
+    return HttpClientJsonpModule;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+//# sourceMappingURL=http.js.map
 
 
 /***/ }),
@@ -6557,8 +8217,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "R3BoundTarget", function() { return R3BoundTarget; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
 /**
- * @license Angular v7.2.15
- * (c) 2010-2019 Google LLC. https://angular.io/
+ * @license Angular v7.2.0
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 
@@ -7418,18 +9078,14 @@ var MissingTranslationStrategy;
     MissingTranslationStrategy[MissingTranslationStrategy["Ignore"] = 2] = "Ignore";
 })(MissingTranslationStrategy || (MissingTranslationStrategy = {}));
 function makeMetadataFactory(name, props) {
-    // This must be declared as a function, not a fat arrow, so that ES2015 devmode produces code
-    // that works with the static_reflector.ts in the ViewEngine compiler.
-    // In particular, `_registerDecoratorOrConstructor` assumes that the value returned here can be
-    // new'ed.
-    function factory() {
+    var factory = function () {
         var args = [];
         for (var _i = 0; _i < arguments.length; _i++) {
             args[_i] = arguments[_i];
         }
         var values = props ? props.apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(args)) : {};
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({ ngMetadataName: name }, values);
-    }
+    };
     factory.isTypeOf = function (obj) { return obj && obj.ngMetadataName === name; };
     factory.ngMetadataName = name;
     return factory;
@@ -11542,7 +13198,7 @@ function assertArrayOfStrings(identifier, value) {
         }
     }
 }
-var UNUSABLE_INTERPOLATION_REGEXPS = [
+var INTERPOLATION_BLACKLIST_REGEXPS = [
     /^\s*$/,
     /[<>]/,
     /^[{}]$/,
@@ -11556,8 +13212,8 @@ function assertInterpolationSymbols(identifier, value) {
     else if (value != null) {
         var start_1 = value[0];
         var end_1 = value[1];
-        // Check for unusable interpolation symbols
-        UNUSABLE_INTERPOLATION_REGEXPS.forEach(function (regexp) {
+        // black list checking
+        INTERPOLATION_BLACKLIST_REGEXPS.forEach(function (regexp) {
             if (regexp.test(start_1) || regexp.test(end_1)) {
                 throw new Error("['" + start_1 + "', '" + end_1 + "'] contains unusable interpolation symbol.");
             }
@@ -16958,9 +18614,11 @@ var TokenizeResult = /** @class */ (function () {
     }
     return TokenizeResult;
 }());
-function tokenize(source, url, getTagDefinition, options) {
-    if (options === void 0) { options = {}; }
-    return new _Tokenizer(new ParseSourceFile(source, url), getTagDefinition, options).tokenize();
+function tokenize(source, url, getTagDefinition, tokenizeExpansionForms, interpolationConfig) {
+    if (tokenizeExpansionForms === void 0) { tokenizeExpansionForms = false; }
+    if (interpolationConfig === void 0) { interpolationConfig = DEFAULT_INTERPOLATION_CONFIG; }
+    return new _Tokenizer(new ParseSourceFile(source, url), getTagDefinition, tokenizeExpansionForms, interpolationConfig)
+        .tokenize();
 }
 var _CR_OR_CRLF_REGEXP = /\r\n?/g;
 function _unexpectedCharacterErrorMsg(charCode) {
@@ -16984,22 +18642,22 @@ var _Tokenizer = /** @class */ (function () {
      * @param _tokenizeIcu Whether to tokenize ICU messages (considered as text nodes when false)
      * @param _interpolationConfig
      */
-    function _Tokenizer(_file, _getTagDefinition, options) {
+    function _Tokenizer(_file, _getTagDefinition, _tokenizeIcu, _interpolationConfig) {
+        if (_interpolationConfig === void 0) { _interpolationConfig = DEFAULT_INTERPOLATION_CONFIG; }
         this._file = _file;
         this._getTagDefinition = _getTagDefinition;
+        this._tokenizeIcu = _tokenizeIcu;
+        this._interpolationConfig = _interpolationConfig;
+        // Note: this is always lowercase!
         this._peek = -1;
         this._nextPeek = -1;
         this._index = -1;
         this._line = 0;
         this._column = -1;
-        this._currentTokenStart = null;
-        this._currentTokenType = null;
         this._expansionCaseStack = [];
         this._inInterpolation = false;
         this.tokens = [];
         this.errors = [];
-        this._tokenizeIcu = options.tokenizeExpansionForms || false;
-        this._interpolationConfig = options.interpolationConfig || DEFAULT_INTERPOLATION_CONFIG;
         this._input = _file.content;
         this._length = _file.content.length;
         this._advance();
@@ -17091,12 +18749,6 @@ var _Tokenizer = /** @class */ (function () {
     };
     _Tokenizer.prototype._endToken = function (parts, end) {
         if (end === void 0) { end = this._getLocation(); }
-        if (this._currentTokenStart === null) {
-            throw new TokenError('Programming error - attempted to end a token when there was no start to the token', this._currentTokenType, this._getSpan(end, end));
-        }
-        if (this._currentTokenType === null) {
-            throw new TokenError('Programming error - attempted to end a token which has no token type', null, this._getSpan(this._currentTokenStart, end));
-        }
         var token = new Token$1(this._currentTokenType, parts, new ParseSourceSpan(this._currentTokenStart, end));
         this.tokens.push(token);
         this._currentTokenStart = null;
@@ -17590,8 +19242,10 @@ var Parser$1 = /** @class */ (function () {
     function Parser(getTagDefinition) {
         this.getTagDefinition = getTagDefinition;
     }
-    Parser.prototype.parse = function (source, url, options) {
-        var tokensAndErrors = tokenize(source, url, this.getTagDefinition, options);
+    Parser.prototype.parse = function (source, url, parseExpansionForms, interpolationConfig) {
+        if (parseExpansionForms === void 0) { parseExpansionForms = false; }
+        if (interpolationConfig === void 0) { interpolationConfig = DEFAULT_INTERPOLATION_CONFIG; }
+        var tokensAndErrors = tokenize(source, url, this.getTagDefinition, parseExpansionForms, interpolationConfig);
         var treeAndErrors = new _TreeBuilder(tokensAndErrors.tokens, this.getTagDefinition).build();
         return new ParseTreeResult(treeAndErrors.rootNodes, tokensAndErrors.errors.concat(treeAndErrors.errors));
     };
@@ -17925,8 +19579,10 @@ var HtmlParser = /** @class */ (function (_super) {
     function HtmlParser() {
         return _super.call(this, getHtmlTagDefinition) || this;
     }
-    HtmlParser.prototype.parse = function (source, url, options) {
-        return _super.prototype.parse.call(this, source, url, options);
+    HtmlParser.prototype.parse = function (source, url, parseExpansionForms, interpolationConfig) {
+        if (parseExpansionForms === void 0) { parseExpansionForms = false; }
+        if (interpolationConfig === void 0) { interpolationConfig = DEFAULT_INTERPOLATION_CONFIG; }
+        return _super.prototype.parse.call(this, source, url, parseExpansionForms, interpolationConfig);
     };
     return HtmlParser;
 }(Parser$1));
@@ -18394,9 +20050,9 @@ var DomElementSchemaRegistry = /** @class */ (function (_super) {
      * Tag and property name are statically known and cannot change at runtime, i.e. it is not
      * possible to bind a value into a changing attribute or tag name.
      *
-     * The filtering is based on a list of allowed tags|attributes. All attributes in the schema
-     * above are assumed to have the 'NONE' security context, i.e. that they are safe inert
-     * string values. Only specific well known attack vectors are assigned their appropriate context.
+     * The filtering is white list based. All attributes in the schema above are assumed to have the
+     * 'NONE' security context, i.e. that they are safe inert string values. Only specific well known
+     * attack vectors are assigned their appropriate context.
      */
     DomElementSchemaRegistry.prototype.securityContext = function (tagName, propName, isAttribute) {
         if (isAttribute) {
@@ -21341,14 +22997,13 @@ function interpolate(args) {
  *
  * @param template text of the template to parse
  * @param templateUrl URL to use for source mapping of the parsed template
- * @param options options to modify how the template is parsed
  */
 function parseTemplate(template, templateUrl, options) {
     if (options === void 0) { options = {}; }
     var interpolationConfig = options.interpolationConfig, preserveWhitespaces = options.preserveWhitespaces;
     var bindingParser = makeBindingParser(interpolationConfig);
     var htmlParser = new HtmlParser();
-    var parseResult = htmlParser.parse(template, templateUrl, Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, options, { tokenizeExpansionForms: true }));
+    var parseResult = htmlParser.parse(template, templateUrl, true, interpolationConfig);
     if (parseResult.errors && parseResult.errors.length > 0) {
         return { errors: parseResult.errors, nodes: [] };
     }
@@ -22183,7 +23838,7 @@ var CompilerFacadeImpl = /** @class */ (function () {
             InterpolationConfig.fromArray(facade.interpolation) :
             DEFAULT_INTERPOLATION_CONFIG;
         // Parse the template and check for errors.
-        var template = parseTemplate(facade.template, sourceMapUrl, { preserveWhitespaces: facade.preserveWhitespaces, interpolationConfig: interpolationConfig });
+        var template = parseTemplate(facade.template, sourceMapUrl, { preserveWhitespaces: facade.preserveWhitespaces || false, interpolationConfig: interpolationConfig });
         if (template.errors !== undefined) {
             var errors = template.errors.map(function (err) { return err.toString(); }).join(', ');
             throw new Error("Errors during JIT compilation of template for " + facade.name + ": " + errors);
@@ -22324,7 +23979,7 @@ function publishFacade(global) {
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-var VERSION$1 = new Version('7.2.15');
+var VERSION$1 = new Version('7.2.0');
 
 /**
  * @license
@@ -22774,8 +24429,7 @@ var DirectiveNormalizer = /** @class */ (function () {
     DirectiveNormalizer.prototype._preparseLoadedTemplate = function (prenormData, template, templateAbsUrl) {
         var isInline = !!prenormData.template;
         var interpolationConfig = InterpolationConfig.fromArray(prenormData.interpolation);
-        var templateUrl = templateSourceUrl({ reference: prenormData.ngModuleType }, { type: { reference: prenormData.componentType } }, { isInline: isInline, templateUrl: templateAbsUrl });
-        var rootNodesAndErrors = this._htmlParser.parse(template, templateUrl, { tokenizeExpansionForms: true, interpolationConfig: interpolationConfig });
+        var rootNodesAndErrors = this._htmlParser.parse(template, templateSourceUrl({ reference: prenormData.ngModuleType }, { type: { reference: prenormData.componentType } }, { isInline: isInline, templateUrl: templateAbsUrl }), true, interpolationConfig);
         if (rootNodesAndErrors.errors.length > 0) {
             var errorString = rootNodesAndErrors.errors.join('\n');
             throw syntaxError("Template parse errors:\n" + errorString);
@@ -23548,8 +25202,9 @@ var XmlParser = /** @class */ (function (_super) {
     function XmlParser() {
         return _super.call(this, getXmlTagDefinition) || this;
     }
-    XmlParser.prototype.parse = function (source, url, options) {
-        return _super.prototype.parse.call(this, source, url, options);
+    XmlParser.prototype.parse = function (source, url, parseExpansionForms) {
+        if (parseExpansionForms === void 0) { parseExpansionForms = false; }
+        return _super.prototype.parse.call(this, source, url, parseExpansionForms);
     };
     return XmlParser;
 }(Parser$1));
@@ -23685,7 +25340,7 @@ var XliffParser = /** @class */ (function () {
     XliffParser.prototype.parse = function (xliff, url) {
         this._unitMlString = null;
         this._msgIdToHtml = {};
-        var xml = new XmlParser().parse(xliff, url);
+        var xml = new XmlParser().parse(xliff, url, false);
         this._errors = xml.errors;
         visitAll(this, xml.rootNodes, null);
         return {
@@ -23757,7 +25412,7 @@ var XmlToI18n = /** @class */ (function () {
     function XmlToI18n() {
     }
     XmlToI18n.prototype.convert = function (message, url) {
-        var xmlIcu = new XmlParser().parse(message, url, { tokenizeExpansionForms: true });
+        var xmlIcu = new XmlParser().parse(message, url, true);
         this._errors = xmlIcu.errors;
         var i18nNodes = this._errors.length > 0 || xmlIcu.rootNodes.length == 0 ?
             [] : [].concat.apply([], Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(visitAll(this, xmlIcu.rootNodes)));
@@ -23965,7 +25620,7 @@ var Xliff2Parser = /** @class */ (function () {
     Xliff2Parser.prototype.parse = function (xliff, url) {
         this._unitMlString = null;
         this._msgIdToHtml = {};
-        var xml = new XmlParser().parse(xliff, url);
+        var xml = new XmlParser().parse(xliff, url, false);
         this._errors = xml.errors;
         visitAll(this, xml.rootNodes, null);
         return {
@@ -24043,7 +25698,7 @@ var XmlToI18n$1 = /** @class */ (function () {
     function XmlToI18n() {
     }
     XmlToI18n.prototype.convert = function (message, url) {
-        var xmlIcu = new XmlParser().parse(message, url, { tokenizeExpansionForms: true });
+        var xmlIcu = new XmlParser().parse(message, url, true);
         this._errors = xmlIcu.errors;
         var i18nNodes = this._errors.length > 0 || xmlIcu.rootNodes.length == 0 ?
             [] : [].concat.apply([], Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(visitAll(this, xmlIcu.rootNodes)));
@@ -24191,7 +25846,7 @@ var XtbParser = /** @class */ (function () {
         this._msgIdToHtml = {};
         // We can not parse the ICU messages at this point as some messages might not originate
         // from Angular that could not be lex'd.
-        var xml = new XmlParser().parse(xtb, url);
+        var xml = new XmlParser().parse(xtb, url, false);
         this._errors = xml.errors;
         visitAll(this, xml.rootNodes);
         return {
@@ -24252,7 +25907,7 @@ var XmlToI18n$2 = /** @class */ (function () {
     function XmlToI18n() {
     }
     XmlToI18n.prototype.convert = function (message, url) {
-        var xmlIcu = new XmlParser().parse(message, url, { tokenizeExpansionForms: true });
+        var xmlIcu = new XmlParser().parse(message, url, true);
         this._errors = xmlIcu.errors;
         var i18nNodes = this._errors.length > 0 || xmlIcu.rootNodes.length == 0 ?
             [] :
@@ -24353,7 +26008,7 @@ var I18nToHtmlVisitor = /** @class */ (function () {
         var text = this._convertToText(srcMsg);
         // text to html
         var url = srcMsg.nodes[0].sourceSpan.start.file.url;
-        var html = new HtmlParser().parse(text, url, { tokenizeExpansionForms: true });
+        var html = new HtmlParser().parse(text, url, true);
         return {
             nodes: html.rootNodes,
             errors: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(this._errors, html.errors),
@@ -24478,10 +26133,10 @@ var I18NHtmlParser = /** @class */ (function () {
                 new TranslationBundle({}, null, digest, undefined, missingTranslation, console);
         }
     }
-    I18NHtmlParser.prototype.parse = function (source, url, options) {
-        if (options === void 0) { options = {}; }
-        var interpolationConfig = options.interpolationConfig || DEFAULT_INTERPOLATION_CONFIG;
-        var parseResult = this._htmlParser.parse(source, url, Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({ interpolationConfig: interpolationConfig }, options));
+    I18NHtmlParser.prototype.parse = function (source, url, parseExpansionForms, interpolationConfig) {
+        if (parseExpansionForms === void 0) { parseExpansionForms = false; }
+        if (interpolationConfig === void 0) { interpolationConfig = DEFAULT_INTERPOLATION_CONFIG; }
+        var parseResult = this._htmlParser.parse(source, url, parseExpansionForms, interpolationConfig);
         if (parseResult.errors.length) {
             return new ParseTreeResult(parseResult.rootNodes, parseResult.errors);
         }
@@ -27166,10 +28821,7 @@ var TemplateParser = /** @class */ (function () {
     };
     TemplateParser.prototype.tryParse = function (component, template, directives, pipes, schemas, templateUrl, preserveWhitespaces) {
         var htmlParseResult = typeof template === 'string' ?
-            this._htmlParser.parse(template, templateUrl, {
-                tokenizeExpansionForms: true,
-                interpolationConfig: this.getInterpolationConfig(component)
-            }) :
+            this._htmlParser.parse(template, templateUrl, true, this.getInterpolationConfig(component)) :
             template;
         if (!preserveWhitespaces) {
             htmlParseResult = removeWhitespaces(htmlParseResult);
@@ -29011,7 +30663,7 @@ var MessageBundle = /** @class */ (function () {
     }
     MessageBundle.prototype.updateFromTemplate = function (html, url, interpolationConfig) {
         var _a;
-        var htmlParserResult = this._htmlParser.parse(html, url, { tokenizeExpansionForms: true, interpolationConfig: interpolationConfig });
+        var htmlParserResult = this._htmlParser.parse(html, url, true, interpolationConfig);
         if (htmlParserResult.errors.length) {
             return htmlParserResult.errors;
         }
@@ -29597,16 +31249,16 @@ var StaticSymbolResolver = /** @class */ (function () {
                             return {
                                 __symbolic: 'error',
                                 message: "Could not resolve " + module + " relative to " + self.host.getMetadataFor(sourceSymbol.filePath) + ".",
-                                line: map['line'],
-                                character: map['character'],
+                                line: map.line,
+                                character: map.character,
                                 fileName: getOriginalName()
                             };
                         }
                         return {
                             __symbolic: 'resolved',
                             symbol: self.getStaticSymbol(filePath, name_1),
-                            line: map['line'],
-                            character: map['character'],
+                            line: map.line,
+                            character: map.character,
                             fileName: getOriginalName()
                         };
                     }
@@ -29720,8 +31372,7 @@ function unwrapResolvedMetadata(metadata) {
     return metadata;
 }
 
-function serializeSummaries(srcFileName, forJitCtx, summaryResolver, symbolResolver, symbols, types, createExternalSymbolReexports) {
-    if (createExternalSymbolReexports === void 0) { createExternalSymbolReexports = true; }
+function serializeSummaries(srcFileName, forJitCtx, summaryResolver, symbolResolver, symbols, types) {
     var toJsonSerializer = new ToJsonSerializer(symbolResolver, summaryResolver, srcFileName);
     // for symbols, we use everything except for the class metadata itself
     // (we keep the statics though), as the class metadata is contained in the
@@ -29732,7 +31383,7 @@ function serializeSummaries(srcFileName, forJitCtx, summaryResolver, symbolResol
         var summary = _a.summary, metadata = _a.metadata;
         toJsonSerializer.addSummary({ symbol: summary.type.reference, metadata: undefined, type: summary });
     });
-    var _a = toJsonSerializer.serialize(createExternalSymbolReexports), json = _a.json, exportAs = _a.exportAs;
+    var _a = toJsonSerializer.serialize(), json = _a.json, exportAs = _a.exportAs;
     if (forJitCtx) {
         var forJitSerializer_1 = new ForJitSerializer(forJitCtx, symbolResolver, summaryResolver);
         types.forEach(function (_a) {
@@ -29860,13 +31511,7 @@ var ToJsonSerializer = /** @class */ (function (_super) {
             }
         }
     };
-    /**
-     * @param createExternalSymbolReexports Whether external static symbols should be re-exported.
-     * This can be enabled if external symbols should be re-exported by the current module in
-     * order to avoid dynamically generated module dependencies which can break strict dependency
-     * enforcements (as in Google3). Read more here: https://github.com/angular/angular/issues/25644
-     */
-    ToJsonSerializer.prototype.serialize = function (createExternalSymbolReexports) {
+    ToJsonSerializer.prototype.serialize = function () {
         var _this = this;
         var exportAs = [];
         var json = JSON.stringify({
@@ -29878,19 +31523,9 @@ var ToJsonSerializer = /** @class */ (function (_super) {
                 if (_this.summaryResolver.isLibraryFile(symbol.filePath)) {
                     var reexportSymbol = _this.reexportedBy.get(symbol);
                     if (reexportSymbol) {
-                        // In case the given external static symbol is already manually exported by the
-                        // user, we just proxy the external static symbol reference to the manual export.
-                        // This ensures that the AOT compiler imports the external symbol through the
-                        // user export and does not introduce another dependency which is not needed.
                         importAs = _this.indexBySymbol.get(reexportSymbol);
                     }
-                    else if (createExternalSymbolReexports) {
-                        // In this case, the given external static symbol is *not* manually exported by
-                        // the user, and we manually create a re-export in the factory file so that we
-                        // don't introduce another module dependency. This is useful when running within
-                        // Bazel so that the AOT compiler does not introduce any module dependencies
-                        // which can break the strict dependency enforcement. (e.g. as in Google3)
-                        // Read more about this here: https://github.com/angular/angular/issues/25644
+                    else {
                         var summary = _this.unprocessedSymbolSummariesBySymbol.get(symbol);
                         if (!summary || !summary.metadata || summary.metadata.__symbolic !== 'interface') {
                             importAs = symbol.name + "_" + index;
@@ -29927,7 +31562,7 @@ var ToJsonSerializer = /** @class */ (function (_super) {
      */
     ToJsonSerializer.prototype.visitStringMap = function (map, context) {
         if (map['__symbolic'] === 'resolved') {
-            return visitValue(map['symbol'], this, context);
+            return visitValue(map.symbol, this, context);
         }
         if (map['__symbolic'] === 'error') {
             delete map['line'];
@@ -30586,7 +32221,7 @@ var AotCompiler = /** @class */ (function () {
         var forJitOutputCtx = this._options.enableSummariesForJit ?
             this._createOutputContext(summaryForJitFileName(srcFileName, true)) :
             null;
-        var _a = serializeSummaries(srcFileName, forJitOutputCtx, this._summaryResolver, this._symbolResolver, symbolSummaries, typeData, this._options.createExternalSymbolFactoryReexports), json = _a.json, exportAs = _a.exportAs;
+        var _a = serializeSummaries(srcFileName, forJitOutputCtx, this._summaryResolver, this._symbolResolver, symbolSummaries, typeData), json = _a.json, exportAs = _a.exportAs;
         exportAs.forEach(function (entry) {
             ngFactoryCtx.statements.push(variable(entry.exportAs).set(ngFactoryCtx.importExpr(entry.symbol)).toDeclStmt(null, [
                 StmtModifier.Exported
@@ -33684,47 +35319,46 @@ publishFacade(_global);
 /*!***************************************************!*\
   !*** ../node_modules/@angular/core/fesm5/core.js ***!
   \***************************************************/
-/*! exports provided: ɵangular_packages_core_core_t, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_h, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_n, ɵangular_packages_core_core_m, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_l, ɵangular_packages_core_core_u, ɵangular_packages_core_core_w, ɵangular_packages_core_core_v, ɵangular_packages_core_core_z, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_be, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_bk, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, createPlatform, assertPlatform, destroyPlatform, getPlatform, PlatformRef, ApplicationRef, createPlatformFactory, NgProbeToken, enableProdMode, isDevMode, APP_ID, PACKAGE_ROOT_URL, PLATFORM_INITIALIZER, PLATFORM_ID, APP_BOOTSTRAP_LISTENER, APP_INITIALIZER, ApplicationInitStatus, DebugElement, DebugNode, asNativeElements, getDebugNode, Testability, TestabilityRegistry, setTestabilityGetter, TRANSLATIONS, TRANSLATIONS_FORMAT, LOCALE_ID, MissingTranslationStrategy, ApplicationModule, wtfCreateScope, wtfLeave, wtfStartTimeRange, wtfEndTimeRange, Type, EventEmitter, ErrorHandler, Sanitizer, SecurityContext, ANALYZE_FOR_ENTRY_COMPONENTS, Attribute, ContentChild, ContentChildren, Query, ViewChild, ViewChildren, Component, Directive, HostBinding, HostListener, Input, Output, Pipe, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA, NgModule, ViewEncapsulation, Version, VERSION, defineInjectable, defineInjector, forwardRef, resolveForwardRef, Injectable, INJECTOR, Injector, inject, ɵinject, InjectFlags, ReflectiveInjector, createInjector, ResolvedReflectiveFactory, ReflectiveKey, InjectionToken, Inject, Optional, Self, SkipSelf, Host, NgZone, ɵNoopNgZone, RenderComponentType, Renderer, Renderer2, RendererFactory2, RendererStyleFlags2, RootRenderer, COMPILER_OPTIONS, Compiler, CompilerFactory, ModuleWithComponentFactories, ComponentFactory, ɵComponentFactory, ComponentRef, ComponentFactoryResolver, ElementRef, NgModuleFactory, NgModuleRef, NgModuleFactoryLoader, getModuleFactory, QueryList, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TemplateRef, ViewContainerRef, EmbeddedViewRef, ViewRef, ChangeDetectionStrategy, ChangeDetectorRef, DefaultIterableDiffer, IterableDiffers, KeyValueDiffers, SimpleChange, WrappedValue, platformCore, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdevModeEqual, ɵisListLikeIterable, ɵChangeDetectorStatus, ɵisDefaultChangeDetectionStrategy, ɵConsole, ɵgetInjectableDef, ɵsetCurrentInjector, ɵAPP_ROOT, ɵivyEnabled, ɵCodegenComponentFactoryResolver, ɵresolveComponentResources, ɵReflectionCapabilities, ɵRenderDebugInfo, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵglobal, ɵlooseIdentical, ɵstringify, ɵmakeDecorator, ɵisObservable, ɵisPromise, ɵclearOverrides, ɵinitServicesIfNeeded, ɵoverrideComponentView, ɵoverrideProvider, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵdefineBase, ɵdefineComponent, ɵdefineDirective, ɵdefinePipe, ɵdefineNgModule, ɵdetectChanges, ɵrenderComponent, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵdirectiveInject, ɵinjectAttribute, ɵgetFactoryOf, ɵgetInheritedFactory, ɵtemplateRefExtractor, ɵProvidersFeature, ɵInheritDefinitionFeature, ɵNgOnChangesFeature, ɵLifecycleHooksFeature, ɵRender3NgModuleRef, ɵmarkDirty, ɵNgModuleFactory, ɵNO_CHANGE, ɵcontainer, ɵnextContext, ɵelementStart, ɵnamespaceHTML, ɵnamespaceMathML, ɵnamespaceSVG, ɵelement, ɵlistener, ɵtext, ɵembeddedViewStart, ɵquery, ɵregisterContentQuery, ɵprojection, ɵbind, ɵinterpolation1, ɵinterpolation2, ɵinterpolation3, ɵinterpolation4, ɵinterpolation5, ɵinterpolation6, ɵinterpolation7, ɵinterpolation8, ɵinterpolationV, ɵpipeBind1, ɵpipeBind2, ɵpipeBind3, ɵpipeBind4, ɵpipeBindV, ɵpureFunction0, ɵpureFunction1, ɵpureFunction2, ɵpureFunction3, ɵpureFunction4, ɵpureFunction5, ɵpureFunction6, ɵpureFunction7, ɵpureFunction8, ɵpureFunctionV, ɵgetCurrentView, ɵgetHostElement, ɵrestoreView, ɵcontainerRefreshStart, ɵcontainerRefreshEnd, ɵqueryRefresh, ɵloadQueryList, ɵelementEnd, ɵelementProperty, ɵcomponentHostSyntheticProperty, ɵprojectionDef, ɵreference, ɵenableBindings, ɵdisableBindings, ɵallocHostVars, ɵelementAttribute, ɵelementContainerStart, ɵelementContainerEnd, ɵelementStyling, ɵelementHostAttrs, ɵelementStylingMap, ɵelementStyleProp, ɵelementStylingApply, ɵelementClassProp, ɵtextBinding, ɵtemplate, ɵembeddedViewEnd, ɵstore, ɵload, ɵpipe, ɵwhenRendered, ɵi18n, ɵi18nAttributes, ɵi18nExp, ɵi18nStart, ɵi18nEnd, ɵi18nApply, ɵi18nPostprocess, ɵsetClassMetadata, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵpatchComponentDefWithScope, ɵresetCompiledComponents, ɵcompilePipe, ɵsanitizeHtml, ɵsanitizeStyle, ɵdefaultStyleSanitizer, ɵsanitizeScript, ɵsanitizeUrl, ɵsanitizeResourceUrl, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustUrl, ɵbypassSanitizationTrustResourceUrl, ɵgetLContext, ɵbindPlayerFactory, ɵaddPlayer, ɵgetPlayers, ɵcompileNgModuleFactory__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵgetDebugNode__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵgetModuleFactory__POST_R3__, ɵpublishGlobalUtil, ɵpublishDefaultGlobalUtils, ɵSWITCH_INJECTOR_FACTORY__POST_R3__, ɵregisterModuleFactory, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵand, ɵccf, ɵcmf, ɵcrt, ɵdid, ɵeld, ɵelementEventFullName, ɵgetComponentViewDefinitionFactory, ɵinlineInterpolate, ɵinterpolate, ɵmod, ɵmpd, ɵncd, ɵnov, ɵpid, ɵprd, ɵpad, ɵpod, ɵppd, ɵqud, ɵted, ɵunv, ɵvid */
+/*! exports provided: ɵangular_packages_core_core_s, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_g, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_m, ɵangular_packages_core_core_l, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_k, ɵangular_packages_core_core_t, ɵangular_packages_core_core_v, ɵangular_packages_core_core_u, ɵangular_packages_core_core_y, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_be, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_z, ɵangular_packages_core_core_ba, createPlatform, assertPlatform, destroyPlatform, getPlatform, PlatformRef, ApplicationRef, createPlatformFactory, NgProbeToken, enableProdMode, isDevMode, APP_ID, PACKAGE_ROOT_URL, PLATFORM_INITIALIZER, PLATFORM_ID, APP_BOOTSTRAP_LISTENER, APP_INITIALIZER, ApplicationInitStatus, DebugElement, DebugNode, asNativeElements, getDebugNode, Testability, TestabilityRegistry, setTestabilityGetter, TRANSLATIONS, TRANSLATIONS_FORMAT, LOCALE_ID, MissingTranslationStrategy, ApplicationModule, wtfCreateScope, wtfLeave, wtfStartTimeRange, wtfEndTimeRange, Type, EventEmitter, ErrorHandler, Sanitizer, SecurityContext, ANALYZE_FOR_ENTRY_COMPONENTS, Attribute, ContentChild, ContentChildren, Query, ViewChild, ViewChildren, Component, Directive, HostBinding, HostListener, Input, Output, Pipe, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA, NgModule, ViewEncapsulation, Version, VERSION, defineInjectable, defineInjector, forwardRef, resolveForwardRef, Injectable, INJECTOR, Injector, inject, InjectFlags, ReflectiveInjector, createInjector, ResolvedReflectiveFactory, ReflectiveKey, InjectionToken, Inject, Optional, Self, SkipSelf, Host, NgZone, ɵNoopNgZone, RenderComponentType, Renderer, Renderer2, RendererFactory2, RendererStyleFlags2, RootRenderer, COMPILER_OPTIONS, Compiler, CompilerFactory, ModuleWithComponentFactories, ComponentFactory, ComponentRef, ComponentFactoryResolver, ElementRef, NgModuleFactory, NgModuleRef, NgModuleFactoryLoader, getModuleFactory, QueryList, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TemplateRef, ViewContainerRef, EmbeddedViewRef, ViewRef, ChangeDetectionStrategy, ChangeDetectorRef, DefaultIterableDiffer, IterableDiffers, KeyValueDiffers, SimpleChange, WrappedValue, platformCore, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdevModeEqual, ɵisListLikeIterable, ɵChangeDetectorStatus, ɵisDefaultChangeDetectionStrategy, ɵConsole, ɵgetInjectableDef, ɵinject, ɵsetCurrentInjector, ɵAPP_ROOT, ɵivyEnabled, ɵComponentFactory, ɵCodegenComponentFactoryResolver, ɵresolveComponentResources, ɵReflectionCapabilities, ɵRenderDebugInfo, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵglobal, ɵlooseIdentical, ɵstringify, ɵmakeDecorator, ɵisObservable, ɵisPromise, ɵclearOverrides, ɵinitServicesIfNeeded, ɵoverrideComponentView, ɵoverrideProvider, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵdefineBase, ɵdefineComponent, ɵdefineDirective, ɵdefinePipe, ɵdefineNgModule, ɵdetectChanges, ɵrenderComponent, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵdirectiveInject, ɵinjectAttribute, ɵgetFactoryOf, ɵgetInheritedFactory, ɵtemplateRefExtractor, ɵProvidersFeature, ɵInheritDefinitionFeature, ɵNgOnChangesFeature, ɵLifecycleHooksFeature, ɵRender3NgModuleRef, ɵmarkDirty, ɵNgModuleFactory, ɵNO_CHANGE, ɵcontainer, ɵnextContext, ɵelementStart, ɵnamespaceHTML, ɵnamespaceMathML, ɵnamespaceSVG, ɵelement, ɵlistener, ɵtext, ɵembeddedViewStart, ɵquery, ɵregisterContentQuery, ɵprojection, ɵbind, ɵinterpolation1, ɵinterpolation2, ɵinterpolation3, ɵinterpolation4, ɵinterpolation5, ɵinterpolation6, ɵinterpolation7, ɵinterpolation8, ɵinterpolationV, ɵpipeBind1, ɵpipeBind2, ɵpipeBind3, ɵpipeBind4, ɵpipeBindV, ɵpureFunction0, ɵpureFunction1, ɵpureFunction2, ɵpureFunction3, ɵpureFunction4, ɵpureFunction5, ɵpureFunction6, ɵpureFunction7, ɵpureFunction8, ɵpureFunctionV, ɵgetCurrentView, ɵgetHostElement, ɵrestoreView, ɵcontainerRefreshStart, ɵcontainerRefreshEnd, ɵqueryRefresh, ɵloadQueryList, ɵelementEnd, ɵelementProperty, ɵcomponentHostSyntheticProperty, ɵprojectionDef, ɵreference, ɵenableBindings, ɵdisableBindings, ɵallocHostVars, ɵelementAttribute, ɵelementContainerStart, ɵelementContainerEnd, ɵelementStyling, ɵelementHostAttrs, ɵelementStylingMap, ɵelementStyleProp, ɵelementStylingApply, ɵelementClassProp, ɵtextBinding, ɵtemplate, ɵembeddedViewEnd, ɵstore, ɵload, ɵpipe, ɵwhenRendered, ɵi18n, ɵi18nAttributes, ɵi18nExp, ɵi18nStart, ɵi18nEnd, ɵi18nApply, ɵi18nPostprocess, ɵsetClassMetadata, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵpatchComponentDefWithScope, ɵresetCompiledComponents, ɵcompilePipe, ɵsanitizeHtml, ɵsanitizeStyle, ɵsanitizeUrl, ɵsanitizeResourceUrl, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustUrl, ɵbypassSanitizationTrustResourceUrl, ɵgetLContext, ɵbindPlayerFactory, ɵaddPlayer, ɵgetPlayers, ɵcompileNgModuleFactory__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵgetDebugNode__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵgetModuleFactory__POST_R3__, ɵpublishGlobalUtil, ɵpublishDefaultGlobalUtils, ɵSWITCH_INJECTOR_FACTORY__POST_R3__, ɵregisterModuleFactory, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵand, ɵccf, ɵcmf, ɵcrt, ɵdid, ɵeld, ɵelementEventFullName, ɵgetComponentViewDefinitionFactory, ɵinlineInterpolate, ɵinterpolate, ɵmod, ɵmpd, ɵncd, ɵnov, ɵpid, ɵprd, ɵpad, ɵpod, ɵppd, ɵqud, ɵted, ɵunv, ɵvid */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_t", function() { return APPLICATION_MODULE_PROVIDERS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_q", function() { return _iterableDiffersFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_r", function() { return _keyValueDiffersFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_s", function() { return _localeFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_h", function() { return _appIdRandomProviderFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_o", function() { return DefaultIterableDifferFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_p", function() { return DefaultKeyValueDifferFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_n", function() { return DebugElement__PRE_R3__; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_m", function() { return DebugNode__PRE_R3__; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_c", function() { return NullInjector; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_d", function() { return injectInjectorOnly; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_e", function() { return ReflectiveInjector_; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_f", function() { return ReflectiveDependency; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_g", function() { return resolveReflectiveProviders; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_l", function() { return getModuleFactory__PRE_R3__; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_u", function() { return wtfEnabled; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_w", function() { return createScope; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_v", function() { return detectWTF; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_z", function() { return endTimeRange; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_x", function() { return leave; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_y", function() { return startTimeRange; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bc", function() { return injectAttributeImpl; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bj", function() { return NG_INJECTABLE_DEF; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bd", function() { return getLView; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_be", function() { return getPreviousOrParentTNode; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bf", function() { return nextContextImpl; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bi", function() { return BoundPlayerFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bm", function() { return loadInternal; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_i", function() { return createElementRef; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_j", function() { return createTemplateRef; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_k", function() { return createViewRef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_s", function() { return APPLICATION_MODULE_PROVIDERS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_p", function() { return _iterableDiffersFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_q", function() { return _keyValueDiffersFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_r", function() { return _localeFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_g", function() { return _appIdRandomProviderFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_n", function() { return DefaultIterableDifferFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_o", function() { return DefaultKeyValueDifferFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_m", function() { return DebugElement__PRE_R3__; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_l", function() { return DebugNode__PRE_R3__; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_c", function() { return injectInjectorOnly; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_d", function() { return ReflectiveInjector_; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_e", function() { return ReflectiveDependency; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_f", function() { return resolveReflectiveProviders; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_k", function() { return getModuleFactory__PRE_R3__; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_t", function() { return wtfEnabled; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_v", function() { return createScope; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_u", function() { return detectWTF; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_y", function() { return endTimeRange; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_w", function() { return leave; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_x", function() { return startTimeRange; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bb", function() { return injectAttributeImpl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bi", function() { return NG_INJECTABLE_DEF; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bc", function() { return getLView; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bd", function() { return getPreviousOrParentTNode; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_be", function() { return nextContextImpl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bh", function() { return BoundPlayerFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bl", function() { return loadInternal; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_h", function() { return createElementRef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_i", function() { return createTemplateRef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_j", function() { return createViewRef; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_a", function() { return makeParamDecorator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_b", function() { return makePropDecorator; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bk", function() { return getClosureSafeProperty; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_ba", function() { return _def; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bb", function() { return DebugContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bj", function() { return getClosureSafeProperty; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_z", function() { return _def; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_ba", function() { return DebugContext; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createPlatform", function() { return createPlatform; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "assertPlatform", function() { return assertPlatform; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "destroyPlatform", function() { return destroyPlatform; });
@@ -33791,7 +35425,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "INJECTOR", function() { return INJECTOR$1; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Injector", function() { return Injector; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "inject", function() { return inject; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵinject", function() { return inject; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InjectFlags", function() { return InjectFlags; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReflectiveInjector", function() { return ReflectiveInjector; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createInjector", function() { return createInjector; });
@@ -33816,7 +35449,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompilerFactory", function() { return CompilerFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModuleWithComponentFactories", function() { return ModuleWithComponentFactories; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComponentFactory", function() { return ComponentFactory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵComponentFactory", function() { return ComponentFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComponentRef", function() { return ComponentRef; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComponentFactoryResolver", function() { return ComponentFactoryResolver; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElementRef", function() { return ElementRef; });
@@ -33849,9 +35481,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵisDefaultChangeDetectionStrategy", function() { return isDefaultChangeDetectionStrategy; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵConsole", function() { return Console; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵgetInjectableDef", function() { return getInjectableDef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵinject", function() { return inject; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsetCurrentInjector", function() { return setCurrentInjector; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵAPP_ROOT", function() { return APP_ROOT; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵivyEnabled", function() { return ivyEnabled; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵComponentFactory", function() { return ComponentFactory; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵCodegenComponentFactoryResolver", function() { return CodegenComponentFactoryResolver; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵresolveComponentResources", function() { return resolveComponentResources; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵReflectionCapabilities", function() { return ReflectionCapabilities; });
@@ -33978,8 +35612,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcompilePipe", function() { return compilePipe; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsanitizeHtml", function() { return sanitizeHtml; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsanitizeStyle", function() { return sanitizeStyle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdefaultStyleSanitizer", function() { return defaultStyleSanitizer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsanitizeScript", function() { return sanitizeScript; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsanitizeUrl", function() { return sanitizeUrl; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsanitizeResourceUrl", function() { return sanitizeResourceUrl; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbypassSanitizationTrustHtml", function() { return bypassSanitizationTrustHtml; });
@@ -34042,8 +35674,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "../node_modules/rxjs/_esm5/index.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm5/operators/index.js");
 /**
- * @license Angular v7.2.15
- * (c) 2010-2019 Google LLC. https://angular.io/
+ * @license Angular v7.2.0
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 
@@ -34183,7 +35815,7 @@ function getInjectorDef(type) {
  *
  * Use an `InjectionToken` whenever the type you are injecting is not reified (does not have a
  * runtime representation) such as when injecting an interface, callable type, array or
- * parameterized type.
+ * parametrized type.
  *
  * `InjectionToken` is parameterized on `T` which is the type of object which will be returned by
  * the `Injector`. This provides additional level of type safety.
@@ -34378,16 +36010,15 @@ function makePropDecorator(name, props, parentClass, additionalProcessing) {
  * found in the LICENSE file at https://angular.io/license
  */
 /**
- * A DI token that you can use to create a virtual [provider](guide/glossary#provider)
- * that will populate the `entryComponents` field of components and NgModules
- * based on its `useValue` property value.
+ * This token can be used to create a virtual provider that will populate the
+ * `entryComponents` fields of components and ng modules based on its `useValue`.
  * All components that are referenced in the `useValue` value (either directly
- * or in a nested array or map) are added to the `entryComponents` property.
+ * or in a nested array or map) will be added to the `entryComponents` property.
  *
  * @usageNotes
- *
+ * ### Example
  * The following example shows how the router can populate the `entryComponents`
- * field of an NgModule based on a router configuration that refers
+ * field of an NgModule based on the router configuration which refers
  * to components.
  *
  * ```typescript
@@ -34498,7 +36129,6 @@ var ChangeDetectionStrategy;
      * Use the `CheckOnce` strategy, meaning that automatic change detection is deactivated
      * until reactivated by setting the strategy to `Default` (`CheckAlways`).
      * Change detection can still be explicitly invoked.
-     * This strategy applies to all child directives and cannot be overridden.
      */
     ChangeDetectionStrategy[ChangeDetectionStrategy["OnPush"] = 0] = "OnPush";
     /**
@@ -34706,18 +36336,18 @@ function resolveForwardRef(type) {
  *   selector: 'my-comp',
  *   templateUrl: 'my-comp.html', // This requires asynchronous resolution
  * })
- * class MyComponent{
+ * class MyComponnent{
  * }
  *
- * // Calling `renderComponent` will fail because `renderComponent` is a synchronous process
- * // and `MyComponent`'s `@Component.templateUrl` needs to be resolved asynchronously.
+ * // Calling `renderComponent` will fail because `MyComponent`'s `@Compenent.templateUrl`
+ * // needs to be resolved because `renderComponent` is synchronous process.
+ * // renderComponent(MyComponent);
  *
- * // Calling `resolveComponentResources()` will resolve `@Component.templateUrl` into
- * // `@Component.template`, which allows `renderComponent` to proceed in a synchronous manner.
- *
- * // Use browser's `fetch()` function as the default resource resolution strategy.
+ * // Calling `resolveComponentResources` will resolve `@Compenent.templateUrl` into
+ * // `@Compenent.template`, which would allow `renderComponent` to proceed in synchronous manner.
+ * // Use browser's `fetch` function as the default resource resolution strategy.
  * resolveComponentResources(fetch).then(() => {
- *   // After resolution all URLs have been converted into `template` strings.
+ *   // After resolution all URLs have been converted into strings.
  *   renderComponent(MyComponent);
  * });
  *
@@ -34726,8 +36356,8 @@ function resolveForwardRef(type) {
  * NOTE: In AOT the resolution happens during compilation, and so there should be no need
  * to call this method outside JIT mode.
  *
- * @param resourceResolver a function which is responsible for returning a `Promise` to the
- * contents of the resolved URL. Browser's `fetch()` method is a good default implementation.
+ * @param resourceResolver a function which is responsible to returning a `Promise` of the resolved
+ * URL. Browser's `fetch` method is a good default implementation.
  */
 function resolveComponentResources(resourceResolver) {
     // Store all promises which are fetching the resources.
@@ -35694,7 +37324,7 @@ var R3ResolvedDependencyType;
  * found in the LICENSE file at https://angular.io/license
  */
 function getCompilerFacade() {
-    var globalNg = _global['ng'];
+    var globalNg = _global.ng;
     if (!globalNg || !globalNg.ɵcompilerFacade) {
         throw new Error("Angular JIT compilation failed: '@angular/compiler' not loaded!\n" +
             "  - JIT compilation is discouraged for production use-cases! Consider AOT mode instead.\n" +
@@ -39150,7 +40780,7 @@ function updateStylingMap(context, classesInput, stylesInput, directiveRef) {
     var classesValue = classesPlayerBuilder ?
         classesInput.value :
         classesInput;
-    var stylesValue = stylesPlayerBuilder ? stylesInput['value'] : stylesInput;
+    var stylesValue = stylesPlayerBuilder ? stylesInput.value : stylesInput;
     // early exit (this is what's done to avoid using ctx.bind() to cache the value)
     var ignoreAllClassUpdates = limitToSingleClasses(context) || classesValue === NO_CHANGE ||
         classesValue === context[6 /* CachedClassValueOrInitialClassString */];
@@ -44787,7 +46417,7 @@ var Version = /** @class */ (function () {
 /**
  * @publicApi
  */
-var VERSION = new Version('7.2.15');
+var VERSION = new Version('7.2.0');
 
 /**
  * @license
@@ -45223,7 +46853,7 @@ function isDOMParserAvailable() {
  * execution if used in URL context within a HTML document. Specifically, this
  * regular expression matches if (comment from here on and regex copied from
  * Soy's EscapingConventions):
- * (1) Either an allowed protocol (http, https, mailto or ftp).
+ * (1) Either a protocol in a whitelist (http, https, mailto or ftp).
  * (2) or no protocol.  A protocol must be followed by a colon. The below
  *     allows that by allowing colons only after one of the characters [/?#].
  *     A colon after a hash (#) must be in the fragment.
@@ -45345,12 +46975,6 @@ var HTML_ATTRS = tagSet('abbr,accesskey,align,alt,autoplay,axis,bgcolor,border,c
 // can be sanitized, but they increase security surface area without a legitimate use case, so they
 // are left out here.
 var VALID_ATTRS = merge$1(URI_ATTRS, SRCSET_ATTRS, HTML_ATTRS);
-// Elements whose content should not be traversed/preserved, if the elements themselves are invalid.
-//
-// Typically, `<invalid>Some content</invalid>` would traverse (and in this case preserve)
-// `Some content`, but strip `invalid-element` opening/closing tags. For some elements, though, we
-// don't want to preserve the content, if the elements themselves are going to be removed.
-var SKIP_TRAVERSING_CONTENT_IF_INVALID_ELEMENTS = tagSet('script,style,template');
 /**
  * SanitizingHtmlSerializer serializes a DOM fragment, stripping out any unsafe elements and unsafe
  * attributes.
@@ -45367,10 +46991,10 @@ var SanitizingHtmlSerializer = /** @class */ (function () {
         // However this code never accesses properties off of `document` before deleting its contents
         // again, so it shouldn't be vulnerable to DOM clobbering.
         var current = el.firstChild;
-        var traverseContent = true;
+        var elementValid = true;
         while (current) {
             if (current.nodeType === Node.ELEMENT_NODE) {
-                traverseContent = this.startElement(current);
+                elementValid = this.startElement(current);
             }
             else if (current.nodeType === Node.TEXT_NODE) {
                 this.chars(current.nodeValue);
@@ -45379,7 +47003,7 @@ var SanitizingHtmlSerializer = /** @class */ (function () {
                 // Strip non-element, non-text nodes.
                 this.sanitizedSomething = true;
             }
-            if (traverseContent && current.firstChild) {
+            if (elementValid && current.firstChild) {
                 current = current.firstChild;
                 continue;
             }
@@ -45399,18 +47023,18 @@ var SanitizingHtmlSerializer = /** @class */ (function () {
         return this.buf.join('');
     };
     /**
-     * Sanitizes an opening element tag (if valid) and returns whether the element's contents should
-     * be traversed. Element content must always be traversed (even if the element itself is not
-     * valid/safe), unless the element is one of `SKIP_TRAVERSING_CONTENT_IF_INVALID_ELEMENTS`.
+     * Outputs only valid Elements.
      *
-     * @param element The element to sanitize.
-     * @return True if the element's contents should be traversed.
+     * Invalid elements are skipped.
+     *
+     * @param element element to sanitize
+     * Returns true if the element is valid.
      */
     SanitizingHtmlSerializer.prototype.startElement = function (element) {
         var tagName = element.nodeName.toLowerCase();
         if (!VALID_ELEMENTS.hasOwnProperty(tagName)) {
             this.sanitizedSomething = true;
-            return !SKIP_TRAVERSING_CONTENT_IF_INVALID_ELEMENTS.hasOwnProperty(tagName);
+            return false;
         }
         this.buf.push('<');
         this.buf.push(tagName);
@@ -45502,7 +47126,7 @@ function _sanitizeHtml(defaultDoc, unsafeHtmlInput) {
         var sanitizer = new SanitizingHtmlSerializer();
         var safeHtml = sanitizer.sanitizeChildren(getTemplateContent(inertBodyElement) || inertBodyElement);
         if (isDevMode() && sanitizer.sanitizedSomething) {
-            console.warn('WARNING: sanitizing HTML stripped some content, see http://g.co/ng/security#xss');
+            console.warn('WARNING: sanitizing HTML stripped some content (see http://g.co/ng/security#xss).');
         }
         return safeHtml;
     }
@@ -46143,9 +47767,6 @@ function readUpdateOpCodes(updateOpCodes, icus, bindingsStartIndex, changeMask, 
                     }
                     else {
                         var nodeIndex = opCode >>> 2 /* SHIFT_REF */;
-                        var tIcuIndex = void 0;
-                        var tIcu = void 0;
-                        var icuTNode = void 0;
                         switch (opCode & 3 /* MASK_OPCODE */) {
                             case 1 /* Attr */:
                                 var attrName = updateOpCodes[++j];
@@ -46156,9 +47777,9 @@ function readUpdateOpCodes(updateOpCodes, icus, bindingsStartIndex, changeMask, 
                                 textBinding(nodeIndex, value);
                                 break;
                             case 2 /* IcuSwitch */:
-                                tIcuIndex = updateOpCodes[++j];
-                                tIcu = icus[tIcuIndex];
-                                icuTNode = getTNode(nodeIndex, viewData);
+                                var tIcuIndex = updateOpCodes[++j];
+                                var tIcu = icus[tIcuIndex];
+                                var icuTNode = getTNode(nodeIndex, viewData);
                                 // If there is an active case, delete the old nodes
                                 if (icuTNode.activeCaseIndex !== null) {
                                     var removeCodes = tIcu.remove[icuTNode.activeCaseIndex];
@@ -48304,7 +49925,8 @@ function sanitizeScript(unsafeScript) {
 var defaultStyleSanitizer = function (prop, value) {
     if (value === undefined) {
         return prop === 'background-image' || prop === 'background' || prop === 'border-image' ||
-            prop === 'filter' || prop === 'list-style' || prop === 'list-style-image';
+            prop === 'filter' || prop === 'filter' || prop === 'list-style' ||
+            prop === 'list-style-image';
     }
     return sanitizeStyle(value);
 };
@@ -49436,7 +51058,7 @@ var initializeBaseDef = function (target) {
     }
 };
 /**
- * Does the work of creating the `ngBaseDef` property for the `Input` and `Output` decorators.
+ * Does the work of creating the `ngBaseDef` property for the @Input and @Output decorators.
  * @param key "inputs" or "outputs"
  */
 var updateBaseDefFromIOProp = function (getProp) {
@@ -51934,94 +53556,6 @@ function optionsReducer(dst, objs) {
 }
 /**
  * A reference to an Angular application running on a page.
- *
- * @usageNotes
- *
- * {@a is-stable-examples}
- * ### isStable examples and caveats
- *
- * Note two important points about `isStable`, demonstrated in the examples below:
- * - the application will never be stable if you start any kind
- * of recurrent asynchronous task when the application starts
- * (for example for a polling process, started with a `setInterval`, a `setTimeout`
- * or using RxJS operators like `interval`);
- * - the `isStable` Observable runs outside of the Angular zone.
- *
- * Let's imagine that you start a recurrent task
- * (here incrementing a counter, using RxJS `interval`),
- * and at the same time subscribe to `isStable`.
- *
- * ```
- * constructor(appRef: ApplicationRef) {
- *   appRef.isStable.pipe(
- *      filter(stable => stable)
- *   ).subscribe(() => console.log('App is stable now');
- *   interval(1000).subscribe(counter => console.log(counter));
- * }
- * ```
- * In this example, `isStable` will never emit `true`,
- * and the trace "App is stable now" will never get logged.
- *
- * If you want to execute something when the app is stable,
- * you have to wait for the application to be stable
- * before starting your polling process.
- *
- * ```
- * constructor(appRef: ApplicationRef) {
- *   appRef.isStable.pipe(
- *     first(stable => stable),
- *     tap(stable => console.log('App is stable now')),
- *     switchMap(() => interval(1000))
- *   ).subscribe(counter => console.log(counter));
- * }
- * ```
- * In this example, the trace "App is stable now" will be logged
- * and then the counter starts incrementing every second.
- *
- * Note also that this Observable runs outside of the Angular zone,
- * which means that the code in the subscription
- * to this Observable will not trigger the change detection.
- *
- * Let's imagine that instead of logging the counter value,
- * you update a field of your component
- * and display it in its template.
- *
- * ```
- * constructor(appRef: ApplicationRef) {
- *   appRef.isStable.pipe(
- *     first(stable => stable),
- *     switchMap(() => interval(1000))
- *   ).subscribe(counter => this.value = counter);
- * }
- * ```
- * As the `isStable` Observable runs outside the zone,
- * the `value` field will be updated properly,
- * but the template will not be refreshed!
- *
- * You'll have to manually trigger the change detection to update the template.
- *
- * ```
- * constructor(appRef: ApplicationRef, cd: ChangeDetectorRef) {
- *   appRef.isStable.pipe(
- *     first(stable => stable),
- *     switchMap(() => interval(1000))
- *   ).subscribe(counter => {
- *     this.value = counter;
- *     cd.detectChanges();
- *   });
- * }
- * ```
- *
- * Or make the subscription callback run inside the zone.
- *
- * ```
- * constructor(appRef: ApplicationRef, zone: NgZone) {
- *   appRef.isStable.pipe(
- *     first(stable => stable),
- *     switchMap(() => interval(1000))
- *   ).subscribe(counter => zone.run(() => this.value = counter));
- * }
- * ```
  *
  * @publicApi
  */
@@ -58556,8 +60090,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "../node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /**
- * @license Angular v7.2.15
- * (c) 2010-2019 Google LLC. https://angular.io/
+ * @license Angular v7.2.0
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 
@@ -58993,7 +60527,7 @@ var CachedResourceLoader = /** @class */ (function (_super) {
 /**
  * @publicApi
  */
-var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('7.2.15');
+var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('7.2.0');
 
 /**
  * @license
@@ -59103,8 +60637,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "../node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
 /**
- * @license Angular v7.2.15
- * (c) 2010-2019 Google LLC. https://angular.io/
+ * @license Angular v7.2.0
+ * (c) 2010-2018 Google, Inc. https://angular.io/
  * License: MIT
  */
 
@@ -60103,10 +61637,9 @@ function decoratePreventDefault(eventHandler) {
     };
 }
 var DomRendererFactory2 = /** @class */ (function () {
-    function DomRendererFactory2(eventManager, sharedStylesHost, appId) {
+    function DomRendererFactory2(eventManager, sharedStylesHost) {
         this.eventManager = eventManager;
         this.sharedStylesHost = sharedStylesHost;
-        this.appId = appId;
         this.rendererByCompId = new Map();
         this.defaultRenderer = new DefaultDomRenderer2(eventManager);
     }
@@ -60118,7 +61651,8 @@ var DomRendererFactory2 = /** @class */ (function () {
             case _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewEncapsulation"].Emulated: {
                 var renderer = this.rendererByCompId.get(type.id);
                 if (!renderer) {
-                    renderer = new EmulatedEncapsulationDomRenderer2(this.eventManager, this.sharedStylesHost, type, this.appId);
+                    renderer =
+                        new EmulatedEncapsulationDomRenderer2(this.eventManager, this.sharedStylesHost, type);
                     this.rendererByCompId.set(type.id, renderer);
                 }
                 renderer.applyToHost(element);
@@ -60141,8 +61675,7 @@ var DomRendererFactory2 = /** @class */ (function () {
     DomRendererFactory2.prototype.end = function () { };
     DomRendererFactory2 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(2, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_2__["APP_ID"])),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [EventManager, DomSharedStylesHost, String])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [EventManager, DomSharedStylesHost])
     ], DomRendererFactory2);
     return DomRendererFactory2;
 }());
@@ -60255,13 +61788,13 @@ function checkNoSyntheticProp(name, nameKind) {
 }
 var EmulatedEncapsulationDomRenderer2 = /** @class */ (function (_super) {
     Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(EmulatedEncapsulationDomRenderer2, _super);
-    function EmulatedEncapsulationDomRenderer2(eventManager, sharedStylesHost, component, appId) {
+    function EmulatedEncapsulationDomRenderer2(eventManager, sharedStylesHost, component) {
         var _this = _super.call(this, eventManager) || this;
         _this.component = component;
-        var styles = flattenStyles(appId + '-' + component.id, component.styles, []);
+        var styles = flattenStyles(component.id, component.styles, []);
         sharedStylesHost.addStyles(styles);
-        _this.contentAttr = shimContentAttribute(appId + '-' + component.id);
-        _this.hostAttr = shimHostAttribute(appId + '-' + component.id);
+        _this.contentAttr = shimContentAttribute(component.id);
+        _this.hostAttr = shimHostAttribute(component.id);
         return _this;
     }
     EmulatedEncapsulationDomRenderer2.prototype.applyToHost = function (element) { _super.prototype.setAttribute.call(this, element, this.hostAttr, ''); };
@@ -61060,7 +62593,7 @@ var BROWSER_MODULE_PROVIDERS = [
     {
         provide: DomRendererFactory2,
         useClass: DomRendererFactory2,
-        deps: [EventManager, DomSharedStylesHost, _angular_core__WEBPACK_IMPORTED_MODULE_2__["APP_ID"]]
+        deps: [EventManager, DomSharedStylesHost]
     },
     { provide: _angular_core__WEBPACK_IMPORTED_MODULE_2__["RendererFactory2"], useExisting: DomRendererFactory2 },
     { provide: SharedStylesHost, useExisting: DomSharedStylesHost },
@@ -61071,7 +62604,7 @@ var BROWSER_MODULE_PROVIDERS = [
 ];
 /**
  * Exports required infrastructure for all Angular apps.
- * Included by default in all Angular apps created with the CLI
+ * Included by defaults in all Angular apps created with the CLI
  * `new` command.
  * Re-exports `CommonModule` and `ApplicationModule`, making their
  * exports and providers available to all apps.
@@ -61577,7 +63110,7 @@ var By = /** @class */ (function () {
 /**
  * @publicApi
  */
-var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('7.2.15');
+var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('7.2.0');
 
 /**
  * @license
@@ -61610,5872 +63143,6 @@ var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('7.2.15'
 
 
 //# sourceMappingURL=platform-browser.js.map
-
-
-/***/ }),
-
-/***/ "../node_modules/@angular/router/fesm5/router.js":
-/*!*******************************************************!*\
-  !*** ../node_modules/@angular/router/fesm5/router.js ***!
-  \*******************************************************/
-/*! exports provided: ɵangular_packages_router_router_a, ɵangular_packages_router_router_h, ɵangular_packages_router_router_c, ɵangular_packages_router_router_i, ɵangular_packages_router_router_j, ɵangular_packages_router_router_e, ɵangular_packages_router_router_d, ɵangular_packages_router_router_k, ɵangular_packages_router_router_g, ɵangular_packages_router_router_b, ɵangular_packages_router_router_f, ɵangular_packages_router_router_n, ɵangular_packages_router_router_l, ɵangular_packages_router_router_m, RouterLink, RouterLinkWithHref, RouterLinkActive, RouterOutlet, ActivationEnd, ActivationStart, ChildActivationEnd, ChildActivationStart, GuardsCheckEnd, GuardsCheckStart, NavigationCancel, NavigationEnd, NavigationError, NavigationStart, ResolveEnd, ResolveStart, RouteConfigLoadEnd, RouteConfigLoadStart, RouterEvent, RoutesRecognized, Scroll, RouteReuseStrategy, Router, ROUTES, ROUTER_CONFIGURATION, ROUTER_INITIALIZER, RouterModule, provideRoutes, ChildrenOutletContexts, OutletContext, NoPreloading, PreloadAllModules, PreloadingStrategy, RouterPreloader, ActivatedRoute, ActivatedRouteSnapshot, RouterState, RouterStateSnapshot, PRIMARY_OUTLET, convertToParamMap, UrlHandlingStrategy, DefaultUrlSerializer, UrlSegment, UrlSegmentGroup, UrlSerializer, UrlTree, VERSION, ɵEmptyOutletComponent, ɵROUTER_PROVIDERS, ɵflatten */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_a", function() { return ROUTER_FORROOT_GUARD; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_h", function() { return RouterInitializer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_c", function() { return createRouterScroller; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_i", function() { return getAppInitializer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_j", function() { return getBootstrapListener; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_e", function() { return provideForRootGuard; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_d", function() { return provideLocationStrategy; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_k", function() { return provideRouterInitializer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_g", function() { return rootRoute; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_b", function() { return routerNgProbeToken; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_f", function() { return setupRouter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_n", function() { return RouterScroller; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_l", function() { return Tree; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_m", function() { return TreeNode; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterLink", function() { return RouterLink; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterLinkWithHref", function() { return RouterLinkWithHref; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterLinkActive", function() { return RouterLinkActive; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterOutlet", function() { return RouterOutlet; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActivationEnd", function() { return ActivationEnd; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActivationStart", function() { return ActivationStart; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChildActivationEnd", function() { return ChildActivationEnd; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChildActivationStart", function() { return ChildActivationStart; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GuardsCheckEnd", function() { return GuardsCheckEnd; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GuardsCheckStart", function() { return GuardsCheckStart; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationCancel", function() { return NavigationCancel; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationEnd", function() { return NavigationEnd; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationError", function() { return NavigationError; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavigationStart", function() { return NavigationStart; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResolveEnd", function() { return ResolveEnd; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResolveStart", function() { return ResolveStart; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouteConfigLoadEnd", function() { return RouteConfigLoadEnd; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouteConfigLoadStart", function() { return RouteConfigLoadStart; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterEvent", function() { return RouterEvent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RoutesRecognized", function() { return RoutesRecognized; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Scroll", function() { return Scroll; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouteReuseStrategy", function() { return RouteReuseStrategy; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return Router; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROUTES", function() { return ROUTES; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROUTER_CONFIGURATION", function() { return ROUTER_CONFIGURATION; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ROUTER_INITIALIZER", function() { return ROUTER_INITIALIZER; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterModule", function() { return RouterModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "provideRoutes", function() { return provideRoutes; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ChildrenOutletContexts", function() { return ChildrenOutletContexts; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OutletContext", function() { return OutletContext; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NoPreloading", function() { return NoPreloading; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PreloadAllModules", function() { return PreloadAllModules; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PreloadingStrategy", function() { return PreloadingStrategy; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterPreloader", function() { return RouterPreloader; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActivatedRoute", function() { return ActivatedRoute; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActivatedRouteSnapshot", function() { return ActivatedRouteSnapshot; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterState", function() { return RouterState; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RouterStateSnapshot", function() { return RouterStateSnapshot; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PRIMARY_OUTLET", function() { return PRIMARY_OUTLET; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "convertToParamMap", function() { return convertToParamMap; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UrlHandlingStrategy", function() { return UrlHandlingStrategy; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DefaultUrlSerializer", function() { return DefaultUrlSerializer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UrlSegment", function() { return UrlSegment; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UrlSegmentGroup", function() { return UrlSegmentGroup; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UrlSerializer", function() { return UrlSerializer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UrlTree", function() { return UrlTree; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VERSION", function() { return VERSION; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵEmptyOutletComponent", function() { return EmptyOutletComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵROUTER_PROVIDERS", function() { return ROUTER_PROVIDERS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵflatten", function() { return flatten; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "../node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "../node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm5/operators/index.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/**
- * @license Angular v7.2.15
- * (c) 2010-2019 Google LLC. https://angular.io/
- * License: MIT
- */
-
-
-
-
-
-
-
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @description
- *
- * Base for events the Router goes through, as opposed to events tied to a specific
- * Route. `RouterEvent`s will only be fired one time for any given navigation.
- *
- * Example:
- *
- * ```
- * class MyService {
- *   constructor(public router: Router, logger: Logger) {
- *     router.events.pipe(
- *       filter(e => e instanceof RouterEvent)
- *     ).subscribe(e => {
- *       logger.log(e.id, e.url);
- *     });
- *   }
- * }
- * ```
- *
- * @publicApi
- */
-var RouterEvent = /** @class */ (function () {
-    function RouterEvent(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url) {
-        this.id = id;
-        this.url = url;
-    }
-    return RouterEvent;
-}());
-/**
- * @description
- *
- * Represents an event triggered when a navigation starts.
- *
- * @publicApi
- */
-var NavigationStart = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(NavigationStart, _super);
-    function NavigationStart(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    navigationTrigger, 
-    /** @docsNotRequired */
-    restoredState) {
-        if (navigationTrigger === void 0) { navigationTrigger = 'imperative'; }
-        if (restoredState === void 0) { restoredState = null; }
-        var _this = _super.call(this, id, url) || this;
-        _this.navigationTrigger = navigationTrigger;
-        _this.restoredState = restoredState;
-        return _this;
-    }
-    /** @docsNotRequired */
-    NavigationStart.prototype.toString = function () { return "NavigationStart(id: " + this.id + ", url: '" + this.url + "')"; };
-    return NavigationStart;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents an event triggered when a navigation ends successfully.
- *
- * @publicApi
- */
-var NavigationEnd = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(NavigationEnd, _super);
-    function NavigationEnd(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    urlAfterRedirects) {
-        var _this = _super.call(this, id, url) || this;
-        _this.urlAfterRedirects = urlAfterRedirects;
-        return _this;
-    }
-    /** @docsNotRequired */
-    NavigationEnd.prototype.toString = function () {
-        return "NavigationEnd(id: " + this.id + ", url: '" + this.url + "', urlAfterRedirects: '" + this.urlAfterRedirects + "')";
-    };
-    return NavigationEnd;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents an event triggered when a navigation is canceled.
- *
- * @publicApi
- */
-var NavigationCancel = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(NavigationCancel, _super);
-    function NavigationCancel(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    reason) {
-        var _this = _super.call(this, id, url) || this;
-        _this.reason = reason;
-        return _this;
-    }
-    /** @docsNotRequired */
-    NavigationCancel.prototype.toString = function () { return "NavigationCancel(id: " + this.id + ", url: '" + this.url + "')"; };
-    return NavigationCancel;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents an event triggered when a navigation fails due to an unexpected error.
- *
- * @publicApi
- */
-var NavigationError = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(NavigationError, _super);
-    function NavigationError(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    error) {
-        var _this = _super.call(this, id, url) || this;
-        _this.error = error;
-        return _this;
-    }
-    /** @docsNotRequired */
-    NavigationError.prototype.toString = function () {
-        return "NavigationError(id: " + this.id + ", url: '" + this.url + "', error: " + this.error + ")";
-    };
-    return NavigationError;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents an event triggered when routes are recognized.
- *
- * @publicApi
- */
-var RoutesRecognized = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(RoutesRecognized, _super);
-    function RoutesRecognized(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    urlAfterRedirects, 
-    /** @docsNotRequired */
-    state) {
-        var _this = _super.call(this, id, url) || this;
-        _this.urlAfterRedirects = urlAfterRedirects;
-        _this.state = state;
-        return _this;
-    }
-    /** @docsNotRequired */
-    RoutesRecognized.prototype.toString = function () {
-        return "RoutesRecognized(id: " + this.id + ", url: '" + this.url + "', urlAfterRedirects: '" + this.urlAfterRedirects + "', state: " + this.state + ")";
-    };
-    return RoutesRecognized;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents the start of the Guard phase of routing.
- *
- * @publicApi
- */
-var GuardsCheckStart = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(GuardsCheckStart, _super);
-    function GuardsCheckStart(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    urlAfterRedirects, 
-    /** @docsNotRequired */
-    state) {
-        var _this = _super.call(this, id, url) || this;
-        _this.urlAfterRedirects = urlAfterRedirects;
-        _this.state = state;
-        return _this;
-    }
-    GuardsCheckStart.prototype.toString = function () {
-        return "GuardsCheckStart(id: " + this.id + ", url: '" + this.url + "', urlAfterRedirects: '" + this.urlAfterRedirects + "', state: " + this.state + ")";
-    };
-    return GuardsCheckStart;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents the end of the Guard phase of routing.
- *
- * @publicApi
- */
-var GuardsCheckEnd = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(GuardsCheckEnd, _super);
-    function GuardsCheckEnd(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    urlAfterRedirects, 
-    /** @docsNotRequired */
-    state, 
-    /** @docsNotRequired */
-    shouldActivate) {
-        var _this = _super.call(this, id, url) || this;
-        _this.urlAfterRedirects = urlAfterRedirects;
-        _this.state = state;
-        _this.shouldActivate = shouldActivate;
-        return _this;
-    }
-    GuardsCheckEnd.prototype.toString = function () {
-        return "GuardsCheckEnd(id: " + this.id + ", url: '" + this.url + "', urlAfterRedirects: '" + this.urlAfterRedirects + "', state: " + this.state + ", shouldActivate: " + this.shouldActivate + ")";
-    };
-    return GuardsCheckEnd;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents the start of the Resolve phase of routing. The timing of this
- * event may change, thus it's experimental. In the current iteration it will run
- * in the "resolve" phase whether there's things to resolve or not. In the future this
- * behavior may change to only run when there are things to be resolved.
- *
- * @publicApi
- */
-var ResolveStart = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(ResolveStart, _super);
-    function ResolveStart(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    urlAfterRedirects, 
-    /** @docsNotRequired */
-    state) {
-        var _this = _super.call(this, id, url) || this;
-        _this.urlAfterRedirects = urlAfterRedirects;
-        _this.state = state;
-        return _this;
-    }
-    ResolveStart.prototype.toString = function () {
-        return "ResolveStart(id: " + this.id + ", url: '" + this.url + "', urlAfterRedirects: '" + this.urlAfterRedirects + "', state: " + this.state + ")";
-    };
-    return ResolveStart;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents the end of the Resolve phase of routing. See note on
- * `ResolveStart` for use of this experimental API.
- *
- * @publicApi
- */
-var ResolveEnd = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(ResolveEnd, _super);
-    function ResolveEnd(
-    /** @docsNotRequired */
-    id, 
-    /** @docsNotRequired */
-    url, 
-    /** @docsNotRequired */
-    urlAfterRedirects, 
-    /** @docsNotRequired */
-    state) {
-        var _this = _super.call(this, id, url) || this;
-        _this.urlAfterRedirects = urlAfterRedirects;
-        _this.state = state;
-        return _this;
-    }
-    ResolveEnd.prototype.toString = function () {
-        return "ResolveEnd(id: " + this.id + ", url: '" + this.url + "', urlAfterRedirects: '" + this.urlAfterRedirects + "', state: " + this.state + ")";
-    };
-    return ResolveEnd;
-}(RouterEvent));
-/**
- * @description
- *
- * Represents an event triggered before lazy loading a route config.
- *
- * @publicApi
- */
-var RouteConfigLoadStart = /** @class */ (function () {
-    function RouteConfigLoadStart(
-    /** @docsNotRequired */
-    route) {
-        this.route = route;
-    }
-    RouteConfigLoadStart.prototype.toString = function () { return "RouteConfigLoadStart(path: " + this.route.path + ")"; };
-    return RouteConfigLoadStart;
-}());
-/**
- * @description
- *
- * Represents an event triggered when a route has been lazy loaded.
- *
- * @publicApi
- */
-var RouteConfigLoadEnd = /** @class */ (function () {
-    function RouteConfigLoadEnd(
-    /** @docsNotRequired */
-    route) {
-        this.route = route;
-    }
-    RouteConfigLoadEnd.prototype.toString = function () { return "RouteConfigLoadEnd(path: " + this.route.path + ")"; };
-    return RouteConfigLoadEnd;
-}());
-/**
- * @description
- *
- * Represents the start of end of the Resolve phase of routing. See note on
- * `ChildActivationEnd` for use of this experimental API.
- *
- * @publicApi
- */
-var ChildActivationStart = /** @class */ (function () {
-    function ChildActivationStart(
-    /** @docsNotRequired */
-    snapshot) {
-        this.snapshot = snapshot;
-    }
-    ChildActivationStart.prototype.toString = function () {
-        var path = this.snapshot.routeConfig && this.snapshot.routeConfig.path || '';
-        return "ChildActivationStart(path: '" + path + "')";
-    };
-    return ChildActivationStart;
-}());
-/**
- * @description
- *
- * Represents the start of end of the Resolve phase of routing. See note on
- * `ChildActivationStart` for use of this experimental API.
- *
- * @publicApi
- */
-var ChildActivationEnd = /** @class */ (function () {
-    function ChildActivationEnd(
-    /** @docsNotRequired */
-    snapshot) {
-        this.snapshot = snapshot;
-    }
-    ChildActivationEnd.prototype.toString = function () {
-        var path = this.snapshot.routeConfig && this.snapshot.routeConfig.path || '';
-        return "ChildActivationEnd(path: '" + path + "')";
-    };
-    return ChildActivationEnd;
-}());
-/**
- * @description
- *
- * Represents the start of end of the Resolve phase of routing. See note on
- * `ActivationEnd` for use of this experimental API.
- *
- * @publicApi
- */
-var ActivationStart = /** @class */ (function () {
-    function ActivationStart(
-    /** @docsNotRequired */
-    snapshot) {
-        this.snapshot = snapshot;
-    }
-    ActivationStart.prototype.toString = function () {
-        var path = this.snapshot.routeConfig && this.snapshot.routeConfig.path || '';
-        return "ActivationStart(path: '" + path + "')";
-    };
-    return ActivationStart;
-}());
-/**
- * @description
- *
- * Represents the start of end of the Resolve phase of routing. See note on
- * `ActivationStart` for use of this experimental API.
- *
- * @publicApi
- */
-var ActivationEnd = /** @class */ (function () {
-    function ActivationEnd(
-    /** @docsNotRequired */
-    snapshot) {
-        this.snapshot = snapshot;
-    }
-    ActivationEnd.prototype.toString = function () {
-        var path = this.snapshot.routeConfig && this.snapshot.routeConfig.path || '';
-        return "ActivationEnd(path: '" + path + "')";
-    };
-    return ActivationEnd;
-}());
-/**
- * @description
- *
- * Represents a scrolling event.
- *
- * @publicApi
- */
-var Scroll = /** @class */ (function () {
-    function Scroll(
-    /** @docsNotRequired */
-    routerEvent, 
-    /** @docsNotRequired */
-    position, 
-    /** @docsNotRequired */
-    anchor) {
-        this.routerEvent = routerEvent;
-        this.position = position;
-        this.anchor = anchor;
-    }
-    Scroll.prototype.toString = function () {
-        var pos = this.position ? this.position[0] + ", " + this.position[1] : null;
-        return "Scroll(anchor: '" + this.anchor + "', position: '" + pos + "')";
-    };
-    return Scroll;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * This component is used internally within the router to be a placeholder when an empty
- * router-outlet is needed. For example, with a config such as:
- *
- * `{path: 'parent', outlet: 'nav', children: [...]}`
- *
- * In order to render, there needs to be a component on this config, which will default
- * to this `EmptyOutletComponent`.
- */
-var EmptyOutletComponent = /** @class */ (function () {
-    function EmptyOutletComponent() {
-    }
-    EmptyOutletComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({ template: "<router-outlet></router-outlet>" })
-    ], EmptyOutletComponent);
-    return EmptyOutletComponent;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @description
- *
- * Name of the primary outlet.
- *
- * @publicApi
- */
-var PRIMARY_OUTLET = 'primary';
-var ParamsAsMap = /** @class */ (function () {
-    function ParamsAsMap(params) {
-        this.params = params || {};
-    }
-    ParamsAsMap.prototype.has = function (name) { return this.params.hasOwnProperty(name); };
-    ParamsAsMap.prototype.get = function (name) {
-        if (this.has(name)) {
-            var v = this.params[name];
-            return Array.isArray(v) ? v[0] : v;
-        }
-        return null;
-    };
-    ParamsAsMap.prototype.getAll = function (name) {
-        if (this.has(name)) {
-            var v = this.params[name];
-            return Array.isArray(v) ? v : [v];
-        }
-        return [];
-    };
-    Object.defineProperty(ParamsAsMap.prototype, "keys", {
-        get: function () { return Object.keys(this.params); },
-        enumerable: true,
-        configurable: true
-    });
-    return ParamsAsMap;
-}());
-/**
- * Convert a `Params` instance to a `ParamMap`.
- *
- * @publicApi
- */
-function convertToParamMap(params) {
-    return new ParamsAsMap(params);
-}
-var NAVIGATION_CANCELING_ERROR = 'ngNavigationCancelingError';
-function navigationCancelingError(message) {
-    var error = Error('NavigationCancelingError: ' + message);
-    error[NAVIGATION_CANCELING_ERROR] = true;
-    return error;
-}
-function isNavigationCancelingError(error) {
-    return error && error[NAVIGATION_CANCELING_ERROR];
-}
-// Matches the route configuration (`route`) against the actual URL (`segments`).
-function defaultUrlMatcher(segments, segmentGroup, route) {
-    var parts = route.path.split('/');
-    if (parts.length > segments.length) {
-        // The actual URL is shorter than the config, no match
-        return null;
-    }
-    if (route.pathMatch === 'full' &&
-        (segmentGroup.hasChildren() || parts.length < segments.length)) {
-        // The config is longer than the actual URL but we are looking for a full match, return null
-        return null;
-    }
-    var posParams = {};
-    // Check each config part against the actual URL
-    for (var index = 0; index < parts.length; index++) {
-        var part = parts[index];
-        var segment = segments[index];
-        var isParameter = part.startsWith(':');
-        if (isParameter) {
-            posParams[part.substring(1)] = segment;
-        }
-        else if (part !== segment.path) {
-            // The actual URL part does not match the config, no match
-            return null;
-        }
-    }
-    return { consumed: segments.slice(0, parts.length), posParams: posParams };
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var LoadedRouterConfig = /** @class */ (function () {
-    function LoadedRouterConfig(routes, module) {
-        this.routes = routes;
-        this.module = module;
-    }
-    return LoadedRouterConfig;
-}());
-function validateConfig(config, parentPath) {
-    if (parentPath === void 0) { parentPath = ''; }
-    // forEach doesn't iterate undefined values
-    for (var i = 0; i < config.length; i++) {
-        var route = config[i];
-        var fullPath = getFullPath(parentPath, route);
-        validateNode(route, fullPath);
-    }
-}
-function validateNode(route, fullPath) {
-    if (!route) {
-        throw new Error("\n      Invalid configuration of route '" + fullPath + "': Encountered undefined route.\n      The reason might be an extra comma.\n\n      Example:\n      const routes: Routes = [\n        { path: '', redirectTo: '/dashboard', pathMatch: 'full' },\n        { path: 'dashboard',  component: DashboardComponent },, << two commas\n        { path: 'detail/:id', component: HeroDetailComponent }\n      ];\n    ");
-    }
-    if (Array.isArray(route)) {
-        throw new Error("Invalid configuration of route '" + fullPath + "': Array cannot be specified");
-    }
-    if (!route.component && !route.children && !route.loadChildren &&
-        (route.outlet && route.outlet !== PRIMARY_OUTLET)) {
-        throw new Error("Invalid configuration of route '" + fullPath + "': a componentless route without children or loadChildren cannot have a named outlet set");
-    }
-    if (route.redirectTo && route.children) {
-        throw new Error("Invalid configuration of route '" + fullPath + "': redirectTo and children cannot be used together");
-    }
-    if (route.redirectTo && route.loadChildren) {
-        throw new Error("Invalid configuration of route '" + fullPath + "': redirectTo and loadChildren cannot be used together");
-    }
-    if (route.children && route.loadChildren) {
-        throw new Error("Invalid configuration of route '" + fullPath + "': children and loadChildren cannot be used together");
-    }
-    if (route.redirectTo && route.component) {
-        throw new Error("Invalid configuration of route '" + fullPath + "': redirectTo and component cannot be used together");
-    }
-    if (route.path && route.matcher) {
-        throw new Error("Invalid configuration of route '" + fullPath + "': path and matcher cannot be used together");
-    }
-    if (route.redirectTo === void 0 && !route.component && !route.children && !route.loadChildren) {
-        throw new Error("Invalid configuration of route '" + fullPath + "'. One of the following must be provided: component, redirectTo, children or loadChildren");
-    }
-    if (route.path === void 0 && route.matcher === void 0) {
-        throw new Error("Invalid configuration of route '" + fullPath + "': routes must have either a path or a matcher specified");
-    }
-    if (typeof route.path === 'string' && route.path.charAt(0) === '/') {
-        throw new Error("Invalid configuration of route '" + fullPath + "': path cannot start with a slash");
-    }
-    if (route.path === '' && route.redirectTo !== void 0 && route.pathMatch === void 0) {
-        var exp = "The default value of 'pathMatch' is 'prefix', but often the intent is to use 'full'.";
-        throw new Error("Invalid configuration of route '{path: \"" + fullPath + "\", redirectTo: \"" + route.redirectTo + "\"}': please provide 'pathMatch'. " + exp);
-    }
-    if (route.pathMatch !== void 0 && route.pathMatch !== 'full' && route.pathMatch !== 'prefix') {
-        throw new Error("Invalid configuration of route '" + fullPath + "': pathMatch can only be set to 'prefix' or 'full'");
-    }
-    if (route.children) {
-        validateConfig(route.children, fullPath);
-    }
-}
-function getFullPath(parentPath, currentRoute) {
-    if (!currentRoute) {
-        return parentPath;
-    }
-    if (!parentPath && !currentRoute.path) {
-        return '';
-    }
-    else if (parentPath && !currentRoute.path) {
-        return parentPath + "/";
-    }
-    else if (!parentPath && currentRoute.path) {
-        return currentRoute.path;
-    }
-    else {
-        return parentPath + "/" + currentRoute.path;
-    }
-}
-/**
- * Makes a copy of the config and adds any default required properties.
- */
-function standardizeConfig(r) {
-    var children = r.children && r.children.map(standardizeConfig);
-    var c = children ? Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, r, { children: children }) : Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, r);
-    if (!c.component && (children || c.loadChildren) && (c.outlet && c.outlet !== PRIMARY_OUTLET)) {
-        c.component = EmptyOutletComponent;
-    }
-    return c;
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function shallowEqualArrays(a, b) {
-    if (a.length !== b.length)
-        return false;
-    for (var i = 0; i < a.length; ++i) {
-        if (!shallowEqual(a[i], b[i]))
-            return false;
-    }
-    return true;
-}
-function shallowEqual(a, b) {
-    var k1 = Object.keys(a);
-    var k2 = Object.keys(b);
-    if (k1.length != k2.length) {
-        return false;
-    }
-    var key;
-    for (var i = 0; i < k1.length; i++) {
-        key = k1[i];
-        if (a[key] !== b[key]) {
-            return false;
-        }
-    }
-    return true;
-}
-/**
- * Flattens single-level nested arrays.
- */
-function flatten(arr) {
-    return Array.prototype.concat.apply([], arr);
-}
-/**
- * Return the last element of an array.
- */
-function last$1(a) {
-    return a.length > 0 ? a[a.length - 1] : null;
-}
-function forEach(map$$1, callback) {
-    for (var prop in map$$1) {
-        if (map$$1.hasOwnProperty(prop)) {
-            callback(map$$1[prop], prop);
-        }
-    }
-}
-function waitForMap(obj, fn) {
-    if (Object.keys(obj).length === 0) {
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])({});
-    }
-    var waitHead = [];
-    var waitTail = [];
-    var res = {};
-    forEach(obj, function (a, k) {
-        var mapped = fn(k, a).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (r) { return res[k] = r; }));
-        if (k === PRIMARY_OUTLET) {
-            waitHead.push(mapped);
-        }
-        else {
-            waitTail.push(mapped);
-        }
-    });
-    // Closure compiler has problem with using spread operator here. So just using Array.concat.
-    return rxjs__WEBPACK_IMPORTED_MODULE_3__["of"].apply(null, waitHead.concat(waitTail)).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatAll"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["last"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function () { return res; }));
-}
-function wrapIntoObservable(value) {
-    if (Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵisObservable"])(value)) {
-        return value;
-    }
-    if (Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵisPromise"])(value)) {
-        // Use `Promise.resolve()` to wrap promise-like instances.
-        // Required ie when a Resolver returns a AngularJS `$q` promise to correctly trigger the
-        // change detection.
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(Promise.resolve(value));
-    }
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(value);
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function createEmptyUrlTree() {
-    return new UrlTree(new UrlSegmentGroup([], {}), {}, null);
-}
-function containsTree(container, containee, exact) {
-    if (exact) {
-        return equalQueryParams(container.queryParams, containee.queryParams) &&
-            equalSegmentGroups(container.root, containee.root);
-    }
-    return containsQueryParams(container.queryParams, containee.queryParams) &&
-        containsSegmentGroup(container.root, containee.root);
-}
-function equalQueryParams(container, containee) {
-    // TODO: This does not handle array params correctly.
-    return shallowEqual(container, containee);
-}
-function equalSegmentGroups(container, containee) {
-    if (!equalPath(container.segments, containee.segments))
-        return false;
-    if (container.numberOfChildren !== containee.numberOfChildren)
-        return false;
-    for (var c in containee.children) {
-        if (!container.children[c])
-            return false;
-        if (!equalSegmentGroups(container.children[c], containee.children[c]))
-            return false;
-    }
-    return true;
-}
-function containsQueryParams(container, containee) {
-    // TODO: This does not handle array params correctly.
-    return Object.keys(containee).length <= Object.keys(container).length &&
-        Object.keys(containee).every(function (key) { return containee[key] === container[key]; });
-}
-function containsSegmentGroup(container, containee) {
-    return containsSegmentGroupHelper(container, containee, containee.segments);
-}
-function containsSegmentGroupHelper(container, containee, containeePaths) {
-    if (container.segments.length > containeePaths.length) {
-        var current = container.segments.slice(0, containeePaths.length);
-        if (!equalPath(current, containeePaths))
-            return false;
-        if (containee.hasChildren())
-            return false;
-        return true;
-    }
-    else if (container.segments.length === containeePaths.length) {
-        if (!equalPath(container.segments, containeePaths))
-            return false;
-        for (var c in containee.children) {
-            if (!container.children[c])
-                return false;
-            if (!containsSegmentGroup(container.children[c], containee.children[c]))
-                return false;
-        }
-        return true;
-    }
-    else {
-        var current = containeePaths.slice(0, container.segments.length);
-        var next = containeePaths.slice(container.segments.length);
-        if (!equalPath(container.segments, current))
-            return false;
-        if (!container.children[PRIMARY_OUTLET])
-            return false;
-        return containsSegmentGroupHelper(container.children[PRIMARY_OUTLET], containee, next);
-    }
-}
-/**
- * @description
- *
- * Represents the parsed URL.
- *
- * Since a router state is a tree, and the URL is nothing but a serialized state, the URL is a
- * serialized tree.
- * UrlTree is a data structure that provides a lot of affordances in dealing with URLs
- *
- * @usageNotes
- * ### Example
- *
- * ```
- * @Component({templateUrl:'template.html'})
- * class MyComponent {
- *   constructor(router: Router) {
- *     const tree: UrlTree =
- *       router.parseUrl('/team/33/(user/victor//support:help)?debug=true#fragment');
- *     const f = tree.fragment; // return 'fragment'
- *     const q = tree.queryParams; // returns {debug: 'true'}
- *     const g: UrlSegmentGroup = tree.root.children[PRIMARY_OUTLET];
- *     const s: UrlSegment[] = g.segments; // returns 2 segments 'team' and '33'
- *     g.children[PRIMARY_OUTLET].segments; // returns 2 segments 'user' and 'victor'
- *     g.children['support'].segments; // return 1 segment 'help'
- *   }
- * }
- * ```
- *
- * @publicApi
- */
-var UrlTree = /** @class */ (function () {
-    /** @internal */
-    function UrlTree(
-    /** The root segment group of the URL tree */
-    root, 
-    /** The query params of the URL */
-    queryParams, 
-    /** The fragment of the URL */
-    fragment) {
-        this.root = root;
-        this.queryParams = queryParams;
-        this.fragment = fragment;
-    }
-    Object.defineProperty(UrlTree.prototype, "queryParamMap", {
-        get: function () {
-            if (!this._queryParamMap) {
-                this._queryParamMap = convertToParamMap(this.queryParams);
-            }
-            return this._queryParamMap;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /** @docsNotRequired */
-    UrlTree.prototype.toString = function () { return DEFAULT_SERIALIZER.serialize(this); };
-    return UrlTree;
-}());
-/**
- * @description
- *
- * Represents the parsed URL segment group.
- *
- * See `UrlTree` for more information.
- *
- * @publicApi
- */
-var UrlSegmentGroup = /** @class */ (function () {
-    function UrlSegmentGroup(
-    /** The URL segments of this group. See `UrlSegment` for more information */
-    segments, 
-    /** The list of children of this group */
-    children) {
-        var _this = this;
-        this.segments = segments;
-        this.children = children;
-        /** The parent node in the url tree */
-        this.parent = null;
-        forEach(children, function (v, k) { return v.parent = _this; });
-    }
-    /** Whether the segment has child segments */
-    UrlSegmentGroup.prototype.hasChildren = function () { return this.numberOfChildren > 0; };
-    Object.defineProperty(UrlSegmentGroup.prototype, "numberOfChildren", {
-        /** Number of child segments */
-        get: function () { return Object.keys(this.children).length; },
-        enumerable: true,
-        configurable: true
-    });
-    /** @docsNotRequired */
-    UrlSegmentGroup.prototype.toString = function () { return serializePaths(this); };
-    return UrlSegmentGroup;
-}());
-/**
- * @description
- *
- * Represents a single URL segment.
- *
- * A UrlSegment is a part of a URL between the two slashes. It contains a path and the matrix
- * parameters associated with the segment.
- *
- * @usageNotes
- * ### Example
- *
- * ```
- * @Component({templateUrl:'template.html'})
- * class MyComponent {
- *   constructor(router: Router) {
- *     const tree: UrlTree = router.parseUrl('/team;id=33');
- *     const g: UrlSegmentGroup = tree.root.children[PRIMARY_OUTLET];
- *     const s: UrlSegment[] = g.segments;
- *     s[0].path; // returns 'team'
- *     s[0].parameters; // returns {id: 33}
- *   }
- * }
- * ```
- *
- * @publicApi
- */
-var UrlSegment = /** @class */ (function () {
-    function UrlSegment(
-    /** The path part of a URL segment */
-    path, 
-    /** The matrix parameters associated with a segment */
-    parameters) {
-        this.path = path;
-        this.parameters = parameters;
-    }
-    Object.defineProperty(UrlSegment.prototype, "parameterMap", {
-        get: function () {
-            if (!this._parameterMap) {
-                this._parameterMap = convertToParamMap(this.parameters);
-            }
-            return this._parameterMap;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /** @docsNotRequired */
-    UrlSegment.prototype.toString = function () { return serializePath(this); };
-    return UrlSegment;
-}());
-function equalSegments(as, bs) {
-    return equalPath(as, bs) && as.every(function (a, i) { return shallowEqual(a.parameters, bs[i].parameters); });
-}
-function equalPath(as, bs) {
-    if (as.length !== bs.length)
-        return false;
-    return as.every(function (a, i) { return a.path === bs[i].path; });
-}
-function mapChildrenIntoArray(segment, fn) {
-    var res = [];
-    forEach(segment.children, function (child, childOutlet) {
-        if (childOutlet === PRIMARY_OUTLET) {
-            res = res.concat(fn(child, childOutlet));
-        }
-    });
-    forEach(segment.children, function (child, childOutlet) {
-        if (childOutlet !== PRIMARY_OUTLET) {
-            res = res.concat(fn(child, childOutlet));
-        }
-    });
-    return res;
-}
-/**
- * @description
- *
- * Serializes and deserializes a URL string into a URL tree.
- *
- * The url serialization strategy is customizable. You can
- * make all URLs case insensitive by providing a custom UrlSerializer.
- *
- * See `DefaultUrlSerializer` for an example of a URL serializer.
- *
- * @publicApi
- */
-var UrlSerializer = /** @class */ (function () {
-    function UrlSerializer() {
-    }
-    return UrlSerializer;
-}());
-/**
- * @description
- *
- * A default implementation of the `UrlSerializer`.
- *
- * Example URLs:
- *
- * ```
- * /inbox/33(popup:compose)
- * /inbox/33;open=true/messages/44
- * ```
- *
- * DefaultUrlSerializer uses parentheses to serialize secondary segments (e.g., popup:compose), the
- * colon syntax to specify the outlet, and the ';parameter=value' syntax (e.g., open=true) to
- * specify route specific parameters.
- *
- * @publicApi
- */
-var DefaultUrlSerializer = /** @class */ (function () {
-    function DefaultUrlSerializer() {
-    }
-    /** Parses a url into a `UrlTree` */
-    DefaultUrlSerializer.prototype.parse = function (url) {
-        var p = new UrlParser(url);
-        return new UrlTree(p.parseRootSegment(), p.parseQueryParams(), p.parseFragment());
-    };
-    /** Converts a `UrlTree` into a url */
-    DefaultUrlSerializer.prototype.serialize = function (tree) {
-        var segment = "/" + serializeSegment(tree.root, true);
-        var query = serializeQueryParams(tree.queryParams);
-        var fragment = typeof tree.fragment === "string" ? "#" + encodeUriFragment(tree.fragment) : '';
-        return "" + segment + query + fragment;
-    };
-    return DefaultUrlSerializer;
-}());
-var DEFAULT_SERIALIZER = new DefaultUrlSerializer();
-function serializePaths(segment) {
-    return segment.segments.map(function (p) { return serializePath(p); }).join('/');
-}
-function serializeSegment(segment, root) {
-    if (!segment.hasChildren()) {
-        return serializePaths(segment);
-    }
-    if (root) {
-        var primary = segment.children[PRIMARY_OUTLET] ?
-            serializeSegment(segment.children[PRIMARY_OUTLET], false) :
-            '';
-        var children_1 = [];
-        forEach(segment.children, function (v, k) {
-            if (k !== PRIMARY_OUTLET) {
-                children_1.push(k + ":" + serializeSegment(v, false));
-            }
-        });
-        return children_1.length > 0 ? primary + "(" + children_1.join('//') + ")" : primary;
-    }
-    else {
-        var children = mapChildrenIntoArray(segment, function (v, k) {
-            if (k === PRIMARY_OUTLET) {
-                return [serializeSegment(segment.children[PRIMARY_OUTLET], false)];
-            }
-            return [k + ":" + serializeSegment(v, false)];
-        });
-        return serializePaths(segment) + "/(" + children.join('//') + ")";
-    }
-}
-/**
- * Encodes a URI string with the default encoding. This function will only ever be called from
- * `encodeUriQuery` or `encodeUriSegment` as it's the base set of encodings to be used. We need
- * a custom encoding because encodeURIComponent is too aggressive and encodes stuff that doesn't
- * have to be encoded per https://url.spec.whatwg.org.
- */
-function encodeUriString(s) {
-    return encodeURIComponent(s)
-        .replace(/%40/g, '@')
-        .replace(/%3A/gi, ':')
-        .replace(/%24/g, '$')
-        .replace(/%2C/gi, ',');
-}
-/**
- * This function should be used to encode both keys and values in a query string key/value. In
- * the following URL, you need to call encodeUriQuery on "k" and "v":
- *
- * http://www.site.org/html;mk=mv?k=v#f
- */
-function encodeUriQuery(s) {
-    return encodeUriString(s).replace(/%3B/gi, ';');
-}
-/**
- * This function should be used to encode a URL fragment. In the following URL, you need to call
- * encodeUriFragment on "f":
- *
- * http://www.site.org/html;mk=mv?k=v#f
- */
-function encodeUriFragment(s) {
-    return encodeURI(s);
-}
-/**
- * This function should be run on any URI segment as well as the key and value in a key/value
- * pair for matrix params. In the following URL, you need to call encodeUriSegment on "html",
- * "mk", and "mv":
- *
- * http://www.site.org/html;mk=mv?k=v#f
- */
-function encodeUriSegment(s) {
-    return encodeUriString(s).replace(/\(/g, '%28').replace(/\)/g, '%29').replace(/%26/gi, '&');
-}
-function decode(s) {
-    return decodeURIComponent(s);
-}
-// Query keys/values should have the "+" replaced first, as "+" in a query string is " ".
-// decodeURIComponent function will not decode "+" as a space.
-function decodeQuery(s) {
-    return decode(s.replace(/\+/g, '%20'));
-}
-function serializePath(path) {
-    return "" + encodeUriSegment(path.path) + serializeMatrixParams(path.parameters);
-}
-function serializeMatrixParams(params) {
-    return Object.keys(params)
-        .map(function (key) { return ";" + encodeUriSegment(key) + "=" + encodeUriSegment(params[key]); })
-        .join('');
-}
-function serializeQueryParams(params) {
-    var strParams = Object.keys(params).map(function (name) {
-        var value = params[name];
-        return Array.isArray(value) ?
-            value.map(function (v) { return encodeUriQuery(name) + "=" + encodeUriQuery(v); }).join('&') :
-            encodeUriQuery(name) + "=" + encodeUriQuery(value);
-    });
-    return strParams.length ? "?" + strParams.join("&") : '';
-}
-var SEGMENT_RE = /^[^\/()?;=#]+/;
-function matchSegments(str) {
-    var match = str.match(SEGMENT_RE);
-    return match ? match[0] : '';
-}
-var QUERY_PARAM_RE = /^[^=?&#]+/;
-// Return the name of the query param at the start of the string or an empty string
-function matchQueryParams(str) {
-    var match = str.match(QUERY_PARAM_RE);
-    return match ? match[0] : '';
-}
-var QUERY_PARAM_VALUE_RE = /^[^?&#]+/;
-// Return the value of the query param at the start of the string or an empty string
-function matchUrlQueryParamValue(str) {
-    var match = str.match(QUERY_PARAM_VALUE_RE);
-    return match ? match[0] : '';
-}
-var UrlParser = /** @class */ (function () {
-    function UrlParser(url) {
-        this.url = url;
-        this.remaining = url;
-    }
-    UrlParser.prototype.parseRootSegment = function () {
-        this.consumeOptional('/');
-        if (this.remaining === '' || this.peekStartsWith('?') || this.peekStartsWith('#')) {
-            return new UrlSegmentGroup([], {});
-        }
-        // The root segment group never has segments
-        return new UrlSegmentGroup([], this.parseChildren());
-    };
-    UrlParser.prototype.parseQueryParams = function () {
-        var params = {};
-        if (this.consumeOptional('?')) {
-            do {
-                this.parseQueryParam(params);
-            } while (this.consumeOptional('&'));
-        }
-        return params;
-    };
-    UrlParser.prototype.parseFragment = function () {
-        return this.consumeOptional('#') ? decodeURIComponent(this.remaining) : null;
-    };
-    UrlParser.prototype.parseChildren = function () {
-        if (this.remaining === '') {
-            return {};
-        }
-        this.consumeOptional('/');
-        var segments = [];
-        if (!this.peekStartsWith('(')) {
-            segments.push(this.parseSegment());
-        }
-        while (this.peekStartsWith('/') && !this.peekStartsWith('//') && !this.peekStartsWith('/(')) {
-            this.capture('/');
-            segments.push(this.parseSegment());
-        }
-        var children = {};
-        if (this.peekStartsWith('/(')) {
-            this.capture('/');
-            children = this.parseParens(true);
-        }
-        var res = {};
-        if (this.peekStartsWith('(')) {
-            res = this.parseParens(false);
-        }
-        if (segments.length > 0 || Object.keys(children).length > 0) {
-            res[PRIMARY_OUTLET] = new UrlSegmentGroup(segments, children);
-        }
-        return res;
-    };
-    // parse a segment with its matrix parameters
-    // ie `name;k1=v1;k2`
-    UrlParser.prototype.parseSegment = function () {
-        var path = matchSegments(this.remaining);
-        if (path === '' && this.peekStartsWith(';')) {
-            throw new Error("Empty path url segment cannot have parameters: '" + this.remaining + "'.");
-        }
-        this.capture(path);
-        return new UrlSegment(decode(path), this.parseMatrixParams());
-    };
-    UrlParser.prototype.parseMatrixParams = function () {
-        var params = {};
-        while (this.consumeOptional(';')) {
-            this.parseParam(params);
-        }
-        return params;
-    };
-    UrlParser.prototype.parseParam = function (params) {
-        var key = matchSegments(this.remaining);
-        if (!key) {
-            return;
-        }
-        this.capture(key);
-        var value = '';
-        if (this.consumeOptional('=')) {
-            var valueMatch = matchSegments(this.remaining);
-            if (valueMatch) {
-                value = valueMatch;
-                this.capture(value);
-            }
-        }
-        params[decode(key)] = decode(value);
-    };
-    // Parse a single query parameter `name[=value]`
-    UrlParser.prototype.parseQueryParam = function (params) {
-        var key = matchQueryParams(this.remaining);
-        if (!key) {
-            return;
-        }
-        this.capture(key);
-        var value = '';
-        if (this.consumeOptional('=')) {
-            var valueMatch = matchUrlQueryParamValue(this.remaining);
-            if (valueMatch) {
-                value = valueMatch;
-                this.capture(value);
-            }
-        }
-        var decodedKey = decodeQuery(key);
-        var decodedVal = decodeQuery(value);
-        if (params.hasOwnProperty(decodedKey)) {
-            // Append to existing values
-            var currentVal = params[decodedKey];
-            if (!Array.isArray(currentVal)) {
-                currentVal = [currentVal];
-                params[decodedKey] = currentVal;
-            }
-            currentVal.push(decodedVal);
-        }
-        else {
-            // Create a new value
-            params[decodedKey] = decodedVal;
-        }
-    };
-    // parse `(a/b//outlet_name:c/d)`
-    UrlParser.prototype.parseParens = function (allowPrimary) {
-        var segments = {};
-        this.capture('(');
-        while (!this.consumeOptional(')') && this.remaining.length > 0) {
-            var path = matchSegments(this.remaining);
-            var next = this.remaining[path.length];
-            // if is is not one of these characters, then the segment was unescaped
-            // or the group was not closed
-            if (next !== '/' && next !== ')' && next !== ';') {
-                throw new Error("Cannot parse url '" + this.url + "'");
-            }
-            var outletName = undefined;
-            if (path.indexOf(':') > -1) {
-                outletName = path.substr(0, path.indexOf(':'));
-                this.capture(outletName);
-                this.capture(':');
-            }
-            else if (allowPrimary) {
-                outletName = PRIMARY_OUTLET;
-            }
-            var children = this.parseChildren();
-            segments[outletName] = Object.keys(children).length === 1 ? children[PRIMARY_OUTLET] :
-                new UrlSegmentGroup([], children);
-            this.consumeOptional('//');
-        }
-        return segments;
-    };
-    UrlParser.prototype.peekStartsWith = function (str) { return this.remaining.startsWith(str); };
-    // Consumes the prefix when it is present and returns whether it has been consumed
-    UrlParser.prototype.consumeOptional = function (str) {
-        if (this.peekStartsWith(str)) {
-            this.remaining = this.remaining.substring(str.length);
-            return true;
-        }
-        return false;
-    };
-    UrlParser.prototype.capture = function (str) {
-        if (!this.consumeOptional(str)) {
-            throw new Error("Expected \"" + str + "\".");
-        }
-    };
-    return UrlParser;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var Tree = /** @class */ (function () {
-    function Tree(root) {
-        this._root = root;
-    }
-    Object.defineProperty(Tree.prototype, "root", {
-        get: function () { return this._root.value; },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @internal
-     */
-    Tree.prototype.parent = function (t) {
-        var p = this.pathFromRoot(t);
-        return p.length > 1 ? p[p.length - 2] : null;
-    };
-    /**
-     * @internal
-     */
-    Tree.prototype.children = function (t) {
-        var n = findNode(t, this._root);
-        return n ? n.children.map(function (t) { return t.value; }) : [];
-    };
-    /**
-     * @internal
-     */
-    Tree.prototype.firstChild = function (t) {
-        var n = findNode(t, this._root);
-        return n && n.children.length > 0 ? n.children[0].value : null;
-    };
-    /**
-     * @internal
-     */
-    Tree.prototype.siblings = function (t) {
-        var p = findPath(t, this._root);
-        if (p.length < 2)
-            return [];
-        var c = p[p.length - 2].children.map(function (c) { return c.value; });
-        return c.filter(function (cc) { return cc !== t; });
-    };
-    /**
-     * @internal
-     */
-    Tree.prototype.pathFromRoot = function (t) { return findPath(t, this._root).map(function (s) { return s.value; }); };
-    return Tree;
-}());
-// DFS for the node matching the value
-function findNode(value, node) {
-    var e_1, _a;
-    if (value === node.value)
-        return node;
-    try {
-        for (var _b = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(node.children), _c = _b.next(); !_c.done; _c = _b.next()) {
-            var child = _c.value;
-            var node_1 = findNode(value, child);
-            if (node_1)
-                return node_1;
-        }
-    }
-    catch (e_1_1) { e_1 = { error: e_1_1 }; }
-    finally {
-        try {
-            if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
-        }
-        finally { if (e_1) throw e_1.error; }
-    }
-    return null;
-}
-// Return the path to the node with the given value using DFS
-function findPath(value, node) {
-    var e_2, _a;
-    if (value === node.value)
-        return [node];
-    try {
-        for (var _b = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(node.children), _c = _b.next(); !_c.done; _c = _b.next()) {
-            var child = _c.value;
-            var path = findPath(value, child);
-            if (path.length) {
-                path.unshift(node);
-                return path;
-            }
-        }
-    }
-    catch (e_2_1) { e_2 = { error: e_2_1 }; }
-    finally {
-        try {
-            if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
-        }
-        finally { if (e_2) throw e_2.error; }
-    }
-    return [];
-}
-var TreeNode = /** @class */ (function () {
-    function TreeNode(value, children) {
-        this.value = value;
-        this.children = children;
-    }
-    TreeNode.prototype.toString = function () { return "TreeNode(" + this.value + ")"; };
-    return TreeNode;
-}());
-// Return the list of T indexed by outlet name
-function nodeChildrenAsMap(node) {
-    var map$$1 = {};
-    if (node) {
-        node.children.forEach(function (child) { return map$$1[child.value.outlet] = child; });
-    }
-    return map$$1;
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @description
- *
- * Represents the state of the router.
- *
- * RouterState is a tree of activated routes. Every node in this tree knows about the "consumed" URL
- * segments, the extracted parameters, and the resolved data.
- *
- * @usageNotes
- * ### Example
- *
- * ```
- * @Component({templateUrl:'template.html'})
- * class MyComponent {
- *   constructor(router: Router) {
- *     const state: RouterState = router.routerState;
- *     const root: ActivatedRoute = state.root;
- *     const child = root.firstChild;
- *     const id: Observable<string> = child.params.map(p => p.id);
- *     //...
- *   }
- * }
- * ```
- *
- * See `ActivatedRoute` for more information.
- *
- * @publicApi
- */
-var RouterState = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(RouterState, _super);
-    /** @internal */
-    function RouterState(root, 
-    /** The current snapshot of the router state */
-    snapshot) {
-        var _this = _super.call(this, root) || this;
-        _this.snapshot = snapshot;
-        setRouterState(_this, root);
-        return _this;
-    }
-    RouterState.prototype.toString = function () { return this.snapshot.toString(); };
-    return RouterState;
-}(Tree));
-function createEmptyState(urlTree, rootComponent) {
-    var snapshot = createEmptyStateSnapshot(urlTree, rootComponent);
-    var emptyUrl = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"]([new UrlSegment('', {})]);
-    var emptyParams = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"]({});
-    var emptyData = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"]({});
-    var emptyQueryParams = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"]({});
-    var fragment = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"]('');
-    var activated = new ActivatedRoute(emptyUrl, emptyParams, emptyQueryParams, fragment, emptyData, PRIMARY_OUTLET, rootComponent, snapshot.root);
-    activated.snapshot = snapshot.root;
-    return new RouterState(new TreeNode(activated, []), snapshot);
-}
-function createEmptyStateSnapshot(urlTree, rootComponent) {
-    var emptyParams = {};
-    var emptyData = {};
-    var emptyQueryParams = {};
-    var fragment = '';
-    var activated = new ActivatedRouteSnapshot([], emptyParams, emptyQueryParams, fragment, emptyData, PRIMARY_OUTLET, rootComponent, null, urlTree.root, -1, {});
-    return new RouterStateSnapshot('', new TreeNode(activated, []));
-}
-/**
- * @description
- *
- * Contains the information about a route associated with a component loaded in an
- * outlet.  An `ActivatedRoute` can also be used to traverse the router state tree.
- *
- * ```
- * @Component({...})
- * class MyComponent {
- *   constructor(route: ActivatedRoute) {
- *     const id: Observable<string> = route.params.pipe(map(p => p.id));
- *     const url: Observable<string> = route.url.pipe(map(segments => segments.join('')));
- *     // route.data includes both `data` and `resolve`
- *     const user = route.data.pipe(map(d => d.user));
- *   }
- * }
- * ```
- *
- * @publicApi
- */
-var ActivatedRoute = /** @class */ (function () {
-    /** @internal */
-    function ActivatedRoute(
-    /** An observable of the URL segments matched by this route */
-    url, 
-    /** An observable of the matrix parameters scoped to this route */
-    params, 
-    /** An observable of the query parameters shared by all the routes */
-    queryParams, 
-    /** An observable of the URL fragment shared by all the routes */
-    fragment, 
-    /** An observable of the static and resolved data of this route. */
-    data, 
-    /** The outlet name of the route. It's a constant */
-    outlet, 
-    /** The component of the route. It's a constant */
-    // TODO(vsavkin): remove |string
-    component, futureSnapshot) {
-        this.url = url;
-        this.params = params;
-        this.queryParams = queryParams;
-        this.fragment = fragment;
-        this.data = data;
-        this.outlet = outlet;
-        this.component = component;
-        this._futureSnapshot = futureSnapshot;
-    }
-    Object.defineProperty(ActivatedRoute.prototype, "routeConfig", {
-        /** The configuration used to match this route */
-        get: function () { return this._futureSnapshot.routeConfig; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRoute.prototype, "root", {
-        /** The root of the router state */
-        get: function () { return this._routerState.root; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRoute.prototype, "parent", {
-        /** The parent of this route in the router state tree */
-        get: function () { return this._routerState.parent(this); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRoute.prototype, "firstChild", {
-        /** The first child of this route in the router state tree */
-        get: function () { return this._routerState.firstChild(this); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRoute.prototype, "children", {
-        /** The children of this route in the router state tree */
-        get: function () { return this._routerState.children(this); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRoute.prototype, "pathFromRoot", {
-        /** The path from the root of the router state tree to this route */
-        get: function () { return this._routerState.pathFromRoot(this); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRoute.prototype, "paramMap", {
-        get: function () {
-            if (!this._paramMap) {
-                this._paramMap = this.params.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (p) { return convertToParamMap(p); }));
-            }
-            return this._paramMap;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRoute.prototype, "queryParamMap", {
-        get: function () {
-            if (!this._queryParamMap) {
-                this._queryParamMap =
-                    this.queryParams.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (p) { return convertToParamMap(p); }));
-            }
-            return this._queryParamMap;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    ActivatedRoute.prototype.toString = function () {
-        return this.snapshot ? this.snapshot.toString() : "Future(" + this._futureSnapshot + ")";
-    };
-    return ActivatedRoute;
-}());
-/**
- * Returns the inherited params, data, and resolve for a given route.
- * By default, this only inherits values up to the nearest path-less or component-less route.
- * @internal
- */
-function inheritedParamsDataResolve(route, paramsInheritanceStrategy) {
-    if (paramsInheritanceStrategy === void 0) { paramsInheritanceStrategy = 'emptyOnly'; }
-    var pathFromRoot = route.pathFromRoot;
-    var inheritingStartingFrom = 0;
-    if (paramsInheritanceStrategy !== 'always') {
-        inheritingStartingFrom = pathFromRoot.length - 1;
-        while (inheritingStartingFrom >= 1) {
-            var current = pathFromRoot[inheritingStartingFrom];
-            var parent_1 = pathFromRoot[inheritingStartingFrom - 1];
-            // current route is an empty path => inherits its parent's params and data
-            if (current.routeConfig && current.routeConfig.path === '') {
-                inheritingStartingFrom--;
-                // parent is componentless => current route should inherit its params and data
-            }
-            else if (!parent_1.component) {
-                inheritingStartingFrom--;
-            }
-            else {
-                break;
-            }
-        }
-    }
-    return flattenInherited(pathFromRoot.slice(inheritingStartingFrom));
-}
-/** @internal */
-function flattenInherited(pathFromRoot) {
-    return pathFromRoot.reduce(function (res, curr) {
-        var params = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, res.params, curr.params);
-        var data = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, res.data, curr.data);
-        var resolve = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, res.resolve, curr._resolvedData);
-        return { params: params, data: data, resolve: resolve };
-    }, { params: {}, data: {}, resolve: {} });
-}
-/**
- * @description
- *
- * Contains the information about a route associated with a component loaded in an
- * outlet at a particular moment in time. ActivatedRouteSnapshot can also be used to
- * traverse the router state tree.
- *
- * ```
- * @Component({templateUrl:'./my-component.html'})
- * class MyComponent {
- *   constructor(route: ActivatedRoute) {
- *     const id: string = route.snapshot.params.id;
- *     const url: string = route.snapshot.url.join('');
- *     const user = route.snapshot.data.user;
- *   }
- * }
- * ```
- *
- * @publicApi
- */
-var ActivatedRouteSnapshot = /** @class */ (function () {
-    /** @internal */
-    function ActivatedRouteSnapshot(
-    /** The URL segments matched by this route */
-    url, 
-    /** The matrix parameters scoped to this route */
-    params, 
-    /** The query parameters shared by all the routes */
-    queryParams, 
-    /** The URL fragment shared by all the routes */
-    fragment, 
-    /** The static and resolved data of this route */
-    data, 
-    /** The outlet name of the route */
-    outlet, 
-    /** The component of the route */
-    component, routeConfig, urlSegment, lastPathIndex, resolve) {
-        this.url = url;
-        this.params = params;
-        this.queryParams = queryParams;
-        this.fragment = fragment;
-        this.data = data;
-        this.outlet = outlet;
-        this.component = component;
-        this.routeConfig = routeConfig;
-        this._urlSegment = urlSegment;
-        this._lastPathIndex = lastPathIndex;
-        this._resolve = resolve;
-    }
-    Object.defineProperty(ActivatedRouteSnapshot.prototype, "root", {
-        /** The root of the router state */
-        get: function () { return this._routerState.root; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRouteSnapshot.prototype, "parent", {
-        /** The parent of this route in the router state tree */
-        get: function () { return this._routerState.parent(this); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRouteSnapshot.prototype, "firstChild", {
-        /** The first child of this route in the router state tree */
-        get: function () { return this._routerState.firstChild(this); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRouteSnapshot.prototype, "children", {
-        /** The children of this route in the router state tree */
-        get: function () { return this._routerState.children(this); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRouteSnapshot.prototype, "pathFromRoot", {
-        /** The path from the root of the router state tree to this route */
-        get: function () { return this._routerState.pathFromRoot(this); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRouteSnapshot.prototype, "paramMap", {
-        get: function () {
-            if (!this._paramMap) {
-                this._paramMap = convertToParamMap(this.params);
-            }
-            return this._paramMap;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(ActivatedRouteSnapshot.prototype, "queryParamMap", {
-        get: function () {
-            if (!this._queryParamMap) {
-                this._queryParamMap = convertToParamMap(this.queryParams);
-            }
-            return this._queryParamMap;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    ActivatedRouteSnapshot.prototype.toString = function () {
-        var url = this.url.map(function (segment) { return segment.toString(); }).join('/');
-        var matched = this.routeConfig ? this.routeConfig.path : '';
-        return "Route(url:'" + url + "', path:'" + matched + "')";
-    };
-    return ActivatedRouteSnapshot;
-}());
-/**
- * @description
- *
- * Represents the state of the router at a moment in time.
- *
- * This is a tree of activated route snapshots. Every node in this tree knows about
- * the "consumed" URL segments, the extracted parameters, and the resolved data.
- *
- * @usageNotes
- * ### Example
- *
- * ```
- * @Component({templateUrl:'template.html'})
- * class MyComponent {
- *   constructor(router: Router) {
- *     const state: RouterState = router.routerState;
- *     const snapshot: RouterStateSnapshot = state.snapshot;
- *     const root: ActivatedRouteSnapshot = snapshot.root;
- *     const child = root.firstChild;
- *     const id: Observable<string> = child.params.map(p => p.id);
- *     //...
- *   }
- * }
- * ```
- *
- * @publicApi
- */
-var RouterStateSnapshot = /** @class */ (function (_super) {
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"])(RouterStateSnapshot, _super);
-    /** @internal */
-    function RouterStateSnapshot(
-    /** The url from which this snapshot was created */
-    url, root) {
-        var _this = _super.call(this, root) || this;
-        _this.url = url;
-        setRouterState(_this, root);
-        return _this;
-    }
-    RouterStateSnapshot.prototype.toString = function () { return serializeNode(this._root); };
-    return RouterStateSnapshot;
-}(Tree));
-function setRouterState(state, node) {
-    node.value._routerState = state;
-    node.children.forEach(function (c) { return setRouterState(state, c); });
-}
-function serializeNode(node) {
-    var c = node.children.length > 0 ? " { " + node.children.map(serializeNode).join(', ') + " } " : '';
-    return "" + node.value + c;
-}
-/**
- * The expectation is that the activate route is created with the right set of parameters.
- * So we push new values into the observables only when they are not the initial values.
- * And we detect that by checking if the snapshot field is set.
- */
-function advanceActivatedRoute(route) {
-    if (route.snapshot) {
-        var currentSnapshot = route.snapshot;
-        var nextSnapshot = route._futureSnapshot;
-        route.snapshot = nextSnapshot;
-        if (!shallowEqual(currentSnapshot.queryParams, nextSnapshot.queryParams)) {
-            route.queryParams.next(nextSnapshot.queryParams);
-        }
-        if (currentSnapshot.fragment !== nextSnapshot.fragment) {
-            route.fragment.next(nextSnapshot.fragment);
-        }
-        if (!shallowEqual(currentSnapshot.params, nextSnapshot.params)) {
-            route.params.next(nextSnapshot.params);
-        }
-        if (!shallowEqualArrays(currentSnapshot.url, nextSnapshot.url)) {
-            route.url.next(nextSnapshot.url);
-        }
-        if (!shallowEqual(currentSnapshot.data, nextSnapshot.data)) {
-            route.data.next(nextSnapshot.data);
-        }
-    }
-    else {
-        route.snapshot = route._futureSnapshot;
-        // this is for resolved data
-        route.data.next(route._futureSnapshot.data);
-    }
-}
-function equalParamsAndUrlSegments(a, b) {
-    var equalUrlParams = shallowEqual(a.params, b.params) && equalSegments(a.url, b.url);
-    var parentsMismatch = !a.parent !== !b.parent;
-    return equalUrlParams && !parentsMismatch &&
-        (!a.parent || equalParamsAndUrlSegments(a.parent, b.parent));
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function createRouterState(routeReuseStrategy, curr, prevState) {
-    var root = createNode(routeReuseStrategy, curr._root, prevState ? prevState._root : undefined);
-    return new RouterState(root, curr);
-}
-function createNode(routeReuseStrategy, curr, prevState) {
-    // reuse an activated route that is currently displayed on the screen
-    if (prevState && routeReuseStrategy.shouldReuseRoute(curr.value, prevState.value.snapshot)) {
-        var value = prevState.value;
-        value._futureSnapshot = curr.value;
-        var children = createOrReuseChildren(routeReuseStrategy, curr, prevState);
-        return new TreeNode(value, children);
-        // retrieve an activated route that is used to be displayed, but is not currently displayed
-    }
-    else {
-        var detachedRouteHandle = routeReuseStrategy.retrieve(curr.value);
-        if (detachedRouteHandle) {
-            var tree = detachedRouteHandle.route;
-            setFutureSnapshotsOfActivatedRoutes(curr, tree);
-            return tree;
-        }
-        else {
-            var value = createActivatedRoute(curr.value);
-            var children = curr.children.map(function (c) { return createNode(routeReuseStrategy, c); });
-            return new TreeNode(value, children);
-        }
-    }
-}
-function setFutureSnapshotsOfActivatedRoutes(curr, result) {
-    if (curr.value.routeConfig !== result.value.routeConfig) {
-        throw new Error('Cannot reattach ActivatedRouteSnapshot created from a different route');
-    }
-    if (curr.children.length !== result.children.length) {
-        throw new Error('Cannot reattach ActivatedRouteSnapshot with a different number of children');
-    }
-    result.value._futureSnapshot = curr.value;
-    for (var i = 0; i < curr.children.length; ++i) {
-        setFutureSnapshotsOfActivatedRoutes(curr.children[i], result.children[i]);
-    }
-}
-function createOrReuseChildren(routeReuseStrategy, curr, prevState) {
-    return curr.children.map(function (child) {
-        var e_1, _a;
-        try {
-            for (var _b = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(prevState.children), _c = _b.next(); !_c.done; _c = _b.next()) {
-                var p = _c.value;
-                if (routeReuseStrategy.shouldReuseRoute(p.value.snapshot, child.value)) {
-                    return createNode(routeReuseStrategy, child, p);
-                }
-            }
-        }
-        catch (e_1_1) { e_1 = { error: e_1_1 }; }
-        finally {
-            try {
-                if (_c && !_c.done && (_a = _b.return)) _a.call(_b);
-            }
-            finally { if (e_1) throw e_1.error; }
-        }
-        return createNode(routeReuseStrategy, child);
-    });
-}
-function createActivatedRoute(c) {
-    return new ActivatedRoute(new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"](c.url), new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"](c.params), new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"](c.queryParams), new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"](c.fragment), new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"](c.data), c.outlet, c.component, c);
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function createUrlTree(route, urlTree, commands, queryParams, fragment) {
-    if (commands.length === 0) {
-        return tree(urlTree.root, urlTree.root, urlTree, queryParams, fragment);
-    }
-    var nav = computeNavigation(commands);
-    if (nav.toRoot()) {
-        return tree(urlTree.root, new UrlSegmentGroup([], {}), urlTree, queryParams, fragment);
-    }
-    var startingPosition = findStartingPosition(nav, urlTree, route);
-    var segmentGroup = startingPosition.processChildren ?
-        updateSegmentGroupChildren(startingPosition.segmentGroup, startingPosition.index, nav.commands) :
-        updateSegmentGroup(startingPosition.segmentGroup, startingPosition.index, nav.commands);
-    return tree(startingPosition.segmentGroup, segmentGroup, urlTree, queryParams, fragment);
-}
-function isMatrixParams(command) {
-    return typeof command === 'object' && command != null && !command.outlets && !command.segmentPath;
-}
-function tree(oldSegmentGroup, newSegmentGroup, urlTree, queryParams, fragment) {
-    var qp = {};
-    if (queryParams) {
-        forEach(queryParams, function (value, name) {
-            qp[name] = Array.isArray(value) ? value.map(function (v) { return "" + v; }) : "" + value;
-        });
-    }
-    if (urlTree.root === oldSegmentGroup) {
-        return new UrlTree(newSegmentGroup, qp, fragment);
-    }
-    return new UrlTree(replaceSegment(urlTree.root, oldSegmentGroup, newSegmentGroup), qp, fragment);
-}
-function replaceSegment(current, oldSegment, newSegment) {
-    var children = {};
-    forEach(current.children, function (c, outletName) {
-        if (c === oldSegment) {
-            children[outletName] = newSegment;
-        }
-        else {
-            children[outletName] = replaceSegment(c, oldSegment, newSegment);
-        }
-    });
-    return new UrlSegmentGroup(current.segments, children);
-}
-var Navigation = /** @class */ (function () {
-    function Navigation(isAbsolute, numberOfDoubleDots, commands) {
-        this.isAbsolute = isAbsolute;
-        this.numberOfDoubleDots = numberOfDoubleDots;
-        this.commands = commands;
-        if (isAbsolute && commands.length > 0 && isMatrixParams(commands[0])) {
-            throw new Error('Root segment cannot have matrix parameters');
-        }
-        var cmdWithOutlet = commands.find(function (c) { return typeof c === 'object' && c != null && c.outlets; });
-        if (cmdWithOutlet && cmdWithOutlet !== last$1(commands)) {
-            throw new Error('{outlets:{}} has to be the last command');
-        }
-    }
-    Navigation.prototype.toRoot = function () {
-        return this.isAbsolute && this.commands.length === 1 && this.commands[0] == '/';
-    };
-    return Navigation;
-}());
-/** Transforms commands to a normalized `Navigation` */
-function computeNavigation(commands) {
-    if ((typeof commands[0] === 'string') && commands.length === 1 && commands[0] === '/') {
-        return new Navigation(true, 0, commands);
-    }
-    var numberOfDoubleDots = 0;
-    var isAbsolute = false;
-    var res = commands.reduce(function (res, cmd, cmdIdx) {
-        if (typeof cmd === 'object' && cmd != null) {
-            if (cmd.outlets) {
-                var outlets_1 = {};
-                forEach(cmd.outlets, function (commands, name) {
-                    outlets_1[name] = typeof commands === 'string' ? commands.split('/') : commands;
-                });
-                return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(res, [{ outlets: outlets_1 }]);
-            }
-            if (cmd.segmentPath) {
-                return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(res, [cmd.segmentPath]);
-            }
-        }
-        if (!(typeof cmd === 'string')) {
-            return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(res, [cmd]);
-        }
-        if (cmdIdx === 0) {
-            cmd.split('/').forEach(function (urlPart, partIndex) {
-                if (partIndex == 0 && urlPart === '.') ;
-                else if (partIndex == 0 && urlPart === '') { //  '/a'
-                    isAbsolute = true;
-                }
-                else if (urlPart === '..') { //  '../a'
-                    numberOfDoubleDots++;
-                }
-                else if (urlPart != '') {
-                    res.push(urlPart);
-                }
-            });
-            return res;
-        }
-        return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(res, [cmd]);
-    }, []);
-    return new Navigation(isAbsolute, numberOfDoubleDots, res);
-}
-var Position = /** @class */ (function () {
-    function Position(segmentGroup, processChildren, index) {
-        this.segmentGroup = segmentGroup;
-        this.processChildren = processChildren;
-        this.index = index;
-    }
-    return Position;
-}());
-function findStartingPosition(nav, tree, route) {
-    if (nav.isAbsolute) {
-        return new Position(tree.root, true, 0);
-    }
-    if (route.snapshot._lastPathIndex === -1) {
-        return new Position(route.snapshot._urlSegment, true, 0);
-    }
-    var modifier = isMatrixParams(nav.commands[0]) ? 0 : 1;
-    var index = route.snapshot._lastPathIndex + modifier;
-    return createPositionApplyingDoubleDots(route.snapshot._urlSegment, index, nav.numberOfDoubleDots);
-}
-function createPositionApplyingDoubleDots(group, index, numberOfDoubleDots) {
-    var g = group;
-    var ci = index;
-    var dd = numberOfDoubleDots;
-    while (dd > ci) {
-        dd -= ci;
-        g = g.parent;
-        if (!g) {
-            throw new Error('Invalid number of \'../\'');
-        }
-        ci = g.segments.length;
-    }
-    return new Position(g, false, ci - dd);
-}
-function getPath(command) {
-    if (typeof command === 'object' && command != null && command.outlets) {
-        return command.outlets[PRIMARY_OUTLET];
-    }
-    return "" + command;
-}
-function getOutlets(commands) {
-    var _a, _b;
-    if (!(typeof commands[0] === 'object'))
-        return _a = {}, _a[PRIMARY_OUTLET] = commands, _a;
-    if (commands[0].outlets === undefined)
-        return _b = {}, _b[PRIMARY_OUTLET] = commands, _b;
-    return commands[0].outlets;
-}
-function updateSegmentGroup(segmentGroup, startIndex, commands) {
-    if (!segmentGroup) {
-        segmentGroup = new UrlSegmentGroup([], {});
-    }
-    if (segmentGroup.segments.length === 0 && segmentGroup.hasChildren()) {
-        return updateSegmentGroupChildren(segmentGroup, startIndex, commands);
-    }
-    var m = prefixedWith(segmentGroup, startIndex, commands);
-    var slicedCommands = commands.slice(m.commandIndex);
-    if (m.match && m.pathIndex < segmentGroup.segments.length) {
-        var g = new UrlSegmentGroup(segmentGroup.segments.slice(0, m.pathIndex), {});
-        g.children[PRIMARY_OUTLET] =
-            new UrlSegmentGroup(segmentGroup.segments.slice(m.pathIndex), segmentGroup.children);
-        return updateSegmentGroupChildren(g, 0, slicedCommands);
-    }
-    else if (m.match && slicedCommands.length === 0) {
-        return new UrlSegmentGroup(segmentGroup.segments, {});
-    }
-    else if (m.match && !segmentGroup.hasChildren()) {
-        return createNewSegmentGroup(segmentGroup, startIndex, commands);
-    }
-    else if (m.match) {
-        return updateSegmentGroupChildren(segmentGroup, 0, slicedCommands);
-    }
-    else {
-        return createNewSegmentGroup(segmentGroup, startIndex, commands);
-    }
-}
-function updateSegmentGroupChildren(segmentGroup, startIndex, commands) {
-    if (commands.length === 0) {
-        return new UrlSegmentGroup(segmentGroup.segments, {});
-    }
-    else {
-        var outlets_2 = getOutlets(commands);
-        var children_1 = {};
-        forEach(outlets_2, function (commands, outlet) {
-            if (commands !== null) {
-                children_1[outlet] = updateSegmentGroup(segmentGroup.children[outlet], startIndex, commands);
-            }
-        });
-        forEach(segmentGroup.children, function (child, childOutlet) {
-            if (outlets_2[childOutlet] === undefined) {
-                children_1[childOutlet] = child;
-            }
-        });
-        return new UrlSegmentGroup(segmentGroup.segments, children_1);
-    }
-}
-function prefixedWith(segmentGroup, startIndex, commands) {
-    var currentCommandIndex = 0;
-    var currentPathIndex = startIndex;
-    var noMatch = { match: false, pathIndex: 0, commandIndex: 0 };
-    while (currentPathIndex < segmentGroup.segments.length) {
-        if (currentCommandIndex >= commands.length)
-            return noMatch;
-        var path = segmentGroup.segments[currentPathIndex];
-        var curr = getPath(commands[currentCommandIndex]);
-        var next = currentCommandIndex < commands.length - 1 ? commands[currentCommandIndex + 1] : null;
-        if (currentPathIndex > 0 && curr === undefined)
-            break;
-        if (curr && next && (typeof next === 'object') && next.outlets === undefined) {
-            if (!compare(curr, next, path))
-                return noMatch;
-            currentCommandIndex += 2;
-        }
-        else {
-            if (!compare(curr, {}, path))
-                return noMatch;
-            currentCommandIndex++;
-        }
-        currentPathIndex++;
-    }
-    return { match: true, pathIndex: currentPathIndex, commandIndex: currentCommandIndex };
-}
-function createNewSegmentGroup(segmentGroup, startIndex, commands) {
-    var paths = segmentGroup.segments.slice(0, startIndex);
-    var i = 0;
-    while (i < commands.length) {
-        if (typeof commands[i] === 'object' && commands[i].outlets !== undefined) {
-            var children = createNewSegmentChildren(commands[i].outlets);
-            return new UrlSegmentGroup(paths, children);
-        }
-        // if we start with an object literal, we need to reuse the path part from the segment
-        if (i === 0 && isMatrixParams(commands[0])) {
-            var p = segmentGroup.segments[startIndex];
-            paths.push(new UrlSegment(p.path, commands[0]));
-            i++;
-            continue;
-        }
-        var curr = getPath(commands[i]);
-        var next = (i < commands.length - 1) ? commands[i + 1] : null;
-        if (curr && next && isMatrixParams(next)) {
-            paths.push(new UrlSegment(curr, stringify(next)));
-            i += 2;
-        }
-        else {
-            paths.push(new UrlSegment(curr, {}));
-            i++;
-        }
-    }
-    return new UrlSegmentGroup(paths, {});
-}
-function createNewSegmentChildren(outlets) {
-    var children = {};
-    forEach(outlets, function (commands, outlet) {
-        if (commands !== null) {
-            children[outlet] = createNewSegmentGroup(new UrlSegmentGroup([], {}), 0, commands);
-        }
-    });
-    return children;
-}
-function stringify(params) {
-    var res = {};
-    forEach(params, function (v, k) { return res[k] = "" + v; });
-    return res;
-}
-function compare(path, params, segment) {
-    return path == segment.path && shallowEqual(params, segment.parameters);
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var activateRoutes = function (rootContexts, routeReuseStrategy, forwardEvent) {
-    return Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (t) {
-        new ActivateRoutes(routeReuseStrategy, t.targetRouterState, t.currentRouterState, forwardEvent)
-            .activate(rootContexts);
-        return t;
-    });
-};
-var ActivateRoutes = /** @class */ (function () {
-    function ActivateRoutes(routeReuseStrategy, futureState, currState, forwardEvent) {
-        this.routeReuseStrategy = routeReuseStrategy;
-        this.futureState = futureState;
-        this.currState = currState;
-        this.forwardEvent = forwardEvent;
-    }
-    ActivateRoutes.prototype.activate = function (parentContexts) {
-        var futureRoot = this.futureState._root;
-        var currRoot = this.currState ? this.currState._root : null;
-        this.deactivateChildRoutes(futureRoot, currRoot, parentContexts);
-        advanceActivatedRoute(this.futureState.root);
-        this.activateChildRoutes(futureRoot, currRoot, parentContexts);
-    };
-    // De-activate the child route that are not re-used for the future state
-    ActivateRoutes.prototype.deactivateChildRoutes = function (futureNode, currNode, contexts) {
-        var _this = this;
-        var children = nodeChildrenAsMap(currNode);
-        // Recurse on the routes active in the future state to de-activate deeper children
-        futureNode.children.forEach(function (futureChild) {
-            var childOutletName = futureChild.value.outlet;
-            _this.deactivateRoutes(futureChild, children[childOutletName], contexts);
-            delete children[childOutletName];
-        });
-        // De-activate the routes that will not be re-used
-        forEach(children, function (v, childName) {
-            _this.deactivateRouteAndItsChildren(v, contexts);
-        });
-    };
-    ActivateRoutes.prototype.deactivateRoutes = function (futureNode, currNode, parentContext) {
-        var future = futureNode.value;
-        var curr = currNode ? currNode.value : null;
-        if (future === curr) {
-            // Reusing the node, check to see if the children need to be de-activated
-            if (future.component) {
-                // If we have a normal route, we need to go through an outlet.
-                var context = parentContext.getContext(future.outlet);
-                if (context) {
-                    this.deactivateChildRoutes(futureNode, currNode, context.children);
-                }
-            }
-            else {
-                // if we have a componentless route, we recurse but keep the same outlet map.
-                this.deactivateChildRoutes(futureNode, currNode, parentContext);
-            }
-        }
-        else {
-            if (curr) {
-                // Deactivate the current route which will not be re-used
-                this.deactivateRouteAndItsChildren(currNode, parentContext);
-            }
-        }
-    };
-    ActivateRoutes.prototype.deactivateRouteAndItsChildren = function (route, parentContexts) {
-        if (this.routeReuseStrategy.shouldDetach(route.value.snapshot)) {
-            this.detachAndStoreRouteSubtree(route, parentContexts);
-        }
-        else {
-            this.deactivateRouteAndOutlet(route, parentContexts);
-        }
-    };
-    ActivateRoutes.prototype.detachAndStoreRouteSubtree = function (route, parentContexts) {
-        var context = parentContexts.getContext(route.value.outlet);
-        if (context && context.outlet) {
-            var componentRef = context.outlet.detach();
-            var contexts = context.children.onOutletDeactivated();
-            this.routeReuseStrategy.store(route.value.snapshot, { componentRef: componentRef, route: route, contexts: contexts });
-        }
-    };
-    ActivateRoutes.prototype.deactivateRouteAndOutlet = function (route, parentContexts) {
-        var _this = this;
-        var context = parentContexts.getContext(route.value.outlet);
-        if (context) {
-            var children = nodeChildrenAsMap(route);
-            var contexts_1 = route.value.component ? context.children : parentContexts;
-            forEach(children, function (v, k) { return _this.deactivateRouteAndItsChildren(v, contexts_1); });
-            if (context.outlet) {
-                // Destroy the component
-                context.outlet.deactivate();
-                // Destroy the contexts for all the outlets that were in the component
-                context.children.onOutletDeactivated();
-            }
-        }
-    };
-    ActivateRoutes.prototype.activateChildRoutes = function (futureNode, currNode, contexts) {
-        var _this = this;
-        var children = nodeChildrenAsMap(currNode);
-        futureNode.children.forEach(function (c) {
-            _this.activateRoutes(c, children[c.value.outlet], contexts);
-            _this.forwardEvent(new ActivationEnd(c.value.snapshot));
-        });
-        if (futureNode.children.length) {
-            this.forwardEvent(new ChildActivationEnd(futureNode.value.snapshot));
-        }
-    };
-    ActivateRoutes.prototype.activateRoutes = function (futureNode, currNode, parentContexts) {
-        var future = futureNode.value;
-        var curr = currNode ? currNode.value : null;
-        advanceActivatedRoute(future);
-        // reusing the node
-        if (future === curr) {
-            if (future.component) {
-                // If we have a normal route, we need to go through an outlet.
-                var context = parentContexts.getOrCreateContext(future.outlet);
-                this.activateChildRoutes(futureNode, currNode, context.children);
-            }
-            else {
-                // if we have a componentless route, we recurse but keep the same outlet map.
-                this.activateChildRoutes(futureNode, currNode, parentContexts);
-            }
-        }
-        else {
-            if (future.component) {
-                // if we have a normal route, we need to place the component into the outlet and recurse.
-                var context = parentContexts.getOrCreateContext(future.outlet);
-                if (this.routeReuseStrategy.shouldAttach(future.snapshot)) {
-                    var stored = this.routeReuseStrategy.retrieve(future.snapshot);
-                    this.routeReuseStrategy.store(future.snapshot, null);
-                    context.children.onOutletReAttached(stored.contexts);
-                    context.attachRef = stored.componentRef;
-                    context.route = stored.route.value;
-                    if (context.outlet) {
-                        // Attach right away when the outlet has already been instantiated
-                        // Otherwise attach from `RouterOutlet.ngOnInit` when it is instantiated
-                        context.outlet.attach(stored.componentRef, stored.route.value);
-                    }
-                    advanceActivatedRouteNodeAndItsChildren(stored.route);
-                }
-                else {
-                    var config = parentLoadedConfig(future.snapshot);
-                    var cmpFactoryResolver = config ? config.module.componentFactoryResolver : null;
-                    context.attachRef = null;
-                    context.route = future;
-                    context.resolver = cmpFactoryResolver;
-                    if (context.outlet) {
-                        // Activate the outlet when it has already been instantiated
-                        // Otherwise it will get activated from its `ngOnInit` when instantiated
-                        context.outlet.activateWith(future, cmpFactoryResolver);
-                    }
-                    this.activateChildRoutes(futureNode, null, context.children);
-                }
-            }
-            else {
-                // if we have a componentless route, we recurse but keep the same outlet map.
-                this.activateChildRoutes(futureNode, null, parentContexts);
-            }
-        }
-    };
-    return ActivateRoutes;
-}());
-function advanceActivatedRouteNodeAndItsChildren(node) {
-    advanceActivatedRoute(node.value);
-    node.children.forEach(advanceActivatedRouteNodeAndItsChildren);
-}
-function parentLoadedConfig(snapshot) {
-    for (var s = snapshot.parent; s; s = s.parent) {
-        var route = s.routeConfig;
-        if (route && route._loadedConfig)
-            return route._loadedConfig;
-        if (route && route.component)
-            return null;
-    }
-    return null;
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Simple function check, but generic so type inference will flow. Example:
- *
- * function product(a: number, b: number) {
- *   return a * b;
- * }
- *
- * if (isFunction<product>(fn)) {
- *   return fn(1, 2);
- * } else {
- *   throw "Must provide the `product` function";
- * }
- */
-function isFunction(v) {
-    return typeof v === 'function';
-}
-function isBoolean(v) {
-    return typeof v === 'boolean';
-}
-function isUrlTree(v) {
-    return v instanceof UrlTree;
-}
-function isCanLoad(guard) {
-    return guard && isFunction(guard.canLoad);
-}
-function isCanActivate(guard) {
-    return guard && isFunction(guard.canActivate);
-}
-function isCanActivateChild(guard) {
-    return guard && isFunction(guard.canActivateChild);
-}
-function isCanDeactivate(guard) {
-    return guard && isFunction(guard.canDeactivate);
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var NoMatch = /** @class */ (function () {
-    function NoMatch(segmentGroup) {
-        this.segmentGroup = segmentGroup || null;
-    }
-    return NoMatch;
-}());
-var AbsoluteRedirect = /** @class */ (function () {
-    function AbsoluteRedirect(urlTree) {
-        this.urlTree = urlTree;
-    }
-    return AbsoluteRedirect;
-}());
-function noMatch(segmentGroup) {
-    return new rxjs__WEBPACK_IMPORTED_MODULE_3__["Observable"](function (obs) { return obs.error(new NoMatch(segmentGroup)); });
-}
-function absoluteRedirect(newTree) {
-    return new rxjs__WEBPACK_IMPORTED_MODULE_3__["Observable"](function (obs) { return obs.error(new AbsoluteRedirect(newTree)); });
-}
-function namedOutletsRedirect(redirectTo) {
-    return new rxjs__WEBPACK_IMPORTED_MODULE_3__["Observable"](function (obs) { return obs.error(new Error("Only absolute redirects can have named outlets. redirectTo: '" + redirectTo + "'")); });
-}
-function canLoadFails(route) {
-    return new rxjs__WEBPACK_IMPORTED_MODULE_3__["Observable"](function (obs) { return obs.error(navigationCancelingError("Cannot load children because the guard of the route \"path: '" + route.path + "'\" returned false")); });
-}
-/**
- * Returns the `UrlTree` with the redirection applied.
- *
- * Lazy modules are loaded along the way.
- */
-function applyRedirects(moduleInjector, configLoader, urlSerializer, urlTree, config) {
-    return new ApplyRedirects(moduleInjector, configLoader, urlSerializer, urlTree, config).apply();
-}
-var ApplyRedirects = /** @class */ (function () {
-    function ApplyRedirects(moduleInjector, configLoader, urlSerializer, urlTree, config) {
-        this.configLoader = configLoader;
-        this.urlSerializer = urlSerializer;
-        this.urlTree = urlTree;
-        this.config = config;
-        this.allowRedirects = true;
-        this.ngModule = moduleInjector.get(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModuleRef"]);
-    }
-    ApplyRedirects.prototype.apply = function () {
-        var _this = this;
-        var expanded$ = this.expandSegmentGroup(this.ngModule, this.config, this.urlTree.root, PRIMARY_OUTLET);
-        var urlTrees$ = expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (rootSegmentGroup) { return _this.createUrlTree(rootSegmentGroup, _this.urlTree.queryParams, _this.urlTree.fragment); }));
-        return urlTrees$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function (e) {
-            if (e instanceof AbsoluteRedirect) {
-                // after an absolute redirect we do not apply any more redirects!
-                _this.allowRedirects = false;
-                // we need to run matching, so we can fetch all lazy-loaded modules
-                return _this.match(e.urlTree);
-            }
-            if (e instanceof NoMatch) {
-                throw _this.noMatchError(e);
-            }
-            throw e;
-        }));
-    };
-    ApplyRedirects.prototype.match = function (tree) {
-        var _this = this;
-        var expanded$ = this.expandSegmentGroup(this.ngModule, this.config, tree.root, PRIMARY_OUTLET);
-        var mapped$ = expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (rootSegmentGroup) {
-            return _this.createUrlTree(rootSegmentGroup, tree.queryParams, tree.fragment);
-        }));
-        return mapped$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function (e) {
-            if (e instanceof NoMatch) {
-                throw _this.noMatchError(e);
-            }
-            throw e;
-        }));
-    };
-    ApplyRedirects.prototype.noMatchError = function (e) {
-        return new Error("Cannot match any routes. URL Segment: '" + e.segmentGroup + "'");
-    };
-    ApplyRedirects.prototype.createUrlTree = function (rootCandidate, queryParams, fragment) {
-        var _a;
-        var root = rootCandidate.segments.length > 0 ?
-            new UrlSegmentGroup([], (_a = {}, _a[PRIMARY_OUTLET] = rootCandidate, _a)) :
-            rootCandidate;
-        return new UrlTree(root, queryParams, fragment);
-    };
-    ApplyRedirects.prototype.expandSegmentGroup = function (ngModule, routes, segmentGroup, outlet) {
-        if (segmentGroup.segments.length === 0 && segmentGroup.hasChildren()) {
-            return this.expandChildren(ngModule, routes, segmentGroup)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (children) { return new UrlSegmentGroup([], children); }));
-        }
-        return this.expandSegment(ngModule, segmentGroup, routes, segmentGroup.segments, outlet, true);
-    };
-    // Recursively expand segment groups for all the child outlets
-    ApplyRedirects.prototype.expandChildren = function (ngModule, routes, segmentGroup) {
-        var _this = this;
-        return waitForMap(segmentGroup.children, function (childOutlet, child) { return _this.expandSegmentGroup(ngModule, routes, child, childOutlet); });
-    };
-    ApplyRedirects.prototype.expandSegment = function (ngModule, segmentGroup, routes, segments, outlet, allowRedirects) {
-        var _this = this;
-        return rxjs__WEBPACK_IMPORTED_MODULE_3__["of"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(routes)).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (r) {
-            var expanded$ = _this.expandSegmentAgainstRoute(ngModule, segmentGroup, routes, r, segments, outlet, allowRedirects);
-            return expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function (e) {
-                if (e instanceof NoMatch) {
-                    // TODO(i): this return type doesn't match the declared Observable<UrlSegmentGroup> -
-                    // talk to Jason
-                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(null);
-                }
-                throw e;
-            }));
-        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatAll"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["first"])(function (s) { return !!s; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function (e, _) {
-            if (e instanceof rxjs__WEBPACK_IMPORTED_MODULE_3__["EmptyError"] || e.name === 'EmptyError') {
-                if (_this.noLeftoversInUrl(segmentGroup, segments, outlet)) {
-                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(new UrlSegmentGroup([], {}));
-                }
-                throw new NoMatch(segmentGroup);
-            }
-            throw e;
-        }));
-    };
-    ApplyRedirects.prototype.noLeftoversInUrl = function (segmentGroup, segments, outlet) {
-        return segments.length === 0 && !segmentGroup.children[outlet];
-    };
-    ApplyRedirects.prototype.expandSegmentAgainstRoute = function (ngModule, segmentGroup, routes, route, paths, outlet, allowRedirects) {
-        if (getOutlet(route) !== outlet) {
-            return noMatch(segmentGroup);
-        }
-        if (route.redirectTo === undefined) {
-            return this.matchSegmentAgainstRoute(ngModule, segmentGroup, route, paths);
-        }
-        if (allowRedirects && this.allowRedirects) {
-            return this.expandSegmentAgainstRouteUsingRedirect(ngModule, segmentGroup, routes, route, paths, outlet);
-        }
-        return noMatch(segmentGroup);
-    };
-    ApplyRedirects.prototype.expandSegmentAgainstRouteUsingRedirect = function (ngModule, segmentGroup, routes, route, segments, outlet) {
-        if (route.path === '**') {
-            return this.expandWildCardWithParamsAgainstRouteUsingRedirect(ngModule, routes, route, outlet);
-        }
-        return this.expandRegularSegmentAgainstRouteUsingRedirect(ngModule, segmentGroup, routes, route, segments, outlet);
-    };
-    ApplyRedirects.prototype.expandWildCardWithParamsAgainstRouteUsingRedirect = function (ngModule, routes, route, outlet) {
-        var _this = this;
-        var newTree = this.applyRedirectCommands([], route.redirectTo, {});
-        if (route.redirectTo.startsWith('/')) {
-            return absoluteRedirect(newTree);
-        }
-        return this.lineralizeSegments(route, newTree).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (newSegments) {
-            var group = new UrlSegmentGroup(newSegments, {});
-            return _this.expandSegment(ngModule, group, routes, newSegments, outlet, false);
-        }));
-    };
-    ApplyRedirects.prototype.expandRegularSegmentAgainstRouteUsingRedirect = function (ngModule, segmentGroup, routes, route, segments, outlet) {
-        var _this = this;
-        var _a = match(segmentGroup, route, segments), matched = _a.matched, consumedSegments = _a.consumedSegments, lastChild = _a.lastChild, positionalParamSegments = _a.positionalParamSegments;
-        if (!matched)
-            return noMatch(segmentGroup);
-        var newTree = this.applyRedirectCommands(consumedSegments, route.redirectTo, positionalParamSegments);
-        if (route.redirectTo.startsWith('/')) {
-            return absoluteRedirect(newTree);
-        }
-        return this.lineralizeSegments(route, newTree).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (newSegments) {
-            return _this.expandSegment(ngModule, segmentGroup, routes, newSegments.concat(segments.slice(lastChild)), outlet, false);
-        }));
-    };
-    ApplyRedirects.prototype.matchSegmentAgainstRoute = function (ngModule, rawSegmentGroup, route, segments) {
-        var _this = this;
-        if (route.path === '**') {
-            if (route.loadChildren) {
-                return this.configLoader.load(ngModule.injector, route)
-                    .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (cfg) {
-                    route._loadedConfig = cfg;
-                    return new UrlSegmentGroup(segments, {});
-                }));
-            }
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(new UrlSegmentGroup(segments, {}));
-        }
-        var _a = match(rawSegmentGroup, route, segments), matched = _a.matched, consumedSegments = _a.consumedSegments, lastChild = _a.lastChild;
-        if (!matched)
-            return noMatch(rawSegmentGroup);
-        var rawSlicedSegments = segments.slice(lastChild);
-        var childConfig$ = this.getChildConfig(ngModule, route, segments);
-        return childConfig$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (routerConfig) {
-            var childModule = routerConfig.module;
-            var childConfig = routerConfig.routes;
-            var _a = split(rawSegmentGroup, consumedSegments, rawSlicedSegments, childConfig), segmentGroup = _a.segmentGroup, slicedSegments = _a.slicedSegments;
-            if (slicedSegments.length === 0 && segmentGroup.hasChildren()) {
-                var expanded$_1 = _this.expandChildren(childModule, childConfig, segmentGroup);
-                return expanded$_1.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (children) { return new UrlSegmentGroup(consumedSegments, children); }));
-            }
-            if (childConfig.length === 0 && slicedSegments.length === 0) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(new UrlSegmentGroup(consumedSegments, {}));
-            }
-            var expanded$ = _this.expandSegment(childModule, segmentGroup, childConfig, slicedSegments, PRIMARY_OUTLET, true);
-            return expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (cs) {
-                return new UrlSegmentGroup(consumedSegments.concat(cs.segments), cs.children);
-            }));
-        }));
-    };
-    ApplyRedirects.prototype.getChildConfig = function (ngModule, route, segments) {
-        var _this = this;
-        if (route.children) {
-            // The children belong to the same module
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(new LoadedRouterConfig(route.children, ngModule));
-        }
-        if (route.loadChildren) {
-            // lazy children belong to the loaded module
-            if (route._loadedConfig !== undefined) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(route._loadedConfig);
-            }
-            return runCanLoadGuard(ngModule.injector, route, segments)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (shouldLoad) {
-                if (shouldLoad) {
-                    return _this.configLoader.load(ngModule.injector, route)
-                        .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (cfg) {
-                        route._loadedConfig = cfg;
-                        return cfg;
-                    }));
-                }
-                return canLoadFails(route);
-            }));
-        }
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(new LoadedRouterConfig([], ngModule));
-    };
-    ApplyRedirects.prototype.lineralizeSegments = function (route, urlTree) {
-        var res = [];
-        var c = urlTree.root;
-        while (true) {
-            res = res.concat(c.segments);
-            if (c.numberOfChildren === 0) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(res);
-            }
-            if (c.numberOfChildren > 1 || !c.children[PRIMARY_OUTLET]) {
-                return namedOutletsRedirect(route.redirectTo);
-            }
-            c = c.children[PRIMARY_OUTLET];
-        }
-    };
-    ApplyRedirects.prototype.applyRedirectCommands = function (segments, redirectTo, posParams) {
-        return this.applyRedirectCreatreUrlTree(redirectTo, this.urlSerializer.parse(redirectTo), segments, posParams);
-    };
-    ApplyRedirects.prototype.applyRedirectCreatreUrlTree = function (redirectTo, urlTree, segments, posParams) {
-        var newRoot = this.createSegmentGroup(redirectTo, urlTree.root, segments, posParams);
-        return new UrlTree(newRoot, this.createQueryParams(urlTree.queryParams, this.urlTree.queryParams), urlTree.fragment);
-    };
-    ApplyRedirects.prototype.createQueryParams = function (redirectToParams, actualParams) {
-        var res = {};
-        forEach(redirectToParams, function (v, k) {
-            var copySourceValue = typeof v === 'string' && v.startsWith(':');
-            if (copySourceValue) {
-                var sourceName = v.substring(1);
-                res[k] = actualParams[sourceName];
-            }
-            else {
-                res[k] = v;
-            }
-        });
-        return res;
-    };
-    ApplyRedirects.prototype.createSegmentGroup = function (redirectTo, group, segments, posParams) {
-        var _this = this;
-        var updatedSegments = this.createSegments(redirectTo, group.segments, segments, posParams);
-        var children = {};
-        forEach(group.children, function (child, name) {
-            children[name] = _this.createSegmentGroup(redirectTo, child, segments, posParams);
-        });
-        return new UrlSegmentGroup(updatedSegments, children);
-    };
-    ApplyRedirects.prototype.createSegments = function (redirectTo, redirectToSegments, actualSegments, posParams) {
-        var _this = this;
-        return redirectToSegments.map(function (s) { return s.path.startsWith(':') ? _this.findPosParam(redirectTo, s, posParams) :
-            _this.findOrReturn(s, actualSegments); });
-    };
-    ApplyRedirects.prototype.findPosParam = function (redirectTo, redirectToUrlSegment, posParams) {
-        var pos = posParams[redirectToUrlSegment.path.substring(1)];
-        if (!pos)
-            throw new Error("Cannot redirect to '" + redirectTo + "'. Cannot find '" + redirectToUrlSegment.path + "'.");
-        return pos;
-    };
-    ApplyRedirects.prototype.findOrReturn = function (redirectToUrlSegment, actualSegments) {
-        var e_1, _a;
-        var idx = 0;
-        try {
-            for (var actualSegments_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(actualSegments), actualSegments_1_1 = actualSegments_1.next(); !actualSegments_1_1.done; actualSegments_1_1 = actualSegments_1.next()) {
-                var s = actualSegments_1_1.value;
-                if (s.path === redirectToUrlSegment.path) {
-                    actualSegments.splice(idx);
-                    return s;
-                }
-                idx++;
-            }
-        }
-        catch (e_1_1) { e_1 = { error: e_1_1 }; }
-        finally {
-            try {
-                if (actualSegments_1_1 && !actualSegments_1_1.done && (_a = actualSegments_1.return)) _a.call(actualSegments_1);
-            }
-            finally { if (e_1) throw e_1.error; }
-        }
-        return redirectToUrlSegment;
-    };
-    return ApplyRedirects;
-}());
-function runCanLoadGuard(moduleInjector, route, segments) {
-    var canLoad = route.canLoad;
-    if (!canLoad || canLoad.length === 0)
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(true);
-    var obs = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(canLoad).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (injectionToken) {
-        var guard = moduleInjector.get(injectionToken);
-        var guardVal;
-        if (isCanLoad(guard)) {
-            guardVal = guard.canLoad(route, segments);
-        }
-        else if (isFunction(guard)) {
-            guardVal = guard(route, segments);
-        }
-        else {
-            throw new Error('Invalid CanLoad guard');
-        }
-        return wrapIntoObservable(guardVal);
-    }));
-    return obs.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatAll"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["every"])(function (result) { return result === true; }));
-}
-function match(segmentGroup, route, segments) {
-    if (route.path === '') {
-        if ((route.pathMatch === 'full') && (segmentGroup.hasChildren() || segments.length > 0)) {
-            return { matched: false, consumedSegments: [], lastChild: 0, positionalParamSegments: {} };
-        }
-        return { matched: true, consumedSegments: [], lastChild: 0, positionalParamSegments: {} };
-    }
-    var matcher = route.matcher || defaultUrlMatcher;
-    var res = matcher(segments, segmentGroup, route);
-    if (!res) {
-        return {
-            matched: false,
-            consumedSegments: [],
-            lastChild: 0,
-            positionalParamSegments: {},
-        };
-    }
-    return {
-        matched: true,
-        consumedSegments: res.consumed,
-        lastChild: res.consumed.length,
-        positionalParamSegments: res.posParams,
-    };
-}
-function split(segmentGroup, consumedSegments, slicedSegments, config) {
-    if (slicedSegments.length > 0 &&
-        containsEmptyPathRedirectsWithNamedOutlets(segmentGroup, slicedSegments, config)) {
-        var s = new UrlSegmentGroup(consumedSegments, createChildrenForEmptySegments(config, new UrlSegmentGroup(slicedSegments, segmentGroup.children)));
-        return { segmentGroup: mergeTrivialChildren(s), slicedSegments: [] };
-    }
-    if (slicedSegments.length === 0 &&
-        containsEmptyPathRedirects(segmentGroup, slicedSegments, config)) {
-        var s = new UrlSegmentGroup(segmentGroup.segments, addEmptySegmentsToChildrenIfNeeded(segmentGroup, slicedSegments, config, segmentGroup.children));
-        return { segmentGroup: mergeTrivialChildren(s), slicedSegments: slicedSegments };
-    }
-    return { segmentGroup: segmentGroup, slicedSegments: slicedSegments };
-}
-function mergeTrivialChildren(s) {
-    if (s.numberOfChildren === 1 && s.children[PRIMARY_OUTLET]) {
-        var c = s.children[PRIMARY_OUTLET];
-        return new UrlSegmentGroup(s.segments.concat(c.segments), c.children);
-    }
-    return s;
-}
-function addEmptySegmentsToChildrenIfNeeded(segmentGroup, slicedSegments, routes, children) {
-    var e_2, _a;
-    var res = {};
-    try {
-        for (var routes_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(routes), routes_1_1 = routes_1.next(); !routes_1_1.done; routes_1_1 = routes_1.next()) {
-            var r = routes_1_1.value;
-            if (isEmptyPathRedirect(segmentGroup, slicedSegments, r) && !children[getOutlet(r)]) {
-                res[getOutlet(r)] = new UrlSegmentGroup([], {});
-            }
-        }
-    }
-    catch (e_2_1) { e_2 = { error: e_2_1 }; }
-    finally {
-        try {
-            if (routes_1_1 && !routes_1_1.done && (_a = routes_1.return)) _a.call(routes_1);
-        }
-        finally { if (e_2) throw e_2.error; }
-    }
-    return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, children, res);
-}
-function createChildrenForEmptySegments(routes, primarySegmentGroup) {
-    var e_3, _a;
-    var res = {};
-    res[PRIMARY_OUTLET] = primarySegmentGroup;
-    try {
-        for (var routes_2 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(routes), routes_2_1 = routes_2.next(); !routes_2_1.done; routes_2_1 = routes_2.next()) {
-            var r = routes_2_1.value;
-            if (r.path === '' && getOutlet(r) !== PRIMARY_OUTLET) {
-                res[getOutlet(r)] = new UrlSegmentGroup([], {});
-            }
-        }
-    }
-    catch (e_3_1) { e_3 = { error: e_3_1 }; }
-    finally {
-        try {
-            if (routes_2_1 && !routes_2_1.done && (_a = routes_2.return)) _a.call(routes_2);
-        }
-        finally { if (e_3) throw e_3.error; }
-    }
-    return res;
-}
-function containsEmptyPathRedirectsWithNamedOutlets(segmentGroup, segments, routes) {
-    return routes.some(function (r) { return isEmptyPathRedirect(segmentGroup, segments, r) && getOutlet(r) !== PRIMARY_OUTLET; });
-}
-function containsEmptyPathRedirects(segmentGroup, segments, routes) {
-    return routes.some(function (r) { return isEmptyPathRedirect(segmentGroup, segments, r); });
-}
-function isEmptyPathRedirect(segmentGroup, segments, r) {
-    if ((segmentGroup.hasChildren() || segments.length > 0) && r.pathMatch === 'full') {
-        return false;
-    }
-    return r.path === '' && r.redirectTo !== undefined;
-}
-function getOutlet(route) {
-    return route.outlet || PRIMARY_OUTLET;
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function applyRedirects$1(moduleInjector, configLoader, urlSerializer, config) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["switchMap"])(function (t) { return applyRedirects(moduleInjector, configLoader, urlSerializer, t.extractedUrl, config)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (urlAfterRedirects) { return (Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, t, { urlAfterRedirects: urlAfterRedirects })); })); }));
-    };
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var CanActivate = /** @class */ (function () {
-    function CanActivate(path) {
-        this.path = path;
-        this.route = this.path[this.path.length - 1];
-    }
-    return CanActivate;
-}());
-var CanDeactivate = /** @class */ (function () {
-    function CanDeactivate(component, route) {
-        this.component = component;
-        this.route = route;
-    }
-    return CanDeactivate;
-}());
-function getAllRouteGuards(future, curr, parentContexts) {
-    var futureRoot = future._root;
-    var currRoot = curr ? curr._root : null;
-    return getChildRouteGuards(futureRoot, currRoot, parentContexts, [futureRoot.value]);
-}
-function getCanActivateChild(p) {
-    var canActivateChild = p.routeConfig ? p.routeConfig.canActivateChild : null;
-    if (!canActivateChild || canActivateChild.length === 0)
-        return null;
-    return { node: p, guards: canActivateChild };
-}
-function getToken(token, snapshot, moduleInjector) {
-    var config = getClosestLoadedConfig(snapshot);
-    var injector = config ? config.module.injector : moduleInjector;
-    return injector.get(token);
-}
-function getClosestLoadedConfig(snapshot) {
-    if (!snapshot)
-        return null;
-    for (var s = snapshot.parent; s; s = s.parent) {
-        var route = s.routeConfig;
-        if (route && route._loadedConfig)
-            return route._loadedConfig;
-    }
-    return null;
-}
-function getChildRouteGuards(futureNode, currNode, contexts, futurePath, checks) {
-    if (checks === void 0) { checks = {
-        canDeactivateChecks: [],
-        canActivateChecks: []
-    }; }
-    var prevChildren = nodeChildrenAsMap(currNode);
-    // Process the children of the future route
-    futureNode.children.forEach(function (c) {
-        getRouteGuards(c, prevChildren[c.value.outlet], contexts, futurePath.concat([c.value]), checks);
-        delete prevChildren[c.value.outlet];
-    });
-    // Process any children left from the current route (not active for the future route)
-    forEach(prevChildren, function (v, k) {
-        return deactivateRouteAndItsChildren(v, contexts.getContext(k), checks);
-    });
-    return checks;
-}
-function getRouteGuards(futureNode, currNode, parentContexts, futurePath, checks) {
-    if (checks === void 0) { checks = {
-        canDeactivateChecks: [],
-        canActivateChecks: []
-    }; }
-    var future = futureNode.value;
-    var curr = currNode ? currNode.value : null;
-    var context = parentContexts ? parentContexts.getContext(futureNode.value.outlet) : null;
-    // reusing the node
-    if (curr && future.routeConfig === curr.routeConfig) {
-        var shouldRun = shouldRunGuardsAndResolvers(curr, future, future.routeConfig.runGuardsAndResolvers);
-        if (shouldRun) {
-            checks.canActivateChecks.push(new CanActivate(futurePath));
-        }
-        else {
-            // we need to set the data
-            future.data = curr.data;
-            future._resolvedData = curr._resolvedData;
-        }
-        // If we have a component, we need to go through an outlet.
-        if (future.component) {
-            getChildRouteGuards(futureNode, currNode, context ? context.children : null, futurePath, checks);
-            // if we have a componentless route, we recurse but keep the same outlet map.
-        }
-        else {
-            getChildRouteGuards(futureNode, currNode, parentContexts, futurePath, checks);
-        }
-        if (shouldRun) {
-            var component = context && context.outlet && context.outlet.component || null;
-            checks.canDeactivateChecks.push(new CanDeactivate(component, curr));
-        }
-    }
-    else {
-        if (curr) {
-            deactivateRouteAndItsChildren(currNode, context, checks);
-        }
-        checks.canActivateChecks.push(new CanActivate(futurePath));
-        // If we have a component, we need to go through an outlet.
-        if (future.component) {
-            getChildRouteGuards(futureNode, null, context ? context.children : null, futurePath, checks);
-            // if we have a componentless route, we recurse but keep the same outlet map.
-        }
-        else {
-            getChildRouteGuards(futureNode, null, parentContexts, futurePath, checks);
-        }
-    }
-    return checks;
-}
-function shouldRunGuardsAndResolvers(curr, future, mode) {
-    if (typeof mode === 'function') {
-        return mode(curr, future);
-    }
-    switch (mode) {
-        case 'pathParamsChange':
-            return !equalPath(curr.url, future.url);
-        case 'pathParamsOrQueryParamsChange':
-            return !equalPath(curr.url, future.url) ||
-                !shallowEqual(curr.queryParams, future.queryParams);
-        case 'always':
-            return true;
-        case 'paramsOrQueryParamsChange':
-            return !equalParamsAndUrlSegments(curr, future) ||
-                !shallowEqual(curr.queryParams, future.queryParams);
-        case 'paramsChange':
-        default:
-            return !equalParamsAndUrlSegments(curr, future);
-    }
-}
-function deactivateRouteAndItsChildren(route, context, checks) {
-    var children = nodeChildrenAsMap(route);
-    var r = route.value;
-    forEach(children, function (node, childName) {
-        if (!r.component) {
-            deactivateRouteAndItsChildren(node, context, checks);
-        }
-        else if (context) {
-            deactivateRouteAndItsChildren(node, context.children.getContext(childName), checks);
-        }
-        else {
-            deactivateRouteAndItsChildren(node, null, checks);
-        }
-    });
-    if (!r.component) {
-        checks.canDeactivateChecks.push(new CanDeactivate(null, r));
-    }
-    else if (context && context.outlet && context.outlet.isActivated) {
-        checks.canDeactivateChecks.push(new CanDeactivate(context.outlet.component, r));
-    }
-    else {
-        checks.canDeactivateChecks.push(new CanDeactivate(null, r));
-    }
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var INITIAL_VALUE = Symbol('INITIAL_VALUE');
-function prioritizedGuardValue() {
-    return Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["switchMap"])(function (obs) {
-        return rxjs__WEBPACK_IMPORTED_MODULE_3__["combineLatest"].apply(void 0, Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__spread"])(obs.map(function (o) { return o.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["startWith"])(INITIAL_VALUE)); }))).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["scan"])(function (acc, list) {
-            var isPending = false;
-            return list.reduce(function (innerAcc, val, i) {
-                if (innerAcc !== INITIAL_VALUE)
-                    return innerAcc;
-                // Toggle pending flag if any values haven't been set yet
-                if (val === INITIAL_VALUE)
-                    isPending = true;
-                // Any other return values are only valid if we haven't yet hit a pending call.
-                // This guarantees that in the case of a guard at the bottom of the tree that
-                // returns a redirect, we will wait for the higher priority guard at the top to
-                // finish before performing the redirect.
-                if (!isPending) {
-                    // Early return when we hit a `false` value as that should always cancel
-                    // navigation
-                    if (val === false)
-                        return val;
-                    if (i === list.length - 1 || isUrlTree(val)) {
-                        return val;
-                    }
-                }
-                return innerAcc;
-            }, acc);
-        }, INITIAL_VALUE), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["filter"])(function (item) { return item !== INITIAL_VALUE; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (item) { return isUrlTree(item) ? item : item === true; }), //
-        Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["take"])(1));
-    });
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function checkGuards(moduleInjector, forwardEvent) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (t) {
-            var targetSnapshot = t.targetSnapshot, currentSnapshot = t.currentSnapshot, _a = t.guards, canActivateChecks = _a.canActivateChecks, canDeactivateChecks = _a.canDeactivateChecks;
-            if (canDeactivateChecks.length === 0 && canActivateChecks.length === 0) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, t, { guardsResult: true }));
-            }
-            return runCanDeactivateChecks(canDeactivateChecks, targetSnapshot, currentSnapshot, moduleInjector)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (canDeactivate) {
-                return canDeactivate && isBoolean(canDeactivate) ?
-                    runCanActivateChecks(targetSnapshot, canActivateChecks, moduleInjector, forwardEvent) :
-                    Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(canDeactivate);
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (guardsResult) { return (Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, t, { guardsResult: guardsResult })); }));
-        }));
-    };
-}
-function runCanDeactivateChecks(checks, futureRSS, currRSS, moduleInjector) {
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(checks).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (check) {
-        return runCanDeactivate(check.component, check.route, currRSS, futureRSS, moduleInjector);
-    }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["first"])(function (result) { return result !== true; }, true));
-}
-function runCanActivateChecks(futureSnapshot, checks, moduleInjector, forwardEvent) {
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(checks).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatMap"])(function (check) {
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])([
-            fireChildActivationStart(check.route.parent, forwardEvent),
-            fireActivationStart(check.route, forwardEvent),
-            runCanActivateChild(futureSnapshot, check.path, moduleInjector),
-            runCanActivate(futureSnapshot, check.route, moduleInjector)
-        ])
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatAll"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["first"])(function (result) {
-            return result !== true;
-        }, true));
-    }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["first"])(function (result) { return result !== true; }, true));
-}
-/**
-   * This should fire off `ActivationStart` events for each route being activated at this
-   * level.
-   * In other words, if you're activating `a` and `b` below, `path` will contain the
-   * `ActivatedRouteSnapshot`s for both and we will fire `ActivationStart` for both. Always
-   * return
-   * `true` so checks continue to run.
-   */
-function fireActivationStart(snapshot, forwardEvent) {
-    if (snapshot !== null && forwardEvent) {
-        forwardEvent(new ActivationStart(snapshot));
-    }
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(true);
-}
-/**
-   * This should fire off `ChildActivationStart` events for each route being activated at this
-   * level.
-   * In other words, if you're activating `a` and `b` below, `path` will contain the
-   * `ActivatedRouteSnapshot`s for both and we will fire `ChildActivationStart` for both. Always
-   * return
-   * `true` so checks continue to run.
-   */
-function fireChildActivationStart(snapshot, forwardEvent) {
-    if (snapshot !== null && forwardEvent) {
-        forwardEvent(new ChildActivationStart(snapshot));
-    }
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(true);
-}
-function runCanActivate(futureRSS, futureARS, moduleInjector) {
-    var canActivate = futureARS.routeConfig ? futureARS.routeConfig.canActivate : null;
-    if (!canActivate || canActivate.length === 0)
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(true);
-    var canActivateObservables = canActivate.map(function (c) {
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["defer"])(function () {
-            var guard = getToken(c, futureARS, moduleInjector);
-            var observable;
-            if (isCanActivate(guard)) {
-                observable = wrapIntoObservable(guard.canActivate(futureARS, futureRSS));
-            }
-            else if (isFunction(guard)) {
-                observable = wrapIntoObservable(guard(futureARS, futureRSS));
-            }
-            else {
-                throw new Error('Invalid CanActivate guard');
-            }
-            return observable.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["first"])());
-        });
-    });
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(canActivateObservables).pipe(prioritizedGuardValue());
-}
-function runCanActivateChild(futureRSS, path, moduleInjector) {
-    var futureARS = path[path.length - 1];
-    var canActivateChildGuards = path.slice(0, path.length - 1)
-        .reverse()
-        .map(function (p) { return getCanActivateChild(p); })
-        .filter(function (_) { return _ !== null; });
-    var canActivateChildGuardsMapped = canActivateChildGuards.map(function (d) {
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["defer"])(function () {
-            var guardsMapped = d.guards.map(function (c) {
-                var guard = getToken(c, d.node, moduleInjector);
-                var observable;
-                if (isCanActivateChild(guard)) {
-                    observable = wrapIntoObservable(guard.canActivateChild(futureARS, futureRSS));
-                }
-                else if (isFunction(guard)) {
-                    observable = wrapIntoObservable(guard(futureARS, futureRSS));
-                }
-                else {
-                    throw new Error('Invalid CanActivateChild guard');
-                }
-                return observable.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["first"])());
-            });
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(guardsMapped).pipe(prioritizedGuardValue());
-        });
-    });
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(canActivateChildGuardsMapped).pipe(prioritizedGuardValue());
-}
-function runCanDeactivate(component, currARS, currRSS, futureRSS, moduleInjector) {
-    var canDeactivate = currARS && currARS.routeConfig ? currARS.routeConfig.canDeactivate : null;
-    if (!canDeactivate || canDeactivate.length === 0)
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(true);
-    var canDeactivateObservables = canDeactivate.map(function (c) {
-        var guard = getToken(c, currARS, moduleInjector);
-        var observable;
-        if (isCanDeactivate(guard)) {
-            observable =
-                wrapIntoObservable(guard.canDeactivate(component, currARS, currRSS, futureRSS));
-        }
-        else if (isFunction(guard)) {
-            observable = wrapIntoObservable(guard(component, currARS, currRSS, futureRSS));
-        }
-        else {
-            throw new Error('Invalid CanDeactivate guard');
-        }
-        return observable.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["first"])());
-    });
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(canDeactivateObservables).pipe(prioritizedGuardValue());
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var NoMatch$1 = /** @class */ (function () {
-    function NoMatch() {
-    }
-    return NoMatch;
-}());
-function recognize(rootComponentType, config, urlTree, url, paramsInheritanceStrategy, relativeLinkResolution) {
-    if (paramsInheritanceStrategy === void 0) { paramsInheritanceStrategy = 'emptyOnly'; }
-    if (relativeLinkResolution === void 0) { relativeLinkResolution = 'legacy'; }
-    return new Recognizer(rootComponentType, config, urlTree, url, paramsInheritanceStrategy, relativeLinkResolution)
-        .recognize();
-}
-var Recognizer = /** @class */ (function () {
-    function Recognizer(rootComponentType, config, urlTree, url, paramsInheritanceStrategy, relativeLinkResolution) {
-        this.rootComponentType = rootComponentType;
-        this.config = config;
-        this.urlTree = urlTree;
-        this.url = url;
-        this.paramsInheritanceStrategy = paramsInheritanceStrategy;
-        this.relativeLinkResolution = relativeLinkResolution;
-    }
-    Recognizer.prototype.recognize = function () {
-        try {
-            var rootSegmentGroup = split$1(this.urlTree.root, [], [], this.config, this.relativeLinkResolution).segmentGroup;
-            var children = this.processSegmentGroup(this.config, rootSegmentGroup, PRIMARY_OUTLET);
-            var root = new ActivatedRouteSnapshot([], Object.freeze({}), Object.freeze(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, this.urlTree.queryParams)), this.urlTree.fragment, {}, PRIMARY_OUTLET, this.rootComponentType, null, this.urlTree.root, -1, {});
-            var rootNode = new TreeNode(root, children);
-            var routeState = new RouterStateSnapshot(this.url, rootNode);
-            this.inheritParamsAndData(routeState._root);
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(routeState);
-        }
-        catch (e) {
-            return new rxjs__WEBPACK_IMPORTED_MODULE_3__["Observable"](function (obs) { return obs.error(e); });
-        }
-    };
-    Recognizer.prototype.inheritParamsAndData = function (routeNode) {
-        var _this = this;
-        var route = routeNode.value;
-        var i = inheritedParamsDataResolve(route, this.paramsInheritanceStrategy);
-        route.params = Object.freeze(i.params);
-        route.data = Object.freeze(i.data);
-        routeNode.children.forEach(function (n) { return _this.inheritParamsAndData(n); });
-    };
-    Recognizer.prototype.processSegmentGroup = function (config, segmentGroup, outlet) {
-        if (segmentGroup.segments.length === 0 && segmentGroup.hasChildren()) {
-            return this.processChildren(config, segmentGroup);
-        }
-        return this.processSegment(config, segmentGroup, segmentGroup.segments, outlet);
-    };
-    Recognizer.prototype.processChildren = function (config, segmentGroup) {
-        var _this = this;
-        var children = mapChildrenIntoArray(segmentGroup, function (child, childOutlet) { return _this.processSegmentGroup(config, child, childOutlet); });
-        checkOutletNameUniqueness(children);
-        sortActivatedRouteSnapshots(children);
-        return children;
-    };
-    Recognizer.prototype.processSegment = function (config, segmentGroup, segments, outlet) {
-        var e_1, _a;
-        try {
-            for (var config_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(config), config_1_1 = config_1.next(); !config_1_1.done; config_1_1 = config_1.next()) {
-                var r = config_1_1.value;
-                try {
-                    return this.processSegmentAgainstRoute(r, segmentGroup, segments, outlet);
-                }
-                catch (e) {
-                    if (!(e instanceof NoMatch$1))
-                        throw e;
-                }
-            }
-        }
-        catch (e_1_1) { e_1 = { error: e_1_1 }; }
-        finally {
-            try {
-                if (config_1_1 && !config_1_1.done && (_a = config_1.return)) _a.call(config_1);
-            }
-            finally { if (e_1) throw e_1.error; }
-        }
-        if (this.noLeftoversInUrl(segmentGroup, segments, outlet)) {
-            return [];
-        }
-        throw new NoMatch$1();
-    };
-    Recognizer.prototype.noLeftoversInUrl = function (segmentGroup, segments, outlet) {
-        return segments.length === 0 && !segmentGroup.children[outlet];
-    };
-    Recognizer.prototype.processSegmentAgainstRoute = function (route, rawSegment, segments, outlet) {
-        if (route.redirectTo)
-            throw new NoMatch$1();
-        if ((route.outlet || PRIMARY_OUTLET) !== outlet)
-            throw new NoMatch$1();
-        var snapshot;
-        var consumedSegments = [];
-        var rawSlicedSegments = [];
-        if (route.path === '**') {
-            var params = segments.length > 0 ? last$1(segments).parameters : {};
-            snapshot = new ActivatedRouteSnapshot(segments, params, Object.freeze(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, this.urlTree.queryParams)), this.urlTree.fragment, getData(route), outlet, route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + segments.length, getResolve(route));
-        }
-        else {
-            var result = match$1(rawSegment, route, segments);
-            consumedSegments = result.consumedSegments;
-            rawSlicedSegments = segments.slice(result.lastChild);
-            snapshot = new ActivatedRouteSnapshot(consumedSegments, result.parameters, Object.freeze(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, this.urlTree.queryParams)), this.urlTree.fragment, getData(route), outlet, route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + consumedSegments.length, getResolve(route));
-        }
-        var childConfig = getChildConfig(route);
-        var _a = split$1(rawSegment, consumedSegments, rawSlicedSegments, childConfig, this.relativeLinkResolution), segmentGroup = _a.segmentGroup, slicedSegments = _a.slicedSegments;
-        if (slicedSegments.length === 0 && segmentGroup.hasChildren()) {
-            var children_1 = this.processChildren(childConfig, segmentGroup);
-            return [new TreeNode(snapshot, children_1)];
-        }
-        if (childConfig.length === 0 && slicedSegments.length === 0) {
-            return [new TreeNode(snapshot, [])];
-        }
-        var children = this.processSegment(childConfig, segmentGroup, slicedSegments, PRIMARY_OUTLET);
-        return [new TreeNode(snapshot, children)];
-    };
-    return Recognizer;
-}());
-function sortActivatedRouteSnapshots(nodes) {
-    nodes.sort(function (a, b) {
-        if (a.value.outlet === PRIMARY_OUTLET)
-            return -1;
-        if (b.value.outlet === PRIMARY_OUTLET)
-            return 1;
-        return a.value.outlet.localeCompare(b.value.outlet);
-    });
-}
-function getChildConfig(route) {
-    if (route.children) {
-        return route.children;
-    }
-    if (route.loadChildren) {
-        return route._loadedConfig.routes;
-    }
-    return [];
-}
-function match$1(segmentGroup, route, segments) {
-    if (route.path === '') {
-        if (route.pathMatch === 'full' && (segmentGroup.hasChildren() || segments.length > 0)) {
-            throw new NoMatch$1();
-        }
-        return { consumedSegments: [], lastChild: 0, parameters: {} };
-    }
-    var matcher = route.matcher || defaultUrlMatcher;
-    var res = matcher(segments, segmentGroup, route);
-    if (!res)
-        throw new NoMatch$1();
-    var posParams = {};
-    forEach(res.posParams, function (v, k) { posParams[k] = v.path; });
-    var parameters = res.consumed.length > 0 ? Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, posParams, res.consumed[res.consumed.length - 1].parameters) :
-        posParams;
-    return { consumedSegments: res.consumed, lastChild: res.consumed.length, parameters: parameters };
-}
-function checkOutletNameUniqueness(nodes) {
-    var names = {};
-    nodes.forEach(function (n) {
-        var routeWithSameOutletName = names[n.value.outlet];
-        if (routeWithSameOutletName) {
-            var p = routeWithSameOutletName.url.map(function (s) { return s.toString(); }).join('/');
-            var c = n.value.url.map(function (s) { return s.toString(); }).join('/');
-            throw new Error("Two segments cannot have the same outlet name: '" + p + "' and '" + c + "'.");
-        }
-        names[n.value.outlet] = n.value;
-    });
-}
-function getSourceSegmentGroup(segmentGroup) {
-    var s = segmentGroup;
-    while (s._sourceSegment) {
-        s = s._sourceSegment;
-    }
-    return s;
-}
-function getPathIndexShift(segmentGroup) {
-    var s = segmentGroup;
-    var res = (s._segmentIndexShift ? s._segmentIndexShift : 0);
-    while (s._sourceSegment) {
-        s = s._sourceSegment;
-        res += (s._segmentIndexShift ? s._segmentIndexShift : 0);
-    }
-    return res - 1;
-}
-function split$1(segmentGroup, consumedSegments, slicedSegments, config, relativeLinkResolution) {
-    if (slicedSegments.length > 0 &&
-        containsEmptyPathMatchesWithNamedOutlets(segmentGroup, slicedSegments, config)) {
-        var s_1 = new UrlSegmentGroup(consumedSegments, createChildrenForEmptyPaths(segmentGroup, consumedSegments, config, new UrlSegmentGroup(slicedSegments, segmentGroup.children)));
-        s_1._sourceSegment = segmentGroup;
-        s_1._segmentIndexShift = consumedSegments.length;
-        return { segmentGroup: s_1, slicedSegments: [] };
-    }
-    if (slicedSegments.length === 0 &&
-        containsEmptyPathMatches(segmentGroup, slicedSegments, config)) {
-        var s_2 = new UrlSegmentGroup(segmentGroup.segments, addEmptyPathsToChildrenIfNeeded(segmentGroup, consumedSegments, slicedSegments, config, segmentGroup.children, relativeLinkResolution));
-        s_2._sourceSegment = segmentGroup;
-        s_2._segmentIndexShift = consumedSegments.length;
-        return { segmentGroup: s_2, slicedSegments: slicedSegments };
-    }
-    var s = new UrlSegmentGroup(segmentGroup.segments, segmentGroup.children);
-    s._sourceSegment = segmentGroup;
-    s._segmentIndexShift = consumedSegments.length;
-    return { segmentGroup: s, slicedSegments: slicedSegments };
-}
-function addEmptyPathsToChildrenIfNeeded(segmentGroup, consumedSegments, slicedSegments, routes, children, relativeLinkResolution) {
-    var e_2, _a;
-    var res = {};
-    try {
-        for (var routes_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(routes), routes_1_1 = routes_1.next(); !routes_1_1.done; routes_1_1 = routes_1.next()) {
-            var r = routes_1_1.value;
-            if (emptyPathMatch(segmentGroup, slicedSegments, r) && !children[getOutlet$1(r)]) {
-                var s = new UrlSegmentGroup([], {});
-                s._sourceSegment = segmentGroup;
-                if (relativeLinkResolution === 'legacy') {
-                    s._segmentIndexShift = segmentGroup.segments.length;
-                }
-                else {
-                    s._segmentIndexShift = consumedSegments.length;
-                }
-                res[getOutlet$1(r)] = s;
-            }
-        }
-    }
-    catch (e_2_1) { e_2 = { error: e_2_1 }; }
-    finally {
-        try {
-            if (routes_1_1 && !routes_1_1.done && (_a = routes_1.return)) _a.call(routes_1);
-        }
-        finally { if (e_2) throw e_2.error; }
-    }
-    return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, children, res);
-}
-function createChildrenForEmptyPaths(segmentGroup, consumedSegments, routes, primarySegment) {
-    var e_3, _a;
-    var res = {};
-    res[PRIMARY_OUTLET] = primarySegment;
-    primarySegment._sourceSegment = segmentGroup;
-    primarySegment._segmentIndexShift = consumedSegments.length;
-    try {
-        for (var routes_2 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(routes), routes_2_1 = routes_2.next(); !routes_2_1.done; routes_2_1 = routes_2.next()) {
-            var r = routes_2_1.value;
-            if (r.path === '' && getOutlet$1(r) !== PRIMARY_OUTLET) {
-                var s = new UrlSegmentGroup([], {});
-                s._sourceSegment = segmentGroup;
-                s._segmentIndexShift = consumedSegments.length;
-                res[getOutlet$1(r)] = s;
-            }
-        }
-    }
-    catch (e_3_1) { e_3 = { error: e_3_1 }; }
-    finally {
-        try {
-            if (routes_2_1 && !routes_2_1.done && (_a = routes_2.return)) _a.call(routes_2);
-        }
-        finally { if (e_3) throw e_3.error; }
-    }
-    return res;
-}
-function containsEmptyPathMatchesWithNamedOutlets(segmentGroup, slicedSegments, routes) {
-    return routes.some(function (r) { return emptyPathMatch(segmentGroup, slicedSegments, r) && getOutlet$1(r) !== PRIMARY_OUTLET; });
-}
-function containsEmptyPathMatches(segmentGroup, slicedSegments, routes) {
-    return routes.some(function (r) { return emptyPathMatch(segmentGroup, slicedSegments, r); });
-}
-function emptyPathMatch(segmentGroup, slicedSegments, r) {
-    if ((segmentGroup.hasChildren() || slicedSegments.length > 0) && r.pathMatch === 'full') {
-        return false;
-    }
-    return r.path === '' && r.redirectTo === undefined;
-}
-function getOutlet$1(route) {
-    return route.outlet || PRIMARY_OUTLET;
-}
-function getData(route) {
-    return route.data || {};
-}
-function getResolve(route) {
-    return route.resolve || {};
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function recognize$1(rootComponentType, config, serializer, paramsInheritanceStrategy, relativeLinkResolution) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (t) { return recognize(rootComponentType, config, t.urlAfterRedirects, serializer(t.urlAfterRedirects), paramsInheritanceStrategy, relativeLinkResolution)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (targetSnapshot) { return (Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, t, { targetSnapshot: targetSnapshot })); })); }));
-    };
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function resolveData(paramsInheritanceStrategy, moduleInjector) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (t) {
-            var targetSnapshot = t.targetSnapshot, canActivateChecks = t.guards.canActivateChecks;
-            if (!canActivateChecks.length) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(t);
-            }
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(canActivateChecks)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatMap"])(function (check) { return runResolve(check.route, targetSnapshot, paramsInheritanceStrategy, moduleInjector); }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["reduce"])(function (_, __) { return _; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (_) { return t; }));
-        }));
-    };
-}
-function runResolve(futureARS, futureRSS, paramsInheritanceStrategy, moduleInjector) {
-    var resolve = futureARS._resolve;
-    return resolveNode(resolve, futureARS, futureRSS, moduleInjector)
-        .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (resolvedData) {
-        futureARS._resolvedData = resolvedData;
-        futureARS.data = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, futureARS.data, inheritedParamsDataResolve(futureARS, paramsInheritanceStrategy).resolve);
-        return null;
-    }));
-}
-function resolveNode(resolve, futureARS, futureRSS, moduleInjector) {
-    var keys = Object.keys(resolve);
-    if (keys.length === 0) {
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])({});
-    }
-    if (keys.length === 1) {
-        var key_1 = keys[0];
-        return getResolver(resolve[key_1], futureARS, futureRSS, moduleInjector)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (value) {
-            var _a;
-            return _a = {}, _a[key_1] = value, _a;
-        }));
-    }
-    var data = {};
-    var runningResolvers$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(keys).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (key) {
-        return getResolver(resolve[key], futureARS, futureRSS, moduleInjector)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (value) {
-            data[key] = value;
-            return value;
-        }));
-    }));
-    return runningResolvers$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["last"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function () { return data; }));
-}
-function getResolver(injectionToken, futureARS, futureRSS, moduleInjector) {
-    var resolver = getToken(injectionToken, futureARS, moduleInjector);
-    return resolver.resolve ? wrapIntoObservable(resolver.resolve(futureARS, futureRSS)) :
-        wrapIntoObservable(resolver(futureARS, futureRSS));
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Perform a side effect through a switchMap for every emission on the source Observable,
- * but return an Observable that is identical to the source. It's essentially the same as
- * the `tap` operator, but if the side effectful `next` function returns an ObservableInput,
- * it will wait before continuing with the original value.
- */
-function switchTap(next) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["switchMap"])(function (v) {
-            var nextResult = next(v);
-            if (nextResult) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(nextResult).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function () { return v; }));
-            }
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])([v]);
-        }));
-    };
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @description
- *
- * Provides a way to customize when activated routes get reused.
- *
- * @publicApi
- */
-var RouteReuseStrategy = /** @class */ (function () {
-    function RouteReuseStrategy() {
-    }
-    return RouteReuseStrategy;
-}());
-/**
- * Does not detach any subtrees. Reuses routes as long as their route config is the same.
- */
-var DefaultRouteReuseStrategy = /** @class */ (function () {
-    function DefaultRouteReuseStrategy() {
-    }
-    DefaultRouteReuseStrategy.prototype.shouldDetach = function (route) { return false; };
-    DefaultRouteReuseStrategy.prototype.store = function (route, detachedTree) { };
-    DefaultRouteReuseStrategy.prototype.shouldAttach = function (route) { return false; };
-    DefaultRouteReuseStrategy.prototype.retrieve = function (route) { return null; };
-    DefaultRouteReuseStrategy.prototype.shouldReuseRoute = function (future, curr) {
-        return future.routeConfig === curr.routeConfig;
-    };
-    return DefaultRouteReuseStrategy;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @docsNotRequired
- * @publicApi
- */
-var ROUTES = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["InjectionToken"]('ROUTES');
-var RouterConfigLoader = /** @class */ (function () {
-    function RouterConfigLoader(loader, compiler, onLoadStartListener, onLoadEndListener) {
-        this.loader = loader;
-        this.compiler = compiler;
-        this.onLoadStartListener = onLoadStartListener;
-        this.onLoadEndListener = onLoadEndListener;
-    }
-    RouterConfigLoader.prototype.load = function (parentInjector, route) {
-        var _this = this;
-        if (this.onLoadStartListener) {
-            this.onLoadStartListener(route);
-        }
-        var moduleFactory$ = this.loadModuleFactory(route.loadChildren);
-        return moduleFactory$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (factory) {
-            if (_this.onLoadEndListener) {
-                _this.onLoadEndListener(route);
-            }
-            var module = factory.create(parentInjector);
-            return new LoadedRouterConfig(flatten(module.injector.get(ROUTES)).map(standardizeConfig), module);
-        }));
-    };
-    RouterConfigLoader.prototype.loadModuleFactory = function (loadChildren) {
-        var _this = this;
-        if (typeof loadChildren === 'string') {
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(this.loader.load(loadChildren));
-        }
-        else {
-            return wrapIntoObservable(loadChildren()).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (t) {
-                if (t instanceof _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModuleFactory"]) {
-                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(t);
-                }
-                else {
-                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(_this.compiler.compileModuleAsync(t));
-                }
-            }));
-        }
-    };
-    return RouterConfigLoader;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @description
- *
- * Provides a way to migrate AngularJS applications to Angular.
- *
- * @publicApi
- */
-var UrlHandlingStrategy = /** @class */ (function () {
-    function UrlHandlingStrategy() {
-    }
-    return UrlHandlingStrategy;
-}());
-/**
- * @publicApi
- */
-var DefaultUrlHandlingStrategy = /** @class */ (function () {
-    function DefaultUrlHandlingStrategy() {
-    }
-    DefaultUrlHandlingStrategy.prototype.shouldProcessUrl = function (url) { return true; };
-    DefaultUrlHandlingStrategy.prototype.extract = function (url) { return url; };
-    DefaultUrlHandlingStrategy.prototype.merge = function (newUrlPart, wholeUrl) { return newUrlPart; };
-    return DefaultUrlHandlingStrategy;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function defaultErrorHandler(error) {
-    throw error;
-}
-function defaultMalformedUriErrorHandler(error, urlSerializer, url) {
-    return urlSerializer.parse('/');
-}
-/**
- * @internal
- */
-function defaultRouterHook(snapshot, runExtras) {
-    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(null);
-}
-/**
- * @description
- *
- * An NgModule that provides navigation and URL manipulation capabilities.
- *
- * @see `Route`.
- * @see [Routing and Navigation Guide](guide/router).
- *
- * @ngModule RouterModule
- *
- * @publicApi
- */
-var Router = /** @class */ (function () {
-    /**
-     * Creates the router service.
-     */
-    // TODO: vsavkin make internal after the final is out.
-    function Router(rootComponentType, urlSerializer, rootContexts, location, injector, loader, compiler, config) {
-        var _this = this;
-        this.rootComponentType = rootComponentType;
-        this.urlSerializer = urlSerializer;
-        this.rootContexts = rootContexts;
-        this.location = location;
-        this.config = config;
-        this.lastSuccessfulNavigation = null;
-        this.currentNavigation = null;
-        this.navigationId = 0;
-        this.isNgZoneEnabled = false;
-        /**
-         * An event stream for routing events in this NgModule.
-         */
-        this.events = new rxjs__WEBPACK_IMPORTED_MODULE_3__["Subject"]();
-        /**
-         * A handler for navigation errors in this NgModule.
-         */
-        this.errorHandler = defaultErrorHandler;
-        /**
-         * Malformed uri error handler is invoked when `Router.parseUrl(url)` throws an
-         * error due to containing an invalid character. The most common case would be a `%` sign
-         * that's not encoded and is not part of a percent encoded sequence.
-         */
-        this.malformedUriErrorHandler = defaultMalformedUriErrorHandler;
-        /**
-         * True if at least one navigation event has occurred,
-         * false otherwise.
-         */
-        this.navigated = false;
-        this.lastSuccessfulId = -1;
-        /**
-         * Hooks that enable you to pause navigation,
-         * either before or after the preactivation phase.
-         * Used by `RouterModule`.
-         *
-         * @internal
-         */
-        this.hooks = {
-            beforePreactivation: defaultRouterHook,
-            afterPreactivation: defaultRouterHook
-        };
-        /**
-         * Extracts and merges URLs. Used for AngularJS to Angular migrations.
-         */
-        this.urlHandlingStrategy = new DefaultUrlHandlingStrategy();
-        /**
-         * The strategy for re-using routes.
-         */
-        this.routeReuseStrategy = new DefaultRouteReuseStrategy();
-        /**
-         * How to handle a navigation request to the current URL. One of:
-         * - `'ignore'` :  The router ignores the request.
-         * - `'reload'` : The router reloads the URL. Use to implement a "refresh" feature.
-         */
-        this.onSameUrlNavigation = 'ignore';
-        /**
-         * How to merge parameters, data, and resolved data from parent to child
-         * routes. One of:
-         *
-         * - `'emptyOnly'` : Inherit parent parameters, data, and resolved data
-         * for path-less or component-less routes.
-         * - `'always'` : Inherit parent parameters, data, and resolved data
-         * for all child routes.
-         */
-        this.paramsInheritanceStrategy = 'emptyOnly';
-        /**
-         * Defines when the router updates the browser URL. The default behavior is to update after
-         * successful navigation. However, some applications may prefer a mode where the URL gets
-         * updated at the beginning of navigation. The most common use case would be updating the
-         * URL early so if navigation fails, you can show an error message with the URL that failed.
-         * Available options are:
-         *
-         * - `'deferred'`, the default, updates the browser URL after navigation has finished.
-         * - `'eager'`, updates browser URL at the beginning of navigation.
-         */
-        this.urlUpdateStrategy = 'deferred';
-        /**
-         * See {@link RouterModule} for more information.
-         */
-        this.relativeLinkResolution = 'legacy';
-        var onLoadStart = function (r) { return _this.triggerEvent(new RouteConfigLoadStart(r)); };
-        var onLoadEnd = function (r) { return _this.triggerEvent(new RouteConfigLoadEnd(r)); };
-        this.ngModule = injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModuleRef"]);
-        this.console = injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵConsole"]);
-        var ngZone = injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgZone"]);
-        this.isNgZoneEnabled = ngZone instanceof _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgZone"];
-        this.resetConfig(config);
-        this.currentUrlTree = createEmptyUrlTree();
-        this.rawUrlTree = this.currentUrlTree;
-        this.browserUrlTree = this.currentUrlTree;
-        this.configLoader = new RouterConfigLoader(loader, compiler, onLoadStart, onLoadEnd);
-        this.routerState = createEmptyState(this.currentUrlTree, this.rootComponentType);
-        this.transitions = new rxjs__WEBPACK_IMPORTED_MODULE_3__["BehaviorSubject"]({
-            id: 0,
-            currentUrlTree: this.currentUrlTree,
-            currentRawUrl: this.currentUrlTree,
-            extractedUrl: this.urlHandlingStrategy.extract(this.currentUrlTree),
-            urlAfterRedirects: this.urlHandlingStrategy.extract(this.currentUrlTree),
-            rawUrl: this.currentUrlTree,
-            extras: {},
-            resolve: null,
-            reject: null,
-            promise: Promise.resolve(true),
-            source: 'imperative',
-            restoredState: null,
-            currentSnapshot: this.routerState.snapshot,
-            targetSnapshot: null,
-            currentRouterState: this.routerState,
-            targetRouterState: null,
-            guards: { canActivateChecks: [], canDeactivateChecks: [] },
-            guardsResult: null,
-        });
-        this.navigations = this.setupNavigations(this.transitions);
-        this.processNavigations();
-    }
-    Router.prototype.setupNavigations = function (transitions) {
-        var _this = this;
-        var eventsSubject = this.events;
-        return transitions.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["filter"])(function (t) { return t.id !== 0; }), 
-        // Extract URL
-        Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (t) { return (Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, t, { extractedUrl: _this.urlHandlingStrategy.extract(t.rawUrl) })); }), 
-        // Using switchMap so we cancel executing navigations when a new one comes in
-        Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["switchMap"])(function (t) {
-            var completed = false;
-            var errored = false;
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(t).pipe(
-            // Store the Navigation object
-            Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                _this.currentNavigation = {
-                    id: t.id,
-                    initialUrl: t.currentRawUrl,
-                    extractedUrl: t.extractedUrl,
-                    trigger: t.source,
-                    extras: t.extras,
-                    previousNavigation: _this.lastSuccessfulNavigation ? Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, _this.lastSuccessfulNavigation, { previousNavigation: null }) :
-                        null
-                };
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["switchMap"])(function (t) {
-                var urlTransition = !_this.navigated || t.extractedUrl.toString() !== _this.browserUrlTree.toString();
-                var processCurrentUrl = (_this.onSameUrlNavigation === 'reload' ? true : urlTransition) &&
-                    _this.urlHandlingStrategy.shouldProcessUrl(t.rawUrl);
-                if (processCurrentUrl) {
-                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(t).pipe(
-                    // Fire NavigationStart event
-                    Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["switchMap"])(function (t) {
-                        var transition = _this.transitions.getValue();
-                        eventsSubject.next(new NavigationStart(t.id, _this.serializeUrl(t.extractedUrl), t.source, t.restoredState));
-                        if (transition !== _this.transitions.getValue()) {
-                            return rxjs__WEBPACK_IMPORTED_MODULE_3__["EMPTY"];
-                        }
-                        return [t];
-                    }), 
-                    // This delay is required to match old behavior that forced navigation to
-                    // always be async
-                    Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["switchMap"])(function (t) { return Promise.resolve(t); }), 
-                    // ApplyRedirects
-                    applyRedirects$1(_this.ngModule.injector, _this.configLoader, _this.urlSerializer, _this.config), 
-                    // Update the currentNavigation
-                    Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                        _this.currentNavigation = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, _this.currentNavigation, { finalUrl: t.urlAfterRedirects });
-                    }), 
-                    // Recognize
-                    recognize$1(_this.rootComponentType, _this.config, function (url) { return _this.serializeUrl(url); }, _this.paramsInheritanceStrategy, _this.relativeLinkResolution), 
-                    // Update URL if in `eager` update mode
-                    Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                        if (_this.urlUpdateStrategy === 'eager') {
-                            if (!t.extras.skipLocationChange) {
-                                _this.setBrowserUrl(t.urlAfterRedirects, !!t.extras.replaceUrl, t.id);
-                            }
-                            _this.browserUrlTree = t.urlAfterRedirects;
-                        }
-                    }), 
-                    // Fire RoutesRecognized
-                    Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                        var routesRecognized = new RoutesRecognized(t.id, _this.serializeUrl(t.extractedUrl), _this.serializeUrl(t.urlAfterRedirects), t.targetSnapshot);
-                        eventsSubject.next(routesRecognized);
-                    }));
-                }
-                else {
-                    var processPreviousUrl = urlTransition && _this.rawUrlTree &&
-                        _this.urlHandlingStrategy.shouldProcessUrl(_this.rawUrlTree);
-                    /* When the current URL shouldn't be processed, but the previous one was, we
-                     * handle this "error condition" by navigating to the previously successful URL,
-                     * but leaving the URL intact.*/
-                    if (processPreviousUrl) {
-                        var id = t.id, extractedUrl = t.extractedUrl, source = t.source, restoredState = t.restoredState, extras = t.extras;
-                        var navStart = new NavigationStart(id, _this.serializeUrl(extractedUrl), source, restoredState);
-                        eventsSubject.next(navStart);
-                        var targetSnapshot = createEmptyState(extractedUrl, _this.rootComponentType).snapshot;
-                        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, t, { targetSnapshot: targetSnapshot, urlAfterRedirects: extractedUrl, extras: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, extras, { skipLocationChange: false, replaceUrl: false }) }));
-                    }
-                    else {
-                        /* When neither the current or previous URL can be processed, do nothing other
-                         * than update router's internal reference to the current "settled" URL. This
-                         * way the next navigation will be coming from the current URL in the browser.
-                         */
-                        _this.rawUrlTree = t.rawUrl;
-                        t.resolve(null);
-                        return rxjs__WEBPACK_IMPORTED_MODULE_3__["EMPTY"];
-                    }
-                }
-            }), 
-            // Before Preactivation
-            switchTap(function (t) {
-                var targetSnapshot = t.targetSnapshot, navigationId = t.id, appliedUrlTree = t.extractedUrl, rawUrlTree = t.rawUrl, _a = t.extras, skipLocationChange = _a.skipLocationChange, replaceUrl = _a.replaceUrl;
-                return _this.hooks.beforePreactivation(targetSnapshot, {
-                    navigationId: navigationId,
-                    appliedUrlTree: appliedUrlTree,
-                    rawUrlTree: rawUrlTree,
-                    skipLocationChange: !!skipLocationChange,
-                    replaceUrl: !!replaceUrl,
-                });
-            }), 
-            // --- GUARDS ---
-            Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                var guardsStart = new GuardsCheckStart(t.id, _this.serializeUrl(t.extractedUrl), _this.serializeUrl(t.urlAfterRedirects), t.targetSnapshot);
-                _this.triggerEvent(guardsStart);
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (t) { return (Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, t, { guards: getAllRouteGuards(t.targetSnapshot, t.currentSnapshot, _this.rootContexts) })); }), checkGuards(_this.ngModule.injector, function (evt) { return _this.triggerEvent(evt); }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                if (isUrlTree(t.guardsResult)) {
-                    var error = navigationCancelingError("Redirecting to \"" + _this.serializeUrl(t.guardsResult) + "\"");
-                    error.url = t.guardsResult;
-                    throw error;
-                }
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                var guardsEnd = new GuardsCheckEnd(t.id, _this.serializeUrl(t.extractedUrl), _this.serializeUrl(t.urlAfterRedirects), t.targetSnapshot, !!t.guardsResult);
-                _this.triggerEvent(guardsEnd);
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["filter"])(function (t) {
-                if (!t.guardsResult) {
-                    _this.resetUrlToCurrentUrlTree();
-                    var navCancel = new NavigationCancel(t.id, _this.serializeUrl(t.extractedUrl), '');
-                    eventsSubject.next(navCancel);
-                    t.resolve(false);
-                    return false;
-                }
-                return true;
-            }), 
-            // --- RESOLVE ---
-            switchTap(function (t) {
-                if (t.guards.canActivateChecks.length) {
-                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(t).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                        var resolveStart = new ResolveStart(t.id, _this.serializeUrl(t.extractedUrl), _this.serializeUrl(t.urlAfterRedirects), t.targetSnapshot);
-                        _this.triggerEvent(resolveStart);
-                    }), resolveData(_this.paramsInheritanceStrategy, _this.ngModule.injector), //
-                    Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                        var resolveEnd = new ResolveEnd(t.id, _this.serializeUrl(t.extractedUrl), _this.serializeUrl(t.urlAfterRedirects), t.targetSnapshot);
-                        _this.triggerEvent(resolveEnd);
-                    }));
-                }
-                return undefined;
-            }), 
-            // --- AFTER PREACTIVATION ---
-            switchTap(function (t) {
-                var targetSnapshot = t.targetSnapshot, navigationId = t.id, appliedUrlTree = t.extractedUrl, rawUrlTree = t.rawUrl, _a = t.extras, skipLocationChange = _a.skipLocationChange, replaceUrl = _a.replaceUrl;
-                return _this.hooks.afterPreactivation(targetSnapshot, {
-                    navigationId: navigationId,
-                    appliedUrlTree: appliedUrlTree,
-                    rawUrlTree: rawUrlTree,
-                    skipLocationChange: !!skipLocationChange,
-                    replaceUrl: !!replaceUrl,
-                });
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (t) {
-                var targetRouterState = createRouterState(_this.routeReuseStrategy, t.targetSnapshot, t.currentRouterState);
-                return (Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, t, { targetRouterState: targetRouterState }));
-            }), 
-            /* Once here, we are about to activate syncronously. The assumption is this will
-               succeed, and user code may read from the Router service. Therefore before
-               activation, we need to update router properties storing the current URL and the
-               RouterState, as well as updated the browser URL. All this should happen *before*
-               activating. */
-            Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])(function (t) {
-                _this.currentUrlTree = t.urlAfterRedirects;
-                _this.rawUrlTree = _this.urlHandlingStrategy.merge(_this.currentUrlTree, t.rawUrl);
-                _this.routerState = t.targetRouterState;
-                if (_this.urlUpdateStrategy === 'deferred') {
-                    if (!t.extras.skipLocationChange) {
-                        _this.setBrowserUrl(_this.rawUrlTree, !!t.extras.replaceUrl, t.id, t.extras.state);
-                    }
-                    _this.browserUrlTree = t.urlAfterRedirects;
-                }
-            }), activateRoutes(_this.rootContexts, _this.routeReuseStrategy, function (evt) { return _this.triggerEvent(evt); }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["tap"])({ next: function () { completed = true; }, complete: function () { completed = true; } }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["finalize"])(function () {
-                /* When the navigation stream finishes either through error or success, we set the
-                 * `completed` or `errored` flag. However, there are some situations where we could
-                 * get here without either of those being set. For instance, a redirect during
-                 * NavigationStart. Therefore, this is a catch-all to make sure the NavigationCancel
-                 * event is fired when a navigation gets cancelled but not caught by other means. */
-                if (!completed && !errored) {
-                    // Must reset to current URL tree here to ensure history.state is set. On a fresh
-                    // page load, if a new navigation comes in before a successful navigation
-                    // completes, there will be nothing in history.state.navigationId. This can cause
-                    // sync problems with AngularJS sync code which looks for a value here in order
-                    // to determine whether or not to handle a given popstate event or to leave it
-                    // to the Angualr router.
-                    _this.resetUrlToCurrentUrlTree();
-                    var navCancel = new NavigationCancel(t.id, _this.serializeUrl(t.extractedUrl), "Navigation ID " + t.id + " is not equal to the current navigation id " + _this.navigationId);
-                    eventsSubject.next(navCancel);
-                    t.resolve(false);
-                }
-                // currentNavigation should always be reset to null here. If navigation was
-                // successful, lastSuccessfulTransition will have already been set. Therefore we
-                // can safely set currentNavigation to null here.
-                _this.currentNavigation = null;
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function (e) {
-                errored = true;
-                /* This error type is issued during Redirect, and is handled as a cancellation
-                 * rather than an error. */
-                if (isNavigationCancelingError(e)) {
-                    var redirecting = isUrlTree(e.url);
-                    if (!redirecting) {
-                        // Set property only if we're not redirecting. If we landed on a page and
-                        // redirect to `/` route, the new navigation is going to see the `/` isn't
-                        // a change from the default currentUrlTree and won't navigate. This is
-                        // only applicable with initial navigation, so setting `navigated` only when
-                        // not redirecting resolves this scenario.
-                        _this.navigated = true;
-                        _this.resetStateAndUrl(t.currentRouterState, t.currentUrlTree, t.rawUrl);
-                    }
-                    var navCancel = new NavigationCancel(t.id, _this.serializeUrl(t.extractedUrl), e.message);
-                    eventsSubject.next(navCancel);
-                    t.resolve(false);
-                    if (redirecting) {
-                        _this.navigateByUrl(e.url);
-                    }
-                    /* All other errors should reset to the router's internal URL reference to the
-                     * pre-error state. */
-                }
-                else {
-                    _this.resetStateAndUrl(t.currentRouterState, t.currentUrlTree, t.rawUrl);
-                    var navError = new NavigationError(t.id, _this.serializeUrl(t.extractedUrl), e);
-                    eventsSubject.next(navError);
-                    try {
-                        t.resolve(_this.errorHandler(e));
-                    }
-                    catch (ee) {
-                        t.reject(ee);
-                    }
-                }
-                return rxjs__WEBPACK_IMPORTED_MODULE_3__["EMPTY"];
-            }));
-            // TODO(jasonaden): remove cast once g3 is on updated TypeScript
-        }));
-    };
-    /**
-     * @internal
-     * TODO: this should be removed once the constructor of the router made internal
-     */
-    Router.prototype.resetRootComponentType = function (rootComponentType) {
-        this.rootComponentType = rootComponentType;
-        // TODO: vsavkin router 4.0 should make the root component set to null
-        // this will simplify the lifecycle of the router.
-        this.routerState.root.component = this.rootComponentType;
-    };
-    Router.prototype.getTransition = function () { return this.transitions.value; };
-    Router.prototype.setTransition = function (t) {
-        this.transitions.next(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, this.getTransition(), t));
-    };
-    /**
-     * Sets up the location change listener and performs the initial navigation.
-     */
-    Router.prototype.initialNavigation = function () {
-        this.setUpLocationChangeListener();
-        if (this.navigationId === 0) {
-            this.navigateByUrl(this.location.path(true), { replaceUrl: true });
-        }
-    };
-    /**
-     * Sets up the location change listener.
-     */
-    Router.prototype.setUpLocationChangeListener = function () {
-        var _this = this;
-        // Don't need to use Zone.wrap any more, because zone.js
-        // already patch onPopState, so location change callback will
-        // run into ngZone
-        if (!this.locationSubscription) {
-            this.locationSubscription = this.location.subscribe(function (change) {
-                var rawUrlTree = _this.parseUrl(change['url']);
-                var source = change['type'] === 'popstate' ? 'popstate' : 'hashchange';
-                // Navigations coming from Angular router have a navigationId state property. When this
-                // exists, restore the state.
-                var state = change.state && change.state.navigationId ? change.state : null;
-                setTimeout(function () { _this.scheduleNavigation(rawUrlTree, source, state, { replaceUrl: true }); }, 0);
-            });
-        }
-    };
-    Object.defineProperty(Router.prototype, "url", {
-        /** The current URL. */
-        get: function () { return this.serializeUrl(this.currentUrlTree); },
-        enumerable: true,
-        configurable: true
-    });
-    /** The current Navigation object if one exists */
-    Router.prototype.getCurrentNavigation = function () { return this.currentNavigation; };
-    /** @internal */
-    Router.prototype.triggerEvent = function (event) { this.events.next(event); };
-    /**
-     * Resets the configuration used for navigation and generating links.
-     *
-     * @param config The route array for the new configuration.
-     *
-     * @usageNotes
-     *
-     * ```
-     * router.resetConfig([
-     *  { path: 'team/:id', component: TeamCmp, children: [
-     *    { path: 'simple', component: SimpleCmp },
-     *    { path: 'user/:name', component: UserCmp }
-     *  ]}
-     * ]);
-     * ```
-     */
-    Router.prototype.resetConfig = function (config) {
-        validateConfig(config);
-        this.config = config.map(standardizeConfig);
-        this.navigated = false;
-        this.lastSuccessfulId = -1;
-    };
-    /** @docsNotRequired */
-    Router.prototype.ngOnDestroy = function () { this.dispose(); };
-    /** Disposes of the router. */
-    Router.prototype.dispose = function () {
-        if (this.locationSubscription) {
-            this.locationSubscription.unsubscribe();
-            this.locationSubscription = null;
-        }
-    };
-    /**
-     * Applies an array of commands to the current URL tree and creates a new URL tree.
-     *
-     * When given an activate route, applies the given commands starting from the route.
-     * When not given a route, applies the given command starting from the root.
-     *
-     * @param commands An array of commands to apply.
-     * @param navigationExtras
-     * @returns The new URL tree.
-     *
-     * @usageNotes
-     *
-     * ```
-     * // create /team/33/user/11
-     * router.createUrlTree(['/team', 33, 'user', 11]);
-     *
-     * // create /team/33;expand=true/user/11
-     * router.createUrlTree(['/team', 33, {expand: true}, 'user', 11]);
-     *
-     * // you can collapse static segments like this (this works only with the first passed-in value):
-     * router.createUrlTree(['/team/33/user', userId]);
-     *
-     * // If the first segment can contain slashes, and you do not want the router to split it, you
-     * // can do the following:
-     *
-     * router.createUrlTree([{segmentPath: '/one/two'}]);
-     *
-     * // create /team/33/(user/11//right:chat)
-     * router.createUrlTree(['/team', 33, {outlets: {primary: 'user/11', right: 'chat'}}]);
-     *
-     * // remove the right secondary node
-     * router.createUrlTree(['/team', 33, {outlets: {primary: 'user/11', right: null}}]);
-     *
-     * // assuming the current url is `/team/33/user/11` and the route points to `user/11`
-     *
-     * // navigate to /team/33/user/11/details
-     * router.createUrlTree(['details'], {relativeTo: route});
-     *
-     * // navigate to /team/33/user/22
-     * router.createUrlTree(['../22'], {relativeTo: route});
-     *
-     * // navigate to /team/44/user/22
-     * router.createUrlTree(['../../team/44/user/22'], {relativeTo: route});
-     * ```
-     */
-    Router.prototype.createUrlTree = function (commands, navigationExtras) {
-        if (navigationExtras === void 0) { navigationExtras = {}; }
-        var relativeTo = navigationExtras.relativeTo, queryParams = navigationExtras.queryParams, fragment = navigationExtras.fragment, preserveQueryParams = navigationExtras.preserveQueryParams, queryParamsHandling = navigationExtras.queryParamsHandling, preserveFragment = navigationExtras.preserveFragment;
-        if (Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["isDevMode"])() && preserveQueryParams && console && console.warn) {
-            console.warn('preserveQueryParams is deprecated, use queryParamsHandling instead.');
-        }
-        var a = relativeTo || this.routerState.root;
-        var f = preserveFragment ? this.currentUrlTree.fragment : fragment;
-        var q = null;
-        if (queryParamsHandling) {
-            switch (queryParamsHandling) {
-                case 'merge':
-                    q = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, this.currentUrlTree.queryParams, queryParams);
-                    break;
-                case 'preserve':
-                    q = this.currentUrlTree.queryParams;
-                    break;
-                default:
-                    q = queryParams || null;
-            }
-        }
-        else {
-            q = preserveQueryParams ? this.currentUrlTree.queryParams : queryParams || null;
-        }
-        if (q !== null) {
-            q = this.removeEmptyProps(q);
-        }
-        return createUrlTree(a, this.currentUrlTree, commands, q, f);
-    };
-    /**
-     * Navigate based on the provided URL, which must be absolute.
-     *
-     * @param url An absolute URL. The function does not apply any delta to the current URL.
-     * @param extras An object containing properties that modify the navigation strategy.
-     * The function ignores any properties in the `NavigationExtras` that would change the
-     * provided URL.
-     *
-     * @returns A Promise that resolves to 'true' when navigation succeeds,
-     * to 'false' when navigation fails, or is rejected on error.
-     *
-     * @usageNotes
-     *
-     * ### Example
-     *
-     * ```
-     * router.navigateByUrl("/team/33/user/11");
-     *
-     * // Navigate without updating the URL
-     * router.navigateByUrl("/team/33/user/11", { skipLocationChange: true });
-     * ```
-     *
-     */
-    Router.prototype.navigateByUrl = function (url, extras) {
-        if (extras === void 0) { extras = { skipLocationChange: false }; }
-        if (Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["isDevMode"])() && this.isNgZoneEnabled && !_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgZone"].isInAngularZone()) {
-            this.console.warn("Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?");
-        }
-        var urlTree = isUrlTree(url) ? url : this.parseUrl(url);
-        var mergedTree = this.urlHandlingStrategy.merge(urlTree, this.rawUrlTree);
-        return this.scheduleNavigation(mergedTree, 'imperative', null, extras);
-    };
-    /**
-     * Navigate based on the provided array of commands and a starting point.
-     * If no starting route is provided, the navigation is absolute.
-     *
-     * Returns a promise that:
-     * - resolves to 'true' when navigation succeeds,
-     * - resolves to 'false' when navigation fails,
-     * - is rejected when an error happens.
-     *
-     * @usageNotes
-     *
-     * ### Example
-     *
-     * ```
-     * router.navigate(['team', 33, 'user', 11], {relativeTo: route});
-     *
-     * // Navigate without updating the URL
-     * router.navigate(['team', 33, 'user', 11], {relativeTo: route, skipLocationChange: true});
-     * ```
-     *
-     * The first parameter of `navigate()` is a delta to be applied to the current URL
-     * or the one provided in the `relativeTo` property of the second parameter (the
-     * `NavigationExtras`).
-     *
-     * In order to affect this browser's `history.state` entry, the `state`
-     * parameter can be passed. This must be an object because the router
-     * will add the `navigationId` property to this object before creating
-     * the new history item.
-     */
-    Router.prototype.navigate = function (commands, extras) {
-        if (extras === void 0) { extras = { skipLocationChange: false }; }
-        validateCommands(commands);
-        return this.navigateByUrl(this.createUrlTree(commands, extras), extras);
-    };
-    /** Serializes a `UrlTree` into a string */
-    Router.prototype.serializeUrl = function (url) { return this.urlSerializer.serialize(url); };
-    /** Parses a string into a `UrlTree` */
-    Router.prototype.parseUrl = function (url) {
-        var urlTree;
-        try {
-            urlTree = this.urlSerializer.parse(url);
-        }
-        catch (e) {
-            urlTree = this.malformedUriErrorHandler(e, this.urlSerializer, url);
-        }
-        return urlTree;
-    };
-    /** Returns whether the url is activated */
-    Router.prototype.isActive = function (url, exact) {
-        if (isUrlTree(url)) {
-            return containsTree(this.currentUrlTree, url, exact);
-        }
-        var urlTree = this.parseUrl(url);
-        return containsTree(this.currentUrlTree, urlTree, exact);
-    };
-    Router.prototype.removeEmptyProps = function (params) {
-        return Object.keys(params).reduce(function (result, key) {
-            var value = params[key];
-            if (value !== null && value !== undefined) {
-                result[key] = value;
-            }
-            return result;
-        }, {});
-    };
-    Router.prototype.processNavigations = function () {
-        var _this = this;
-        this.navigations.subscribe(function (t) {
-            _this.navigated = true;
-            _this.lastSuccessfulId = t.id;
-            _this.events
-                .next(new NavigationEnd(t.id, _this.serializeUrl(t.extractedUrl), _this.serializeUrl(_this.currentUrlTree)));
-            _this.lastSuccessfulNavigation = _this.currentNavigation;
-            _this.currentNavigation = null;
-            t.resolve(true);
-        }, function (e) { _this.console.warn("Unhandled Navigation Error: "); });
-    };
-    Router.prototype.scheduleNavigation = function (rawUrl, source, restoredState, extras) {
-        var lastNavigation = this.getTransition();
-        // If the user triggers a navigation imperatively (e.g., by using navigateByUrl),
-        // and that navigation results in 'replaceState' that leads to the same URL,
-        // we should skip those.
-        if (lastNavigation && source !== 'imperative' && lastNavigation.source === 'imperative' &&
-            lastNavigation.rawUrl.toString() === rawUrl.toString()) {
-            return Promise.resolve(true); // return value is not used
-        }
-        // Because of a bug in IE and Edge, the location class fires two events (popstate and
-        // hashchange) every single time. The second one should be ignored. Otherwise, the URL will
-        // flicker. Handles the case when a popstate was emitted first.
-        if (lastNavigation && source == 'hashchange' && lastNavigation.source === 'popstate' &&
-            lastNavigation.rawUrl.toString() === rawUrl.toString()) {
-            return Promise.resolve(true); // return value is not used
-        }
-        // Because of a bug in IE and Edge, the location class fires two events (popstate and
-        // hashchange) every single time. The second one should be ignored. Otherwise, the URL will
-        // flicker. Handles the case when a hashchange was emitted first.
-        if (lastNavigation && source == 'popstate' && lastNavigation.source === 'hashchange' &&
-            lastNavigation.rawUrl.toString() === rawUrl.toString()) {
-            return Promise.resolve(true); // return value is not used
-        }
-        var resolve = null;
-        var reject = null;
-        var promise = new Promise(function (res, rej) {
-            resolve = res;
-            reject = rej;
-        });
-        var id = ++this.navigationId;
-        this.setTransition({
-            id: id,
-            source: source,
-            restoredState: restoredState,
-            currentUrlTree: this.currentUrlTree,
-            currentRawUrl: this.rawUrlTree, rawUrl: rawUrl, extras: extras, resolve: resolve, reject: reject, promise: promise,
-            currentSnapshot: this.routerState.snapshot,
-            currentRouterState: this.routerState
-        });
-        // Make sure that the error is propagated even though `processNavigations` catch
-        // handler does not rethrow
-        return promise.catch(function (e) { return Promise.reject(e); });
-    };
-    Router.prototype.setBrowserUrl = function (url, replaceUrl, id, state) {
-        var path = this.urlSerializer.serialize(url);
-        state = state || {};
-        if (this.location.isCurrentPathEqualTo(path) || replaceUrl) {
-            // TODO(jasonaden): Remove first `navigationId` and rely on `ng` namespace.
-            this.location.replaceState(path, '', Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, state, { navigationId: id }));
-        }
-        else {
-            this.location.go(path, '', Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, state, { navigationId: id }));
-        }
-    };
-    Router.prototype.resetStateAndUrl = function (storedState, storedUrl, rawUrl) {
-        this.routerState = storedState;
-        this.currentUrlTree = storedUrl;
-        this.rawUrlTree = this.urlHandlingStrategy.merge(this.currentUrlTree, rawUrl);
-        this.resetUrlToCurrentUrlTree();
-    };
-    Router.prototype.resetUrlToCurrentUrlTree = function () {
-        this.location.replaceState(this.urlSerializer.serialize(this.rawUrlTree), '', { navigationId: this.lastSuccessfulId });
-    };
-    return Router;
-}());
-function validateCommands(commands) {
-    for (var i = 0; i < commands.length; i++) {
-        var cmd = commands[i];
-        if (cmd == null) {
-            throw new Error("The requested path contains " + cmd + " segment at index " + i);
-        }
-    }
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @description
- *
- * Lets you link to specific routes in your app.
- *
- * Consider the following route configuration:
- * `[{ path: 'user/:name', component: UserCmp }]`.
- * When linking to this `user/:name` route, you use the `RouterLink` directive.
- *
- * If the link is static, you can use the directive as follows:
- * `<a routerLink="/user/bob">link to user component</a>`
- *
- * If you use dynamic values to generate the link, you can pass an array of path
- * segments, followed by the params for each segment.
- *
- * For instance `['/team', teamId, 'user', userName, {details: true}]`
- * means that we want to generate a link to `/team/11/user/bob;details=true`.
- *
- * Multiple static segments can be merged into one
- * (e.g., `['/team/11/user', userName, {details: true}]`).
- *
- * The first segment name can be prepended with `/`, `./`, or `../`:
- * * If the first segment begins with `/`, the router will look up the route from the root of the
- *   app.
- * * If the first segment begins with `./`, or doesn't begin with a slash, the router will
- *   instead look in the children of the current activated route.
- * * And if the first segment begins with `../`, the router will go up one level.
- *
- * You can set query params and fragment as follows:
- *
- * ```
- * <a [routerLink]="['/user/bob']" [queryParams]="{debug: true}" fragment="education">
- *   link to user component
- * </a>
- * ```
- * RouterLink will use these to generate this link: `/user/bob#education?debug=true`.
- *
- * (Deprecated in v4.0.0 use `queryParamsHandling` instead) You can also tell the
- * directive to preserve the current query params and fragment:
- *
- * ```
- * <a [routerLink]="['/user/bob']" preserveQueryParams preserveFragment>
- *   link to user component
- * </a>
- * ```
- *
- * You can tell the directive how to handle queryParams. Available options are:
- *  - `'merge'`: merge the queryParams into the current queryParams
- *  - `'preserve'`: preserve the current queryParams
- *  - default/`''`: use the queryParams only
- *
- * Same options for {@link NavigationExtras#queryParamsHandling
- * NavigationExtras#queryParamsHandling}.
- *
- * ```
- * <a [routerLink]="['/user/bob']" [queryParams]="{debug: true}" queryParamsHandling="merge">
- *   link to user component
- * </a>
- * ```
- *
- * You can provide a `state` value to be persisted to the browser's History.state
- * property (See https://developer.mozilla.org/en-US/docs/Web/API/History#Properties). It's
- * used as follows:
- *
- * ```
- * <a [routerLink]="['/user/bob']" [state]="{tracingId: 123}">
- *   link to user component
- * </a>
- * ```
- *
- * And later the value can be read from the router through `router.getCurrentNavigation`.
- * For example, to capture the `tracingId` above during the `NavigationStart` event:
- *
- * ```
- * // Get NavigationStart events
- * router.events.pipe(filter(e => e instanceof NavigationStart)).subscribe(e => {
- *   const navigation = router.getCurrentNavigation();
- *   tracingService.trace({id: navigation.extras.state.tracingId});
- * });
- * ```
- *
- * The router link directive always treats the provided input as a delta to the current url.
- *
- * For instance, if the current url is `/user/(box//aux:team)`.
- *
- * Then the following link `<a [routerLink]="['/user/jim']">Jim</a>` will generate the link
- * `/user/(jim//aux:team)`.
- *
- * See {@link Router#createUrlTree createUrlTree} for more information.
- *
- * @ngModule RouterModule
- *
- * @publicApi
- */
-var RouterLink = /** @class */ (function () {
-    function RouterLink(router, route, tabIndex, renderer, el) {
-        this.router = router;
-        this.route = route;
-        this.commands = [];
-        if (tabIndex == null) {
-            renderer.setAttribute(el.nativeElement, 'tabindex', '0');
-        }
-    }
-    Object.defineProperty(RouterLink.prototype, "routerLink", {
-        set: function (commands) {
-            if (commands != null) {
-                this.commands = Array.isArray(commands) ? commands : [commands];
-            }
-            else {
-                this.commands = [];
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(RouterLink.prototype, "preserveQueryParams", {
-        /**
-         * @deprecated 4.0.0 use `queryParamsHandling` instead.
-         */
-        set: function (value) {
-            if (Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["isDevMode"])() && console && console.warn) {
-                console.warn('preserveQueryParams is deprecated!, use queryParamsHandling instead.');
-            }
-            this.preserve = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    RouterLink.prototype.onClick = function () {
-        var extras = {
-            skipLocationChange: attrBoolValue(this.skipLocationChange),
-            replaceUrl: attrBoolValue(this.replaceUrl),
-        };
-        this.router.navigateByUrl(this.urlTree, extras);
-        return true;
-    };
-    Object.defineProperty(RouterLink.prototype, "urlTree", {
-        get: function () {
-            return this.router.createUrlTree(this.commands, {
-                relativeTo: this.route,
-                queryParams: this.queryParams,
-                fragment: this.fragment,
-                preserveQueryParams: attrBoolValue(this.preserve),
-                queryParamsHandling: this.queryParamsHandling,
-                preserveFragment: attrBoolValue(this.preserveFragment),
-            });
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object)
-    ], RouterLink.prototype, "queryParams", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-    ], RouterLink.prototype, "fragment", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-    ], RouterLink.prototype, "queryParamsHandling", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Boolean)
-    ], RouterLink.prototype, "preserveFragment", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Boolean)
-    ], RouterLink.prototype, "skipLocationChange", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Boolean)
-    ], RouterLink.prototype, "replaceUrl", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object)
-    ], RouterLink.prototype, "state", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Object])
-    ], RouterLink.prototype, "routerLink", null);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Boolean),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Boolean])
-    ], RouterLink.prototype, "preserveQueryParams", null);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["HostListener"])('click'),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Function),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", []),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:returntype", Boolean)
-    ], RouterLink.prototype, "onClick", null);
-    RouterLink = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Directive"])({ selector: ':not(a):not(area)[routerLink]' }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(2, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Attribute"])('tabindex')),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Router, ActivatedRoute, String, _angular_core__WEBPACK_IMPORTED_MODULE_2__["Renderer2"], _angular_core__WEBPACK_IMPORTED_MODULE_2__["ElementRef"]])
-    ], RouterLink);
-    return RouterLink;
-}());
-/**
- * @description
- *
- * Lets you link to specific routes in your app.
- *
- * See `RouterLink` for more information.
- *
- * @ngModule RouterModule
- *
- * @publicApi
- */
-var RouterLinkWithHref = /** @class */ (function () {
-    function RouterLinkWithHref(router, route, locationStrategy) {
-        var _this = this;
-        this.router = router;
-        this.route = route;
-        this.locationStrategy = locationStrategy;
-        this.commands = [];
-        this.subscription = router.events.subscribe(function (s) {
-            if (s instanceof NavigationEnd) {
-                _this.updateTargetUrlAndHref();
-            }
-        });
-    }
-    Object.defineProperty(RouterLinkWithHref.prototype, "routerLink", {
-        set: function (commands) {
-            if (commands != null) {
-                this.commands = Array.isArray(commands) ? commands : [commands];
-            }
-            else {
-                this.commands = [];
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(RouterLinkWithHref.prototype, "preserveQueryParams", {
-        set: function (value) {
-            if (Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["isDevMode"])() && console && console.warn) {
-                console.warn('preserveQueryParams is deprecated, use queryParamsHandling instead.');
-            }
-            this.preserve = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    RouterLinkWithHref.prototype.ngOnChanges = function (changes) { this.updateTargetUrlAndHref(); };
-    RouterLinkWithHref.prototype.ngOnDestroy = function () { this.subscription.unsubscribe(); };
-    RouterLinkWithHref.prototype.onClick = function (button, ctrlKey, metaKey, shiftKey) {
-        if (button !== 0 || ctrlKey || metaKey || shiftKey) {
-            return true;
-        }
-        if (typeof this.target === 'string' && this.target != '_self') {
-            return true;
-        }
-        var extras = {
-            skipLocationChange: attrBoolValue(this.skipLocationChange),
-            replaceUrl: attrBoolValue(this.replaceUrl),
-            state: this.state
-        };
-        this.router.navigateByUrl(this.urlTree, extras);
-        return false;
-    };
-    RouterLinkWithHref.prototype.updateTargetUrlAndHref = function () {
-        this.href = this.locationStrategy.prepareExternalUrl(this.router.serializeUrl(this.urlTree));
-    };
-    Object.defineProperty(RouterLinkWithHref.prototype, "urlTree", {
-        get: function () {
-            return this.router.createUrlTree(this.commands, {
-                relativeTo: this.route,
-                queryParams: this.queryParams,
-                fragment: this.fragment,
-                preserveQueryParams: attrBoolValue(this.preserve),
-                queryParamsHandling: this.queryParamsHandling,
-                preserveFragment: attrBoolValue(this.preserveFragment),
-            });
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["HostBinding"])('attr.target'), Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-    ], RouterLinkWithHref.prototype, "target", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object)
-    ], RouterLinkWithHref.prototype, "queryParams", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-    ], RouterLinkWithHref.prototype, "fragment", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-    ], RouterLinkWithHref.prototype, "queryParamsHandling", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Boolean)
-    ], RouterLinkWithHref.prototype, "preserveFragment", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Boolean)
-    ], RouterLinkWithHref.prototype, "skipLocationChange", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Boolean)
-    ], RouterLinkWithHref.prototype, "replaceUrl", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object)
-    ], RouterLinkWithHref.prototype, "state", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["HostBinding"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", String)
-    ], RouterLinkWithHref.prototype, "href", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Object])
-    ], RouterLinkWithHref.prototype, "routerLink", null);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Boolean),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Boolean])
-    ], RouterLinkWithHref.prototype, "preserveQueryParams", null);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["HostListener"])('click', ['$event.button', '$event.ctrlKey', '$event.metaKey', '$event.shiftKey']),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Function),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Number, Boolean, Boolean, Boolean]),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:returntype", Boolean)
-    ], RouterLinkWithHref.prototype, "onClick", null);
-    RouterLinkWithHref = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Directive"])({ selector: 'a[routerLink],area[routerLink]' }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Router, ActivatedRoute,
-            _angular_common__WEBPACK_IMPORTED_MODULE_1__["LocationStrategy"]])
-    ], RouterLinkWithHref);
-    return RouterLinkWithHref;
-}());
-function attrBoolValue(s) {
-    return s === '' || !!s;
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- *
- * @description
- *
- * Lets you add a CSS class to an element when the link's route becomes active.
- *
- * This directive lets you add a CSS class to an element when the link's route
- * becomes active.
- *
- * Consider the following example:
- *
- * ```
- * <a routerLink="/user/bob" routerLinkActive="active-link">Bob</a>
- * ```
- *
- * When the url is either '/user' or '/user/bob', the active-link class will
- * be added to the `a` tag. If the url changes, the class will be removed.
- *
- * You can set more than one class, as follows:
- *
- * ```
- * <a routerLink="/user/bob" routerLinkActive="class1 class2">Bob</a>
- * <a routerLink="/user/bob" [routerLinkActive]="['class1', 'class2']">Bob</a>
- * ```
- *
- * You can configure RouterLinkActive by passing `exact: true`. This will add the classes
- * only when the url matches the link exactly.
- *
- * ```
- * <a routerLink="/user/bob" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
- * true}">Bob</a>
- * ```
- *
- * You can assign the RouterLinkActive instance to a template variable and directly check
- * the `isActive` status.
- * ```
- * <a routerLink="/user/bob" routerLinkActive #rla="routerLinkActive">
- *   Bob {{ rla.isActive ? '(already open)' : ''}}
- * </a>
- * ```
- *
- * Finally, you can apply the RouterLinkActive directive to an ancestor of a RouterLink.
- *
- * ```
- * <div routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
- *   <a routerLink="/user/jim">Jim</a>
- *   <a routerLink="/user/bob">Bob</a>
- * </div>
- * ```
- *
- * This will set the active-link class on the div tag if the url is either '/user/jim' or
- * '/user/bob'.
- *
- * @ngModule RouterModule
- *
- * @publicApi
- */
-var RouterLinkActive = /** @class */ (function () {
-    function RouterLinkActive(router, element, renderer, cdr) {
-        var _this = this;
-        this.router = router;
-        this.element = element;
-        this.renderer = renderer;
-        this.cdr = cdr;
-        this.classes = [];
-        this.isActive = false;
-        this.routerLinkActiveOptions = { exact: false };
-        this.subscription = router.events.subscribe(function (s) {
-            if (s instanceof NavigationEnd) {
-                _this.update();
-            }
-        });
-    }
-    RouterLinkActive.prototype.ngAfterContentInit = function () {
-        var _this = this;
-        this.links.changes.subscribe(function (_) { return _this.update(); });
-        this.linksWithHrefs.changes.subscribe(function (_) { return _this.update(); });
-        this.update();
-    };
-    Object.defineProperty(RouterLinkActive.prototype, "routerLinkActive", {
-        set: function (data) {
-            var classes = Array.isArray(data) ? data : data.split(' ');
-            this.classes = classes.filter(function (c) { return !!c; });
-        },
-        enumerable: true,
-        configurable: true
-    });
-    RouterLinkActive.prototype.ngOnChanges = function (changes) { this.update(); };
-    RouterLinkActive.prototype.ngOnDestroy = function () { this.subscription.unsubscribe(); };
-    RouterLinkActive.prototype.update = function () {
-        var _this = this;
-        if (!this.links || !this.linksWithHrefs || !this.router.navigated)
-            return;
-        Promise.resolve().then(function () {
-            var hasActiveLinks = _this.hasActiveLinks();
-            if (_this.isActive !== hasActiveLinks) {
-                _this.isActive = hasActiveLinks;
-                _this.classes.forEach(function (c) {
-                    if (hasActiveLinks) {
-                        _this.renderer.addClass(_this.element.nativeElement, c);
-                    }
-                    else {
-                        _this.renderer.removeClass(_this.element.nativeElement, c);
-                    }
-                });
-            }
-        });
-    };
-    RouterLinkActive.prototype.isLinkActive = function (router) {
-        var _this = this;
-        return function (link) {
-            return router.isActive(link.urlTree, _this.routerLinkActiveOptions.exact);
-        };
-    };
-    RouterLinkActive.prototype.hasActiveLinks = function () {
-        return this.links.some(this.isLinkActive(this.router)) ||
-            this.linksWithHrefs.some(this.isLinkActive(this.router));
-    };
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ContentChildren"])(RouterLink, { descendants: true }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_2__["QueryList"])
-    ], RouterLinkActive.prototype, "links", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ContentChildren"])(RouterLinkWithHref, { descendants: true }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_2__["QueryList"])
-    ], RouterLinkActive.prototype, "linksWithHrefs", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object)
-    ], RouterLinkActive.prototype, "routerLinkActiveOptions", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Input"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Object])
-    ], RouterLinkActive.prototype, "routerLinkActive", null);
-    RouterLinkActive = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Directive"])({
-            selector: '[routerLinkActive]',
-            exportAs: 'routerLinkActive',
-        }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Router, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_2__["Renderer2"],
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ChangeDetectorRef"]])
-    ], RouterLinkActive);
-    return RouterLinkActive;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Store contextual information about a `RouterOutlet`
- *
- * @publicApi
- */
-var OutletContext = /** @class */ (function () {
-    function OutletContext() {
-        this.outlet = null;
-        this.route = null;
-        this.resolver = null;
-        this.children = new ChildrenOutletContexts();
-        this.attachRef = null;
-    }
-    return OutletContext;
-}());
-/**
- * Store contextual information about the children (= nested) `RouterOutlet`
- *
- * @publicApi
- */
-var ChildrenOutletContexts = /** @class */ (function () {
-    function ChildrenOutletContexts() {
-        // contexts for child outlets, by name.
-        this.contexts = new Map();
-    }
-    /** Called when a `RouterOutlet` directive is instantiated */
-    ChildrenOutletContexts.prototype.onChildOutletCreated = function (childName, outlet) {
-        var context = this.getOrCreateContext(childName);
-        context.outlet = outlet;
-        this.contexts.set(childName, context);
-    };
-    /**
-     * Called when a `RouterOutlet` directive is destroyed.
-     * We need to keep the context as the outlet could be destroyed inside a NgIf and might be
-     * re-created later.
-     */
-    ChildrenOutletContexts.prototype.onChildOutletDestroyed = function (childName) {
-        var context = this.getContext(childName);
-        if (context) {
-            context.outlet = null;
-        }
-    };
-    /**
-     * Called when the corresponding route is deactivated during navigation.
-     * Because the component get destroyed, all children outlet are destroyed.
-     */
-    ChildrenOutletContexts.prototype.onOutletDeactivated = function () {
-        var contexts = this.contexts;
-        this.contexts = new Map();
-        return contexts;
-    };
-    ChildrenOutletContexts.prototype.onOutletReAttached = function (contexts) { this.contexts = contexts; };
-    ChildrenOutletContexts.prototype.getOrCreateContext = function (childName) {
-        var context = this.getContext(childName);
-        if (!context) {
-            context = new OutletContext();
-            this.contexts.set(childName, context);
-        }
-        return context;
-    };
-    ChildrenOutletContexts.prototype.getContext = function (childName) { return this.contexts.get(childName) || null; };
-    return ChildrenOutletContexts;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @description
- *
- * Acts as a placeholder that Angular dynamically fills based on the current router state.
- *
- * ```
- * <router-outlet></router-outlet>
- * <router-outlet name='left'></router-outlet>
- * <router-outlet name='right'></router-outlet>
- * ```
- *
- * A router outlet will emit an activate event any time a new component is being instantiated,
- * and a deactivate event when it is being destroyed.
- *
- * ```
- * <router-outlet
- *   (activate)='onActivate($event)'
- *   (deactivate)='onDeactivate($event)'></router-outlet>
- * ```
- * @ngModule RouterModule
- *
- * @publicApi
- */
-var RouterOutlet = /** @class */ (function () {
-    function RouterOutlet(parentContexts, location, resolver, name, changeDetector) {
-        this.parentContexts = parentContexts;
-        this.location = location;
-        this.resolver = resolver;
-        this.changeDetector = changeDetector;
-        this.activated = null;
-        this._activatedRoute = null;
-        this.activateEvents = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["EventEmitter"]();
-        this.deactivateEvents = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["EventEmitter"]();
-        this.name = name || PRIMARY_OUTLET;
-        parentContexts.onChildOutletCreated(this.name, this);
-    }
-    RouterOutlet.prototype.ngOnDestroy = function () { this.parentContexts.onChildOutletDestroyed(this.name); };
-    RouterOutlet.prototype.ngOnInit = function () {
-        if (!this.activated) {
-            // If the outlet was not instantiated at the time the route got activated we need to populate
-            // the outlet when it is initialized (ie inside a NgIf)
-            var context = this.parentContexts.getContext(this.name);
-            if (context && context.route) {
-                if (context.attachRef) {
-                    // `attachRef` is populated when there is an existing component to mount
-                    this.attach(context.attachRef, context.route);
-                }
-                else {
-                    // otherwise the component defined in the configuration is created
-                    this.activateWith(context.route, context.resolver || null);
-                }
-            }
-        }
-    };
-    Object.defineProperty(RouterOutlet.prototype, "isActivated", {
-        get: function () { return !!this.activated; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(RouterOutlet.prototype, "component", {
-        get: function () {
-            if (!this.activated)
-                throw new Error('Outlet is not activated');
-            return this.activated.instance;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(RouterOutlet.prototype, "activatedRoute", {
-        get: function () {
-            if (!this.activated)
-                throw new Error('Outlet is not activated');
-            return this._activatedRoute;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(RouterOutlet.prototype, "activatedRouteData", {
-        get: function () {
-            if (this._activatedRoute) {
-                return this._activatedRoute.snapshot.data;
-            }
-            return {};
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Called when the `RouteReuseStrategy` instructs to detach the subtree
-     */
-    RouterOutlet.prototype.detach = function () {
-        if (!this.activated)
-            throw new Error('Outlet is not activated');
-        this.location.detach();
-        var cmp = this.activated;
-        this.activated = null;
-        this._activatedRoute = null;
-        return cmp;
-    };
-    /**
-     * Called when the `RouteReuseStrategy` instructs to re-attach a previously detached subtree
-     */
-    RouterOutlet.prototype.attach = function (ref, activatedRoute) {
-        this.activated = ref;
-        this._activatedRoute = activatedRoute;
-        this.location.insert(ref.hostView);
-    };
-    RouterOutlet.prototype.deactivate = function () {
-        if (this.activated) {
-            var c = this.component;
-            this.activated.destroy();
-            this.activated = null;
-            this._activatedRoute = null;
-            this.deactivateEvents.emit(c);
-        }
-    };
-    RouterOutlet.prototype.activateWith = function (activatedRoute, resolver) {
-        if (this.isActivated) {
-            throw new Error('Cannot activate an already activated outlet');
-        }
-        this._activatedRoute = activatedRoute;
-        var snapshot = activatedRoute._futureSnapshot;
-        var component = snapshot.routeConfig.component;
-        resolver = resolver || this.resolver;
-        var factory = resolver.resolveComponentFactory(component);
-        var childContexts = this.parentContexts.getOrCreateContext(this.name).children;
-        var injector = new OutletInjector(activatedRoute, childContexts, this.location.injector);
-        this.activated = this.location.createComponent(factory, this.location.length, injector);
-        // Calling `markForCheck` to make sure we will run the change detection when the
-        // `RouterOutlet` is inside a `ChangeDetectionStrategy.OnPush` component.
-        this.changeDetector.markForCheck();
-        this.activateEvents.emit(this.activated.instance);
-    };
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Output"])('activate'),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object)
-    ], RouterOutlet.prototype, "activateEvents", void 0);
-    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Output"])('deactivate'),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:type", Object)
-    ], RouterOutlet.prototype, "deactivateEvents", void 0);
-    RouterOutlet = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Directive"])({ selector: 'router-outlet', exportAs: 'outlet' }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(3, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Attribute"])('name')),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [ChildrenOutletContexts, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewContainerRef"],
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ComponentFactoryResolver"], String, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ChangeDetectorRef"]])
-    ], RouterOutlet);
-    return RouterOutlet;
-}());
-var OutletInjector = /** @class */ (function () {
-    function OutletInjector(route, childContexts, parent) {
-        this.route = route;
-        this.childContexts = childContexts;
-        this.parent = parent;
-    }
-    OutletInjector.prototype.get = function (token, notFoundValue) {
-        if (token === ActivatedRoute) {
-            return this.route;
-        }
-        if (token === ChildrenOutletContexts) {
-            return this.childContexts;
-        }
-        return this.parent.get(token, notFoundValue);
-    };
-    return OutletInjector;
-}());
-
-/**
-*@license
-*Copyright Google Inc. All Rights Reserved.
-*
-*Use of this source code is governed by an MIT-style license that can be
-*found in the LICENSE file at https://angular.io/license
-*/
-/**
- * @description
- *
- * Provides a preloading strategy.
- *
- * @publicApi
- */
-var PreloadingStrategy = /** @class */ (function () {
-    function PreloadingStrategy() {
-    }
-    return PreloadingStrategy;
-}());
-/**
- * @description
- *
- * Provides a preloading strategy that preloads all modules as quickly as possible.
- *
- * ```
- * RouteModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules})
- * ```
- *
- * @publicApi
- */
-var PreloadAllModules = /** @class */ (function () {
-    function PreloadAllModules() {
-    }
-    PreloadAllModules.prototype.preload = function (route, fn) {
-        return fn().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["catchError"])(function () { return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(null); }));
-    };
-    return PreloadAllModules;
-}());
-/**
- * @description
- *
- * Provides a preloading strategy that does not preload any modules.
- *
- * This strategy is enabled by default.
- *
- * @publicApi
- */
-var NoPreloading = /** @class */ (function () {
-    function NoPreloading() {
-    }
-    NoPreloading.prototype.preload = function (route, fn) { return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(null); };
-    return NoPreloading;
-}());
-/**
- * The preloader optimistically loads all router configurations to
- * make navigations into lazily-loaded sections of the application faster.
- *
- * The preloader runs in the background. When the router bootstraps, the preloader
- * starts listening to all navigation events. After every such event, the preloader
- * will check if any configurations can be loaded lazily.
- *
- * If a route is protected by `canLoad` guards, the preloaded will not load it.
- *
- * @publicApi
- */
-var RouterPreloader = /** @class */ (function () {
-    function RouterPreloader(router, moduleLoader, compiler, injector, preloadingStrategy) {
-        this.router = router;
-        this.injector = injector;
-        this.preloadingStrategy = preloadingStrategy;
-        var onStartLoad = function (r) { return router.triggerEvent(new RouteConfigLoadStart(r)); };
-        var onEndLoad = function (r) { return router.triggerEvent(new RouteConfigLoadEnd(r)); };
-        this.loader = new RouterConfigLoader(moduleLoader, compiler, onStartLoad, onEndLoad);
-    }
-    RouterPreloader.prototype.setUpPreloading = function () {
-        var _this = this;
-        this.subscription =
-            this.router.events
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["filter"])(function (e) { return e instanceof NavigationEnd; }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["concatMap"])(function () { return _this.preload(); }))
-                .subscribe(function () { });
-    };
-    RouterPreloader.prototype.preload = function () {
-        var ngModule = this.injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModuleRef"]);
-        return this.processRoutes(ngModule, this.router.config);
-    };
-    // TODO(jasonaden): This class relies on code external to the class to call setUpPreloading. If
-    // this hasn't been done, ngOnDestroy will fail as this.subscription will be undefined. This
-    // should be refactored.
-    RouterPreloader.prototype.ngOnDestroy = function () { this.subscription.unsubscribe(); };
-    RouterPreloader.prototype.processRoutes = function (ngModule, routes) {
-        var e_1, _a;
-        var res = [];
-        try {
-            for (var routes_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__values"])(routes), routes_1_1 = routes_1.next(); !routes_1_1.done; routes_1_1 = routes_1.next()) {
-                var route = routes_1_1.value;
-                // we already have the config loaded, just recurse
-                if (route.loadChildren && !route.canLoad && route._loadedConfig) {
-                    var childConfig = route._loadedConfig;
-                    res.push(this.processRoutes(childConfig.module, childConfig.routes));
-                    // no config loaded, fetch the config
-                }
-                else if (route.loadChildren && !route.canLoad) {
-                    res.push(this.preloadConfig(ngModule, route));
-                    // recurse into children
-                }
-                else if (route.children) {
-                    res.push(this.processRoutes(ngModule, route.children));
-                }
-            }
-        }
-        catch (e_1_1) { e_1 = { error: e_1_1 }; }
-        finally {
-            try {
-                if (routes_1_1 && !routes_1_1.done && (_a = routes_1.return)) _a.call(routes_1);
-            }
-            finally { if (e_1) throw e_1.error; }
-        }
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["from"])(res).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeAll"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["map"])(function (_) { return void 0; }));
-    };
-    RouterPreloader.prototype.preloadConfig = function (ngModule, route) {
-        var _this = this;
-        return this.preloadingStrategy.preload(route, function () {
-            var loaded$ = _this.loader.load(ngModule.injector, route);
-            return loaded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["mergeMap"])(function (config) {
-                route._loadedConfig = config;
-                return _this.processRoutes(config.module, config.routes);
-            }));
-        });
-    };
-    RouterPreloader = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Router, _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModuleFactoryLoader"], _angular_core__WEBPACK_IMPORTED_MODULE_2__["Compiler"],
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["Injector"], PreloadingStrategy])
-    ], RouterPreloader);
-    return RouterPreloader;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var RouterScroller = /** @class */ (function () {
-    function RouterScroller(router, 
-    /** @docsNotRequired */ viewportScroller, options) {
-        if (options === void 0) { options = {}; }
-        this.router = router;
-        this.viewportScroller = viewportScroller;
-        this.options = options;
-        this.lastId = 0;
-        this.lastSource = 'imperative';
-        this.restoredId = 0;
-        this.store = {};
-        // Default both options to 'disabled'
-        options.scrollPositionRestoration = options.scrollPositionRestoration || 'disabled';
-        options.anchorScrolling = options.anchorScrolling || 'disabled';
-    }
-    RouterScroller.prototype.init = function () {
-        // we want to disable the automatic scrolling because having two places
-        // responsible for scrolling results race conditions, especially given
-        // that browser don't implement this behavior consistently
-        if (this.options.scrollPositionRestoration !== 'disabled') {
-            this.viewportScroller.setHistoryScrollRestoration('manual');
-        }
-        this.routerEventsSubscription = this.createScrollEvents();
-        this.scrollEventsSubscription = this.consumeScrollEvents();
-    };
-    RouterScroller.prototype.createScrollEvents = function () {
-        var _this = this;
-        return this.router.events.subscribe(function (e) {
-            if (e instanceof NavigationStart) {
-                // store the scroll position of the current stable navigations.
-                _this.store[_this.lastId] = _this.viewportScroller.getScrollPosition();
-                _this.lastSource = e.navigationTrigger;
-                _this.restoredId = e.restoredState ? e.restoredState.navigationId : 0;
-            }
-            else if (e instanceof NavigationEnd) {
-                _this.lastId = e.id;
-                _this.scheduleScrollEvent(e, _this.router.parseUrl(e.urlAfterRedirects).fragment);
-            }
-        });
-    };
-    RouterScroller.prototype.consumeScrollEvents = function () {
-        var _this = this;
-        return this.router.events.subscribe(function (e) {
-            if (!(e instanceof Scroll))
-                return;
-            // a popstate event. The pop state event will always ignore anchor scrolling.
-            if (e.position) {
-                if (_this.options.scrollPositionRestoration === 'top') {
-                    _this.viewportScroller.scrollToPosition([0, 0]);
-                }
-                else if (_this.options.scrollPositionRestoration === 'enabled') {
-                    _this.viewportScroller.scrollToPosition(e.position);
-                }
-                // imperative navigation "forward"
-            }
-            else {
-                if (e.anchor && _this.options.anchorScrolling === 'enabled') {
-                    _this.viewportScroller.scrollToAnchor(e.anchor);
-                }
-                else if (_this.options.scrollPositionRestoration !== 'disabled') {
-                    _this.viewportScroller.scrollToPosition([0, 0]);
-                }
-            }
-        });
-    };
-    RouterScroller.prototype.scheduleScrollEvent = function (routerEvent, anchor) {
-        this.router.triggerEvent(new Scroll(routerEvent, this.lastSource === 'popstate' ? this.store[this.restoredId] : null, anchor));
-    };
-    RouterScroller.prototype.ngOnDestroy = function () {
-        if (this.routerEventsSubscription) {
-            this.routerEventsSubscription.unsubscribe();
-        }
-        if (this.scrollEventsSubscription) {
-            this.scrollEventsSubscription.unsubscribe();
-        }
-    };
-    return RouterScroller;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @description
- *
- * Contains a list of directives
- *
- *
- */
-var ROUTER_DIRECTIVES = [RouterOutlet, RouterLink, RouterLinkWithHref, RouterLinkActive, EmptyOutletComponent];
-/**
- * @description
- *
- * Is used in DI to configure the router.
- *
- * @publicApi
- */
-var ROUTER_CONFIGURATION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["InjectionToken"]('ROUTER_CONFIGURATION');
-/**
- * @docsNotRequired
- */
-var ROUTER_FORROOT_GUARD = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["InjectionToken"]('ROUTER_FORROOT_GUARD');
-var ROUTER_PROVIDERS = [
-    _angular_common__WEBPACK_IMPORTED_MODULE_1__["Location"],
-    { provide: UrlSerializer, useClass: DefaultUrlSerializer },
-    {
-        provide: Router,
-        useFactory: setupRouter,
-        deps: [
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ApplicationRef"], UrlSerializer, ChildrenOutletContexts, _angular_common__WEBPACK_IMPORTED_MODULE_1__["Location"], _angular_core__WEBPACK_IMPORTED_MODULE_2__["Injector"],
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModuleFactoryLoader"], _angular_core__WEBPACK_IMPORTED_MODULE_2__["Compiler"], ROUTES, ROUTER_CONFIGURATION,
-            [UrlHandlingStrategy, new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Optional"]()], [RouteReuseStrategy, new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Optional"]()]
-        ]
-    },
-    ChildrenOutletContexts,
-    { provide: ActivatedRoute, useFactory: rootRoute, deps: [Router] },
-    { provide: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModuleFactoryLoader"], useClass: _angular_core__WEBPACK_IMPORTED_MODULE_2__["SystemJsNgModuleLoader"] },
-    RouterPreloader,
-    NoPreloading,
-    PreloadAllModules,
-    { provide: ROUTER_CONFIGURATION, useValue: { enableTracing: false } },
-];
-function routerNgProbeToken() {
-    return new _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgProbeToken"]('Router', Router);
-}
-/**
- * @usageNotes
- *
- * RouterModule can be imported multiple times: once per lazily-loaded bundle.
- * Since the router deals with a global shared resource--location, we cannot have
- * more than one router service active.
- *
- * That is why there are two ways to create the module: `RouterModule.forRoot` and
- * `RouterModule.forChild`.
- *
- * * `forRoot` creates a module that contains all the directives, the given routes, and the router
- *   service itself.
- * * `forChild` creates a module that contains all the directives and the given routes, but does not
- *   include the router service.
- *
- * When registered at the root, the module should be used as follows
- *
- * ```
- * @NgModule({
- *   imports: [RouterModule.forRoot(ROUTES)]
- * })
- * class MyNgModule {}
- * ```
- *
- * For submodules and lazy loaded submodules the module should be used as follows:
- *
- * ```
- * @NgModule({
- *   imports: [RouterModule.forChild(ROUTES)]
- * })
- * class MyNgModule {}
- * ```
- *
- * @description
- *
- * Adds router directives and providers.
- *
- * Managing state transitions is one of the hardest parts of building applications. This is
- * especially true on the web, where you also need to ensure that the state is reflected in the URL.
- * In addition, we often want to split applications into multiple bundles and load them on demand.
- * Doing this transparently is not trivial.
- *
- * The Angular router solves these problems. Using the router, you can declaratively specify
- * application states, manage state transitions while taking care of the URL, and load bundles on
- * demand.
- *
- * [Read this developer guide](https://angular.io/docs/ts/latest/guide/router.html) to get an
- * overview of how the router should be used.
- *
- * @publicApi
- */
-var RouterModule = /** @class */ (function () {
-    // Note: We are injecting the Router so it gets created eagerly...
-    function RouterModule(guard, router) {
-    }
-    RouterModule_1 = RouterModule;
-    /**
-     * Creates a module with all the router providers and directives. It also optionally sets up an
-     * application listener to perform an initial navigation.
-     *
-     * Configuration Options:
-     *
-     * * `enableTracing` Toggles whether the router should log all navigation events to the console.
-     * * `useHash` Enables the location strategy that uses the URL fragment instead of the history
-     * API.
-     * * `initialNavigation` Disables the initial navigation.
-     * * `errorHandler` Defines a custom error handler for failed navigations.
-     * * `preloadingStrategy` Configures a preloading strategy. See `PreloadAllModules`.
-     * * `onSameUrlNavigation` Define what the router should do if it receives a navigation request to
-     * the current URL.
-     * * `scrollPositionRestoration` Configures if the scroll position needs to be restored when
-     * navigating back.
-     * * `anchorScrolling` Configures if the router should scroll to the element when the url has a
-     * fragment.
-     * * `scrollOffset` Configures the scroll offset the router will use when scrolling to an element.
-     * * `paramsInheritanceStrategy` Defines how the router merges params, data and resolved data from
-     * parent to child routes.
-     * * `malformedUriErrorHandler` Defines a custom malformed uri error handler function. This
-     * handler is invoked when encodedURI contains invalid character sequences.
-     * * `urlUpdateStrategy` Defines when the router updates the browser URL. The default behavior is
-     * to update after successful navigation.
-     * * `relativeLinkResolution` Enables the correct relative link resolution in components with
-     * empty paths.
-     *
-     * See `ExtraOptions` for more details about the above options.
-    */
-    RouterModule.forRoot = function (routes, config) {
-        return {
-            ngModule: RouterModule_1,
-            providers: [
-                ROUTER_PROVIDERS,
-                provideRoutes(routes),
-                {
-                    provide: ROUTER_FORROOT_GUARD,
-                    useFactory: provideForRootGuard,
-                    deps: [[Router, new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Optional"](), new _angular_core__WEBPACK_IMPORTED_MODULE_2__["SkipSelf"]()]]
-                },
-                { provide: ROUTER_CONFIGURATION, useValue: config ? config : {} },
-                {
-                    provide: _angular_common__WEBPACK_IMPORTED_MODULE_1__["LocationStrategy"],
-                    useFactory: provideLocationStrategy,
-                    deps: [
-                        _angular_common__WEBPACK_IMPORTED_MODULE_1__["PlatformLocation"], [new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"](_angular_common__WEBPACK_IMPORTED_MODULE_1__["APP_BASE_HREF"]), new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Optional"]()], ROUTER_CONFIGURATION
-                    ]
-                },
-                {
-                    provide: RouterScroller,
-                    useFactory: createRouterScroller,
-                    deps: [Router, _angular_common__WEBPACK_IMPORTED_MODULE_1__["ViewportScroller"], ROUTER_CONFIGURATION]
-                },
-                {
-                    provide: PreloadingStrategy,
-                    useExisting: config && config.preloadingStrategy ? config.preloadingStrategy :
-                        NoPreloading
-                },
-                { provide: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgProbeToken"], multi: true, useFactory: routerNgProbeToken },
-                provideRouterInitializer(),
-            ],
-        };
-    };
-    /**
-     * Creates a module with all the router directives and a provider registering routes.
-     */
-    RouterModule.forChild = function (routes) {
-        return { ngModule: RouterModule_1, providers: [provideRoutes(routes)] };
-    };
-    var RouterModule_1;
-    RouterModule = RouterModule_1 = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-            declarations: ROUTER_DIRECTIVES,
-            exports: ROUTER_DIRECTIVES,
-            entryComponents: [EmptyOutletComponent]
-        }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Optional"])()), Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Inject"])(ROUTER_FORROOT_GUARD)), Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__param"])(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Optional"])()),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [Object, Router])
-    ], RouterModule);
-    return RouterModule;
-}());
-function createRouterScroller(router, viewportScroller, config) {
-    if (config.scrollOffset) {
-        viewportScroller.setOffset(config.scrollOffset);
-    }
-    return new RouterScroller(router, viewportScroller, config);
-}
-function provideLocationStrategy(platformLocationStrategy, baseHref, options) {
-    if (options === void 0) { options = {}; }
-    return options.useHash ? new _angular_common__WEBPACK_IMPORTED_MODULE_1__["HashLocationStrategy"](platformLocationStrategy, baseHref) :
-        new _angular_common__WEBPACK_IMPORTED_MODULE_1__["PathLocationStrategy"](platformLocationStrategy, baseHref);
-}
-function provideForRootGuard(router) {
-    if (router) {
-        throw new Error("RouterModule.forRoot() called twice. Lazy loaded modules should use RouterModule.forChild() instead.");
-    }
-    return 'guarded';
-}
-/**
- * @description
- *
- * Registers routes.
- *
- * @usageNotes
- * ### Example
- *
- * ```
- * @NgModule({
- *   imports: [RouterModule.forChild(ROUTES)],
- *   providers: [provideRoutes(EXTRA_ROUTES)]
- * })
- * class MyNgModule {}
- * ```
- *
- * @publicApi
- */
-function provideRoutes(routes) {
-    return [
-        { provide: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ANALYZE_FOR_ENTRY_COMPONENTS"], multi: true, useValue: routes },
-        { provide: ROUTES, multi: true, useValue: routes },
-    ];
-}
-function setupRouter(ref, urlSerializer, contexts, location, injector, loader, compiler, config, opts, urlHandlingStrategy, routeReuseStrategy) {
-    if (opts === void 0) { opts = {}; }
-    var router = new Router(null, urlSerializer, contexts, location, injector, loader, compiler, flatten(config));
-    if (urlHandlingStrategy) {
-        router.urlHandlingStrategy = urlHandlingStrategy;
-    }
-    if (routeReuseStrategy) {
-        router.routeReuseStrategy = routeReuseStrategy;
-    }
-    if (opts.errorHandler) {
-        router.errorHandler = opts.errorHandler;
-    }
-    if (opts.malformedUriErrorHandler) {
-        router.malformedUriErrorHandler = opts.malformedUriErrorHandler;
-    }
-    if (opts.enableTracing) {
-        var dom_1 = Object(_angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__["ɵgetDOM"])();
-        router.events.subscribe(function (e) {
-            dom_1.logGroup("Router Event: " + e.constructor.name);
-            dom_1.log(e.toString());
-            dom_1.log(e);
-            dom_1.logGroupEnd();
-        });
-    }
-    if (opts.onSameUrlNavigation) {
-        router.onSameUrlNavigation = opts.onSameUrlNavigation;
-    }
-    if (opts.paramsInheritanceStrategy) {
-        router.paramsInheritanceStrategy = opts.paramsInheritanceStrategy;
-    }
-    if (opts.urlUpdateStrategy) {
-        router.urlUpdateStrategy = opts.urlUpdateStrategy;
-    }
-    if (opts.relativeLinkResolution) {
-        router.relativeLinkResolution = opts.relativeLinkResolution;
-    }
-    return router;
-}
-function rootRoute(router) {
-    return router.routerState.root;
-}
-/**
- * To initialize the router properly we need to do in two steps:
- *
- * We need to start the navigation in a APP_INITIALIZER to block the bootstrap if
- * a resolver or a guards executes asynchronously. Second, we need to actually run
- * activation in a BOOTSTRAP_LISTENER. We utilize the afterPreactivation
- * hook provided by the router to do that.
- *
- * The router navigation starts, reaches the point when preactivation is done, and then
- * pauses. It waits for the hook to be resolved. We then resolve it only in a bootstrap listener.
- */
-var RouterInitializer = /** @class */ (function () {
-    function RouterInitializer(injector) {
-        this.injector = injector;
-        this.initNavigation = false;
-        this.resultOfPreactivationDone = new rxjs__WEBPACK_IMPORTED_MODULE_3__["Subject"]();
-    }
-    RouterInitializer.prototype.appInitializer = function () {
-        var _this = this;
-        var p = this.injector.get(_angular_common__WEBPACK_IMPORTED_MODULE_1__["LOCATION_INITIALIZED"], Promise.resolve(null));
-        return p.then(function () {
-            var resolve = null;
-            var res = new Promise(function (r) { return resolve = r; });
-            var router = _this.injector.get(Router);
-            var opts = _this.injector.get(ROUTER_CONFIGURATION);
-            if (_this.isLegacyDisabled(opts) || _this.isLegacyEnabled(opts)) {
-                resolve(true);
-            }
-            else if (opts.initialNavigation === 'disabled') {
-                router.setUpLocationChangeListener();
-                resolve(true);
-            }
-            else if (opts.initialNavigation === 'enabled') {
-                router.hooks.afterPreactivation = function () {
-                    // only the initial navigation should be delayed
-                    if (!_this.initNavigation) {
-                        _this.initNavigation = true;
-                        resolve(true);
-                        return _this.resultOfPreactivationDone;
-                        // subsequent navigations should not be delayed
-                    }
-                    else {
-                        return Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(null);
-                    }
-                };
-                router.initialNavigation();
-            }
-            else {
-                throw new Error("Invalid initialNavigation options: '" + opts.initialNavigation + "'");
-            }
-            return res;
-        });
-    };
-    RouterInitializer.prototype.bootstrapListener = function (bootstrappedComponentRef) {
-        var opts = this.injector.get(ROUTER_CONFIGURATION);
-        var preloader = this.injector.get(RouterPreloader);
-        var routerScroller = this.injector.get(RouterScroller);
-        var router = this.injector.get(Router);
-        var ref = this.injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ApplicationRef"]);
-        if (bootstrappedComponentRef !== ref.components[0]) {
-            return;
-        }
-        if (this.isLegacyEnabled(opts)) {
-            router.initialNavigation();
-        }
-        else if (this.isLegacyDisabled(opts)) {
-            router.setUpLocationChangeListener();
-        }
-        preloader.setUpPreloading();
-        routerScroller.init();
-        router.resetRootComponentType(ref.componentTypes[0]);
-        this.resultOfPreactivationDone.next(null);
-        this.resultOfPreactivationDone.complete();
-    };
-    RouterInitializer.prototype.isLegacyEnabled = function (opts) {
-        return opts.initialNavigation === 'legacy_enabled' || opts.initialNavigation === true ||
-            opts.initialNavigation === undefined;
-    };
-    RouterInitializer.prototype.isLegacyDisabled = function (opts) {
-        return opts.initialNavigation === 'legacy_disabled' || opts.initialNavigation === false;
-    };
-    RouterInitializer = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])(),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injector"]])
-    ], RouterInitializer);
-    return RouterInitializer;
-}());
-function getAppInitializer(r) {
-    return r.appInitializer.bind(r);
-}
-function getBootstrapListener(r) {
-    return r.bootstrapListener.bind(r);
-}
-/**
- * A token for the router initializer that will be called after the app is bootstrapped.
- *
- * @publicApi
- */
-var ROUTER_INITIALIZER = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["InjectionToken"]('Router Initializer');
-function provideRouterInitializer() {
-    return [
-        RouterInitializer,
-        {
-            provide: _angular_core__WEBPACK_IMPORTED_MODULE_2__["APP_INITIALIZER"],
-            multi: true,
-            useFactory: getAppInitializer,
-            deps: [RouterInitializer]
-        },
-        { provide: ROUTER_INITIALIZER, useFactory: getBootstrapListener, deps: [RouterInitializer] },
-        { provide: _angular_core__WEBPACK_IMPORTED_MODULE_2__["APP_BOOTSTRAP_LISTENER"], multi: true, useExisting: ROUTER_INITIALIZER },
-    ];
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @publicApi
- */
-var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_2__["Version"]('7.2.15');
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-// This file only reexports content of the `src` folder. Keep it that way.
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-
-/**
- * Generated bundle index. Do not edit.
- */
-
-
-//# sourceMappingURL=router.js.map
 
 
 /***/ }),
@@ -79996,12 +75663,9 @@ and limitations under the License.
 ***************************************************************************** */
 /* global Reflect, Promise */
 
-var extendStatics = function(d, b) {
-    extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return extendStatics(d, b);
-};
+var extendStatics = Object.setPrototypeOf ||
+    ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+    function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
 
 function __extends(d, b) {
     extendStatics(d, b);
@@ -80009,15 +75673,12 @@ function __extends(d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 }
 
-var __assign = function() {
-    __assign = Object.assign || function __assign(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-        }
-        return t;
+var __assign = Object.assign || function __assign(t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
     }
-    return __assign.apply(this, arguments);
+    return t;
 }
 
 function __rest(s, e) {
@@ -80061,8 +75722,8 @@ function __generator(thisArg, body) {
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
-            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [op[0] & 2, t.value];
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
             switch (op[0]) {
                 case 0: case 1: t = op; break;
                 case 4: _.label++; return { value: op[1], done: false };
@@ -80130,7 +75791,7 @@ function __asyncGenerator(thisArg, _arguments, generator) {
     return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
     function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
     function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
-    function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
+    function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r);  }
     function fulfill(value) { resume("next", value); }
     function reject(value) { resume("throw", value); }
     function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
@@ -80139,15 +75800,13 @@ function __asyncGenerator(thisArg, _arguments, generator) {
 function __asyncDelegator(o) {
     var i, p;
     return i = {}, verb("next"), verb("throw", function (e) { throw e; }), verb("return"), i[Symbol.iterator] = function () { return this; }, i;
-    function verb(n, f) { i[n] = o[n] ? function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === "return" } : f ? f(v) : v; } : f; }
+    function verb(n, f) { if (o[n]) i[n] = function (v) { return (p = !p) ? { value: __await(o[n](v)), done: n === "return" } : f ? f(v) : v; }; }
 }
 
 function __asyncValues(o) {
     if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
-    var m = o[Symbol.asyncIterator], i;
-    return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i);
-    function verb(n) { i[n] = o[n] && function (v) { return new Promise(function (resolve, reject) { v = o[n](v), settle(resolve, reject, v.done, v.value); }); }; }
-    function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
+    var m = o[Symbol.asyncIterator];
+    return m ? m.call(o) : typeof __values === "function" ? __values(o) : o[Symbol.iterator]();
 }
 
 function __makeTemplateObject(cooked, raw) {
