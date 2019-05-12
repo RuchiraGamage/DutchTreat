@@ -24,6 +24,19 @@ namespace DutchTreat.Data
             _ctx.Add(model);
         }
 
+        public void AddOrder(Order newOrder)
+        {
+            //convert new products to look up of products
+
+            foreach(var item in newOrder.Items)
+            {
+                item.Product = _ctx.Products.Find(item.Product.Id);
+                //check whether product is exists within tha database if not fail the call
+            }
+
+            AddEntity(newOrder);
+        }
+
         public IEnumerable<Order> GetAllOrders(bool includeItems)
         {
             if (includeItems)

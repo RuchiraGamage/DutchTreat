@@ -3,9 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Dutch treat : @ViewBag.Title</title>
-    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="~/css/site.css" rel="stylesheet" />
+    <environment names="Development">
+        <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="~/css/site.css" rel="stylesheet" />
+    </environment>
+       
 </head>
 <body>
     <header class="container">
@@ -54,10 +57,11 @@
     <footer class="container">
         <div class="text-center">Copyright 2019 DutchTreat</div>
     </footer>
-
+    <environment names="Development">
     <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/index.js"></script>
+    </environment>
 
     @RenderSection("Scripts", false)
 </body>
